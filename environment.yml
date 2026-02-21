@@ -1,4 +1,4 @@
-name: deepcard_test
+name: adapcard
 channels:
   - pytorch
   - nvidia
