@@ -15,7 +15,7 @@ conda activate adapcard
 ```
 
 # Reproduce Experiments
-The single table dataset is included in ./imdb-benchmark/xxx. For imdb dataset, please download the IMDB dataset. Unzip csv files to ./imdb-benchmark.
+The single table dataset is included in ./imdb-benchmark/dataset_name. For imdb dataset, please download the IMDB dataset. Unzip csv files to ./imdb-benchmark.
 
 The code supports AdapCard-RSPN and AdapCard-TC-SPN with or without MetaATPM. For convenience, we introduce the experiments of AdapCard-TC-SPN with MetaATPM on four datasets.
 
