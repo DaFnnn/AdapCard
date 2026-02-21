@@ -1,4 +1,0 @@
-2025-04-16 16:30:16,302 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/PhiUSIIL Phishing URL
-2025-04-16 16:30:16,303 [DEBUG]  Creating sample for phiusiil_phishing_url_dataset
-2025-04-16 16:30:16,303 [DEBUG]  generate_join_sample(single_table=phiusiil_phishing_url_dataset, relationship_list=None, split_condition=None)
-2025-04-16 16:30:16,624 [INFO ]  Files successfully created

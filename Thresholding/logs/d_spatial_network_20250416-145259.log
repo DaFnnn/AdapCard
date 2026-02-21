@@ -1,4 +1,0 @@
-2025-04-16 14:52:59,781 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/3D Road Network (North Jutland, Denmark)
-2025-04-16 14:52:59,781 [DEBUG]  Creating sample for d_spatial_network
-2025-04-16 14:52:59,781 [DEBUG]  generate_join_sample(single_table=d_spatial_network, relationship_list=None, split_condition=None)
-2025-04-16 14:52:59,876 [INFO ]  Files successfully created

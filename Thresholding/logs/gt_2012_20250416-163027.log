@@ -1,4 +1,0 @@
-2025-04-16 16:30:27,110 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Gas Turbine CO and NOx Emission Data Set
-2025-04-16 16:30:27,110 [DEBUG]  Creating sample for gt_2012
-2025-04-16 16:30:27,110 [DEBUG]  generate_join_sample(single_table=gt_2012, relationship_list=None, split_condition=None)
-2025-04-16 16:30:27,147 [INFO ]  Files successfully created

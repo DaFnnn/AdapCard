@@ -1,4 +1,0 @@
-2025-04-17 09:55:35,849 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Localization Data for Person Activity
-2025-04-17 09:55:35,849 [DEBUG]  Creating sample for conflongdemo_jsi
-2025-04-17 09:55:35,849 [DEBUG]  generate_join_sample(single_table=conflongdemo_jsi, relationship_list=None, split_condition=None)
-2025-04-17 09:55:35,948 [INFO ]  Files successfully created

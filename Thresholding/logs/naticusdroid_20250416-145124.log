@@ -1,4 +1,0 @@
-2025-04-16 14:51:24,170 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/NATICUSdroid (Android Permissions)
-2025-04-16 14:51:24,171 [DEBUG]  Creating sample for naticusdroid
-2025-04-16 14:51:24,171 [DEBUG]  generate_join_sample(single_table=naticusdroid, relationship_list=None, split_condition=None)
-2025-04-16 14:51:24,247 [INFO ]  Files successfully created

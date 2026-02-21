@@ -1,4 +1,0 @@
-2025-04-17 09:56:20,893 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Support2
-2025-04-17 09:56:20,893 [DEBUG]  Creating sample for support2
-2025-04-17 09:56:20,893 [DEBUG]  generate_join_sample(single_table=support2, relationship_list=None, split_condition=None)
-2025-04-17 09:56:20,944 [INFO ]  Files successfully created

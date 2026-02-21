@@ -1,4 +1,0 @@
-2025-04-16 14:51:47,837 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Product Classification and Clustering
-2025-04-16 14:51:47,838 [DEBUG]  Creating sample for pricerunner_aggregate
-2025-04-16 14:51:47,838 [DEBUG]  generate_join_sample(single_table=pricerunner_aggregate, relationship_list=None, split_condition=None)
-2025-04-16 14:51:47,881 [INFO ]  Files successfully created

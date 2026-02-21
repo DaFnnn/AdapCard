@@ -1,4 +1,0 @@
-2025-04-16 14:51:22,021 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/TUNADROMD
-2025-04-16 14:51:22,022 [DEBUG]  Creating sample for tuandromd
-2025-04-16 14:51:22,022 [DEBUG]  generate_join_sample(single_table=tuandromd, relationship_list=None, split_condition=None)
-2025-04-16 14:51:22,074 [INFO ]  Files successfully created

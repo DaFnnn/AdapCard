@@ -1,4 +1,0 @@
-2025-04-16 16:31:52,417 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Physicochemical Properties of Protein Tertiary Structure
-2025-04-16 16:31:52,418 [DEBUG]  Creating sample for casp
-2025-04-16 16:31:52,418 [DEBUG]  generate_join_sample(single_table=casp, relationship_list=None, split_condition=None)
-2025-04-16 16:31:52,473 [INFO ]  Files successfully created

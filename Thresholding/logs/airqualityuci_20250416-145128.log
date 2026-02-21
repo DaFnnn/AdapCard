@@ -1,4 +1,0 @@
-2025-04-16 14:51:28,229 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Air Quality
-2025-04-16 14:51:28,230 [DEBUG]  Creating sample for airqualityuci
-2025-04-16 14:51:28,230 [DEBUG]  generate_join_sample(single_table=airqualityuci, relationship_list=None, split_condition=None)
-2025-04-16 14:51:28,272 [INFO ]  Files successfully created

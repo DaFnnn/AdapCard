@@ -1,4 +1,0 @@
-2025-04-16 16:30:38,339 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/MetroPT-3 Dataset
-2025-04-16 16:30:38,340 [DEBUG]  Creating sample for metropt3
-2025-04-16 16:30:38,340 [DEBUG]  generate_join_sample(single_table=metropt3, relationship_list=None, split_condition=None)
-2025-04-16 16:30:38,729 [INFO ]  Files successfully created

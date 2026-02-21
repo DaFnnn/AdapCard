@@ -1,4 +1,0 @@
-2025-04-16 16:31:00,678 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Gas sensor array under dynamic gas mixtures
-2025-04-16 16:31:00,678 [DEBUG]  Creating sample for ethylene_co
-2025-04-16 16:31:00,678 [DEBUG]  generate_join_sample(single_table=ethylene_co, relationship_list=None, split_condition=None)
-2025-04-16 16:31:00,855 [INFO ]  Files successfully created

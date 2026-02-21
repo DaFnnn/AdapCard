@@ -1,4 +1,0 @@
-2025-04-17 09:55:33,718 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Iranian Churn
-2025-04-17 09:55:33,719 [DEBUG]  Creating sample for customerchurn
-2025-04-17 09:55:33,719 [DEBUG]  generate_join_sample(single_table=customerchurn, relationship_list=None, split_condition=None)
-2025-04-17 09:55:33,775 [INFO ]  Files successfully created

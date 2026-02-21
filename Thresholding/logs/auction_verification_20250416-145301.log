@@ -1,4 +1,0 @@
-2025-04-16 14:53:01,707 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Auction Verification
-2025-04-16 14:53:01,708 [DEBUG]  Creating sample for auction_verification
-2025-04-16 14:53:01,708 [DEBUG]  generate_join_sample(single_table=auction_verification, relationship_list=None, split_condition=None)
-2025-04-16 14:53:01,744 [INFO ]  Files successfully created
