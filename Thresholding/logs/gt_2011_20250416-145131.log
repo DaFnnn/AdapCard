@@ -1,0 +1,22 @@
+2025-04-16 14:51:31,072 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Gas Turbine CO and NOx Emission Data Set and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Gas Turbine CO and NOx Emission Data Set
+2025-04-16 14:51:31,072 [INFO ]  Removing target path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Gas Turbine CO and NOx Emission Data Set
+2025-04-16 14:51:31,073 [INFO ]  Making target path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Gas Turbine CO and NOx Emission Data Set
+2025-04-16 14:51:31,073 [INFO ]  Preparing hdf file for table gt_2011
+2025-04-16 14:51:31,086 [INFO ]  Managing functional dependencies for table gt_2011
+2025-04-16 14:51:31,086 [INFO ]  Preparing multipliers for table gt_2011
+2025-04-16 14:51:31,086 [INFO ]  Preparing categorical values and null values for table gt_2011
+2025-04-16 14:51:31,087 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 14:51:31,088 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 14:51:31,089 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 14:51:31,090 [DEBUG]  		Preparing numerical values for column f4
+2025-04-16 14:51:31,092 [DEBUG]  		Preparing numerical values for column f5
+2025-04-16 14:51:31,093 [DEBUG]  		Preparing numerical values for column f6
+2025-04-16 14:51:31,094 [DEBUG]  		Preparing numerical values for column f7
+2025-04-16 14:51:31,095 [DEBUG]  		Preparing numerical values for column f8
+2025-04-16 14:51:31,096 [DEBUG]  		Preparing numerical values for column f9
+2025-04-16 14:51:31,097 [DEBUG]  		Preparing numerical values for column f10
+2025-04-16 14:51:31,098 [DEBUG]  		Preparing numerical values for column f11
+2025-04-16 14:51:31,099 [INFO ]  Relevant attributes for table gt_2011 are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11']
+2025-04-16 14:51:31,099 [INFO ]  NULL values for table gt_2011 are [17.112361395223317, 1014.1679828768048, 79.17508893536635, 4.090854500067468, 25.663821360140332, 1084.7340090541088, 544.5032696127378, 135.7457753474565, 12.20767783025233, 1.572585804670085, 67.57549198488734]
+2025-04-16 14:51:31,130 [INFO ]  Adding table parts without join partners for table gt_2011
+2025-04-16 14:51:31,131 [INFO ]  Files successfully created

@@ -1,0 +1,66 @@
+2025-04-16 14:51:17,051 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/PhiUSIIL Phishing URL and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/PhiUSIIL Phishing URL
+2025-04-16 14:51:17,051 [INFO ]  Making target path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/PhiUSIIL Phishing URL
+2025-04-16 14:51:17,052 [INFO ]  Preparing hdf file for table phiusiil_phishing_url_dataset
+2025-04-16 14:51:18,034 [INFO ]  Managing functional dependencies for table phiusiil_phishing_url_dataset
+2025-04-16 14:51:18,064 [INFO ]  Preparing multipliers for table phiusiil_phishing_url_dataset
+2025-04-16 14:51:18,064 [INFO ]  Preparing categorical values and null values for table phiusiil_phishing_url_dataset
+2025-04-16 14:51:18,064 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 14:51:18,067 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 14:51:18,070 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 14:51:18,073 [DEBUG]  		Preparing numerical values for column f4
+2025-04-16 14:51:18,076 [DEBUG]  		Preparing numerical values for column f5
+2025-04-16 14:51:18,078 [DEBUG]  		Preparing numerical values for column f6
+2025-04-16 14:51:18,081 [DEBUG]  		Preparing numerical values for column f7
+2025-04-16 14:51:18,084 [DEBUG]  		Preparing numerical values for column f8
+2025-04-16 14:51:18,087 [DEBUG]  		Preparing numerical values for column f9
+2025-04-16 14:51:18,091 [DEBUG]  		Preparing numerical values for column f10
+2025-04-16 14:51:18,095 [DEBUG]  		Preparing numerical values for column f11
+2025-04-16 14:51:18,098 [DEBUG]  		Preparing numerical values for column f12
+2025-04-16 14:51:18,101 [DEBUG]  		Preparing numerical values for column f13
+2025-04-16 14:51:18,104 [DEBUG]  		Preparing numerical values for column f14
+2025-04-16 14:51:18,106 [DEBUG]  		Preparing numerical values for column f15
+2025-04-16 14:51:18,109 [DEBUG]  		Preparing numerical values for column f16
+2025-04-16 14:51:18,113 [DEBUG]  		Preparing numerical values for column f17
+2025-04-16 14:51:18,115 [DEBUG]  		Preparing numerical values for column f18
+2025-04-16 14:51:18,119 [DEBUG]  		Preparing numerical values for column f19
+2025-04-16 14:51:18,122 [DEBUG]  		Preparing numerical values for column f20
+2025-04-16 14:51:18,125 [DEBUG]  		Preparing numerical values for column f21
+2025-04-16 14:51:18,128 [DEBUG]  		Preparing numerical values for column f22
+2025-04-16 14:51:18,131 [DEBUG]  		Preparing numerical values for column f23
+2025-04-16 14:51:18,133 [DEBUG]  		Preparing numerical values for column f24
+2025-04-16 14:51:18,136 [DEBUG]  		Preparing numerical values for column f25
+2025-04-16 14:51:18,139 [DEBUG]  		Preparing numerical values for column f26
+2025-04-16 14:51:18,142 [DEBUG]  		Preparing numerical values for column f27
+2025-04-16 14:51:18,145 [DEBUG]  		Preparing numerical values for column f28
+2025-04-16 14:51:18,147 [DEBUG]  		Preparing numerical values for column f29
+2025-04-16 14:51:18,150 [DEBUG]  		Preparing numerical values for column f30
+2025-04-16 14:51:18,153 [DEBUG]  		Preparing numerical values for column f31
+2025-04-16 14:51:18,157 [DEBUG]  		Preparing numerical values for column f32
+2025-04-16 14:51:18,160 [DEBUG]  		Preparing numerical values for column f33
+2025-04-16 14:51:18,163 [DEBUG]  		Preparing numerical values for column f34
+2025-04-16 14:51:18,165 [DEBUG]  		Preparing numerical values for column f35
+2025-04-16 14:51:18,168 [DEBUG]  		Preparing numerical values for column f36
+2025-04-16 14:51:18,171 [DEBUG]  		Preparing numerical values for column f37
+2025-04-16 14:51:18,173 [DEBUG]  		Preparing numerical values for column f38
+2025-04-16 14:51:18,176 [DEBUG]  		Preparing numerical values for column f39
+2025-04-16 14:51:18,179 [DEBUG]  		Preparing numerical values for column f40
+2025-04-16 14:51:18,181 [DEBUG]  		Preparing numerical values for column f41
+2025-04-16 14:51:18,184 [DEBUG]  		Preparing numerical values for column f42
+2025-04-16 14:51:18,187 [DEBUG]  		Preparing numerical values for column f43
+2025-04-16 14:51:18,189 [DEBUG]  		Preparing numerical values for column f44
+2025-04-16 14:51:18,192 [DEBUG]  		Preparing numerical values for column f45
+2025-04-16 14:51:18,195 [DEBUG]  		Preparing numerical values for column f46
+2025-04-16 14:51:18,197 [DEBUG]  		Preparing numerical values for column f47
+2025-04-16 14:51:18,200 [DEBUG]  		Preparing numerical values for column f48
+2025-04-16 14:51:18,203 [DEBUG]  		Preparing numerical values for column f49
+2025-04-16 14:51:18,205 [DEBUG]  		Preparing numerical values for column f50
+2025-04-16 14:51:18,208 [DEBUG]  		Preparing numerical values for column f51
+2025-04-16 14:51:18,211 [DEBUG]  		Preparing numerical values for column f52
+2025-04-16 14:51:18,213 [DEBUG]  		Preparing numerical values for column f53
+2025-04-16 14:51:18,216 [DEBUG]  		Preparing numerical values for column f54
+2025-04-16 14:51:18,219 [DEBUG]  		Preparing numerical values for column f55
+2025-04-16 14:51:18,221 [DEBUG]  		Preparing numerical values for column f56
+2025-04-16 14:51:18,224 [INFO ]  Relevant attributes for table phiusiil_phishing_url_dataset are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12', 'f13', 'f14', 'f15', 'f16', 'f17', 'f18', 'f19', 'f20', 'f21', 'f22', 'f23', 'f24', 'f25', 'f26', 'f27', 'f28', 'f29', 'f30', 'f31', 'f32', 'f33', 'f34', 'f35', 'f36', 'f37', 'f38', 'f39', 'f40', 'f41', 'f42', 'f43', 'f44', 'f45', 'f46', 'f47', 'f48', 'f49', 'f50', 'f51', 'f52', 'f53', 'f54', 'f55', 'f56']
+2025-04-16 14:51:18,224 [INFO ]  NULL values for table phiusiil_phishing_url_dataset are [117897.0001, 117580.90897423399, 34.573195273436674, 105081.84682702985, 21.470495894739074, 0.0028057401556436734, 319.49433439852413, 78.430877963563, 0.8456082347139422, 0.26052296015437126, 0.05584724121675609, 2.7645564134099536, 1.1648575224241395, 0.0021568714349328865, 0.024960578044487796, 0.00023842956805699865, 19.42901918827795, 0.5160455119913484, 1.8811110477321402, 0.028716166585381366, 0.06234050552386607, 0.029502659089463305, 0.02515566275790411, 2.340298053393838, 0.06340937466867407, 0.7827247375898556, 1141.9005431815772, 12789.532723677346, 0.8613608409847537, 85098.44779397146, 50.13152743413392, 52.122197775562086, 0.36186763714243303, 0.26664085116308656, 0.624612818337963, 0.13353794397675947, 0.0402068724951759, 0.4402832099917301, 0.22186466846201147, 1.5887384359295151, 0.04408736190334825, 0.45667032591870055, 0.414400557687822, 0.3778985114188172, 0.10236255857842617, 0.12718920884666765, 0.23710672194066879, 0.023573780190419644, 0.48687452872198306, 26.0757886278335, 6.333211389130389, 10.522405392395937, 65.07121261901229, 2.377728872537586, 49.26261616870587, 0.5719950783519583]
+2025-04-16 14:51:18,552 [INFO ]  Adding table parts without join partners for table phiusiil_phishing_url_dataset
+2025-04-16 14:51:18,553 [INFO ]  Files successfully created

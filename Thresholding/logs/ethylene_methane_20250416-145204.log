@@ -1,0 +1,30 @@
+2025-04-16 14:52:04,811 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Gas sensor array under dynamic gas mixtures and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Gas sensor array under dynamic gas mixtures
+2025-04-16 14:52:04,811 [INFO ]  Removing target path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Gas sensor array under dynamic gas mixtures
+2025-04-16 14:52:04,832 [INFO ]  Making target path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Gas sensor array under dynamic gas mixtures
+2025-04-16 14:52:04,832 [INFO ]  Preparing hdf file for table ethylene_methane
+2025-04-16 14:52:06,781 [INFO ]  Managing functional dependencies for table ethylene_methane
+2025-04-16 14:52:06,823 [INFO ]  Preparing multipliers for table ethylene_methane
+2025-04-16 14:52:06,823 [INFO ]  Preparing categorical values and null values for table ethylene_methane
+2025-04-16 14:52:06,824 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 14:52:06,836 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 14:52:06,848 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 14:52:06,860 [DEBUG]  		Preparing numerical values for column f4
+2025-04-16 14:52:06,872 [DEBUG]  		Preparing numerical values for column f5
+2025-04-16 14:52:06,883 [DEBUG]  		Preparing numerical values for column f6
+2025-04-16 14:52:06,895 [DEBUG]  		Preparing numerical values for column f7
+2025-04-16 14:52:06,907 [DEBUG]  		Preparing numerical values for column f8
+2025-04-16 14:52:06,918 [DEBUG]  		Preparing numerical values for column f9
+2025-04-16 14:52:06,930 [DEBUG]  		Preparing numerical values for column f10
+2025-04-16 14:52:06,942 [DEBUG]  		Preparing numerical values for column f11
+2025-04-16 14:52:06,953 [DEBUG]  		Preparing numerical values for column f12
+2025-04-16 14:52:06,965 [DEBUG]  		Preparing numerical values for column f13
+2025-04-16 14:52:06,977 [DEBUG]  		Preparing numerical values for column f14
+2025-04-16 14:52:06,988 [DEBUG]  		Preparing numerical values for column f15
+2025-04-16 14:52:07,000 [DEBUG]  		Preparing numerical values for column f16
+2025-04-16 14:52:07,011 [DEBUG]  		Preparing numerical values for column f17
+2025-04-16 14:52:07,023 [DEBUG]  		Preparing numerical values for column f18
+2025-04-16 14:52:07,035 [DEBUG]  		Preparing numerical values for column f19
+2025-04-16 14:52:07,046 [INFO ]  Relevant attributes for table ethylene_methane are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12', 'f13', 'f14', 'f15', 'f16', 'f17', 'f18', 'f19']
+2025-04-16 14:52:07,046 [INFO ]  NULL values for table ethylene_methane are [5243.250150315903, 66.31351875402333, 4.30382584698281, 2402.0106503945844, 1802.4135967741934, 2825.7178844217156, 3120.4249508404246, 1997.894120322819, 2544.346332620462, 2753.39234436974, 3057.9526402856277, 3430.810926140239, 2735.5610455213023, 2325.8821066089695, 2079.4483353288992, 1803.3021584316807, 1941.3948274157783, 2335.188332525095, 1893.103485957133]
+2025-04-16 14:52:07,652 [INFO ]  Adding table parts without join partners for table ethylene_methane
+2025-04-16 14:52:07,653 [INFO ]  Files successfully created

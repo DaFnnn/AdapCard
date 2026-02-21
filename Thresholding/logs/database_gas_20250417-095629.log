@@ -1,0 +1,19 @@
+2025-04-17 09:56:29,706 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Single Elder Home Monitoring Gas and Position and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Single Elder Home Monitoring Gas and Position
+2025-04-17 09:56:29,706 [INFO ]  Preparing hdf file for table database_gas
+2025-04-17 09:56:30,046 [INFO ]  Managing functional dependencies for table database_gas
+2025-04-17 09:56:30,056 [INFO ]  Preparing multipliers for table database_gas
+2025-04-17 09:56:30,056 [INFO ]  Preparing categorical values and null values for table database_gas
+2025-04-17 09:56:30,056 [DEBUG]  		Preparing numerical values for column f1
+2025-04-17 09:56:30,062 [DEBUG]  		Preparing numerical values for column f2
+2025-04-17 09:56:30,068 [DEBUG]  		Preparing numerical values for column f3
+2025-04-17 09:56:30,073 [DEBUG]  		Preparing numerical values for column f4
+2025-04-17 09:56:30,079 [DEBUG]  		Preparing numerical values for column f5
+2025-04-17 09:56:30,084 [DEBUG]  		Preparing numerical values for column f6
+2025-04-17 09:56:30,089 [DEBUG]  		Preparing numerical values for column f7
+2025-04-17 09:56:30,095 [DEBUG]  		Preparing numerical values for column f8
+2025-04-17 09:56:30,100 [DEBUG]  		Preparing numerical values for column f9
+2025-04-17 09:56:30,106 [DEBUG]  		Preparing numerical values for column f10
+2025-04-17 09:56:30,111 [INFO ]  Relevant attributes for table database_gas are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10']
+2025-04-17 09:56:30,111 [INFO ]  NULL values for table database_gas are [208076.0001, 20.115851009844935, 52.23654628297766, 102.4595151670179, 539.086623466129, 500.2895127880851, 718.7088609605121, 672.7889420845218, 609.4468515553174, 120.12441004942895]
+2025-04-17 09:56:30,356 [INFO ]  Adding table parts without join partners for table database_gas
+2025-04-17 09:56:30,356 [INFO ]  Files successfully created

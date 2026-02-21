@@ -1,0 +1,4 @@
+2025-04-16 14:52:40,811 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Year Prediction MSD
+2025-04-16 14:52:40,812 [DEBUG]  Creating sample for yearpredictionmsd
+2025-04-16 14:52:40,812 [DEBUG]  generate_join_sample(single_table=yearpredictionmsd, relationship_list=None, split_condition=None)
+2025-04-16 14:52:41,185 [INFO ]  Files successfully created

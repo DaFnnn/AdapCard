@@ -1,0 +1,32 @@
+2025-04-16 14:51:09,718 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Diabetes Health Indicators Dataset and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Diabetes Health Indicators Dataset
+2025-04-16 14:51:09,718 [INFO ]  Making target path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Diabetes Health Indicators Dataset
+2025-04-16 14:51:09,718 [INFO ]  Preparing hdf file for table diabetes_binary_health_indicators_brfss2015
+2025-04-16 14:51:10,120 [INFO ]  Managing functional dependencies for table diabetes_binary_health_indicators_brfss2015
+2025-04-16 14:51:10,132 [INFO ]  Preparing multipliers for table diabetes_binary_health_indicators_brfss2015
+2025-04-16 14:51:10,132 [INFO ]  Preparing categorical values and null values for table diabetes_binary_health_indicators_brfss2015
+2025-04-16 14:51:10,133 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 14:51:10,138 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 14:51:10,142 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 14:51:10,146 [DEBUG]  		Preparing numerical values for column f4
+2025-04-16 14:51:10,150 [DEBUG]  		Preparing numerical values for column f5
+2025-04-16 14:51:10,154 [DEBUG]  		Preparing numerical values for column f6
+2025-04-16 14:51:10,157 [DEBUG]  		Preparing numerical values for column f7
+2025-04-16 14:51:10,161 [DEBUG]  		Preparing numerical values for column f8
+2025-04-16 14:51:10,165 [DEBUG]  		Preparing numerical values for column f9
+2025-04-16 14:51:10,169 [DEBUG]  		Preparing numerical values for column f10
+2025-04-16 14:51:10,173 [DEBUG]  		Preparing numerical values for column f11
+2025-04-16 14:51:10,177 [DEBUG]  		Preparing numerical values for column f12
+2025-04-16 14:51:10,180 [DEBUG]  		Preparing numerical values for column f13
+2025-04-16 14:51:10,184 [DEBUG]  		Preparing numerical values for column f14
+2025-04-16 14:51:10,188 [DEBUG]  		Preparing numerical values for column f15
+2025-04-16 14:51:10,192 [DEBUG]  		Preparing numerical values for column f16
+2025-04-16 14:51:10,195 [DEBUG]  		Preparing numerical values for column f17
+2025-04-16 14:51:10,199 [DEBUG]  		Preparing numerical values for column f18
+2025-04-16 14:51:10,203 [DEBUG]  		Preparing numerical values for column f19
+2025-04-16 14:51:10,207 [DEBUG]  		Preparing numerical values for column f20
+2025-04-16 14:51:10,211 [DEBUG]  		Preparing numerical values for column f21
+2025-04-16 14:51:10,215 [DEBUG]  		Preparing numerical values for column f22
+2025-04-16 14:51:10,218 [INFO ]  Relevant attributes for table diabetes_binary_health_indicators_brfss2015 are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12', 'f13', 'f14', 'f15', 'f16', 'f17', 'f18', 'f19', 'f20', 'f21', 'f22']
+2025-04-16 14:51:10,218 [INFO ]  NULL values for table diabetes_binary_health_indicators_brfss2015 are [0.13943301797540206, 0.4291011037527594, 0.4242209397666351, 0.9627695048880479, 28.382463607694735, 0.44326855881425414, 0.04067079785556607, 0.09428558814254179, 0.7566436770734783, 0.6343557552822453, 0.811519899085462, 0.05629678334910123, 0.9511525070955534, 0.08427691579943236, 2.5114923052664775, 3.1848721538946707, 4.242180573951434, 0.16832374645222326, 0.44044216335540837, 8.032219205298013, 5.050533617155471, 6.053974960580258]
+2025-04-16 14:51:10,413 [INFO ]  Adding table parts without join partners for table diabetes_binary_health_indicators_brfss2015
+2025-04-16 14:51:10,413 [INFO ]  Files successfully created

@@ -1,0 +1,13 @@
+2025-04-17 09:55:36,852 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Parking Birmingham and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Parking Birmingham
+2025-04-17 09:55:36,852 [INFO ]  Preparing hdf file for table dataset
+2025-04-17 09:55:36,866 [INFO ]  Managing functional dependencies for table dataset
+2025-04-17 09:55:36,867 [INFO ]  Preparing multipliers for table dataset
+2025-04-17 09:55:36,867 [INFO ]  Preparing categorical values and null values for table dataset
+2025-04-17 09:55:36,867 [DEBUG]  		Preparing numerical values for column f1
+2025-04-17 09:55:36,868 [DEBUG]  		Preparing numerical values for column f2
+2025-04-17 09:55:36,869 [DEBUG]  		Preparing numerical values for column f3
+2025-04-17 09:55:36,870 [DEBUG]  		Preparing numerical values for column f4
+2025-04-17 09:55:36,871 [INFO ]  Relevant attributes for table dataset are ['f1', 'f2', 'f3', 'f4']
+2025-04-17 09:55:36,871 [INFO ]  NULL values for table dataset are [14.66294962342862, 1397.5502301901056, 642.2290106027941, 886.6563981213427]
+2025-04-17 09:55:36,908 [INFO ]  Adding table parts without join partners for table dataset
+2025-04-17 09:55:36,908 [INFO ]  Files successfully created

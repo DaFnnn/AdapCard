@@ -1,0 +1,18 @@
+2025-04-17 09:56:38,612 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Auction Verification and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Auction Verification
+2025-04-17 09:56:38,612 [INFO ]  Preparing hdf file for table auction_verification
+2025-04-17 09:56:38,618 [INFO ]  Managing functional dependencies for table auction_verification
+2025-04-17 09:56:38,619 [INFO ]  Preparing multipliers for table auction_verification
+2025-04-17 09:56:38,619 [INFO ]  Preparing categorical values and null values for table auction_verification
+2025-04-17 09:56:38,619 [DEBUG]  		Preparing numerical values for column f1
+2025-04-17 09:56:38,620 [DEBUG]  		Preparing numerical values for column f2
+2025-04-17 09:56:38,621 [DEBUG]  		Preparing numerical values for column f3
+2025-04-17 09:56:38,622 [DEBUG]  		Preparing numerical values for column f4
+2025-04-17 09:56:38,623 [DEBUG]  		Preparing numerical values for column f5
+2025-04-17 09:56:38,623 [DEBUG]  		Preparing numerical values for column f6
+2025-04-17 09:56:38,624 [DEBUG]  		Preparing numerical values for column f7
+2025-04-17 09:56:38,625 [DEBUG]  		Preparing numerical values for column f8
+2025-04-17 09:56:38,626 [DEBUG]  		Preparing numerical values for column f9
+2025-04-17 09:56:38,627 [INFO ]  Relevant attributes for table auction_verification are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9']
+2025-04-17 09:56:38,627 [INFO ]  NULL values for table auction_verification are [1.0001, 2.094079441997063, 1.8840941262848752, 0.587960988742046, 71.47342354380812, 3.252180274106706, 0.45531292217327457, 0.12834278022515908, 7336.944674394552]
+2025-04-17 09:56:38,658 [INFO ]  Adding table parts without join partners for table auction_verification
+2025-04-17 09:56:38,659 [INFO ]  Files successfully created

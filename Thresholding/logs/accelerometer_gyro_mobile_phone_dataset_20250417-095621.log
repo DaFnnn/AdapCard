@@ -1,0 +1,17 @@
+2025-04-17 09:56:21,848 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Accelerometer Gyro Mobile Phone and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Accelerometer Gyro Mobile Phone
+2025-04-17 09:56:21,848 [INFO ]  Preparing hdf file for table accelerometer_gyro_mobile_phone_dataset
+2025-04-17 09:56:21,883 [INFO ]  Managing functional dependencies for table accelerometer_gyro_mobile_phone_dataset
+2025-04-17 09:56:21,884 [INFO ]  Preparing multipliers for table accelerometer_gyro_mobile_phone_dataset
+2025-04-17 09:56:21,884 [INFO ]  Preparing categorical values and null values for table accelerometer_gyro_mobile_phone_dataset
+2025-04-17 09:56:21,884 [DEBUG]  		Preparing numerical values for column f1
+2025-04-17 09:56:21,886 [DEBUG]  		Preparing numerical values for column f2
+2025-04-17 09:56:21,887 [DEBUG]  		Preparing numerical values for column f3
+2025-04-17 09:56:21,889 [DEBUG]  		Preparing numerical values for column f4
+2025-04-17 09:56:21,890 [DEBUG]  		Preparing numerical values for column f5
+2025-04-17 09:56:21,892 [DEBUG]  		Preparing numerical values for column f6
+2025-04-17 09:56:21,893 [DEBUG]  		Preparing numerical values for column f7
+2025-04-17 09:56:21,894 [DEBUG]  		Preparing numerical values for column f8
+2025-04-17 09:56:21,895 [INFO ]  Relevant attributes for table accelerometer_gyro_mobile_phone_dataset are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8']
+2025-04-17 09:56:21,895 [INFO ]  NULL values for table accelerometer_gyro_mobile_phone_dataset are [0.023925226626238638, 2.1539577652777346, 9.53800911743928, -0.004393486761901785, -0.01465559579256666, -0.006920891813322498, 10773.600456350223, 0.9822512300334469]
+2025-04-17 09:56:21,935 [INFO ]  Adding table parts without join partners for table accelerometer_gyro_mobile_phone_dataset
+2025-04-17 09:56:21,936 [INFO ]  Files successfully created

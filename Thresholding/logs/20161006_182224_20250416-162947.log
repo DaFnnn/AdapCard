@@ -1,0 +1,4 @@
+2025-04-16 16:29:47,696 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Gas sensor array temperature modulation
+2025-04-16 16:29:47,696 [DEBUG]  Creating sample for 20161006_182224
+2025-04-16 16:29:47,696 [DEBUG]  generate_join_sample(single_table=20161006_182224, relationship_list=None, split_condition=None)
+2025-04-16 16:29:47,814 [INFO ]  Files successfully created

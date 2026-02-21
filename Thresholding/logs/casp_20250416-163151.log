@@ -1,0 +1,19 @@
+2025-04-16 16:31:51,398 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Physicochemical Properties of Protein Tertiary Structure and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Physicochemical Properties of Protein Tertiary Structure
+2025-04-16 16:31:51,399 [INFO ]  Preparing hdf file for table casp
+2025-04-16 16:31:51,458 [INFO ]  Managing functional dependencies for table casp
+2025-04-16 16:31:51,460 [INFO ]  Preparing multipliers for table casp
+2025-04-16 16:31:51,460 [INFO ]  Preparing categorical values and null values for table casp
+2025-04-16 16:31:51,460 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 16:31:51,462 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 16:31:51,463 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 16:31:51,465 [DEBUG]  		Preparing numerical values for column f4
+2025-04-16 16:31:51,466 [DEBUG]  		Preparing numerical values for column f5
+2025-04-16 16:31:51,468 [DEBUG]  		Preparing numerical values for column f6
+2025-04-16 16:31:51,470 [DEBUG]  		Preparing numerical values for column f7
+2025-04-16 16:31:51,471 [DEBUG]  		Preparing numerical values for column f8
+2025-04-16 16:31:51,473 [DEBUG]  		Preparing numerical values for column f9
+2025-04-16 16:31:51,474 [DEBUG]  		Preparing numerical values for column f10
+2025-04-16 16:31:51,475 [INFO ]  Relevant attributes for table casp are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10']
+2025-04-16 16:31:51,475 [INFO ]  NULL values for table casp are [7.748628427727969, 9871.597095407828, 3017.3672745025146, 0.3024918810408922, 103.49253300896568, 1368299.0173053292, 145.63816119833805, 3989.7560895036086, 69.97517106931993, 34.52376366280342]
+2025-04-16 16:31:51,520 [INFO ]  Adding table parts without join partners for table casp
+2025-04-16 16:31:51,520 [INFO ]  Files successfully created

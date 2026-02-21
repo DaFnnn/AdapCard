@@ -1,0 +1,15 @@
+2025-04-17 09:55:27,458 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Printed Circuit Board Processed Image and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Printed Circuit Board Processed Image
+2025-04-17 09:55:27,458 [INFO ]  Preparing hdf file for table testpad_pcb_xyrgb_v2
+2025-04-17 09:55:27,885 [INFO ]  Managing functional dependencies for table testpad_pcb_xyrgb_v2
+2025-04-17 09:55:27,896 [INFO ]  Preparing multipliers for table testpad_pcb_xyrgb_v2
+2025-04-17 09:55:27,896 [INFO ]  Preparing categorical values and null values for table testpad_pcb_xyrgb_v2
+2025-04-17 09:55:27,897 [DEBUG]  		Preparing numerical values for column f1
+2025-04-17 09:55:27,907 [DEBUG]  		Preparing numerical values for column f2
+2025-04-17 09:55:27,914 [DEBUG]  		Preparing numerical values for column f3
+2025-04-17 09:55:27,922 [DEBUG]  		Preparing numerical values for column f4
+2025-04-17 09:55:27,931 [DEBUG]  		Preparing numerical values for column f5
+2025-04-17 09:55:27,939 [DEBUG]  		Preparing numerical values for column f6
+2025-04-17 09:55:27,946 [INFO ]  Relevant attributes for table testpad_pcb_xyrgb_v2 are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6']
+2025-04-17 09:55:27,946 [INFO ]  NULL values for table testpad_pcb_xyrgb_v2 are [482.8186009508646, 401.5527016098359, 0.3115398759059418, 0.5665607435522266, 0.42940438051861923, 0.016550787227455663]
+2025-04-17 09:55:28,381 [INFO ]  Adding table parts without join partners for table testpad_pcb_xyrgb_v2
+2025-04-17 09:55:28,383 [INFO ]  Files successfully created

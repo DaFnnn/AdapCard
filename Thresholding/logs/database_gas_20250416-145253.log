@@ -1,0 +1,4 @@
+2025-04-16 14:52:53,468 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Single Elder Home Monitoring Gas and Position
+2025-04-16 14:52:53,469 [DEBUG]  Creating sample for database_gas
+2025-04-16 14:52:53,469 [DEBUG]  generate_join_sample(single_table=database_gas, relationship_list=None, split_condition=None)
+2025-04-16 14:52:53,612 [INFO ]  Files successfully created

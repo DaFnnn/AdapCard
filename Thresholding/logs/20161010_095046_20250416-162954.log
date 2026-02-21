@@ -1,0 +1,29 @@
+2025-04-16 16:29:54,309 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Gas sensor array temperature modulation and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Gas sensor array temperature modulation
+2025-04-16 16:29:54,309 [INFO ]  Preparing hdf file for table 20161010_095046
+2025-04-16 16:29:54,910 [INFO ]  Managing functional dependencies for table 20161010_095046
+2025-04-16 16:29:54,924 [INFO ]  Preparing multipliers for table 20161010_095046
+2025-04-16 16:29:54,924 [INFO ]  Preparing categorical values and null values for table 20161010_095046
+2025-04-16 16:29:54,925 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 16:29:54,929 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 16:29:54,934 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 16:29:54,938 [DEBUG]  		Preparing numerical values for column f4
+2025-04-16 16:29:54,942 [DEBUG]  		Preparing numerical values for column f5
+2025-04-16 16:29:54,946 [DEBUG]  		Preparing numerical values for column f6
+2025-04-16 16:29:54,951 [DEBUG]  		Preparing numerical values for column f7
+2025-04-16 16:29:54,955 [DEBUG]  		Preparing numerical values for column f8
+2025-04-16 16:29:54,959 [DEBUG]  		Preparing numerical values for column f9
+2025-04-16 16:29:54,963 [DEBUG]  		Preparing numerical values for column f10
+2025-04-16 16:29:54,967 [DEBUG]  		Preparing numerical values for column f11
+2025-04-16 16:29:54,971 [DEBUG]  		Preparing numerical values for column f12
+2025-04-16 16:29:54,976 [DEBUG]  		Preparing numerical values for column f13
+2025-04-16 16:29:54,980 [DEBUG]  		Preparing numerical values for column f14
+2025-04-16 16:29:54,984 [DEBUG]  		Preparing numerical values for column f15
+2025-04-16 16:29:54,988 [DEBUG]  		Preparing numerical values for column f16
+2025-04-16 16:29:54,992 [DEBUG]  		Preparing numerical values for column f17
+2025-04-16 16:29:54,997 [DEBUG]  		Preparing numerical values for column f18
+2025-04-16 16:29:55,001 [DEBUG]  		Preparing numerical values for column f19
+2025-04-16 16:29:55,005 [DEBUG]  		Preparing numerical values for column f20
+2025-04-16 16:29:55,009 [INFO ]  Relevant attributes for table 20161010_095046 are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12', 'f13', 'f14', 'f15', 'f16', 'f17', 'f18', 'f19', 'f20']
+2025-04-16 16:29:55,009 [INFO ]  NULL values for table 20161010_095046 are [45457.967861130295, 9.901175721140024, 44.84089808958331, 25.81638289111978, 239.94420243518954, 0.3550214112061999, 17.184317710746004, 19.15225636675942, 23.683712793367302, 22.8985280138091, 33.55222417268815, 30.29636790195674, 33.71432500853771, 28.70011000043957, 24.43562946166825, 26.548508319272894, 28.611592270082213, 26.815405735645673, 23.713139518913128, 29.48220107659587]
+2025-04-16 16:29:55,206 [INFO ]  Adding table parts without join partners for table 20161010_095046
+2025-04-16 16:29:55,206 [INFO ]  Files successfully created

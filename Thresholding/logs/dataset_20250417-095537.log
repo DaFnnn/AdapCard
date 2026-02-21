@@ -1,0 +1,4 @@
+2025-04-17 09:55:37,805 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Parking Birmingham
+2025-04-17 09:55:37,806 [DEBUG]  Creating sample for dataset
+2025-04-17 09:55:37,806 [DEBUG]  generate_join_sample(single_table=dataset, relationship_list=None, split_condition=None)
+2025-04-17 09:55:37,850 [INFO ]  Files successfully created

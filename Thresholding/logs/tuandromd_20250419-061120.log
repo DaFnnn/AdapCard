@@ -1,0 +1,2248 @@
+2025-04-19 06:11:20,454 [INFO ]  maqp(evaluate_cardinalities: database_name=None, target_path=./baselines/cardinality_estimation/results/deepDB/tuandromd_model_based_budget_5.csv)
+2025-04-19 06:11:20,535 [DEBUG]  Including SPN with table_set {'tuandromd'} with sampling ratio(4465 / 4465.0)
+2025-04-19 06:11:20,536 [DEBUG]  Predicting cardinality for query 0: SELECT COUNT(*) FROM tuandromd WHERE f222 <= 0.0 AND f144 = 0.0 AND f220 < 0.0 AND f237 <= 0.0;
+2025-04-19 06:11:20,546 [DEBUG]  		Latency: 7.76ms
+2025-04-19 06:11:20,546 [DEBUG]  		True: 0
+2025-04-19 06:11:20,546 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,546 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,546 [DEBUG]  Predicting cardinality for query 1: SELECT COUNT(*) FROM tuandromd WHERE f204 > 0.0 AND f48 > 0.0 AND f25 <= 0.0 AND f115 = 0.0 AND f78 < 0.0;
+2025-04-19 06:11:20,554 [DEBUG]  		Latency: 5.43ms
+2025-04-19 06:11:20,554 [DEBUG]  		True: 0
+2025-04-19 06:11:20,554 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,555 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,555 [DEBUG]  Predicting cardinality for query 2: SELECT COUNT(*) FROM tuandromd WHERE f4 < 0.0 AND f213 = 0.0 AND f136 <= 0.0 AND f17 <= 0.0 AND f16 < 1.0;
+2025-04-19 06:11:20,564 [DEBUG]  		Latency: 7.07ms
+2025-04-19 06:11:20,564 [DEBUG]  		True: 0
+2025-04-19 06:11:20,564 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,564 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,564 [DEBUG]  Predicting cardinality for query 3: SELECT COUNT(*) FROM tuandromd WHERE f60 > 0.0 AND f164 >= 0.0 AND f76 = 0.0 AND f128 >= 0.0 AND f2 < 0.0;
+2025-04-19 06:11:20,572 [DEBUG]  		Latency: 5.42ms
+2025-04-19 06:11:20,572 [DEBUG]  		True: 0
+2025-04-19 06:11:20,572 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,572 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,572 [DEBUG]  Predicting cardinality for query 4: SELECT COUNT(*) FROM tuandromd WHERE f74 <= 0.0 AND f8 >= 0.0 AND f18 > 0.0 AND f145 > 0.0 AND f197 < 0.0;
+2025-04-19 06:11:20,580 [DEBUG]  		Latency: 5.26ms
+2025-04-19 06:11:20,580 [DEBUG]  		True: 0
+2025-04-19 06:11:20,580 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,580 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,580 [DEBUG]  Predicting cardinality for query 5: SELECT COUNT(*) FROM tuandromd WHERE f121 <= 0.0;
+2025-04-19 06:11:20,583 [DEBUG]  		Latency: 1.51ms
+2025-04-19 06:11:20,584 [DEBUG]  		True: 4464
+2025-04-19 06:11:20,584 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:20,584 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,584 [DEBUG]  Predicting cardinality for query 6: SELECT COUNT(*) FROM tuandromd WHERE f19 >= 0.0 AND f145 > 0.0 AND f162 >= 0.0 AND f51 <= 0.0;
+2025-04-19 06:11:20,591 [DEBUG]  		Latency: 5.08ms
+2025-04-19 06:11:20,591 [DEBUG]  		True: 5
+2025-04-19 06:11:20,591 [DEBUG]  		Predicted: 4.976190476190479
+2025-04-19 06:11:20,591 [DEBUG]  Q-Error was: 1.0047846889952148
+2025-04-19 06:11:20,591 [DEBUG]  Predicting cardinality for query 7: SELECT COUNT(*) FROM tuandromd WHERE f35 > 0.0;
+2025-04-19 06:11:20,595 [DEBUG]  		Latency: 1.72ms
+2025-04-19 06:11:20,595 [DEBUG]  		True: 22
+2025-04-19 06:11:20,595 [DEBUG]  		Predicted: 21.999999999999986
+2025-04-19 06:11:20,595 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:20,595 [DEBUG]  Predicting cardinality for query 8: SELECT COUNT(*) FROM tuandromd WHERE f16 <= 0.0;
+2025-04-19 06:11:20,600 [DEBUG]  		Latency: 3.50ms
+2025-04-19 06:11:20,600 [DEBUG]  		True: 2996
+2025-04-19 06:11:20,600 [DEBUG]  		Predicted: 2995.999999999999
+2025-04-19 06:11:20,600 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-19 06:11:20,600 [DEBUG]  Predicting cardinality for query 9: SELECT COUNT(*) FROM tuandromd WHERE f175 <= 0.0 AND f144 < 0.0;
+2025-04-19 06:11:20,605 [DEBUG]  		Latency: 3.09ms
+2025-04-19 06:11:20,605 [DEBUG]  		True: 0
+2025-04-19 06:11:20,606 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,606 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,606 [DEBUG]  Predicting cardinality for query 10: SELECT COUNT(*) FROM tuandromd WHERE f108 > 0.0 AND f165 <= 0.0;
+2025-04-19 06:11:20,610 [DEBUG]  		Latency: 2.72ms
+2025-04-19 06:11:20,610 [DEBUG]  		True: 1
+2025-04-19 06:11:20,610 [DEBUG]  		Predicted: 1.0000000000000002
+2025-04-19 06:11:20,610 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-19 06:11:20,610 [DEBUG]  Predicting cardinality for query 11: SELECT COUNT(*) FROM tuandromd WHERE f1 >= 0.0 AND f70 < 0.0;
+2025-04-19 06:11:20,614 [DEBUG]  		Latency: 2.01ms
+2025-04-19 06:11:20,614 [DEBUG]  		True: 0
+2025-04-19 06:11:20,615 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,615 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,615 [DEBUG]  Predicting cardinality for query 12: SELECT COUNT(*) FROM tuandromd WHERE f101 = 1.0 AND f219 > 0.0;
+2025-04-19 06:11:20,622 [DEBUG]  		Latency: 5.16ms
+2025-04-19 06:11:20,622 [DEBUG]  		True: 30
+2025-04-19 06:11:20,622 [DEBUG]  		Predicted: 25.189311628139325
+2025-04-19 06:11:20,622 [DEBUG]  Q-Error was: 1.190981335372682
+2025-04-19 06:11:20,622 [DEBUG]  Predicting cardinality for query 13: SELECT COUNT(*) FROM tuandromd WHERE f55 > 0.0 AND f114 >= 0.0;
+2025-04-19 06:11:20,628 [DEBUG]  		Latency: 3.69ms
+2025-04-19 06:11:20,628 [DEBUG]  		True: 24
+2025-04-19 06:11:20,628 [DEBUG]  		Predicted: 23.99999999999994
+2025-04-19 06:11:20,628 [DEBUG]  Q-Error was: 1.0000000000000024
+2025-04-19 06:11:20,628 [DEBUG]  Predicting cardinality for query 14: SELECT COUNT(*) FROM tuandromd WHERE f99 < 0.0 AND f19 < 0.0 AND f20 = 0.0;
+2025-04-19 06:11:20,635 [DEBUG]  		Latency: 4.79ms
+2025-04-19 06:11:20,635 [DEBUG]  		True: 0
+2025-04-19 06:11:20,635 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,635 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,635 [DEBUG]  Predicting cardinality for query 15: SELECT COUNT(*) FROM tuandromd WHERE f96 = 0.0 AND f160 = 0.0 AND f117 <= 0.0;
+2025-04-19 06:11:20,640 [DEBUG]  		Latency: 2.60ms
+2025-04-19 06:11:20,640 [DEBUG]  		True: 4442
+2025-04-19 06:11:20,640 [DEBUG]  		Predicted: 4440.080350620891
+2025-04-19 06:11:20,640 [DEBUG]  Q-Error was: 1.00043234563961
+2025-04-19 06:11:20,640 [DEBUG]  Predicting cardinality for query 16: SELECT COUNT(*) FROM tuandromd WHERE f161 < 0.0 AND f40 < 0.0;
+2025-04-19 06:11:20,644 [DEBUG]  		Latency: 2.19ms
+2025-04-19 06:11:20,644 [DEBUG]  		True: 0
+2025-04-19 06:11:20,644 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,644 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,644 [DEBUG]  Predicting cardinality for query 17: SELECT COUNT(*) FROM tuandromd WHERE f41 = 0.0 AND f190 <= 0.0;
+2025-04-19 06:11:20,648 [DEBUG]  		Latency: 2.41ms
+2025-04-19 06:11:20,649 [DEBUG]  		True: 4365
+2025-04-19 06:11:20,649 [DEBUG]  		Predicted: 4364.0270270270275
+2025-04-19 06:11:20,649 [DEBUG]  Q-Error was: 1.0002229530126525
+2025-04-19 06:11:20,649 [DEBUG]  Predicting cardinality for query 18: SELECT COUNT(*) FROM tuandromd WHERE f155 > 0.0 AND f21 = 0.0 AND f108 < 0.0 AND f13 <= 0.0;
+2025-04-19 06:11:20,655 [DEBUG]  		Latency: 3.89ms
+2025-04-19 06:11:20,655 [DEBUG]  		True: 0
+2025-04-19 06:11:20,655 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,655 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,655 [DEBUG]  Predicting cardinality for query 19: SELECT COUNT(*) FROM tuandromd WHERE f108 <= 0.0 AND f211 = 0.0 AND f232 > 0.0;
+2025-04-19 06:11:20,662 [DEBUG]  		Latency: 4.56ms
+2025-04-19 06:11:20,662 [DEBUG]  		True: 229
+2025-04-19 06:11:20,662 [DEBUG]  		Predicted: 228.77752921840764
+2025-04-19 06:11:20,662 [DEBUG]  Q-Error was: 1.000972432836181
+2025-04-19 06:11:20,662 [DEBUG]  Predicting cardinality for query 20: SELECT COUNT(*) FROM tuandromd WHERE f59 = 0.0 AND f123 > 0.0;
+2025-04-19 06:11:20,666 [DEBUG]  		Latency: 2.18ms
+2025-04-19 06:11:20,666 [DEBUG]  		True: 0
+2025-04-19 06:11:20,666 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,666 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,666 [DEBUG]  Predicting cardinality for query 21: SELECT COUNT(*) FROM tuandromd WHERE f55 > 0.0 AND f235 <= 0.0 AND f53 < 0.0;
+2025-04-19 06:11:20,673 [DEBUG]  		Latency: 4.72ms
+2025-04-19 06:11:20,673 [DEBUG]  		True: 0
+2025-04-19 06:11:20,673 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,673 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,673 [DEBUG]  Predicting cardinality for query 22: SELECT COUNT(*) FROM tuandromd WHERE f12 >= 0.0;
+2025-04-19 06:11:20,677 [DEBUG]  		Latency: 1.66ms
+2025-04-19 06:11:20,677 [DEBUG]  		True: 4464
+2025-04-19 06:11:20,677 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:20,677 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,677 [DEBUG]  Predicting cardinality for query 23: SELECT COUNT(*) FROM tuandromd WHERE f136 >= 0.0 AND f147 <= 0.0 AND f34 = 0.0;
+2025-04-19 06:11:20,683 [DEBUG]  		Latency: 4.36ms
+2025-04-19 06:11:20,683 [DEBUG]  		True: 4442
+2025-04-19 06:11:20,683 [DEBUG]  		Predicted: 4440.080350620891
+2025-04-19 06:11:20,683 [DEBUG]  Q-Error was: 1.00043234563961
+2025-04-19 06:11:20,683 [DEBUG]  Predicting cardinality for query 24: SELECT COUNT(*) FROM tuandromd WHERE f36 >= 0.0 AND f152 >= 0.0 AND f9 > 0.0 AND f237 > 0.0 AND f5 > 0.0;
+2025-04-19 06:11:20,692 [DEBUG]  		Latency: 5.70ms
+2025-04-19 06:11:20,692 [DEBUG]  		True: 0
+2025-04-19 06:11:20,692 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,692 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,692 [DEBUG]  Predicting cardinality for query 25: SELECT COUNT(*) FROM tuandromd WHERE f82 <= 0.0 AND f35 >= 0.0 AND f19 < 0.0;
+2025-04-19 06:11:20,698 [DEBUG]  		Latency: 4.25ms
+2025-04-19 06:11:20,698 [DEBUG]  		True: 0
+2025-04-19 06:11:20,698 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,698 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,698 [DEBUG]  Predicting cardinality for query 26: SELECT COUNT(*) FROM tuandromd WHERE f91 > 0.0 AND f22 > 0.0 AND f176 = 0.0;
+2025-04-19 06:11:20,704 [DEBUG]  		Latency: 3.73ms
+2025-04-19 06:11:20,704 [DEBUG]  		True: 0
+2025-04-19 06:11:20,704 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,704 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,704 [DEBUG]  Predicting cardinality for query 27: SELECT COUNT(*) FROM tuandromd WHERE f160 <= 0.0;
+2025-04-19 06:11:20,707 [DEBUG]  		Latency: 1.51ms
+2025-04-19 06:11:20,708 [DEBUG]  		True: 4464
+2025-04-19 06:11:20,708 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:20,708 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,708 [DEBUG]  Predicting cardinality for query 28: SELECT COUNT(*) FROM tuandromd WHERE f150 > 0.0 AND f4 > 0.0 AND f156 <= 0.0 AND f19 <= 0.0;
+2025-04-19 06:11:20,717 [DEBUG]  		Latency: 6.72ms
+2025-04-19 06:11:20,717 [DEBUG]  		True: 146
+2025-04-19 06:11:20,717 [DEBUG]  		Predicted: 146.66841855267293
+2025-04-19 06:11:20,717 [DEBUG]  Q-Error was: 1.0045782092648832
+2025-04-19 06:11:20,717 [DEBUG]  Predicting cardinality for query 29: SELECT COUNT(*) FROM tuandromd WHERE f118 = 0.0 AND f113 > 0.0 AND f119 = 0.0 AND f215 <= 0.0 AND f139 < 0.0;
+2025-04-19 06:11:20,726 [DEBUG]  		Latency: 6.76ms
+2025-04-19 06:11:20,726 [DEBUG]  		True: 0
+2025-04-19 06:11:20,726 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,726 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,726 [DEBUG]  Predicting cardinality for query 30: SELECT COUNT(*) FROM tuandromd WHERE f128 <= 0.0;
+2025-04-19 06:11:20,730 [DEBUG]  		Latency: 1.50ms
+2025-04-19 06:11:20,730 [DEBUG]  		True: 4464
+2025-04-19 06:11:20,730 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:20,730 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,730 [DEBUG]  Predicting cardinality for query 31: SELECT COUNT(*) FROM tuandromd WHERE f230 < 0.0 AND f3 = 0.0 AND f95 = 0.0;
+2025-04-19 06:11:20,737 [DEBUG]  		Latency: 5.64ms
+2025-04-19 06:11:20,738 [DEBUG]  		True: 0
+2025-04-19 06:11:20,738 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,738 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,738 [DEBUG]  Predicting cardinality for query 32: SELECT COUNT(*) FROM tuandromd WHERE f193 <= 0.0 AND f232 < 0.0;
+2025-04-19 06:11:20,744 [DEBUG]  		Latency: 3.96ms
+2025-04-19 06:11:20,744 [DEBUG]  		True: 0
+2025-04-19 06:11:20,744 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,744 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,744 [DEBUG]  Predicting cardinality for query 33: SELECT COUNT(*) FROM tuandromd WHERE f104 <= 0.0 AND f171 < 0.0 AND f65 < 0.0;
+2025-04-19 06:11:20,750 [DEBUG]  		Latency: 4.55ms
+2025-04-19 06:11:20,750 [DEBUG]  		True: 0
+2025-04-19 06:11:20,751 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,751 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,751 [DEBUG]  Predicting cardinality for query 34: SELECT COUNT(*) FROM tuandromd WHERE f236 > 0.0 AND f82 >= 0.0 AND f54 > 0.0 AND f35 <= 0.0 AND f128 < 0.0;
+2025-04-19 06:11:20,760 [DEBUG]  		Latency: 6.87ms
+2025-04-19 06:11:20,760 [DEBUG]  		True: 0
+2025-04-19 06:11:20,760 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,760 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,760 [DEBUG]  Predicting cardinality for query 35: SELECT COUNT(*) FROM tuandromd WHERE f98 >= 0.0 AND f161 <= 0.0 AND f134 > 0.0 AND f127 >= 0.0;
+2025-04-19 06:11:20,766 [DEBUG]  		Latency: 3.24ms
+2025-04-19 06:11:20,766 [DEBUG]  		True: 22
+2025-04-19 06:11:20,766 [DEBUG]  		Predicted: 21.999999999999986
+2025-04-19 06:11:20,766 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:20,766 [DEBUG]  Predicting cardinality for query 36: SELECT COUNT(*) FROM tuandromd WHERE f11 >= 0.0 AND f174 = 0.0 AND f182 < 0.0 AND f72 <= 0.0 AND f147 > 0.0;
+2025-04-19 06:11:20,772 [DEBUG]  		Latency: 4.34ms
+2025-04-19 06:11:20,773 [DEBUG]  		True: 0
+2025-04-19 06:11:20,773 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,773 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,773 [DEBUG]  Predicting cardinality for query 37: SELECT COUNT(*) FROM tuandromd WHERE f61 > 0.0 AND f200 > 0.0 AND f37 = 0.0;
+2025-04-19 06:11:20,779 [DEBUG]  		Latency: 3.83ms
+2025-04-19 06:11:20,779 [DEBUG]  		True: 0
+2025-04-19 06:11:20,779 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,779 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,779 [DEBUG]  Predicting cardinality for query 38: SELECT COUNT(*) FROM tuandromd WHERE f20 <= 0.0 AND f176 < 0.0 AND f51 <= 0.0;
+2025-04-19 06:11:20,786 [DEBUG]  		Latency: 4.79ms
+2025-04-19 06:11:20,786 [DEBUG]  		True: 0
+2025-04-19 06:11:20,786 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,786 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,786 [DEBUG]  Predicting cardinality for query 39: SELECT COUNT(*) FROM tuandromd WHERE f183 = 0.0 AND f10 = 1.0 AND f46 = 0.0 AND f58 <= 0.0 AND f70 < 0.0;
+2025-04-19 06:11:20,795 [DEBUG]  		Latency: 6.60ms
+2025-04-19 06:11:20,795 [DEBUG]  		True: 0
+2025-04-19 06:11:20,795 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,795 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,795 [DEBUG]  Predicting cardinality for query 40: SELECT COUNT(*) FROM tuandromd WHERE f106 < 0.0;
+2025-04-19 06:11:20,798 [DEBUG]  		Latency: 1.62ms
+2025-04-19 06:11:20,799 [DEBUG]  		True: 0
+2025-04-19 06:11:20,799 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,799 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,799 [DEBUG]  Predicting cardinality for query 41: SELECT COUNT(*) FROM tuandromd WHERE f117 <= 0.0 AND f51 = 0.0 AND f161 = 0.0 AND f228 <= 0.0;
+2025-04-19 06:11:20,806 [DEBUG]  		Latency: 4.65ms
+2025-04-19 06:11:20,806 [DEBUG]  		True: 4334
+2025-04-19 06:11:20,806 [DEBUG]  		Predicted: 4331.583771517109
+2025-04-19 06:11:20,806 [DEBUG]  Q-Error was: 1.0005578164039628
+2025-04-19 06:11:20,806 [DEBUG]  Predicting cardinality for query 42: SELECT COUNT(*) FROM tuandromd WHERE f167 > 0.0 AND f53 < 0.0 AND f26 > 0.0;
+2025-04-19 06:11:20,812 [DEBUG]  		Latency: 3.76ms
+2025-04-19 06:11:20,812 [DEBUG]  		True: 0
+2025-04-19 06:11:20,812 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,812 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,812 [DEBUG]  Predicting cardinality for query 43: SELECT COUNT(*) FROM tuandromd WHERE f138 >= 0.0 AND f203 >= 0.0 AND f239 > 0.0;
+2025-04-19 06:11:20,819 [DEBUG]  		Latency: 4.95ms
+2025-04-19 06:11:20,819 [DEBUG]  		True: 594
+2025-04-19 06:11:20,819 [DEBUG]  		Predicted: 593.8933528122717
+2025-04-19 06:11:20,819 [DEBUG]  Q-Error was: 1.00017957296074
+2025-04-19 06:11:20,819 [DEBUG]  Predicting cardinality for query 44: SELECT COUNT(*) FROM tuandromd WHERE f113 = 0.0;
+2025-04-19 06:11:20,823 [DEBUG]  		Latency: 2.04ms
+2025-04-19 06:11:20,823 [DEBUG]  		True: 4366
+2025-04-19 06:11:20,823 [DEBUG]  		Predicted: 4366.000000000001
+2025-04-19 06:11:20,823 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-19 06:11:20,823 [DEBUG]  Predicting cardinality for query 45: SELECT COUNT(*) FROM tuandromd WHERE f197 < 0.0 AND f71 <= 0.0 AND f125 < 0.0 AND f236 >= 0.0;
+2025-04-19 06:11:20,831 [DEBUG]  		Latency: 5.82ms
+2025-04-19 06:11:20,831 [DEBUG]  		True: 0
+2025-04-19 06:11:20,831 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,831 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,831 [DEBUG]  Predicting cardinality for query 46: SELECT COUNT(*) FROM tuandromd WHERE f121 = 0.0 AND f39 <= 0.0;
+2025-04-19 06:11:20,835 [DEBUG]  		Latency: 2.16ms
+2025-04-19 06:11:20,835 [DEBUG]  		True: 4442
+2025-04-19 06:11:20,836 [DEBUG]  		Predicted: 4441.027027027027
+2025-04-19 06:11:20,836 [DEBUG]  Q-Error was: 1.00021908737935
+2025-04-19 06:11:20,836 [DEBUG]  Predicting cardinality for query 47: SELECT COUNT(*) FROM tuandromd WHERE f149 <= 0.0 AND f177 = 0.0 AND f23 = 0.0 AND f195 < 0.0;
+2025-04-19 06:11:20,843 [DEBUG]  		Latency: 4.91ms
+2025-04-19 06:11:20,843 [DEBUG]  		True: 0
+2025-04-19 06:11:20,843 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,843 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,843 [DEBUG]  Predicting cardinality for query 48: SELECT COUNT(*) FROM tuandromd WHERE f132 <= 0.0 AND f216 < 1.0 AND f233 < 0.0 AND f144 = 0.0 AND f66 = 0.0;
+2025-04-19 06:11:20,853 [DEBUG]  		Latency: 7.38ms
+2025-04-19 06:11:20,853 [DEBUG]  		True: 0
+2025-04-19 06:11:20,853 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,853 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,853 [DEBUG]  Predicting cardinality for query 49: SELECT COUNT(*) FROM tuandromd WHERE f52 > 0.0 AND f106 <= 0.0 AND f138 = 0.0 AND f30 = 0.0;
+2025-04-19 06:11:20,860 [DEBUG]  		Latency: 4.33ms
+2025-04-19 06:11:20,860 [DEBUG]  		True: 0
+2025-04-19 06:11:20,860 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,860 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,860 [DEBUG]  Predicting cardinality for query 50: SELECT COUNT(*) FROM tuandromd WHERE f140 > 0.0 AND f206 < 0.0 AND f145 = 0.0 AND f32 <= 0.0;
+2025-04-19 06:11:20,867 [DEBUG]  		Latency: 4.53ms
+2025-04-19 06:11:20,867 [DEBUG]  		True: 0
+2025-04-19 06:11:20,867 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,867 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,867 [DEBUG]  Predicting cardinality for query 51: SELECT COUNT(*) FROM tuandromd WHERE f69 >= 0.0 AND f64 <= 0.0 AND f122 >= 0.0 AND f127 < 0.0;
+2025-04-19 06:11:20,873 [DEBUG]  		Latency: 4.38ms
+2025-04-19 06:11:20,873 [DEBUG]  		True: 0
+2025-04-19 06:11:20,874 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,874 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,874 [DEBUG]  Predicting cardinality for query 52: SELECT COUNT(*) FROM tuandromd WHERE f159 > 0.0 AND f8 < 0.0 AND f237 < 0.0 AND f67 >= 0.0;
+2025-04-19 06:11:20,883 [DEBUG]  		Latency: 6.73ms
+2025-04-19 06:11:20,883 [DEBUG]  		True: 0
+2025-04-19 06:11:20,883 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,883 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,883 [DEBUG]  Predicting cardinality for query 53: SELECT COUNT(*) FROM tuandromd WHERE f186 <= 0.0 AND f91 <= 0.0 AND f63 > 0.0;
+2025-04-19 06:11:20,889 [DEBUG]  		Latency: 4.16ms
+2025-04-19 06:11:20,889 [DEBUG]  		True: 225
+2025-04-19 06:11:20,889 [DEBUG]  		Predicted: 224.94667640613582
+2025-04-19 06:11:20,889 [DEBUG]  Q-Error was: 1.0002370499298594
+2025-04-19 06:11:20,889 [DEBUG]  Predicting cardinality for query 54: SELECT COUNT(*) FROM tuandromd WHERE f160 <= 0.0 AND f65 <= 0.0 AND f184 <= 0.0 AND f51 = 0.0 AND f180 = 0.0;
+2025-04-19 06:11:20,898 [DEBUG]  		Latency: 6.01ms
+2025-04-19 06:11:20,898 [DEBUG]  		True: 3217
+2025-04-19 06:11:20,898 [DEBUG]  		Predicted: 3213.8284222247203
+2025-04-19 06:11:20,898 [DEBUG]  Q-Error was: 1.0009868534839468
+2025-04-19 06:11:20,898 [DEBUG]  Predicting cardinality for query 55: SELECT COUNT(*) FROM tuandromd WHERE f222 < 0.0 AND f162 < 0.0;
+2025-04-19 06:11:20,904 [DEBUG]  		Latency: 4.45ms
+2025-04-19 06:11:20,904 [DEBUG]  		True: 0
+2025-04-19 06:11:20,904 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,904 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,905 [DEBUG]  Predicting cardinality for query 56: SELECT COUNT(*) FROM tuandromd WHERE f157 >= 0.0 AND f151 >= 0.0 AND f220 >= 0.0 AND f35 < 0.0 AND f60 > 0.0;
+2025-04-19 06:11:20,913 [DEBUG]  		Latency: 6.04ms
+2025-04-19 06:11:20,913 [DEBUG]  		True: 0
+2025-04-19 06:11:20,913 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,913 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,913 [DEBUG]  Predicting cardinality for query 57: SELECT COUNT(*) FROM tuandromd WHERE f228 > 0.0 AND f62 <= 0.0;
+2025-04-19 06:11:20,917 [DEBUG]  		Latency: 2.08ms
+2025-04-19 06:11:20,917 [DEBUG]  		True: 3
+2025-04-19 06:11:20,917 [DEBUG]  		Predicted: 2.9999999999999827
+2025-04-19 06:11:20,917 [DEBUG]  Q-Error was: 1.0000000000000058
+2025-04-19 06:11:20,917 [DEBUG]  Predicting cardinality for query 58: SELECT COUNT(*) FROM tuandromd WHERE f112 = 0.0;
+2025-04-19 06:11:20,922 [DEBUG]  		Latency: 2.97ms
+2025-04-19 06:11:20,922 [DEBUG]  		True: 4414
+2025-04-19 06:11:20,922 [DEBUG]  		Predicted: 4413.999999999999
+2025-04-19 06:11:20,922 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-19 06:11:20,922 [DEBUG]  Predicting cardinality for query 59: SELECT COUNT(*) FROM tuandromd WHERE f52 > 0.0 AND f104 < 0.0;
+2025-04-19 06:11:20,926 [DEBUG]  		Latency: 2.21ms
+2025-04-19 06:11:20,927 [DEBUG]  		True: 0
+2025-04-19 06:11:20,927 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,927 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,927 [DEBUG]  Predicting cardinality for query 60: SELECT COUNT(*) FROM tuandromd WHERE f175 = 0.0 AND f92 >= 0.0 AND f234 < 0.0 AND f211 <= 0.0 AND f93 > 0.0;
+2025-04-19 06:11:20,935 [DEBUG]  		Latency: 5.72ms
+2025-04-19 06:11:20,935 [DEBUG]  		True: 0
+2025-04-19 06:11:20,935 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,935 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,935 [DEBUG]  Predicting cardinality for query 61: SELECT COUNT(*) FROM tuandromd WHERE f196 = 0.0;
+2025-04-19 06:11:20,939 [DEBUG]  		Latency: 2.59ms
+2025-04-19 06:11:20,939 [DEBUG]  		True: 4346
+2025-04-19 06:11:20,939 [DEBUG]  		Predicted: 4346.0
+2025-04-19 06:11:20,940 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,940 [DEBUG]  Predicting cardinality for query 62: SELECT COUNT(*) FROM tuandromd WHERE f232 > 0.0 AND f146 < 0.0 AND f124 >= 0.0 AND f38 > 0.0 AND f49 > 0.0;
+2025-04-19 06:11:20,949 [DEBUG]  		Latency: 6.70ms
+2025-04-19 06:11:20,949 [DEBUG]  		True: 0
+2025-04-19 06:11:20,949 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,949 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,949 [DEBUG]  Predicting cardinality for query 63: SELECT COUNT(*) FROM tuandromd WHERE f175 > 0.0 AND f119 <= 0.0;
+2025-04-19 06:11:20,953 [DEBUG]  		Latency: 2.08ms
+2025-04-19 06:11:20,953 [DEBUG]  		True: 99
+2025-04-19 06:11:20,953 [DEBUG]  		Predicted: 98.99999999999993
+2025-04-19 06:11:20,953 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:20,953 [DEBUG]  Predicting cardinality for query 64: SELECT COUNT(*) FROM tuandromd WHERE f110 = 0.0 AND f132 > 0.0 AND f91 > 0.0 AND f111 < 0.0;
+2025-04-19 06:11:20,960 [DEBUG]  		Latency: 5.09ms
+2025-04-19 06:11:20,961 [DEBUG]  		True: 0
+2025-04-19 06:11:20,961 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,961 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,961 [DEBUG]  Predicting cardinality for query 65: SELECT COUNT(*) FROM tuandromd WHERE f117 < 0.0 AND f93 < 0.0 AND f190 = 0.0 AND f95 >= 0.0;
+2025-04-19 06:11:20,967 [DEBUG]  		Latency: 4.10ms
+2025-04-19 06:11:20,967 [DEBUG]  		True: 0
+2025-04-19 06:11:20,968 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,968 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,968 [DEBUG]  Predicting cardinality for query 66: SELECT COUNT(*) FROM tuandromd WHERE f206 <= 0.0;
+2025-04-19 06:11:20,971 [DEBUG]  		Latency: 2.17ms
+2025-04-19 06:11:20,972 [DEBUG]  		True: 4454
+2025-04-19 06:11:20,972 [DEBUG]  		Predicted: 4454.0
+2025-04-19 06:11:20,972 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,972 [DEBUG]  Predicting cardinality for query 67: SELECT COUNT(*) FROM tuandromd WHERE f154 >= 0.0 AND f49 < 0.0 AND f130 < 0.0 AND f150 = 1.0 AND f88 >= 0.0;
+2025-04-19 06:11:20,981 [DEBUG]  		Latency: 6.81ms
+2025-04-19 06:11:20,981 [DEBUG]  		True: 0
+2025-04-19 06:11:20,981 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,981 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,981 [DEBUG]  Predicting cardinality for query 68: SELECT COUNT(*) FROM tuandromd WHERE f196 > 0.0 AND f47 >= 0.0 AND f104 > 0.0 AND f53 >= 0.0;
+2025-04-19 06:11:20,988 [DEBUG]  		Latency: 4.30ms
+2025-04-19 06:11:20,988 [DEBUG]  		True: 22
+2025-04-19 06:11:20,988 [DEBUG]  		Predicted: 21.999999999999986
+2025-04-19 06:11:20,988 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:20,988 [DEBUG]  Predicting cardinality for query 69: SELECT COUNT(*) FROM tuandromd WHERE f13 >= 0.0 AND f60 <= 0.0 AND f70 < 0.0 AND f242 > 1.0 AND f171 = 0.0;
+2025-04-19 06:11:20,996 [DEBUG]  		Latency: 5.68ms
+2025-04-19 06:11:20,996 [DEBUG]  		True: 0
+2025-04-19 06:11:20,996 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:20,996 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:20,996 [DEBUG]  Predicting cardinality for query 70: SELECT COUNT(*) FROM tuandromd WHERE f165 = 0.0 AND f55 > 0.0 AND f180 > 0.0 AND f31 >= 0.0;
+2025-04-19 06:11:21,003 [DEBUG]  		Latency: 4.16ms
+2025-04-19 06:11:21,003 [DEBUG]  		True: 0
+2025-04-19 06:11:21,003 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,003 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,003 [DEBUG]  Predicting cardinality for query 71: SELECT COUNT(*) FROM tuandromd WHERE f103 <= 0.0 AND f130 > 0.0 AND f13 >= 0.0 AND f195 >= 0.0;
+2025-04-19 06:11:21,011 [DEBUG]  		Latency: 6.14ms
+2025-04-19 06:11:21,012 [DEBUG]  		True: 1101
+2025-04-19 06:11:21,012 [DEBUG]  		Predicted: 1101.9301087757422
+2025-04-19 06:11:21,012 [DEBUG]  Q-Error was: 1.000844785445724
+2025-04-19 06:11:21,012 [DEBUG]  Predicting cardinality for query 72: SELECT COUNT(*) FROM tuandromd WHERE f139 <= 0.0 AND f131 > 0.0 AND f107 = 0.0 AND f134 > 0.0 AND f146 < 0.0;
+2025-04-19 06:11:21,020 [DEBUG]  		Latency: 6.00ms
+2025-04-19 06:11:21,020 [DEBUG]  		True: 0
+2025-04-19 06:11:21,020 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,020 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,020 [DEBUG]  Predicting cardinality for query 73: SELECT COUNT(*) FROM tuandromd WHERE f121 = 0.0 AND f44 > 0.0 AND f220 <= 0.0 AND f127 >= 0.0;
+2025-04-19 06:11:21,029 [DEBUG]  		Latency: 6.21ms
+2025-04-19 06:11:21,029 [DEBUG]  		True: 134
+2025-04-19 06:11:21,029 [DEBUG]  		Predicted: 135.65245455054077
+2025-04-19 06:11:21,029 [DEBUG]  Q-Error was: 1.0123317503771698
+2025-04-19 06:11:21,029 [DEBUG]  Predicting cardinality for query 74: SELECT COUNT(*) FROM tuandromd WHERE f103 <= 0.0 AND f154 >= 0.0 AND f80 >= 0.0 AND f94 >= 0.0 AND f136 > 0.0;
+2025-04-19 06:11:21,037 [DEBUG]  		Latency: 6.01ms
+2025-04-19 06:11:21,038 [DEBUG]  		True: 24
+2025-04-19 06:11:21,038 [DEBUG]  		Predicted: 19.706375679175938
+2025-04-19 06:11:21,038 [DEBUG]  Q-Error was: 1.2178799587872065
+2025-04-19 06:11:21,038 [DEBUG]  Predicting cardinality for query 75: SELECT COUNT(*) FROM tuandromd WHERE f150 < 1.0 AND f11 <= 0.0;
+2025-04-19 06:11:21,043 [DEBUG]  		Latency: 3.87ms
+2025-04-19 06:11:21,044 [DEBUG]  		True: 698
+2025-04-19 06:11:21,044 [DEBUG]  		Predicted: 697.4594594594594
+2025-04-19 06:11:21,044 [DEBUG]  Q-Error was: 1.0007750135627376
+2025-04-19 06:11:21,044 [DEBUG]  Predicting cardinality for query 76: SELECT COUNT(*) FROM tuandromd WHERE f230 <= 0.0;
+2025-04-19 06:11:21,050 [DEBUG]  		Latency: 4.19ms
+2025-04-19 06:11:21,050 [DEBUG]  		True: 2558
+2025-04-19 06:11:21,050 [DEBUG]  		Predicted: 2558.0
+2025-04-19 06:11:21,050 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,050 [DEBUG]  Predicting cardinality for query 77: SELECT COUNT(*) FROM tuandromd WHERE f149 > 0.0;
+2025-04-19 06:11:21,053 [DEBUG]  		Latency: 1.54ms
+2025-04-19 06:11:21,053 [DEBUG]  		True: 0
+2025-04-19 06:11:21,053 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,053 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,053 [DEBUG]  Predicting cardinality for query 78: SELECT COUNT(*) FROM tuandromd WHERE f110 >= 0.0 AND f185 > 0.0;
+2025-04-19 06:11:21,057 [DEBUG]  		Latency: 2.20ms
+2025-04-19 06:11:21,058 [DEBUG]  		True: 22
+2025-04-19 06:11:21,058 [DEBUG]  		Predicted: 21.999999999999986
+2025-04-19 06:11:21,058 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:21,058 [DEBUG]  Predicting cardinality for query 79: SELECT COUNT(*) FROM tuandromd WHERE f26 < 0.0 AND f240 = 0.0 AND f208 > 0.0 AND f186 = 0.0 AND f233 <= 0.0;
+2025-04-19 06:11:21,067 [DEBUG]  		Latency: 6.89ms
+2025-04-19 06:11:21,067 [DEBUG]  		True: 0
+2025-04-19 06:11:21,067 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,067 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,067 [DEBUG]  Predicting cardinality for query 80: SELECT COUNT(*) FROM tuandromd WHERE f53 >= 0.0;
+2025-04-19 06:11:21,070 [DEBUG]  		Latency: 1.51ms
+2025-04-19 06:11:21,071 [DEBUG]  		True: 4464
+2025-04-19 06:11:21,071 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:21,071 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,071 [DEBUG]  Predicting cardinality for query 81: SELECT COUNT(*) FROM tuandromd WHERE f40 <= 0.0 AND f32 = 0.0 AND f94 = 0.0 AND f114 <= 0.0 AND f36 = 0.0;
+2025-04-19 06:11:21,078 [DEBUG]  		Latency: 4.95ms
+2025-04-19 06:11:21,078 [DEBUG]  		True: 4330
+2025-04-19 06:11:21,078 [DEBUG]  		Predicted: 4325.682418684345
+2025-04-19 06:11:21,078 [DEBUG]  Q-Error was: 1.0009981272080921
+2025-04-19 06:11:21,078 [DEBUG]  Predicting cardinality for query 82: SELECT COUNT(*) FROM tuandromd WHERE f75 < 0.0 AND f188 > 0.0;
+2025-04-19 06:11:21,085 [DEBUG]  		Latency: 4.31ms
+2025-04-19 06:11:21,085 [DEBUG]  		True: 0
+2025-04-19 06:11:21,085 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,085 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,085 [DEBUG]  Predicting cardinality for query 83: SELECT COUNT(*) FROM tuandromd WHERE f229 >= 0.0 AND f80 = 0.0 AND f201 = 1.0 AND f130 = 1.0 AND f160 >= 0.0;
+2025-04-19 06:11:21,095 [DEBUG]  		Latency: 7.61ms
+2025-04-19 06:11:21,095 [DEBUG]  		True: 1218
+2025-04-19 06:11:21,095 [DEBUG]  		Predicted: 1182.424637496765
+2025-04-19 06:11:21,095 [DEBUG]  Q-Error was: 1.0300867906292526
+2025-04-19 06:11:21,095 [DEBUG]  Predicting cardinality for query 84: SELECT COUNT(*) FROM tuandromd WHERE f49 < 0.0 AND f64 > 0.0;
+2025-04-19 06:11:21,100 [DEBUG]  		Latency: 3.27ms
+2025-04-19 06:11:21,100 [DEBUG]  		True: 0
+2025-04-19 06:11:21,100 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,100 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,100 [DEBUG]  Predicting cardinality for query 85: SELECT COUNT(*) FROM tuandromd WHERE f3 >= 0.0;
+2025-04-19 06:11:21,104 [DEBUG]  		Latency: 1.71ms
+2025-04-19 06:11:21,104 [DEBUG]  		True: 4464
+2025-04-19 06:11:21,104 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:21,104 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,104 [DEBUG]  Predicting cardinality for query 86: SELECT COUNT(*) FROM tuandromd WHERE f7 = 0.0 AND f160 > 0.0 AND f10 < 0.0 AND f27 < 0.0;
+2025-04-19 06:11:21,112 [DEBUG]  		Latency: 5.40ms
+2025-04-19 06:11:21,112 [DEBUG]  		True: 0
+2025-04-19 06:11:21,112 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,112 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,112 [DEBUG]  Predicting cardinality for query 87: SELECT COUNT(*) FROM tuandromd WHERE f124 >= 0.0 AND f123 <= 0.0 AND f91 > 0.0;
+2025-04-19 06:11:21,118 [DEBUG]  		Latency: 4.07ms
+2025-04-19 06:11:21,118 [DEBUG]  		True: 0
+2025-04-19 06:11:21,118 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,118 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,118 [DEBUG]  Predicting cardinality for query 88: SELECT COUNT(*) FROM tuandromd WHERE f115 < 0.0;
+2025-04-19 06:11:21,123 [DEBUG]  		Latency: 2.81ms
+2025-04-19 06:11:21,123 [DEBUG]  		True: 0
+2025-04-19 06:11:21,123 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,123 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,123 [DEBUG]  Predicting cardinality for query 89: SELECT COUNT(*) FROM tuandromd WHERE f109 >= 0.0 AND f192 = 1.0 AND f67 >= 0.0 AND f100 < 0.0;
+2025-04-19 06:11:21,131 [DEBUG]  		Latency: 6.17ms
+2025-04-19 06:11:21,131 [DEBUG]  		True: 0
+2025-04-19 06:11:21,131 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,131 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,132 [DEBUG]  Predicting cardinality for query 90: SELECT COUNT(*) FROM tuandromd WHERE f168 >= 0.0 AND f95 = 0.0 AND f149 <= 0.0 AND f25 = 0.0;
+2025-04-19 06:11:21,138 [DEBUG]  		Latency: 4.42ms
+2025-04-19 06:11:21,138 [DEBUG]  		True: 4434
+2025-04-19 06:11:21,138 [DEBUG]  		Predicted: 4431.238169506249
+2025-04-19 06:11:21,138 [DEBUG]  Q-Error was: 1.0006232638346448
+2025-04-19 06:11:21,138 [DEBUG]  Predicting cardinality for query 91: SELECT COUNT(*) FROM tuandromd WHERE f209 > 0.0 AND f176 < 0.0 AND f119 = 0.0 AND f77 >= 0.0;
+2025-04-19 06:11:21,147 [DEBUG]  		Latency: 6.08ms
+2025-04-19 06:11:21,147 [DEBUG]  		True: 0
+2025-04-19 06:11:21,147 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,147 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,147 [DEBUG]  Predicting cardinality for query 92: SELECT COUNT(*) FROM tuandromd WHERE f186 < 0.0 AND f196 >= 0.0 AND f178 >= 0.0 AND f84 > 0.0;
+2025-04-19 06:11:21,153 [DEBUG]  		Latency: 4.18ms
+2025-04-19 06:11:21,153 [DEBUG]  		True: 0
+2025-04-19 06:11:21,153 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,153 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,153 [DEBUG]  Predicting cardinality for query 93: SELECT COUNT(*) FROM tuandromd WHERE f182 >= 0.0 AND f113 = 0.0 AND f146 <= 0.0;
+2025-04-19 06:11:21,159 [DEBUG]  		Latency: 3.77ms
+2025-04-19 06:11:21,159 [DEBUG]  		True: 4353
+2025-04-19 06:11:21,159 [DEBUG]  		Predicted: 4351.082160575643
+2025-04-19 06:11:21,160 [DEBUG]  Q-Error was: 1.000440772974074
+2025-04-19 06:11:21,160 [DEBUG]  Predicting cardinality for query 94: SELECT COUNT(*) FROM tuandromd WHERE f57 < 0.0 AND f103 >= 0.0 AND f240 > 0.0;
+2025-04-19 06:11:21,167 [DEBUG]  		Latency: 4.89ms
+2025-04-19 06:11:21,167 [DEBUG]  		True: 0
+2025-04-19 06:11:21,167 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,167 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,167 [DEBUG]  Predicting cardinality for query 95: SELECT COUNT(*) FROM tuandromd WHERE f174 < 0.0 AND f102 >= 0.0 AND f150 = 1.0;
+2025-04-19 06:11:21,173 [DEBUG]  		Latency: 4.63ms
+2025-04-19 06:11:21,174 [DEBUG]  		True: 0
+2025-04-19 06:11:21,174 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,174 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,174 [DEBUG]  Predicting cardinality for query 96: SELECT COUNT(*) FROM tuandromd WHERE f215 < 1.0 AND f152 > 0.0;
+2025-04-19 06:11:21,180 [DEBUG]  		Latency: 4.68ms
+2025-04-19 06:11:21,180 [DEBUG]  		True: 0
+2025-04-19 06:11:21,180 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,181 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,181 [DEBUG]  Predicting cardinality for query 97: SELECT COUNT(*) FROM tuandromd WHERE f226 < 0.0 AND f219 > 0.0 AND f73 < 0.0 AND f208 >= 0.0;
+2025-04-19 06:11:21,189 [DEBUG]  		Latency: 6.13ms
+2025-04-19 06:11:21,189 [DEBUG]  		True: 0
+2025-04-19 06:11:21,189 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,189 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,189 [DEBUG]  Predicting cardinality for query 98: SELECT COUNT(*) FROM tuandromd WHERE f167 > 0.0;
+2025-04-19 06:11:21,193 [DEBUG]  		Latency: 1.94ms
+2025-04-19 06:11:21,193 [DEBUG]  		True: 23
+2025-04-19 06:11:21,193 [DEBUG]  		Predicted: 22.999999999999986
+2025-04-19 06:11:21,193 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:21,193 [DEBUG]  Predicting cardinality for query 99: SELECT COUNT(*) FROM tuandromd WHERE f140 >= 0.0 AND f79 >= 0.0 AND f202 > 0.0 AND f22 < 0.0 AND f86 <= 0.0;
+2025-04-19 06:11:21,201 [DEBUG]  		Latency: 5.43ms
+2025-04-19 06:11:21,201 [DEBUG]  		True: 0
+2025-04-19 06:11:21,201 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,201 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,201 [DEBUG]  Predicting cardinality for query 100: SELECT COUNT(*) FROM tuandromd WHERE f183 = 1.0 AND f57 <= 0.0;
+2025-04-19 06:11:21,207 [DEBUG]  		Latency: 4.46ms
+2025-04-19 06:11:21,207 [DEBUG]  		True: 1758
+2025-04-19 06:11:21,207 [DEBUG]  		Predicted: 1758.0
+2025-04-19 06:11:21,208 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,208 [DEBUG]  Predicting cardinality for query 101: SELECT COUNT(*) FROM tuandromd WHERE f90 < 0.0 AND f87 <= 1.0 AND f207 > 0.0 AND f86 = 0.0;
+2025-04-19 06:11:21,216 [DEBUG]  		Latency: 5.97ms
+2025-04-19 06:11:21,216 [DEBUG]  		True: 0
+2025-04-19 06:11:21,216 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,216 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,216 [DEBUG]  Predicting cardinality for query 102: SELECT COUNT(*) FROM tuandromd WHERE f106 >= 0.0;
+2025-04-19 06:11:21,219 [DEBUG]  		Latency: 1.58ms
+2025-04-19 06:11:21,219 [DEBUG]  		True: 4464
+2025-04-19 06:11:21,219 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:21,219 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,219 [DEBUG]  Predicting cardinality for query 103: SELECT COUNT(*) FROM tuandromd WHERE f207 > 0.0;
+2025-04-19 06:11:21,224 [DEBUG]  		Latency: 2.39ms
+2025-04-19 06:11:21,224 [DEBUG]  		True: 104
+2025-04-19 06:11:21,224 [DEBUG]  		Predicted: 103.99999999999993
+2025-04-19 06:11:21,224 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:21,224 [DEBUG]  Predicting cardinality for query 104: SELECT COUNT(*) FROM tuandromd WHERE f139 > 1.0 AND f164 <= 0.0 AND f7 < 0.0 AND f135 < 0.0;
+2025-04-19 06:11:21,232 [DEBUG]  		Latency: 6.10ms
+2025-04-19 06:11:21,232 [DEBUG]  		True: 0
+2025-04-19 06:11:21,232 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,232 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,232 [DEBUG]  Predicting cardinality for query 105: SELECT COUNT(*) FROM tuandromd WHERE f176 <= 0.0 AND f43 >= 0.0 AND f83 > 0.0 AND f53 >= 0.0;
+2025-04-19 06:11:21,239 [DEBUG]  		Latency: 4.37ms
+2025-04-19 06:11:21,239 [DEBUG]  		True: 0
+2025-04-19 06:11:21,239 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,239 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,239 [DEBUG]  Predicting cardinality for query 106: SELECT COUNT(*) FROM tuandromd WHERE f78 < 0.0;
+2025-04-19 06:11:21,243 [DEBUG]  		Latency: 2.41ms
+2025-04-19 06:11:21,243 [DEBUG]  		True: 0
+2025-04-19 06:11:21,244 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,244 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,244 [DEBUG]  Predicting cardinality for query 107: SELECT COUNT(*) FROM tuandromd WHERE f234 > 0.0 AND f16 <= 1.0;
+2025-04-19 06:11:21,250 [DEBUG]  		Latency: 5.04ms
+2025-04-19 06:11:21,251 [DEBUG]  		True: 1096
+2025-04-19 06:11:21,251 [DEBUG]  		Predicted: 1096.0000000000002
+2025-04-19 06:11:21,251 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-19 06:11:21,251 [DEBUG]  Predicting cardinality for query 108: SELECT COUNT(*) FROM tuandromd WHERE f81 < 0.0;
+2025-04-19 06:11:21,254 [DEBUG]  		Latency: 1.88ms
+2025-04-19 06:11:21,254 [DEBUG]  		True: 0
+2025-04-19 06:11:21,254 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,254 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,255 [DEBUG]  Predicting cardinality for query 109: SELECT COUNT(*) FROM tuandromd WHERE f92 < 0.0 AND f56 <= 1.0;
+2025-04-19 06:11:21,261 [DEBUG]  		Latency: 4.56ms
+2025-04-19 06:11:21,261 [DEBUG]  		True: 0
+2025-04-19 06:11:21,261 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,261 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,261 [DEBUG]  Predicting cardinality for query 110: SELECT COUNT(*) FROM tuandromd WHERE f131 <= 0.0 AND f58 >= 0.0 AND f114 = 0.0 AND f48 <= 0.0 AND f229 <= 0.0;
+2025-04-19 06:11:21,270 [DEBUG]  		Latency: 5.95ms
+2025-04-19 06:11:21,270 [DEBUG]  		True: 3821
+2025-04-19 06:11:21,270 [DEBUG]  		Predicted: 3816.2909357811313
+2025-04-19 06:11:21,270 [DEBUG]  Q-Error was: 1.0012339374272325
+2025-04-19 06:11:21,270 [DEBUG]  Predicting cardinality for query 111: SELECT COUNT(*) FROM tuandromd WHERE f235 <= 0.0 AND f88 <= 0.0 AND f170 < 0.0 AND f141 <= 0.0;
+2025-04-19 06:11:21,277 [DEBUG]  		Latency: 5.43ms
+2025-04-19 06:11:21,277 [DEBUG]  		True: 0
+2025-04-19 06:11:21,278 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,278 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,278 [DEBUG]  Predicting cardinality for query 112: SELECT COUNT(*) FROM tuandromd WHERE f204 < 0.0 AND f133 <= 0.0 AND f199 <= 0.0 AND f71 <= 0.0 AND f202 < 0.0;
+2025-04-19 06:11:21,284 [DEBUG]  		Latency: 3.96ms
+2025-04-19 06:11:21,284 [DEBUG]  		True: 0
+2025-04-19 06:11:21,284 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,284 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,284 [DEBUG]  Predicting cardinality for query 113: SELECT COUNT(*) FROM tuandromd WHERE f41 = 0.0 AND f198 = 0.0 AND f83 = 0.0 AND f38 > 0.0;
+2025-04-19 06:11:21,291 [DEBUG]  		Latency: 4.55ms
+2025-04-19 06:11:21,291 [DEBUG]  		True: 0
+2025-04-19 06:11:21,291 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,291 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,291 [DEBUG]  Predicting cardinality for query 114: SELECT COUNT(*) FROM tuandromd WHERE f147 > 0.0 AND f198 < 0.0;
+2025-04-19 06:11:21,297 [DEBUG]  		Latency: 3.67ms
+2025-04-19 06:11:21,297 [DEBUG]  		True: 0
+2025-04-19 06:11:21,297 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,297 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,297 [DEBUG]  Predicting cardinality for query 115: SELECT COUNT(*) FROM tuandromd WHERE f22 = 0.0 AND f91 > 0.0;
+2025-04-19 06:11:21,301 [DEBUG]  		Latency: 1.98ms
+2025-04-19 06:11:21,301 [DEBUG]  		True: 0
+2025-04-19 06:11:21,301 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,301 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,301 [DEBUG]  Predicting cardinality for query 116: SELECT COUNT(*) FROM tuandromd WHERE f178 = 0.0 AND f120 >= 0.0 AND f22 < 0.0 AND f192 < 1.0;
+2025-04-19 06:11:21,310 [DEBUG]  		Latency: 6.45ms
+2025-04-19 06:11:21,310 [DEBUG]  		True: 0
+2025-04-19 06:11:21,310 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,310 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,310 [DEBUG]  Predicting cardinality for query 117: SELECT COUNT(*) FROM tuandromd WHERE f201 < 1.0;
+2025-04-19 06:11:21,316 [DEBUG]  		Latency: 4.07ms
+2025-04-19 06:11:21,316 [DEBUG]  		True: 2494
+2025-04-19 06:11:21,316 [DEBUG]  		Predicted: 2494.000000000001
+2025-04-19 06:11:21,316 [DEBUG]  Q-Error was: 1.0000000000000004
+2025-04-19 06:11:21,316 [DEBUG]  Predicting cardinality for query 118: SELECT COUNT(*) FROM tuandromd WHERE f140 = 0.0;
+2025-04-19 06:11:21,320 [DEBUG]  		Latency: 2.28ms
+2025-04-19 06:11:21,320 [DEBUG]  		True: 4317
+2025-04-19 06:11:21,320 [DEBUG]  		Predicted: 4317.0
+2025-04-19 06:11:21,320 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,320 [DEBUG]  Predicting cardinality for query 119: SELECT COUNT(*) FROM tuandromd WHERE f41 <= 0.0 AND f213 = 0.0 AND f80 <= 0.0 AND f81 > 0.0;
+2025-04-19 06:11:21,326 [DEBUG]  		Latency: 3.66ms
+2025-04-19 06:11:21,326 [DEBUG]  		True: 1
+2025-04-19 06:11:21,326 [DEBUG]  		Predicted: 1.0000000000000013
+2025-04-19 06:11:21,326 [DEBUG]  Q-Error was: 1.0000000000000013
+2025-04-19 06:11:21,326 [DEBUG]  Predicting cardinality for query 120: SELECT COUNT(*) FROM tuandromd WHERE f20 <= 0.0 AND f176 <= 0.0 AND f36 <= 0.0;
+2025-04-19 06:11:21,332 [DEBUG]  		Latency: 3.96ms
+2025-04-19 06:11:21,332 [DEBUG]  		True: 4339
+2025-04-19 06:11:21,332 [DEBUG]  		Predicted: 4337.273899007988
+2025-04-19 06:11:21,333 [DEBUG]  Q-Error was: 1.0003979691004543
+2025-04-19 06:11:21,333 [DEBUG]  Predicting cardinality for query 121: SELECT COUNT(*) FROM tuandromd WHERE f222 <= 0.0;
+2025-04-19 06:11:21,338 [DEBUG]  		Latency: 3.91ms
+2025-04-19 06:11:21,338 [DEBUG]  		True: 3527
+2025-04-19 06:11:21,338 [DEBUG]  		Predicted: 3526.9999999999995
+2025-04-19 06:11:21,338 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-19 06:11:21,338 [DEBUG]  Predicting cardinality for query 122: SELECT COUNT(*) FROM tuandromd WHERE f76 <= 0.0 AND f145 < 0.0;
+2025-04-19 06:11:21,343 [DEBUG]  		Latency: 2.51ms
+2025-04-19 06:11:21,343 [DEBUG]  		True: 0
+2025-04-19 06:11:21,343 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,343 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,343 [DEBUG]  Predicting cardinality for query 123: SELECT COUNT(*) FROM tuandromd WHERE f39 >= 0.0 AND f75 <= 0.0 AND f161 > 0.0 AND f97 < 0.0 AND f240 <= 0.0;
+2025-04-19 06:11:21,351 [DEBUG]  		Latency: 5.57ms
+2025-04-19 06:11:21,351 [DEBUG]  		True: 0
+2025-04-19 06:11:21,351 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,351 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,351 [DEBUG]  Predicting cardinality for query 124: SELECT COUNT(*) FROM tuandromd WHERE f85 >= 0.0;
+2025-04-19 06:11:21,356 [DEBUG]  		Latency: 3.57ms
+2025-04-19 06:11:21,357 [DEBUG]  		True: 4464
+2025-04-19 06:11:21,357 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:21,357 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,357 [DEBUG]  Predicting cardinality for query 125: SELECT COUNT(*) FROM tuandromd WHERE f121 > 0.0 AND f186 < 0.0 AND f164 > 0.0 AND f85 < 0.0 AND f115 < 0.0;
+2025-04-19 06:11:21,366 [DEBUG]  		Latency: 6.62ms
+2025-04-19 06:11:21,366 [DEBUG]  		True: 0
+2025-04-19 06:11:21,366 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,366 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,366 [DEBUG]  Predicting cardinality for query 126: SELECT COUNT(*) FROM tuandromd WHERE f10 > 1.0 AND f215 < 0.0 AND f119 < 0.0 AND f152 <= 0.0;
+2025-04-19 06:11:21,375 [DEBUG]  		Latency: 6.27ms
+2025-04-19 06:11:21,375 [DEBUG]  		True: 0
+2025-04-19 06:11:21,375 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,375 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,375 [DEBUG]  Predicting cardinality for query 127: SELECT COUNT(*) FROM tuandromd WHERE f198 = 0.0 AND f19 < 0.0 AND f88 <= 0.0 AND f236 >= 0.0;
+2025-04-19 06:11:21,383 [DEBUG]  		Latency: 5.85ms
+2025-04-19 06:11:21,383 [DEBUG]  		True: 0
+2025-04-19 06:11:21,383 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,383 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,383 [DEBUG]  Predicting cardinality for query 128: SELECT COUNT(*) FROM tuandromd WHERE f160 >= 0.0 AND f4 = 0.0 AND f187 > 0.0 AND f103 >= 0.0;
+2025-04-19 06:11:21,391 [DEBUG]  		Latency: 5.93ms
+2025-04-19 06:11:21,391 [DEBUG]  		True: 0
+2025-04-19 06:11:21,391 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,392 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,392 [DEBUG]  Predicting cardinality for query 129: SELECT COUNT(*) FROM tuandromd WHERE f88 <= 0.0 AND f79 = 0.0;
+2025-04-19 06:11:21,396 [DEBUG]  		Latency: 2.90ms
+2025-04-19 06:11:21,396 [DEBUG]  		True: 4349
+2025-04-19 06:11:21,396 [DEBUG]  		Predicted: 4348.0270270270275
+2025-04-19 06:11:21,397 [DEBUG]  Q-Error was: 1.0002237734418218
+2025-04-19 06:11:21,397 [DEBUG]  Predicting cardinality for query 130: SELECT COUNT(*) FROM tuandromd WHERE f53 > 0.0 AND f131 < 0.0 AND f86 = 0.0 AND f202 = 0.0;
+2025-04-19 06:11:21,403 [DEBUG]  		Latency: 4.60ms
+2025-04-19 06:11:21,404 [DEBUG]  		True: 0
+2025-04-19 06:11:21,404 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,404 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,404 [DEBUG]  Predicting cardinality for query 131: SELECT COUNT(*) FROM tuandromd WHERE f91 = 0.0 AND f157 = 0.0;
+2025-04-19 06:11:21,408 [DEBUG]  		Latency: 2.66ms
+2025-04-19 06:11:21,408 [DEBUG]  		True: 4356
+2025-04-19 06:11:21,408 [DEBUG]  		Predicted: 4355.0270270270275
+2025-04-19 06:11:21,408 [DEBUG]  Q-Error was: 1.0002234137622876
+2025-04-19 06:11:21,408 [DEBUG]  Predicting cardinality for query 132: SELECT COUNT(*) FROM tuandromd WHERE f239 < 1.0 AND f133 > 0.0;
+2025-04-19 06:11:21,414 [DEBUG]  		Latency: 3.94ms
+2025-04-19 06:11:21,414 [DEBUG]  		True: 0
+2025-04-19 06:11:21,414 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,414 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,414 [DEBUG]  Predicting cardinality for query 133: SELECT COUNT(*) FROM tuandromd WHERE f199 < 0.0 AND f22 = 0.0;
+2025-04-19 06:11:21,418 [DEBUG]  		Latency: 1.97ms
+2025-04-19 06:11:21,418 [DEBUG]  		True: 0
+2025-04-19 06:11:21,418 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,419 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,419 [DEBUG]  Predicting cardinality for query 134: SELECT COUNT(*) FROM tuandromd WHERE f179 >= 0.0 AND f86 > 0.0 AND f85 < 0.0 AND f24 = 0.0;
+2025-04-19 06:11:21,426 [DEBUG]  		Latency: 5.43ms
+2025-04-19 06:11:21,426 [DEBUG]  		True: 0
+2025-04-19 06:11:21,426 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,426 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,426 [DEBUG]  Predicting cardinality for query 135: SELECT COUNT(*) FROM tuandromd WHERE f140 >= 0.0 AND f144 < 0.0 AND f17 > 0.0 AND f235 >= 0.0 AND f68 = 0.0;
+2025-04-19 06:11:21,435 [DEBUG]  		Latency: 6.09ms
+2025-04-19 06:11:21,435 [DEBUG]  		True: 0
+2025-04-19 06:11:21,435 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,435 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,435 [DEBUG]  Predicting cardinality for query 136: SELECT COUNT(*) FROM tuandromd WHERE f213 = 0.0 AND f43 <= 0.0 AND f48 <= 0.0;
+2025-04-19 06:11:21,440 [DEBUG]  		Latency: 3.14ms
+2025-04-19 06:11:21,440 [DEBUG]  		True: 4357
+2025-04-19 06:11:21,440 [DEBUG]  		Predicted: 4355.083970530393
+2025-04-19 06:11:21,441 [DEBUG]  Q-Error was: 1.0004399523597185
+2025-04-19 06:11:21,441 [DEBUG]  Predicting cardinality for query 137: SELECT COUNT(*) FROM tuandromd WHERE f201 < 1.0 AND f239 <= 0.0;
+2025-04-19 06:11:21,448 [DEBUG]  		Latency: 5.35ms
+2025-04-19 06:11:21,448 [DEBUG]  		True: 2203
+2025-04-19 06:11:21,448 [DEBUG]  		Predicted: 2198.6005469305715
+2025-04-19 06:11:21,448 [DEBUG]  Q-Error was: 1.0020010242768158
+2025-04-19 06:11:21,448 [DEBUG]  Predicting cardinality for query 138: SELECT COUNT(*) FROM tuandromd WHERE f152 < 0.0 AND f164 <= 0.0 AND f206 < 0.0 AND f196 <= 0.0 AND f5 = 0.0;
+2025-04-19 06:11:21,456 [DEBUG]  		Latency: 5.81ms
+2025-04-19 06:11:21,456 [DEBUG]  		True: 0
+2025-04-19 06:11:21,456 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,456 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,456 [DEBUG]  Predicting cardinality for query 139: SELECT COUNT(*) FROM tuandromd WHERE f45 < 0.0 AND f87 >= 1.0 AND f134 > 0.0 AND f34 < 0.0;
+2025-04-19 06:11:21,465 [DEBUG]  		Latency: 6.24ms
+2025-04-19 06:11:21,465 [DEBUG]  		True: 0
+2025-04-19 06:11:21,465 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,465 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,465 [DEBUG]  Predicting cardinality for query 140: SELECT COUNT(*) FROM tuandromd WHERE f128 <= 0.0 AND f154 = 0.0 AND f27 >= 0.0 AND f121 <= 0.0;
+2025-04-19 06:11:21,471 [DEBUG]  		Latency: 3.55ms
+2025-04-19 06:11:21,471 [DEBUG]  		True: 4459
+2025-04-19 06:11:21,471 [DEBUG]  		Predicted: 4456.1592600635695
+2025-04-19 06:11:21,471 [DEBUG]  Q-Error was: 1.0006374861782632
+2025-04-19 06:11:21,471 [DEBUG]  Predicting cardinality for query 141: SELECT COUNT(*) FROM tuandromd WHERE f212 = 0.0 AND f112 = 0.0 AND f31 <= 0.0 AND f145 > 0.0;
+2025-04-19 06:11:21,479 [DEBUG]  		Latency: 5.65ms
+2025-04-19 06:11:21,479 [DEBUG]  		True: 0
+2025-04-19 06:11:21,479 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,479 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,479 [DEBUG]  Predicting cardinality for query 142: SELECT COUNT(*) FROM tuandromd WHERE f233 <= 1.0 AND f14 = 0.0 AND f76 >= 0.0;
+2025-04-19 06:11:21,486 [DEBUG]  		Latency: 5.19ms
+2025-04-19 06:11:21,487 [DEBUG]  		True: 4456
+2025-04-19 06:11:21,487 [DEBUG]  		Predicted: 4454.080350620891
+2025-04-19 06:11:21,487 [DEBUG]  Q-Error was: 1.0004309866971397
+2025-04-19 06:11:21,487 [DEBUG]  Predicting cardinality for query 143: SELECT COUNT(*) FROM tuandromd WHERE f225 < 0.0 AND f18 <= 0.0 AND f63 <= 0.0 AND f32 > 0.0 AND f217 < 1.0;
+2025-04-19 06:11:21,497 [DEBUG]  		Latency: 7.83ms
+2025-04-19 06:11:21,497 [DEBUG]  		True: 0
+2025-04-19 06:11:21,497 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,497 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,497 [DEBUG]  Predicting cardinality for query 144: SELECT COUNT(*) FROM tuandromd WHERE f79 >= 0.0 AND f169 <= 0.0 AND f102 < 0.0 AND f241 <= 0.0 AND f61 > 0.0;
+2025-04-19 06:11:21,506 [DEBUG]  		Latency: 6.31ms
+2025-04-19 06:11:21,506 [DEBUG]  		True: 0
+2025-04-19 06:11:21,506 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,506 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,506 [DEBUG]  Predicting cardinality for query 145: SELECT COUNT(*) FROM tuandromd WHERE f26 < 0.0;
+2025-04-19 06:11:21,510 [DEBUG]  		Latency: 2.53ms
+2025-04-19 06:11:21,510 [DEBUG]  		True: 0
+2025-04-19 06:11:21,510 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,510 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,510 [DEBUG]  Predicting cardinality for query 146: SELECT COUNT(*) FROM tuandromd WHERE f226 = 0.0;
+2025-04-19 06:11:21,515 [DEBUG]  		Latency: 3.19ms
+2025-04-19 06:11:21,515 [DEBUG]  		True: 4390
+2025-04-19 06:11:21,515 [DEBUG]  		Predicted: 4390.0
+2025-04-19 06:11:21,516 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,516 [DEBUG]  Predicting cardinality for query 147: SELECT COUNT(*) FROM tuandromd WHERE f1 > 0.0 AND f76 < 0.0 AND f63 <= 0.0 AND f187 = 0.0;
+2025-04-19 06:11:21,523 [DEBUG]  		Latency: 4.75ms
+2025-04-19 06:11:21,523 [DEBUG]  		True: 0
+2025-04-19 06:11:21,523 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,523 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,523 [DEBUG]  Predicting cardinality for query 148: SELECT COUNT(*) FROM tuandromd WHERE f37 > 0.0 AND f92 > 0.0 AND f178 >= 0.0 AND f150 >= 1.0;
+2025-04-19 06:11:21,530 [DEBUG]  		Latency: 5.24ms
+2025-04-19 06:11:21,530 [DEBUG]  		True: 22
+2025-04-19 06:11:21,530 [DEBUG]  		Predicted: 21.999999999999986
+2025-04-19 06:11:21,530 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:21,530 [DEBUG]  Predicting cardinality for query 149: SELECT COUNT(*) FROM tuandromd WHERE f37 < 0.0 AND f240 > 0.0 AND f199 >= 0.0 AND f121 <= 0.0;
+2025-04-19 06:11:21,537 [DEBUG]  		Latency: 4.53ms
+2025-04-19 06:11:21,537 [DEBUG]  		True: 0
+2025-04-19 06:11:21,537 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,537 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,537 [DEBUG]  Predicting cardinality for query 150: SELECT COUNT(*) FROM tuandromd WHERE f45 = 0.0;
+2025-04-19 06:11:21,543 [DEBUG]  		Latency: 3.62ms
+2025-04-19 06:11:21,543 [DEBUG]  		True: 4286
+2025-04-19 06:11:21,543 [DEBUG]  		Predicted: 4285.999999999999
+2025-04-19 06:11:21,543 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-19 06:11:21,543 [DEBUG]  Predicting cardinality for query 151: SELECT COUNT(*) FROM tuandromd WHERE f137 < 0.0 AND f162 > 0.0;
+2025-04-19 06:11:21,547 [DEBUG]  		Latency: 2.01ms
+2025-04-19 06:11:21,547 [DEBUG]  		True: 0
+2025-04-19 06:11:21,547 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,547 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,547 [DEBUG]  Predicting cardinality for query 152: SELECT COUNT(*) FROM tuandromd WHERE f186 <= 0.0 AND f210 >= 0.0 AND f81 <= 0.0;
+2025-04-19 06:11:21,553 [DEBUG]  		Latency: 4.07ms
+2025-04-19 06:11:21,553 [DEBUG]  		True: 4441
+2025-04-19 06:11:21,553 [DEBUG]  		Predicted: 4439.08035062089
+2025-04-19 06:11:21,553 [DEBUG]  Q-Error was: 1.0004324430349276
+2025-04-19 06:11:21,554 [DEBUG]  Predicting cardinality for query 153: SELECT COUNT(*) FROM tuandromd WHERE f21 > 0.0 AND f44 < 0.0 AND f58 < 0.0 AND f221 = 0.0;
+2025-04-19 06:11:21,562 [DEBUG]  		Latency: 6.47ms
+2025-04-19 06:11:21,562 [DEBUG]  		True: 0
+2025-04-19 06:11:21,562 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,562 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,562 [DEBUG]  Predicting cardinality for query 154: SELECT COUNT(*) FROM tuandromd WHERE f203 = 0.0 AND f70 = 0.0 AND f96 < 0.0;
+2025-04-19 06:11:21,567 [DEBUG]  		Latency: 2.70ms
+2025-04-19 06:11:21,567 [DEBUG]  		True: 0
+2025-04-19 06:11:21,567 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,567 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,567 [DEBUG]  Predicting cardinality for query 155: SELECT COUNT(*) FROM tuandromd WHERE f230 < 1.0 AND f238 < 0.0 AND f47 > 0.0;
+2025-04-19 06:11:21,576 [DEBUG]  		Latency: 5.80ms
+2025-04-19 06:11:21,576 [DEBUG]  		True: 0
+2025-04-19 06:11:21,576 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,576 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,576 [DEBUG]  Predicting cardinality for query 156: SELECT COUNT(*) FROM tuandromd WHERE f20 = 0.0 AND f113 > 0.0 AND f235 = 1.0 AND f136 = 0.0;
+2025-04-19 06:11:21,584 [DEBUG]  		Latency: 6.20ms
+2025-04-19 06:11:21,584 [DEBUG]  		True: 0
+2025-04-19 06:11:21,584 [DEBUG]  		Predicted: 1.3048907388137363
+2025-04-19 06:11:21,584 [DEBUG]  Q-Error was: 1.3048907388137363
+2025-04-19 06:11:21,584 [DEBUG]  Predicting cardinality for query 157: SELECT COUNT(*) FROM tuandromd WHERE f109 < 0.0 AND f206 < 0.0 AND f146 < 0.0;
+2025-04-19 06:11:21,590 [DEBUG]  		Latency: 3.92ms
+2025-04-19 06:11:21,590 [DEBUG]  		True: 0
+2025-04-19 06:11:21,591 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,591 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,591 [DEBUG]  Predicting cardinality for query 158: SELECT COUNT(*) FROM tuandromd WHERE f188 < 0.0 AND f141 = 0.0 AND f8 = 0.0;
+2025-04-19 06:11:21,597 [DEBUG]  		Latency: 4.46ms
+2025-04-19 06:11:21,597 [DEBUG]  		True: 0
+2025-04-19 06:11:21,597 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,597 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,597 [DEBUG]  Predicting cardinality for query 159: SELECT COUNT(*) FROM tuandromd WHERE f1 < 0.0 AND f238 = 0.0 AND f229 >= 0.0 AND f128 <= 0.0;
+2025-04-19 06:11:21,605 [DEBUG]  		Latency: 5.66ms
+2025-04-19 06:11:21,605 [DEBUG]  		True: 0
+2025-04-19 06:11:21,605 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,605 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,605 [DEBUG]  Predicting cardinality for query 160: SELECT COUNT(*) FROM tuandromd WHERE f133 = 0.0;
+2025-04-19 06:11:21,609 [DEBUG]  		Latency: 1.52ms
+2025-04-19 06:11:21,609 [DEBUG]  		True: 4464
+2025-04-19 06:11:21,609 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:21,609 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,609 [DEBUG]  Predicting cardinality for query 161: SELECT COUNT(*) FROM tuandromd WHERE f191 > 0.0 AND f137 <= 0.0 AND f45 <= 0.0 AND f153 >= 0.0 AND f200 >= 0.0;
+2025-04-19 06:11:21,619 [DEBUG]  		Latency: 7.75ms
+2025-04-19 06:11:21,619 [DEBUG]  		True: 743
+2025-04-19 06:11:21,619 [DEBUG]  		Predicted: 740.4513221842137
+2025-04-19 06:11:21,619 [DEBUG]  Q-Error was: 1.0034420599159282
+2025-04-19 06:11:21,619 [DEBUG]  Predicting cardinality for query 162: SELECT COUNT(*) FROM tuandromd WHERE f140 <= 0.0 AND f57 > 0.0 AND f219 = 0.0 AND f149 = 0.0;
+2025-04-19 06:11:21,627 [DEBUG]  		Latency: 5.48ms
+2025-04-19 06:11:21,627 [DEBUG]  		True: 0
+2025-04-19 06:11:21,627 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,627 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,627 [DEBUG]  Predicting cardinality for query 163: SELECT COUNT(*) FROM tuandromd WHERE f224 = 0.0 AND f226 = 0.0 AND f47 <= 0.0 AND f84 <= 0.0;
+2025-04-19 06:11:21,635 [DEBUG]  		Latency: 5.86ms
+2025-04-19 06:11:21,636 [DEBUG]  		True: 4038
+2025-04-19 06:11:21,636 [DEBUG]  		Predicted: 4035.270999399503
+2025-04-19 06:11:21,636 [DEBUG]  Q-Error was: 1.0006762868221002
+2025-04-19 06:11:21,636 [DEBUG]  Predicting cardinality for query 164: SELECT COUNT(*) FROM tuandromd WHERE f220 > 0.0 AND f205 = 0.0 AND f8 = 0.0;
+2025-04-19 06:11:21,643 [DEBUG]  		Latency: 4.92ms
+2025-04-19 06:11:21,643 [DEBUG]  		True: 450
+2025-04-19 06:11:21,643 [DEBUG]  		Predicted: 451.4078033761322
+2025-04-19 06:11:21,643 [DEBUG]  Q-Error was: 1.0031284519469605
+2025-04-19 06:11:21,643 [DEBUG]  Predicting cardinality for query 165: SELECT COUNT(*) FROM tuandromd WHERE f203 >= 0.0 AND f185 > 0.0 AND f61 >= 0.0 AND f160 = 0.0 AND f38 = 0.0;
+2025-04-19 06:11:21,650 [DEBUG]  		Latency: 4.53ms
+2025-04-19 06:11:21,650 [DEBUG]  		True: 0
+2025-04-19 06:11:21,650 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,650 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,650 [DEBUG]  Predicting cardinality for query 166: SELECT COUNT(*) FROM tuandromd WHERE f23 <= 0.0 AND f167 < 0.0 AND f211 <= 0.0 AND f131 = 0.0;
+2025-04-19 06:11:21,657 [DEBUG]  		Latency: 4.80ms
+2025-04-19 06:11:21,657 [DEBUG]  		True: 0
+2025-04-19 06:11:21,657 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,657 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,657 [DEBUG]  Predicting cardinality for query 167: SELECT COUNT(*) FROM tuandromd WHERE f16 < 0.0 AND f81 > 0.0 AND f106 <= 0.0 AND f120 < 0.0;
+2025-04-19 06:11:21,665 [DEBUG]  		Latency: 5.74ms
+2025-04-19 06:11:21,665 [DEBUG]  		True: 0
+2025-04-19 06:11:21,665 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,666 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,666 [DEBUG]  Predicting cardinality for query 168: SELECT COUNT(*) FROM tuandromd WHERE f191 > 0.0 AND f117 < 0.0;
+2025-04-19 06:11:21,672 [DEBUG]  		Latency: 4.64ms
+2025-04-19 06:11:21,672 [DEBUG]  		True: 0
+2025-04-19 06:11:21,672 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,672 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,672 [DEBUG]  Predicting cardinality for query 169: SELECT COUNT(*) FROM tuandromd WHERE f228 = 0.0 AND f135 <= 0.0 AND f37 > 0.0 AND f24 = 0.0;
+2025-04-19 06:11:21,678 [DEBUG]  		Latency: 3.23ms
+2025-04-19 06:11:21,678 [DEBUG]  		True: 0
+2025-04-19 06:11:21,678 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,678 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,678 [DEBUG]  Predicting cardinality for query 170: SELECT COUNT(*) FROM tuandromd WHERE f76 = 0.0 AND f65 <= 0.0;
+2025-04-19 06:11:21,684 [DEBUG]  		Latency: 3.98ms
+2025-04-19 06:11:21,684 [DEBUG]  		True: 3233
+2025-04-19 06:11:21,684 [DEBUG]  		Predicted: 3232.0540540540537
+2025-04-19 06:11:21,684 [DEBUG]  Q-Error was: 1.0002926764002475
+2025-04-19 06:11:21,684 [DEBUG]  Predicting cardinality for query 171: SELECT COUNT(*) FROM tuandromd WHERE f23 >= 0.0 AND f239 < 0.0 AND f59 < 0.0 AND f94 = 0.0;
+2025-04-19 06:11:21,692 [DEBUG]  		Latency: 5.57ms
+2025-04-19 06:11:21,692 [DEBUG]  		True: 0
+2025-04-19 06:11:21,692 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,692 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,692 [DEBUG]  Predicting cardinality for query 172: SELECT COUNT(*) FROM tuandromd WHERE f189 = 0.0;
+2025-04-19 06:11:21,697 [DEBUG]  		Latency: 2.68ms
+2025-04-19 06:11:21,697 [DEBUG]  		True: 4426
+2025-04-19 06:11:21,697 [DEBUG]  		Predicted: 4426.0
+2025-04-19 06:11:21,697 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,697 [DEBUG]  Predicting cardinality for query 173: SELECT COUNT(*) FROM tuandromd WHERE f237 < 0.0 AND f227 <= 0.0 AND f46 < 0.0 AND f119 >= 0.0 AND f221 < 0.0;
+2025-04-19 06:11:21,706 [DEBUG]  		Latency: 7.07ms
+2025-04-19 06:11:21,706 [DEBUG]  		True: 0
+2025-04-19 06:11:21,706 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,706 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,706 [DEBUG]  Predicting cardinality for query 174: SELECT COUNT(*) FROM tuandromd WHERE f206 = 0.0 AND f42 >= 0.0 AND f123 <= 0.0 AND f53 < 0.0 AND f103 < 0.0;
+2025-04-19 06:11:21,714 [DEBUG]  		Latency: 5.08ms
+2025-04-19 06:11:21,714 [DEBUG]  		True: 0
+2025-04-19 06:11:21,714 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,714 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,714 [DEBUG]  Predicting cardinality for query 175: SELECT COUNT(*) FROM tuandromd WHERE f99 >= 1.0 AND f108 = 0.0 AND f19 = 0.0 AND f13 >= 0.0 AND f177 <= 0.0;
+2025-04-19 06:11:21,723 [DEBUG]  		Latency: 5.94ms
+2025-04-19 06:11:21,723 [DEBUG]  		True: 3166
+2025-04-19 06:11:21,723 [DEBUG]  		Predicted: 3161.6204857206353
+2025-04-19 06:11:21,723 [DEBUG]  Q-Error was: 1.0013852118871145
+2025-04-19 06:11:21,723 [DEBUG]  Predicting cardinality for query 176: SELECT COUNT(*) FROM tuandromd WHERE f237 >= 0.0 AND f167 < 0.0 AND f184 < 0.0 AND f56 > 0.0 AND f69 >= 0.0;
+2025-04-19 06:11:21,732 [DEBUG]  		Latency: 6.80ms
+2025-04-19 06:11:21,732 [DEBUG]  		True: 0
+2025-04-19 06:11:21,732 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,732 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,732 [DEBUG]  Predicting cardinality for query 177: SELECT COUNT(*) FROM tuandromd WHERE f116 >= 0.0 AND f22 = 0.0 AND f219 > 0.0 AND f226 <= 0.0;
+2025-04-19 06:11:21,740 [DEBUG]  		Latency: 5.64ms
+2025-04-19 06:11:21,740 [DEBUG]  		True: 228
+2025-04-19 06:11:21,740 [DEBUG]  		Predicted: 229.72779306321792
+2025-04-19 06:11:21,740 [DEBUG]  Q-Error was: 1.0075780397509557
+2025-04-19 06:11:21,740 [DEBUG]  Predicting cardinality for query 178: SELECT COUNT(*) FROM tuandromd WHERE f62 = 0.0 AND f126 > 0.0 AND f11 >= 0.0 AND f49 <= 0.0 AND f39 = 0.0;
+2025-04-19 06:11:21,749 [DEBUG]  		Latency: 6.04ms
+2025-04-19 06:11:21,749 [DEBUG]  		True: 655
+2025-04-19 06:11:21,749 [DEBUG]  		Predicted: 654.8961962179344
+2025-04-19 06:11:21,749 [DEBUG]  Q-Error was: 1.000158504176181
+2025-04-19 06:11:21,749 [DEBUG]  Predicting cardinality for query 179: SELECT COUNT(*) FROM tuandromd WHERE f133 >= 0.0 AND f181 <= 0.0;
+2025-04-19 06:11:21,753 [DEBUG]  		Latency: 2.06ms
+2025-04-19 06:11:21,753 [DEBUG]  		True: 4364
+2025-04-19 06:11:21,753 [DEBUG]  		Predicted: 4363.0270270270275
+2025-04-19 06:11:21,753 [DEBUG]  Q-Error was: 1.0002230041131868
+2025-04-19 06:11:21,753 [DEBUG]  Predicting cardinality for query 180: SELECT COUNT(*) FROM tuandromd WHERE f38 = 0.0 AND f226 <= 0.0 AND f53 <= 0.0 AND f214 >= 0.0;
+2025-04-19 06:11:21,760 [DEBUG]  		Latency: 4.91ms
+2025-04-19 06:11:21,760 [DEBUG]  		True: 4367
+2025-04-19 06:11:21,760 [DEBUG]  		Predicted: 4364.215913555006
+2025-04-19 06:11:21,760 [DEBUG]  Q-Error was: 1.000637935083905
+2025-04-19 06:11:21,761 [DEBUG]  Predicting cardinality for query 181: SELECT COUNT(*) FROM tuandromd WHERE f27 >= 0.0 AND f75 < 1.0;
+2025-04-19 06:11:21,766 [DEBUG]  		Latency: 3.81ms
+2025-04-19 06:11:21,766 [DEBUG]  		True: 3214
+2025-04-19 06:11:21,766 [DEBUG]  		Predicted: 3213.0810810810817
+2025-04-19 06:11:21,766 [DEBUG]  Q-Error was: 1.0002859930688737
+2025-04-19 06:11:21,766 [DEBUG]  Predicting cardinality for query 182: SELECT COUNT(*) FROM tuandromd WHERE f11 <= 0.0 AND f218 > 0.0;
+2025-04-19 06:11:21,772 [DEBUG]  		Latency: 3.87ms
+2025-04-19 06:11:21,772 [DEBUG]  		True: 504
+2025-04-19 06:11:21,772 [DEBUG]  		Predicted: 503.94594594594594
+2025-04-19 06:11:21,772 [DEBUG]  Q-Error was: 1.0001072616110693
+2025-04-19 06:11:21,772 [DEBUG]  Predicting cardinality for query 183: SELECT COUNT(*) FROM tuandromd WHERE f170 = 0.0 AND f172 >= 0.0 AND f18 > 0.0;
+2025-04-19 06:11:21,777 [DEBUG]  		Latency: 3.00ms
+2025-04-19 06:11:21,778 [DEBUG]  		True: 0
+2025-04-19 06:11:21,778 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,778 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,778 [DEBUG]  Predicting cardinality for query 184: SELECT COUNT(*) FROM tuandromd WHERE f61 > 0.0 AND f201 > 1.0 AND f162 <= 0.0;
+2025-04-19 06:11:21,786 [DEBUG]  		Latency: 5.76ms
+2025-04-19 06:11:21,786 [DEBUG]  		True: 0
+2025-04-19 06:11:21,786 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,786 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,786 [DEBUG]  Predicting cardinality for query 185: SELECT COUNT(*) FROM tuandromd WHERE f126 >= 0.0;
+2025-04-19 06:11:21,791 [DEBUG]  		Latency: 3.88ms
+2025-04-19 06:11:21,791 [DEBUG]  		True: 4464
+2025-04-19 06:11:21,792 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:21,792 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,792 [DEBUG]  Predicting cardinality for query 186: SELECT COUNT(*) FROM tuandromd WHERE f128 < 0.0 AND f181 < 0.0 AND f72 < 0.0;
+2025-04-19 06:11:21,797 [DEBUG]  		Latency: 3.48ms
+2025-04-19 06:11:21,797 [DEBUG]  		True: 0
+2025-04-19 06:11:21,797 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,797 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,797 [DEBUG]  Predicting cardinality for query 187: SELECT COUNT(*) FROM tuandromd WHERE f171 > 0.0 AND f183 <= 0.0 AND f62 <= 0.0;
+2025-04-19 06:11:21,804 [DEBUG]  		Latency: 4.76ms
+2025-04-19 06:11:21,804 [DEBUG]  		True: 0
+2025-04-19 06:11:21,804 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,804 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,805 [DEBUG]  Predicting cardinality for query 188: SELECT COUNT(*) FROM tuandromd WHERE f66 > 0.0 AND f180 > 0.0 AND f219 > 0.0 AND f142 >= 0.0 AND f79 <= 0.0;
+2025-04-19 06:11:21,813 [DEBUG]  		Latency: 6.54ms
+2025-04-19 06:11:21,814 [DEBUG]  		True: 0
+2025-04-19 06:11:21,814 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,814 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,814 [DEBUG]  Predicting cardinality for query 189: SELECT COUNT(*) FROM tuandromd WHERE f217 >= 0.0 AND f150 > 0.0 AND f77 >= 0.0 AND f121 >= 0.0;
+2025-04-19 06:11:21,823 [DEBUG]  		Latency: 6.65ms
+2025-04-19 06:11:21,823 [DEBUG]  		True: 3766
+2025-04-19 06:11:21,823 [DEBUG]  		Predicted: 3764.7374489171425
+2025-04-19 06:11:21,823 [DEBUG]  Q-Error was: 1.0003353623194151
+2025-04-19 06:11:21,823 [DEBUG]  Predicting cardinality for query 190: SELECT COUNT(*) FROM tuandromd WHERE f77 <= 0.0 AND f68 = 0.0 AND f209 >= 0.0 AND f172 = 0.0 AND f228 < 0.0;
+2025-04-19 06:11:21,832 [DEBUG]  		Latency: 6.46ms
+2025-04-19 06:11:21,832 [DEBUG]  		True: 0
+2025-04-19 06:11:21,832 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,832 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,832 [DEBUG]  Predicting cardinality for query 191: SELECT COUNT(*) FROM tuandromd WHERE f161 = 0.0;
+2025-04-19 06:11:21,835 [DEBUG]  		Latency: 1.49ms
+2025-04-19 06:11:21,835 [DEBUG]  		True: 4463
+2025-04-19 06:11:21,835 [DEBUG]  		Predicted: 4463.0
+2025-04-19 06:11:21,835 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,835 [DEBUG]  Predicting cardinality for query 192: SELECT COUNT(*) FROM tuandromd WHERE f106 <= 0.0 AND f157 <= 0.0 AND f107 > 0.0 AND f17 = 0.0 AND f71 >= 0.0;
+2025-04-19 06:11:21,842 [DEBUG]  		Latency: 4.59ms
+2025-04-19 06:11:21,842 [DEBUG]  		True: 7
+2025-04-19 06:11:21,842 [DEBUG]  		Predicted: 6.419354838709675
+2025-04-19 06:11:21,842 [DEBUG]  Q-Error was: 1.090452261306533
+2025-04-19 06:11:21,842 [DEBUG]  Predicting cardinality for query 193: SELECT COUNT(*) FROM tuandromd WHERE f93 < 0.0 AND f122 < 0.0 AND f6 < 0.0 AND f39 = 0.0;
+2025-04-19 06:11:21,850 [DEBUG]  		Latency: 5.37ms
+2025-04-19 06:11:21,850 [DEBUG]  		True: 0
+2025-04-19 06:11:21,850 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,850 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,850 [DEBUG]  Predicting cardinality for query 194: SELECT COUNT(*) FROM tuandromd WHERE f238 <= 0.0;
+2025-04-19 06:11:21,855 [DEBUG]  		Latency: 2.91ms
+2025-04-19 06:11:21,855 [DEBUG]  		True: 4213
+2025-04-19 06:11:21,855 [DEBUG]  		Predicted: 4213.0
+2025-04-19 06:11:21,855 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,855 [DEBUG]  Predicting cardinality for query 195: SELECT COUNT(*) FROM tuandromd WHERE f62 <= 0.0;
+2025-04-19 06:11:21,858 [DEBUG]  		Latency: 1.56ms
+2025-04-19 06:11:21,859 [DEBUG]  		True: 4464
+2025-04-19 06:11:21,859 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:21,859 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,859 [DEBUG]  Predicting cardinality for query 196: SELECT COUNT(*) FROM tuandromd WHERE f21 >= 0.0 AND f160 >= 0.0 AND f211 > 0.0 AND f144 < 0.0 AND f227 <= 0.0;
+2025-04-19 06:11:21,866 [DEBUG]  		Latency: 5.05ms
+2025-04-19 06:11:21,866 [DEBUG]  		True: 0
+2025-04-19 06:11:21,866 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,866 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,866 [DEBUG]  Predicting cardinality for query 197: SELECT COUNT(*) FROM tuandromd WHERE f50 < 0.0 AND f212 = 0.0;
+2025-04-19 06:11:21,872 [DEBUG]  		Latency: 3.24ms
+2025-04-19 06:11:21,872 [DEBUG]  		True: 0
+2025-04-19 06:11:21,872 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,872 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,872 [DEBUG]  Predicting cardinality for query 198: SELECT COUNT(*) FROM tuandromd WHERE f207 >= 0.0 AND f145 = 0.0 AND f76 < 0.0 AND f95 < 0.0;
+2025-04-19 06:11:21,879 [DEBUG]  		Latency: 4.58ms
+2025-04-19 06:11:21,879 [DEBUG]  		True: 0
+2025-04-19 06:11:21,879 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,879 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,879 [DEBUG]  Predicting cardinality for query 199: SELECT COUNT(*) FROM tuandromd WHERE f84 < 0.0 AND f181 > 0.0 AND f46 >= 0.0;
+2025-04-19 06:11:21,884 [DEBUG]  		Latency: 2.72ms
+2025-04-19 06:11:21,884 [DEBUG]  		True: 0
+2025-04-19 06:11:21,884 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,884 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,884 [DEBUG]  Predicting cardinality for query 200: SELECT COUNT(*) FROM tuandromd WHERE f218 = 0.0;
+2025-04-19 06:11:21,889 [DEBUG]  		Latency: 3.33ms
+2025-04-19 06:11:21,889 [DEBUG]  		True: 3960
+2025-04-19 06:11:21,889 [DEBUG]  		Predicted: 3960.0
+2025-04-19 06:11:21,889 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,889 [DEBUG]  Predicting cardinality for query 201: SELECT COUNT(*) FROM tuandromd WHERE f11 <= 0.0 AND f42 >= 0.0 AND f160 <= 0.0 AND f222 <= 0.0;
+2025-04-19 06:11:21,897 [DEBUG]  		Latency: 5.35ms
+2025-04-19 06:11:21,897 [DEBUG]  		True: 3527
+2025-04-19 06:11:21,897 [DEBUG]  		Predicted: 3524.317078948927
+2025-04-19 06:11:21,897 [DEBUG]  Q-Error was: 1.000761259838707
+2025-04-19 06:11:21,897 [DEBUG]  Predicting cardinality for query 202: SELECT COUNT(*) FROM tuandromd WHERE f184 >= 0.0 AND f163 >= 0.0 AND f65 = 0.0;
+2025-04-19 06:11:21,904 [DEBUG]  		Latency: 4.78ms
+2025-04-19 06:11:21,904 [DEBUG]  		True: 3233
+2025-04-19 06:11:21,904 [DEBUG]  		Predicted: 3231.133674214755
+2025-04-19 06:11:21,904 [DEBUG]  Q-Error was: 1.0005776071105132
+2025-04-19 06:11:21,904 [DEBUG]  Predicting cardinality for query 203: SELECT COUNT(*) FROM tuandromd WHERE f146 < 0.0 AND f108 >= 0.0;
+2025-04-19 06:11:21,909 [DEBUG]  		Latency: 3.06ms
+2025-04-19 06:11:21,909 [DEBUG]  		True: 0
+2025-04-19 06:11:21,909 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,909 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,909 [DEBUG]  Predicting cardinality for query 204: SELECT COUNT(*) FROM tuandromd WHERE f33 = 0.0 AND f52 >= 0.0;
+2025-04-19 06:11:21,913 [DEBUG]  		Latency: 2.23ms
+2025-04-19 06:11:21,913 [DEBUG]  		True: 4464
+2025-04-19 06:11:21,913 [DEBUG]  		Predicted: 4463.0270270270275
+2025-04-19 06:11:21,913 [DEBUG]  Q-Error was: 1.000218007412252
+2025-04-19 06:11:21,914 [DEBUG]  Predicting cardinality for query 205: SELECT COUNT(*) FROM tuandromd WHERE f167 <= 0.0 AND f48 < 0.0;
+2025-04-19 06:11:21,918 [DEBUG]  		Latency: 2.50ms
+2025-04-19 06:11:21,918 [DEBUG]  		True: 0
+2025-04-19 06:11:21,918 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,918 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,918 [DEBUG]  Predicting cardinality for query 206: SELECT COUNT(*) FROM tuandromd WHERE f177 <= 0.0 AND f70 < 0.0 AND f108 < 0.0;
+2025-04-19 06:11:21,924 [DEBUG]  		Latency: 3.72ms
+2025-04-19 06:11:21,924 [DEBUG]  		True: 0
+2025-04-19 06:11:21,924 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,924 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,924 [DEBUG]  Predicting cardinality for query 207: SELECT COUNT(*) FROM tuandromd WHERE f223 < 0.0;
+2025-04-19 06:11:21,930 [DEBUG]  		Latency: 3.78ms
+2025-04-19 06:11:21,930 [DEBUG]  		True: 0
+2025-04-19 06:11:21,930 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,930 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,930 [DEBUG]  Predicting cardinality for query 208: SELECT COUNT(*) FROM tuandromd WHERE f92 <= 0.0 AND f188 > 0.0 AND f138 <= 0.0;
+2025-04-19 06:11:21,937 [DEBUG]  		Latency: 4.75ms
+2025-04-19 06:11:21,937 [DEBUG]  		True: 134
+2025-04-19 06:11:21,937 [DEBUG]  		Predicted: 134.59243714945754
+2025-04-19 06:11:21,937 [DEBUG]  Q-Error was: 1.0044211727571457
+2025-04-19 06:11:21,937 [DEBUG]  Predicting cardinality for query 209: SELECT COUNT(*) FROM tuandromd WHERE f96 <= 0.0 AND f18 >= 0.0;
+2025-04-19 06:11:21,941 [DEBUG]  		Latency: 2.23ms
+2025-04-19 06:11:21,941 [DEBUG]  		True: 4442
+2025-04-19 06:11:21,941 [DEBUG]  		Predicted: 4441.027027027027
+2025-04-19 06:11:21,941 [DEBUG]  Q-Error was: 1.00021908737935
+2025-04-19 06:11:21,941 [DEBUG]  Predicting cardinality for query 210: SELECT COUNT(*) FROM tuandromd WHERE f101 <= 1.0 AND f185 = 0.0;
+2025-04-19 06:11:21,947 [DEBUG]  		Latency: 3.90ms
+2025-04-19 06:11:21,947 [DEBUG]  		True: 4442
+2025-04-19 06:11:21,947 [DEBUG]  		Predicted: 4441.027027027027
+2025-04-19 06:11:21,947 [DEBUG]  Q-Error was: 1.00021908737935
+2025-04-19 06:11:21,947 [DEBUG]  Predicting cardinality for query 211: SELECT COUNT(*) FROM tuandromd WHERE f173 < 0.0 AND f178 < 0.0 AND f56 = 0.0 AND f140 <= 0.0;
+2025-04-19 06:11:21,955 [DEBUG]  		Latency: 5.68ms
+2025-04-19 06:11:21,955 [DEBUG]  		True: 0
+2025-04-19 06:11:21,955 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,956 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,956 [DEBUG]  Predicting cardinality for query 212: SELECT COUNT(*) FROM tuandromd WHERE f31 >= 0.0 AND f39 = 0.0 AND f83 >= 0.0 AND f227 <= 0.0;
+2025-04-19 06:11:21,963 [DEBUG]  		Latency: 4.75ms
+2025-04-19 06:11:21,963 [DEBUG]  		True: 4367
+2025-04-19 06:11:21,963 [DEBUG]  		Predicted: 4364.1592600635695
+2025-04-19 06:11:21,963 [DEBUG]  Q-Error was: 1.000650924901487
+2025-04-19 06:11:21,963 [DEBUG]  Predicting cardinality for query 213: SELECT COUNT(*) FROM tuandromd WHERE f83 < 0.0 AND f59 = 0.0 AND f21 = 0.0;
+2025-04-19 06:11:21,968 [DEBUG]  		Latency: 2.90ms
+2025-04-19 06:11:21,968 [DEBUG]  		True: 0
+2025-04-19 06:11:21,968 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,968 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,968 [DEBUG]  Predicting cardinality for query 214: SELECT COUNT(*) FROM tuandromd WHERE f39 > 0.0;
+2025-04-19 06:11:21,972 [DEBUG]  		Latency: 1.80ms
+2025-04-19 06:11:21,972 [DEBUG]  		True: 22
+2025-04-19 06:11:21,972 [DEBUG]  		Predicted: 21.999999999999986
+2025-04-19 06:11:21,972 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:21,972 [DEBUG]  Predicting cardinality for query 215: SELECT COUNT(*) FROM tuandromd WHERE f172 >= 0.0 AND f21 < 0.0 AND f2 <= 0.0;
+2025-04-19 06:11:21,977 [DEBUG]  		Latency: 3.55ms
+2025-04-19 06:11:21,978 [DEBUG]  		True: 0
+2025-04-19 06:11:21,978 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,978 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,978 [DEBUG]  Predicting cardinality for query 216: SELECT COUNT(*) FROM tuandromd WHERE f9 <= 0.0 AND f107 > 0.0 AND f90 = 0.0 AND f207 = 0.0;
+2025-04-19 06:11:21,984 [DEBUG]  		Latency: 4.21ms
+2025-04-19 06:11:21,984 [DEBUG]  		True: 7
+2025-04-19 06:11:21,984 [DEBUG]  		Predicted: 6.999999999999999
+2025-04-19 06:11:21,984 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-19 06:11:21,984 [DEBUG]  Predicting cardinality for query 217: SELECT COUNT(*) FROM tuandromd WHERE f71 < 0.0 AND f49 = 0.0 AND f241 < 0.0;
+2025-04-19 06:11:21,992 [DEBUG]  		Latency: 5.24ms
+2025-04-19 06:11:21,992 [DEBUG]  		True: 0
+2025-04-19 06:11:21,992 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:21,992 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:21,992 [DEBUG]  Predicting cardinality for query 218: SELECT COUNT(*) FROM tuandromd WHERE f242 = 1.0;
+2025-04-19 06:11:21,997 [DEBUG]  		Latency: 3.59ms
+2025-04-19 06:11:21,997 [DEBUG]  		True: 3565
+2025-04-19 06:11:21,997 [DEBUG]  		Predicted: 3565.0000000000005
+2025-04-19 06:11:21,997 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-19 06:11:21,997 [DEBUG]  Predicting cardinality for query 219: SELECT COUNT(*) FROM tuandromd WHERE f173 >= 0.0;
+2025-04-19 06:11:22,001 [DEBUG]  		Latency: 1.75ms
+2025-04-19 06:11:22,001 [DEBUG]  		True: 4464
+2025-04-19 06:11:22,001 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:22,001 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,001 [DEBUG]  Predicting cardinality for query 220: SELECT COUNT(*) FROM tuandromd WHERE f7 > 0.0 AND f193 <= 0.0 AND f143 < 0.0;
+2025-04-19 06:11:22,006 [DEBUG]  		Latency: 2.94ms
+2025-04-19 06:11:22,006 [DEBUG]  		True: 0
+2025-04-19 06:11:22,006 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,006 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,006 [DEBUG]  Predicting cardinality for query 221: SELECT COUNT(*) FROM tuandromd WHERE f94 = 0.0;
+2025-04-19 06:11:22,010 [DEBUG]  		Latency: 1.98ms
+2025-04-19 06:11:22,010 [DEBUG]  		True: 4440
+2025-04-19 06:11:22,010 [DEBUG]  		Predicted: 4440.0
+2025-04-19 06:11:22,010 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,010 [DEBUG]  Predicting cardinality for query 222: SELECT COUNT(*) FROM tuandromd WHERE f208 <= 0.0 AND f63 = 0.0 AND f203 > 0.0;
+2025-04-19 06:11:22,017 [DEBUG]  		Latency: 4.38ms
+2025-04-19 06:11:22,017 [DEBUG]  		True: 0
+2025-04-19 06:11:22,017 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,017 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,017 [DEBUG]  Predicting cardinality for query 223: SELECT COUNT(*) FROM tuandromd WHERE f103 = 0.0 AND f216 > 0.0 AND f181 < 0.0 AND f105 >= 0.0;
+2025-04-19 06:11:22,026 [DEBUG]  		Latency: 6.40ms
+2025-04-19 06:11:22,026 [DEBUG]  		True: 0
+2025-04-19 06:11:22,026 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,026 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,026 [DEBUG]  Predicting cardinality for query 224: SELECT COUNT(*) FROM tuandromd WHERE f186 >= 0.0 AND f95 <= 0.0 AND f130 >= 0.0 AND f169 > 0.0;
+2025-04-19 06:11:22,034 [DEBUG]  		Latency: 5.79ms
+2025-04-19 06:11:22,034 [DEBUG]  		True: 0
+2025-04-19 06:11:22,034 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,034 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,034 [DEBUG]  Predicting cardinality for query 225: SELECT COUNT(*) FROM tuandromd WHERE f153 < 0.0 AND f25 < 0.0 AND f68 < 0.0;
+2025-04-19 06:11:22,041 [DEBUG]  		Latency: 5.05ms
+2025-04-19 06:11:22,042 [DEBUG]  		True: 0
+2025-04-19 06:11:22,042 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,042 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,042 [DEBUG]  Predicting cardinality for query 226: SELECT COUNT(*) FROM tuandromd WHERE f78 < 0.0 AND f175 >= 0.0 AND f53 < 0.0 AND f46 > 0.0 AND f89 <= 0.0;
+2025-04-19 06:11:22,048 [DEBUG]  		Latency: 4.27ms
+2025-04-19 06:11:22,048 [DEBUG]  		True: 0
+2025-04-19 06:11:22,048 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,049 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,049 [DEBUG]  Predicting cardinality for query 227: SELECT COUNT(*) FROM tuandromd WHERE f14 > 0.0 AND f104 >= 0.0 AND f25 = 0.0 AND f83 = 0.0 AND f138 <= 0.0;
+2025-04-19 06:11:22,056 [DEBUG]  		Latency: 5.17ms
+2025-04-19 06:11:22,056 [DEBUG]  		True: 8
+2025-04-19 06:11:22,056 [DEBUG]  		Predicted: 8.0
+2025-04-19 06:11:22,056 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,056 [DEBUG]  Predicting cardinality for query 228: SELECT COUNT(*) FROM tuandromd WHERE f241 < 1.0 AND f57 > 0.0 AND f128 <= 0.0 AND f105 < 0.0;
+2025-04-19 06:11:22,064 [DEBUG]  		Latency: 5.62ms
+2025-04-19 06:11:22,064 [DEBUG]  		True: 0
+2025-04-19 06:11:22,064 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,064 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,064 [DEBUG]  Predicting cardinality for query 229: SELECT COUNT(*) FROM tuandromd WHERE f135 <= 0.0 AND f3 > 0.0 AND f38 = 0.0;
+2025-04-19 06:11:22,069 [DEBUG]  		Latency: 2.78ms
+2025-04-19 06:11:22,069 [DEBUG]  		True: 0
+2025-04-19 06:11:22,069 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,069 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,069 [DEBUG]  Predicting cardinality for query 230: SELECT COUNT(*) FROM tuandromd WHERE f89 <= 0.0 AND f228 = 0.0 AND f113 > 0.0 AND f220 <= 1.0 AND f183 <= 0.0;
+2025-04-19 06:11:22,079 [DEBUG]  		Latency: 6.68ms
+2025-04-19 06:11:22,079 [DEBUG]  		True: 2
+2025-04-19 06:11:22,079 [DEBUG]  		Predicted: 2.5692726923334646
+2025-04-19 06:11:22,079 [DEBUG]  Q-Error was: 1.2846363461667323
+2025-04-19 06:11:22,079 [DEBUG]  Predicting cardinality for query 231: SELECT COUNT(*) FROM tuandromd WHERE f215 = 1.0 AND f99 = 1.0 AND f129 = 0.0 AND f59 = 0.0;
+2025-04-19 06:11:22,087 [DEBUG]  		Latency: 6.27ms
+2025-04-19 06:11:22,087 [DEBUG]  		True: 2390
+2025-04-19 06:11:22,087 [DEBUG]  		Predicted: 2385.3583695205907
+2025-04-19 06:11:22,087 [DEBUG]  Q-Error was: 1.001945883913595
+2025-04-19 06:11:22,088 [DEBUG]  Predicting cardinality for query 232: SELECT COUNT(*) FROM tuandromd WHERE f115 > 0.0 AND f73 < 0.0 AND f152 <= 0.0 AND f12 >= 0.0;
+2025-04-19 06:11:22,094 [DEBUG]  		Latency: 4.51ms
+2025-04-19 06:11:22,094 [DEBUG]  		True: 0
+2025-04-19 06:11:22,094 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,094 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,094 [DEBUG]  Predicting cardinality for query 233: SELECT COUNT(*) FROM tuandromd WHERE f81 > 0.0 AND f49 <= 0.0 AND f189 < 0.0 AND f121 < 0.0 AND f142 > 0.0;
+2025-04-19 06:11:22,103 [DEBUG]  		Latency: 5.96ms
+2025-04-19 06:11:22,103 [DEBUG]  		True: 0
+2025-04-19 06:11:22,103 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,103 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,103 [DEBUG]  Predicting cardinality for query 234: SELECT COUNT(*) FROM tuandromd WHERE f65 >= 0.0 AND f67 = 0.0 AND f17 <= 0.0 AND f48 = 0.0 AND f223 <= 0.0;
+2025-04-19 06:11:22,112 [DEBUG]  		Latency: 6.72ms
+2025-04-19 06:11:22,112 [DEBUG]  		True: 3865
+2025-04-19 06:11:22,112 [DEBUG]  		Predicted: 3860.627929474283
+2025-04-19 06:11:22,112 [DEBUG]  Q-Error was: 1.001132476531172
+2025-04-19 06:11:22,112 [DEBUG]  Predicting cardinality for query 235: SELECT COUNT(*) FROM tuandromd WHERE f126 < 1.0 AND f72 > 0.0;
+2025-04-19 06:11:22,119 [DEBUG]  		Latency: 5.05ms
+2025-04-19 06:11:22,119 [DEBUG]  		True: 7
+2025-04-19 06:11:22,120 [DEBUG]  		Predicted: 4.352134830813037
+2025-04-19 06:11:22,120 [DEBUG]  Q-Error was: 1.6084060517703
+2025-04-19 06:11:22,120 [DEBUG]  Predicting cardinality for query 236: SELECT COUNT(*) FROM tuandromd WHERE f113 > 0.0 AND f202 > 0.0 AND f194 > 0.0 AND f126 >= 0.0 AND f225 > 0.0;
+2025-04-19 06:11:22,129 [DEBUG]  		Latency: 7.44ms
+2025-04-19 06:11:22,130 [DEBUG]  		True: 0
+2025-04-19 06:11:22,130 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,130 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,130 [DEBUG]  Predicting cardinality for query 237: SELECT COUNT(*) FROM tuandromd WHERE f10 >= 0.0 AND f238 <= 0.0 AND f89 = 0.0;
+2025-04-19 06:11:22,137 [DEBUG]  		Latency: 5.33ms
+2025-04-19 06:11:22,137 [DEBUG]  		True: 4191
+2025-04-19 06:11:22,137 [DEBUG]  		Predicted: 4189.080350620891
+2025-04-19 06:11:22,137 [DEBUG]  Q-Error was: 1.0004582507897763
+2025-04-19 06:11:22,137 [DEBUG]  Predicting cardinality for query 238: SELECT COUNT(*) FROM tuandromd WHERE f8 <= 0.0 AND f218 > 0.0 AND f175 < 0.0 AND f158 >= 0.0;
+2025-04-19 06:11:22,145 [DEBUG]  		Latency: 5.43ms
+2025-04-19 06:11:22,145 [DEBUG]  		True: 0
+2025-04-19 06:11:22,145 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,145 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,145 [DEBUG]  Predicting cardinality for query 239: SELECT COUNT(*) FROM tuandromd WHERE f144 <= 0.0 AND f172 >= 0.0;
+2025-04-19 06:11:22,150 [DEBUG]  		Latency: 3.27ms
+2025-04-19 06:11:22,150 [DEBUG]  		True: 4321
+2025-04-19 06:11:22,151 [DEBUG]  		Predicted: 4320.0270270270275
+2025-04-19 06:11:22,151 [DEBUG]  Q-Error was: 1.0002252238161673
+2025-04-19 06:11:22,151 [DEBUG]  Predicting cardinality for query 240: SELECT COUNT(*) FROM tuandromd WHERE f217 = 1.0 AND f162 < 0.0 AND f72 < 0.0;
+2025-04-19 06:11:22,159 [DEBUG]  		Latency: 5.84ms
+2025-04-19 06:11:22,159 [DEBUG]  		True: 0
+2025-04-19 06:11:22,159 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,159 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,159 [DEBUG]  Predicting cardinality for query 241: SELECT COUNT(*) FROM tuandromd WHERE f178 > 0.0 AND f149 >= 0.0;
+2025-04-19 06:11:22,163 [DEBUG]  		Latency: 2.19ms
+2025-04-19 06:11:22,163 [DEBUG]  		True: 22
+2025-04-19 06:11:22,163 [DEBUG]  		Predicted: 21.999999999999986
+2025-04-19 06:11:22,163 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:22,163 [DEBUG]  Predicting cardinality for query 242: SELECT COUNT(*) FROM tuandromd WHERE f67 = 0.0;
+2025-04-19 06:11:22,167 [DEBUG]  		Latency: 2.65ms
+2025-04-19 06:11:22,168 [DEBUG]  		True: 4351
+2025-04-19 06:11:22,168 [DEBUG]  		Predicted: 4351.0
+2025-04-19 06:11:22,168 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,168 [DEBUG]  Predicting cardinality for query 243: SELECT COUNT(*) FROM tuandromd WHERE f92 < 0.0 AND f79 >= 0.0 AND f51 < 0.0 AND f3 > 0.0 AND f18 >= 0.0;
+2025-04-19 06:11:22,176 [DEBUG]  		Latency: 5.85ms
+2025-04-19 06:11:22,176 [DEBUG]  		True: 0
+2025-04-19 06:11:22,176 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,176 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,176 [DEBUG]  Predicting cardinality for query 244: SELECT COUNT(*) FROM tuandromd WHERE f96 <= 0.0 AND f210 = 0.0 AND f157 > 0.0 AND f105 = 0.0;
+2025-04-19 06:11:22,183 [DEBUG]  		Latency: 4.78ms
+2025-04-19 06:11:22,183 [DEBUG]  		True: 14
+2025-04-19 06:11:22,183 [DEBUG]  		Predicted: 14.972222222222218
+2025-04-19 06:11:22,183 [DEBUG]  Q-Error was: 1.0694444444444442
+2025-04-19 06:11:22,183 [DEBUG]  Predicting cardinality for query 245: SELECT COUNT(*) FROM tuandromd WHERE f61 > 0.0 AND f127 > 0.0 AND f149 <= 0.0 AND f31 <= 0.0;
+2025-04-19 06:11:22,190 [DEBUG]  		Latency: 4.44ms
+2025-04-19 06:11:22,190 [DEBUG]  		True: 0
+2025-04-19 06:11:22,190 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,190 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,190 [DEBUG]  Predicting cardinality for query 246: SELECT COUNT(*) FROM tuandromd WHERE f51 <= 0.0 AND f191 > 1.0 AND f106 <= 0.0 AND f154 >= 0.0;
+2025-04-19 06:11:22,198 [DEBUG]  		Latency: 5.96ms
+2025-04-19 06:11:22,199 [DEBUG]  		True: 0
+2025-04-19 06:11:22,199 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,199 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,199 [DEBUG]  Predicting cardinality for query 247: SELECT COUNT(*) FROM tuandromd WHERE f113 > 0.0 AND f169 = 0.0 AND f69 > 0.0 AND f75 >= 0.0 AND f170 = 0.0;
+2025-04-19 06:11:22,207 [DEBUG]  		Latency: 5.51ms
+2025-04-19 06:11:22,207 [DEBUG]  		True: 0
+2025-04-19 06:11:22,207 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,207 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,207 [DEBUG]  Predicting cardinality for query 248: SELECT COUNT(*) FROM tuandromd WHERE f100 > 0.0 AND f108 > 0.0 AND f72 > 0.0;
+2025-04-19 06:11:22,212 [DEBUG]  		Latency: 3.64ms
+2025-04-19 06:11:22,213 [DEBUG]  		True: 0
+2025-04-19 06:11:22,213 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,213 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,213 [DEBUG]  Predicting cardinality for query 249: SELECT COUNT(*) FROM tuandromd WHERE f230 > 0.0 AND f54 > 0.0 AND f23 >= 0.0 AND f203 < 0.0;
+2025-04-19 06:11:22,223 [DEBUG]  		Latency: 7.43ms
+2025-04-19 06:11:22,223 [DEBUG]  		True: 0
+2025-04-19 06:11:22,223 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,223 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,223 [DEBUG]  Predicting cardinality for query 250: SELECT COUNT(*) FROM tuandromd WHERE f19 >= 0.0 AND f93 = 0.0 AND f44 < 0.0 AND f119 <= 0.0;
+2025-04-19 06:11:22,231 [DEBUG]  		Latency: 5.46ms
+2025-04-19 06:11:22,231 [DEBUG]  		True: 0
+2025-04-19 06:11:22,231 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,231 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,231 [DEBUG]  Predicting cardinality for query 251: SELECT COUNT(*) FROM tuandromd WHERE f213 > 0.0 AND f59 > 0.0 AND f167 <= 0.0 AND f139 < 1.0;
+2025-04-19 06:11:22,238 [DEBUG]  		Latency: 5.37ms
+2025-04-19 06:11:22,238 [DEBUG]  		True: 0
+2025-04-19 06:11:22,239 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,239 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,239 [DEBUG]  Predicting cardinality for query 252: SELECT COUNT(*) FROM tuandromd WHERE f150 = 1.0 AND f54 > 0.0 AND f128 > 0.0 AND f95 = 0.0 AND f213 <= 0.0;
+2025-04-19 06:11:22,248 [DEBUG]  		Latency: 6.77ms
+2025-04-19 06:11:22,248 [DEBUG]  		True: 0
+2025-04-19 06:11:22,248 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,248 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,248 [DEBUG]  Predicting cardinality for query 253: SELECT COUNT(*) FROM tuandromd WHERE f111 < 0.0;
+2025-04-19 06:11:22,253 [DEBUG]  		Latency: 3.63ms
+2025-04-19 06:11:22,253 [DEBUG]  		True: 0
+2025-04-19 06:11:22,253 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,254 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,254 [DEBUG]  Predicting cardinality for query 254: SELECT COUNT(*) FROM tuandromd WHERE f95 > 0.0;
+2025-04-19 06:11:22,258 [DEBUG]  		Latency: 2.40ms
+2025-04-19 06:11:22,258 [DEBUG]  		True: 30
+2025-04-19 06:11:22,258 [DEBUG]  		Predicted: 29.999999999999986
+2025-04-19 06:11:22,258 [DEBUG]  Q-Error was: 1.0000000000000004
+2025-04-19 06:11:22,258 [DEBUG]  Predicting cardinality for query 255: SELECT COUNT(*) FROM tuandromd WHERE f90 = 0.0;
+2025-04-19 06:11:22,261 [DEBUG]  		Latency: 1.53ms
+2025-04-19 06:11:22,261 [DEBUG]  		True: 4464
+2025-04-19 06:11:22,261 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:22,261 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,261 [DEBUG]  Predicting cardinality for query 256: SELECT COUNT(*) FROM tuandromd WHERE f137 = 0.0 AND f29 > 0.0 AND f199 = 0.0 AND f203 < 0.0 AND f25 > 0.0;
+2025-04-19 06:11:22,268 [DEBUG]  		Latency: 3.99ms
+2025-04-19 06:11:22,268 [DEBUG]  		True: 0
+2025-04-19 06:11:22,268 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,268 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,268 [DEBUG]  Predicting cardinality for query 257: SELECT COUNT(*) FROM tuandromd WHERE f132 < 0.0 AND f79 <= 0.0 AND f76 > 0.0 AND f91 = 0.0 AND f200 < 0.0;
+2025-04-19 06:11:22,275 [DEBUG]  		Latency: 4.54ms
+2025-04-19 06:11:22,275 [DEBUG]  		True: 0
+2025-04-19 06:11:22,275 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,275 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,275 [DEBUG]  Predicting cardinality for query 258: SELECT COUNT(*) FROM tuandromd WHERE f27 = 0.0 AND f118 < 0.0 AND f36 = 0.0 AND f218 <= 0.0 AND f231 = 0.0;
+2025-04-19 06:11:22,285 [DEBUG]  		Latency: 7.09ms
+2025-04-19 06:11:22,285 [DEBUG]  		True: 0
+2025-04-19 06:11:22,285 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,285 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,285 [DEBUG]  Predicting cardinality for query 259: SELECT COUNT(*) FROM tuandromd WHERE f106 < 0.0;
+2025-04-19 06:11:22,287 [DEBUG]  		Latency: 0.05ms
+2025-04-19 06:11:22,287 [DEBUG]  		True: 0
+2025-04-19 06:11:22,287 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,287 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,287 [DEBUG]  Predicting cardinality for query 260: SELECT COUNT(*) FROM tuandromd WHERE f205 <= 0.0 AND f210 >= 0.0;
+2025-04-19 06:11:22,292 [DEBUG]  		Latency: 3.64ms
+2025-04-19 06:11:22,292 [DEBUG]  		True: 4454
+2025-04-19 06:11:22,292 [DEBUG]  		Predicted: 4453.027027027027
+2025-04-19 06:11:22,292 [DEBUG]  Q-Error was: 1.000218496983528
+2025-04-19 06:11:22,293 [DEBUG]  Predicting cardinality for query 261: SELECT COUNT(*) FROM tuandromd WHERE f159 = 0.0 AND f8 > 0.0 AND f104 <= 0.0 AND f29 > 0.0 AND f127 >= 0.0;
+2025-04-19 06:11:22,301 [DEBUG]  		Latency: 6.05ms
+2025-04-19 06:11:22,301 [DEBUG]  		True: 0
+2025-04-19 06:11:22,301 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,301 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,301 [DEBUG]  Predicting cardinality for query 262: SELECT COUNT(*) FROM tuandromd WHERE f29 < 0.0 AND f169 = 0.0 AND f236 = 0.0 AND f108 > 0.0 AND f85 >= 0.0;
+2025-04-19 06:11:22,310 [DEBUG]  		Latency: 6.44ms
+2025-04-19 06:11:22,310 [DEBUG]  		True: 0
+2025-04-19 06:11:22,310 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,310 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,310 [DEBUG]  Predicting cardinality for query 263: SELECT COUNT(*) FROM tuandromd WHERE f190 >= 0.0 AND f154 <= 0.0 AND f67 <= 0.0;
+2025-04-19 06:11:22,316 [DEBUG]  		Latency: 3.85ms
+2025-04-19 06:11:22,316 [DEBUG]  		True: 4346
+2025-04-19 06:11:22,316 [DEBUG]  		Predicted: 4344.854544169278
+2025-04-19 06:11:22,316 [DEBUG]  Q-Error was: 1.0002636350236993
+2025-04-19 06:11:22,316 [DEBUG]  Predicting cardinality for query 264: SELECT COUNT(*) FROM tuandromd WHERE f167 > 0.0 AND f111 >= 0.0 AND f86 > 0.0;
+2025-04-19 06:11:22,324 [DEBUG]  		Latency: 5.37ms
+2025-04-19 06:11:22,324 [DEBUG]  		True: 22
+2025-04-19 06:11:22,324 [DEBUG]  		Predicted: 21.999999999999986
+2025-04-19 06:11:22,324 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:22,324 [DEBUG]  Predicting cardinality for query 265: SELECT COUNT(*) FROM tuandromd WHERE f136 >= 0.0 AND f98 < 0.0;
+2025-04-19 06:11:22,330 [DEBUG]  		Latency: 3.83ms
+2025-04-19 06:11:22,330 [DEBUG]  		True: 0
+2025-04-19 06:11:22,330 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,330 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,330 [DEBUG]  Predicting cardinality for query 266: SELECT COUNT(*) FROM tuandromd WHERE f183 > 0.0;
+2025-04-19 06:11:22,336 [DEBUG]  		Latency: 3.87ms
+2025-04-19 06:11:22,336 [DEBUG]  		True: 1780
+2025-04-19 06:11:22,336 [DEBUG]  		Predicted: 1780.0
+2025-04-19 06:11:22,336 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,336 [DEBUG]  Predicting cardinality for query 267: SELECT COUNT(*) FROM tuandromd WHERE f93 = 0.0 AND f124 > 0.0 AND f59 <= 0.0;
+2025-04-19 06:11:22,342 [DEBUG]  		Latency: 4.08ms
+2025-04-19 06:11:22,342 [DEBUG]  		True: 99
+2025-04-19 06:11:22,342 [DEBUG]  		Predicted: 98.99999999999996
+2025-04-19 06:11:22,342 [DEBUG]  Q-Error was: 1.0000000000000004
+2025-04-19 06:11:22,342 [DEBUG]  Predicting cardinality for query 268: SELECT COUNT(*) FROM tuandromd WHERE f27 >= 0.0 AND f2 >= 0.0 AND f177 < 0.0 AND f152 = 0.0 AND f92 >= 0.0;
+2025-04-19 06:11:22,350 [DEBUG]  		Latency: 5.31ms
+2025-04-19 06:11:22,350 [DEBUG]  		True: 0
+2025-04-19 06:11:22,350 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,350 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,350 [DEBUG]  Predicting cardinality for query 269: SELECT COUNT(*) FROM tuandromd WHERE f128 >= 0.0 AND f31 > 0.0;
+2025-04-19 06:11:22,354 [DEBUG]  		Latency: 2.48ms
+2025-04-19 06:11:22,355 [DEBUG]  		True: 120
+2025-04-19 06:11:22,355 [DEBUG]  		Predicted: 120.00000000000001
+2025-04-19 06:11:22,355 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-19 06:11:22,355 [DEBUG]  Predicting cardinality for query 270: SELECT COUNT(*) FROM tuandromd WHERE f65 <= 0.0 AND f151 >= 0.0;
+2025-04-19 06:11:22,361 [DEBUG]  		Latency: 4.34ms
+2025-04-19 06:11:22,361 [DEBUG]  		True: 3233
+2025-04-19 06:11:22,361 [DEBUG]  		Predicted: 3232.0540540540537
+2025-04-19 06:11:22,361 [DEBUG]  Q-Error was: 1.0002926764002475
+2025-04-19 06:11:22,361 [DEBUG]  Predicting cardinality for query 271: SELECT COUNT(*) FROM tuandromd WHERE f23 > 0.0 AND f74 < 0.0 AND f147 >= 0.0 AND f175 >= 0.0;
+2025-04-19 06:11:22,369 [DEBUG]  		Latency: 5.25ms
+2025-04-19 06:11:22,369 [DEBUG]  		True: 0
+2025-04-19 06:11:22,369 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,369 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,369 [DEBUG]  Predicting cardinality for query 272: SELECT COUNT(*) FROM tuandromd WHERE f210 >= 0.0 AND f40 <= 0.0;
+2025-04-19 06:11:22,374 [DEBUG]  		Latency: 3.41ms
+2025-04-19 06:11:22,374 [DEBUG]  		True: 4442
+2025-04-19 06:11:22,374 [DEBUG]  		Predicted: 4441.027027027027
+2025-04-19 06:11:22,374 [DEBUG]  Q-Error was: 1.00021908737935
+2025-04-19 06:11:22,374 [DEBUG]  Predicting cardinality for query 273: SELECT COUNT(*) FROM tuandromd WHERE f102 > 0.0;
+2025-04-19 06:11:22,378 [DEBUG]  		Latency: 1.77ms
+2025-04-19 06:11:22,378 [DEBUG]  		True: 22
+2025-04-19 06:11:22,378 [DEBUG]  		Predicted: 21.999999999999986
+2025-04-19 06:11:22,378 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:22,378 [DEBUG]  Predicting cardinality for query 274: SELECT COUNT(*) FROM tuandromd WHERE f36 = 0.0 AND f238 < 0.0 AND f88 = 0.0 AND f164 <= 0.0 AND f184 >= 0.0;
+2025-04-19 06:11:22,387 [DEBUG]  		Latency: 6.35ms
+2025-04-19 06:11:22,387 [DEBUG]  		True: 0
+2025-04-19 06:11:22,387 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,387 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,387 [DEBUG]  Predicting cardinality for query 275: SELECT COUNT(*) FROM tuandromd WHERE f45 <= 0.0;
+2025-04-19 06:11:22,393 [DEBUG]  		Latency: 3.66ms
+2025-04-19 06:11:22,393 [DEBUG]  		True: 4286
+2025-04-19 06:11:22,393 [DEBUG]  		Predicted: 4285.999999999999
+2025-04-19 06:11:22,393 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-19 06:11:22,393 [DEBUG]  Predicting cardinality for query 276: SELECT COUNT(*) FROM tuandromd WHERE f97 <= 0.0 AND f194 <= 0.0;
+2025-04-19 06:11:22,397 [DEBUG]  		Latency: 2.52ms
+2025-04-19 06:11:22,397 [DEBUG]  		True: 4434
+2025-04-19 06:11:22,397 [DEBUG]  		Predicted: 4433.044813588292
+2025-04-19 06:11:22,398 [DEBUG]  Q-Error was: 1.000215469604273
+2025-04-19 06:11:22,398 [DEBUG]  Predicting cardinality for query 277: SELECT COUNT(*) FROM tuandromd WHERE f230 > 0.0 AND f189 = 0.0 AND f187 > 0.0;
+2025-04-19 06:11:22,406 [DEBUG]  		Latency: 6.02ms
+2025-04-19 06:11:22,406 [DEBUG]  		True: 4
+2025-04-19 06:11:22,406 [DEBUG]  		Predicted: 3.999999999999997
+2025-04-19 06:11:22,406 [DEBUG]  Q-Error was: 1.0000000000000009
+2025-04-19 06:11:22,406 [DEBUG]  Predicting cardinality for query 278: SELECT COUNT(*) FROM tuandromd WHERE f80 < 0.0 AND f177 <= 0.0 AND f168 = 0.0 AND f144 > 0.0;
+2025-04-19 06:11:22,413 [DEBUG]  		Latency: 5.18ms
+2025-04-19 06:11:22,413 [DEBUG]  		True: 0
+2025-04-19 06:11:22,414 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,414 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,414 [DEBUG]  Predicting cardinality for query 279: SELECT COUNT(*) FROM tuandromd WHERE f224 <= 0.0 AND f71 <= 0.0;
+2025-04-19 06:11:22,419 [DEBUG]  		Latency: 3.87ms
+2025-04-19 06:11:22,420 [DEBUG]  		True: 4115
+2025-04-19 06:11:22,420 [DEBUG]  		Predicted: 4114.027027027027
+2025-04-19 06:11:22,420 [DEBUG]  Q-Error was: 1.0002365013565981
+2025-04-19 06:11:22,420 [DEBUG]  Predicting cardinality for query 280: SELECT COUNT(*) FROM tuandromd WHERE f52 <= 0.0 AND f173 <= 0.0 AND f180 <= 0.0 AND f238 = 0.0;
+2025-04-19 06:11:22,427 [DEBUG]  		Latency: 4.63ms
+2025-04-19 06:11:22,427 [DEBUG]  		True: 4190
+2025-04-19 06:11:22,427 [DEBUG]  		Predicted: 4187.210542114852
+2025-04-19 06:11:22,427 [DEBUG]  Q-Error was: 1.0006661852460228
+2025-04-19 06:11:22,427 [DEBUG]  Predicting cardinality for query 281: SELECT COUNT(*) FROM tuandromd WHERE f198 < 0.0 AND f150 >= 0.0;
+2025-04-19 06:11:22,433 [DEBUG]  		Latency: 4.61ms
+2025-04-19 06:11:22,433 [DEBUG]  		True: 0
+2025-04-19 06:11:22,433 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,433 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,434 [DEBUG]  Predicting cardinality for query 282: SELECT COUNT(*) FROM tuandromd WHERE f167 = 0.0 AND f90 <= 0.0;
+2025-04-19 06:11:22,438 [DEBUG]  		Latency: 2.35ms
+2025-04-19 06:11:22,438 [DEBUG]  		True: 4441
+2025-04-19 06:11:22,438 [DEBUG]  		Predicted: 4440.0270270270275
+2025-04-19 06:11:22,438 [DEBUG]  Q-Error was: 1.0002191367230537
+2025-04-19 06:11:22,438 [DEBUG]  Predicting cardinality for query 283: SELECT COUNT(*) FROM tuandromd WHERE f148 = 0.0 AND f151 <= 0.0 AND f216 <= 1.0 AND f119 > 0.0;
+2025-04-19 06:11:22,447 [DEBUG]  		Latency: 6.41ms
+2025-04-19 06:11:22,447 [DEBUG]  		True: 0
+2025-04-19 06:11:22,447 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,447 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,447 [DEBUG]  Predicting cardinality for query 284: SELECT COUNT(*) FROM tuandromd WHERE f60 = 0.0 AND f162 >= 0.0 AND f67 >= 0.0 AND f90 < 0.0;
+2025-04-19 06:11:22,454 [DEBUG]  		Latency: 4.28ms
+2025-04-19 06:11:22,454 [DEBUG]  		True: 0
+2025-04-19 06:11:22,454 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,454 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,454 [DEBUG]  Predicting cardinality for query 285: SELECT COUNT(*) FROM tuandromd WHERE f111 > 0.0 AND f233 < 0.0;
+2025-04-19 06:11:22,461 [DEBUG]  		Latency: 5.35ms
+2025-04-19 06:11:22,461 [DEBUG]  		True: 0
+2025-04-19 06:11:22,461 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,461 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,461 [DEBUG]  Predicting cardinality for query 286: SELECT COUNT(*) FROM tuandromd WHERE f233 > 0.0 AND f136 < 0.0 AND f117 > 0.0 AND f100 >= 0.0;
+2025-04-19 06:11:22,470 [DEBUG]  		Latency: 6.18ms
+2025-04-19 06:11:22,470 [DEBUG]  		True: 0
+2025-04-19 06:11:22,470 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,470 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,470 [DEBUG]  Predicting cardinality for query 287: SELECT COUNT(*) FROM tuandromd WHERE f217 < 1.0 AND f39 <= 0.0 AND f9 <= 0.0 AND f179 <= 0.0 AND f91 >= 0.0;
+2025-04-19 06:11:22,479 [DEBUG]  		Latency: 6.72ms
+2025-04-19 06:11:22,479 [DEBUG]  		True: 2939
+2025-04-19 06:11:22,479 [DEBUG]  		Predicted: 2935.9348733496313
+2025-04-19 06:11:22,479 [DEBUG]  Q-Error was: 1.0010440036249413
+2025-04-19 06:11:22,479 [DEBUG]  Predicting cardinality for query 288: SELECT COUNT(*) FROM tuandromd WHERE f64 < 0.0;
+2025-04-19 06:11:22,484 [DEBUG]  		Latency: 2.73ms
+2025-04-19 06:11:22,484 [DEBUG]  		True: 0
+2025-04-19 06:11:22,484 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,484 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,484 [DEBUG]  Predicting cardinality for query 289: SELECT COUNT(*) FROM tuandromd WHERE f221 >= 1.0 AND f137 < 0.0;
+2025-04-19 06:11:22,490 [DEBUG]  		Latency: 4.47ms
+2025-04-19 06:11:22,491 [DEBUG]  		True: 0
+2025-04-19 06:11:22,491 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,491 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,491 [DEBUG]  Predicting cardinality for query 290: SELECT COUNT(*) FROM tuandromd WHERE f150 >= 1.0 AND f44 > 0.0;
+2025-04-19 06:11:22,497 [DEBUG]  		Latency: 4.75ms
+2025-04-19 06:11:22,497 [DEBUG]  		True: 156
+2025-04-19 06:11:22,497 [DEBUG]  		Predicted: 151.4920016262461
+2025-04-19 06:11:22,498 [DEBUG]  Q-Error was: 1.0297573358683043
+2025-04-19 06:11:22,498 [DEBUG]  Predicting cardinality for query 291: SELECT COUNT(*) FROM tuandromd WHERE f156 > 0.0 AND f220 >= 0.0 AND f213 < 0.0;
+2025-04-19 06:11:22,505 [DEBUG]  		Latency: 5.54ms
+2025-04-19 06:11:22,505 [DEBUG]  		True: 0
+2025-04-19 06:11:22,505 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,505 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,505 [DEBUG]  Predicting cardinality for query 292: SELECT COUNT(*) FROM tuandromd WHERE f228 = 0.0 AND f65 >= 0.0 AND f171 > 0.0 AND f76 > 0.0 AND f74 >= 0.0;
+2025-04-19 06:11:22,513 [DEBUG]  		Latency: 5.66ms
+2025-04-19 06:11:22,514 [DEBUG]  		True: 0
+2025-04-19 06:11:22,514 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,514 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,514 [DEBUG]  Predicting cardinality for query 293: SELECT COUNT(*) FROM tuandromd WHERE f39 < 0.0 AND f224 > 0.0 AND f100 < 0.0 AND f41 = 0.0 AND f211 >= 0.0;
+2025-04-19 06:11:22,521 [DEBUG]  		Latency: 5.30ms
+2025-04-19 06:11:22,521 [DEBUG]  		True: 0
+2025-04-19 06:11:22,522 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,522 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,522 [DEBUG]  Predicting cardinality for query 294: SELECT COUNT(*) FROM tuandromd WHERE f14 = 0.0 AND f110 <= 0.0 AND f240 >= 0.0;
+2025-04-19 06:11:22,528 [DEBUG]  		Latency: 4.46ms
+2025-04-19 06:11:22,528 [DEBUG]  		True: 4456
+2025-04-19 06:11:22,528 [DEBUG]  		Predicted: 4454.080350620891
+2025-04-19 06:11:22,528 [DEBUG]  Q-Error was: 1.0004309866971397
+2025-04-19 06:11:22,528 [DEBUG]  Predicting cardinality for query 295: SELECT COUNT(*) FROM tuandromd WHERE f187 = 0.0 AND f56 = 0.0 AND f242 < 1.0;
+2025-04-19 06:11:22,537 [DEBUG]  		Latency: 5.95ms
+2025-04-19 06:11:22,537 [DEBUG]  		True: 766
+2025-04-19 06:11:22,537 [DEBUG]  		Predicted: 764.0428197644414
+2025-04-19 06:11:22,537 [DEBUG]  Q-Error was: 1.0025616106649127
+2025-04-19 06:11:22,537 [DEBUG]  Predicting cardinality for query 296: SELECT COUNT(*) FROM tuandromd WHERE f141 = 0.0;
+2025-04-19 06:11:22,541 [DEBUG]  		Latency: 2.05ms
+2025-04-19 06:11:22,541 [DEBUG]  		True: 4460
+2025-04-19 06:11:22,541 [DEBUG]  		Predicted: 4460.0
+2025-04-19 06:11:22,541 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,541 [DEBUG]  Predicting cardinality for query 297: SELECT COUNT(*) FROM tuandromd WHERE f78 > 0.0;
+2025-04-19 06:11:22,545 [DEBUG]  		Latency: 2.47ms
+2025-04-19 06:11:22,545 [DEBUG]  		True: 24
+2025-04-19 06:11:22,545 [DEBUG]  		Predicted: 23.99999999999999
+2025-04-19 06:11:22,545 [DEBUG]  Q-Error was: 1.0000000000000004
+2025-04-19 06:11:22,545 [DEBUG]  Predicting cardinality for query 298: SELECT COUNT(*) FROM tuandromd WHERE f31 > 0.0 AND f50 > 0.0 AND f95 > 0.0 AND f80 = 0.0 AND f91 = 0.0;
+2025-04-19 06:11:22,552 [DEBUG]  		Latency: 4.68ms
+2025-04-19 06:11:22,553 [DEBUG]  		True: 22
+2025-04-19 06:11:22,553 [DEBUG]  		Predicted: 21.999999999999986
+2025-04-19 06:11:22,553 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:22,553 [DEBUG]  Predicting cardinality for query 299: SELECT COUNT(*) FROM tuandromd WHERE f20 = 0.0 AND f112 >= 0.0 AND f135 <= 0.0 AND f174 > 0.0 AND f48 < 0.0;
+2025-04-19 06:11:22,560 [DEBUG]  		Latency: 4.98ms
+2025-04-19 06:11:22,560 [DEBUG]  		True: 0
+2025-04-19 06:11:22,560 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,560 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,560 [DEBUG]  Predicting cardinality for query 300: SELECT COUNT(*) FROM tuandromd WHERE f50 = 0.0 AND f21 > 0.0 AND f178 >= 0.0 AND f125 >= 0.0;
+2025-04-19 06:11:22,567 [DEBUG]  		Latency: 4.46ms
+2025-04-19 06:11:22,567 [DEBUG]  		True: 0
+2025-04-19 06:11:22,567 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,567 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,567 [DEBUG]  Predicting cardinality for query 301: SELECT COUNT(*) FROM tuandromd WHERE f180 = 0.0 AND f70 <= 0.0;
+2025-04-19 06:11:22,572 [DEBUG]  		Latency: 2.49ms
+2025-04-19 06:11:22,572 [DEBUG]  		True: 4463
+2025-04-19 06:11:22,572 [DEBUG]  		Predicted: 4462.027027027027
+2025-04-19 06:11:22,572 [DEBUG]  Q-Error was: 1.0002180562706322
+2025-04-19 06:11:22,572 [DEBUG]  Predicting cardinality for query 302: SELECT COUNT(*) FROM tuandromd WHERE f156 = 0.0;
+2025-04-19 06:11:22,577 [DEBUG]  		Latency: 3.50ms
+2025-04-19 06:11:22,577 [DEBUG]  		True: 4280
+2025-04-19 06:11:22,577 [DEBUG]  		Predicted: 4280.0
+2025-04-19 06:11:22,577 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,577 [DEBUG]  Predicting cardinality for query 303: SELECT COUNT(*) FROM tuandromd WHERE f157 = 0.0 AND f230 > 0.0 AND f81 > 0.0 AND f239 >= 0.0 AND f44 <= 0.0;
+2025-04-19 06:11:22,588 [DEBUG]  		Latency: 7.95ms
+2025-04-19 06:11:22,588 [DEBUG]  		True: 0
+2025-04-19 06:11:22,588 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,588 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,588 [DEBUG]  Predicting cardinality for query 304: SELECT COUNT(*) FROM tuandromd WHERE f39 = 0.0;
+2025-04-19 06:11:22,591 [DEBUG]  		Latency: 1.73ms
+2025-04-19 06:11:22,592 [DEBUG]  		True: 4442
+2025-04-19 06:11:22,592 [DEBUG]  		Predicted: 4442.0
+2025-04-19 06:11:22,592 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,592 [DEBUG]  Predicting cardinality for query 305: SELECT COUNT(*) FROM tuandromd WHERE f217 > 0.0 AND f149 > 0.0 AND f197 <= 0.0 AND f194 <= 0.0 AND f172 >= 0.0;
+2025-04-19 06:11:22,601 [DEBUG]  		Latency: 6.68ms
+2025-04-19 06:11:22,601 [DEBUG]  		True: 0
+2025-04-19 06:11:22,601 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,601 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,601 [DEBUG]  Predicting cardinality for query 306: SELECT COUNT(*) FROM tuandromd WHERE f89 < 0.0 AND f101 > 0.0;
+2025-04-19 06:11:22,607 [DEBUG]  		Latency: 4.00ms
+2025-04-19 06:11:22,607 [DEBUG]  		True: 0
+2025-04-19 06:11:22,607 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,607 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,607 [DEBUG]  Predicting cardinality for query 307: SELECT COUNT(*) FROM tuandromd WHERE f95 >= 0.0 AND f135 < 0.0 AND f186 < 0.0 AND f86 < 0.0 AND f134 >= 0.0;
+2025-04-19 06:11:22,615 [DEBUG]  		Latency: 5.64ms
+2025-04-19 06:11:22,615 [DEBUG]  		True: 0
+2025-04-19 06:11:22,615 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,615 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,615 [DEBUG]  Predicting cardinality for query 308: SELECT COUNT(*) FROM tuandromd WHERE f123 < 0.0 AND f57 = 0.0 AND f201 = 0.0 AND f236 = 0.0;
+2025-04-19 06:11:22,624 [DEBUG]  		Latency: 6.47ms
+2025-04-19 06:11:22,624 [DEBUG]  		True: 0
+2025-04-19 06:11:22,624 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,624 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,624 [DEBUG]  Predicting cardinality for query 309: SELECT COUNT(*) FROM tuandromd WHERE f147 >= 0.0 AND f225 > 0.0 AND f6 = 0.0;
+2025-04-19 06:11:22,633 [DEBUG]  		Latency: 6.37ms
+2025-04-19 06:11:22,633 [DEBUG]  		True: 295
+2025-04-19 06:11:22,633 [DEBUG]  		Predicted: 296.132318545276
+2025-04-19 06:11:22,633 [DEBUG]  Q-Error was: 1.0038383679500882
+2025-04-19 06:11:22,633 [DEBUG]  Predicting cardinality for query 310: SELECT COUNT(*) FROM tuandromd WHERE f190 > 0.0 AND f186 = 0.0 AND f53 > 0.0;
+2025-04-19 06:11:22,638 [DEBUG]  		Latency: 2.83ms
+2025-04-19 06:11:22,638 [DEBUG]  		True: 0
+2025-04-19 06:11:22,638 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,638 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,638 [DEBUG]  Predicting cardinality for query 311: SELECT COUNT(*) FROM tuandromd WHERE f63 < 0.0 AND f114 >= 0.0 AND f56 > 0.0 AND f12 < 0.0 AND f107 < 0.0;
+2025-04-19 06:11:22,647 [DEBUG]  		Latency: 6.79ms
+2025-04-19 06:11:22,647 [DEBUG]  		True: 0
+2025-04-19 06:11:22,647 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,647 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,648 [DEBUG]  Predicting cardinality for query 312: SELECT COUNT(*) FROM tuandromd WHERE f203 = 0.0 AND f53 > 0.0 AND f98 > 0.0;
+2025-04-19 06:11:22,652 [DEBUG]  		Latency: 2.68ms
+2025-04-19 06:11:22,652 [DEBUG]  		True: 0
+2025-04-19 06:11:22,652 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,652 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,652 [DEBUG]  Predicting cardinality for query 313: SELECT COUNT(*) FROM tuandromd WHERE f128 <= 0.0;
+2025-04-19 06:11:22,654 [DEBUG]  		Latency: 0.05ms
+2025-04-19 06:11:22,654 [DEBUG]  		True: 4464
+2025-04-19 06:11:22,654 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:22,654 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,654 [DEBUG]  Predicting cardinality for query 314: SELECT COUNT(*) FROM tuandromd WHERE f109 < 0.0;
+2025-04-19 06:11:22,658 [DEBUG]  		Latency: 1.86ms
+2025-04-19 06:11:22,658 [DEBUG]  		True: 0
+2025-04-19 06:11:22,658 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,658 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,658 [DEBUG]  Predicting cardinality for query 315: SELECT COUNT(*) FROM tuandromd WHERE f53 <= 0.0;
+2025-04-19 06:11:22,661 [DEBUG]  		Latency: 1.54ms
+2025-04-19 06:11:22,661 [DEBUG]  		True: 4463
+2025-04-19 06:11:22,661 [DEBUG]  		Predicted: 4463.0
+2025-04-19 06:11:22,662 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,662 [DEBUG]  Predicting cardinality for query 316: SELECT COUNT(*) FROM tuandromd WHERE f239 < 0.0 AND f82 < 0.0;
+2025-04-19 06:11:22,668 [DEBUG]  		Latency: 4.56ms
+2025-04-19 06:11:22,668 [DEBUG]  		True: 0
+2025-04-19 06:11:22,668 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,668 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,668 [DEBUG]  Predicting cardinality for query 317: SELECT COUNT(*) FROM tuandromd WHERE f11 < 0.0 AND f50 <= 0.0 AND f61 >= 0.0;
+2025-04-19 06:11:22,674 [DEBUG]  		Latency: 3.65ms
+2025-04-19 06:11:22,674 [DEBUG]  		True: 0
+2025-04-19 06:11:22,674 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,674 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,674 [DEBUG]  Predicting cardinality for query 318: SELECT COUNT(*) FROM tuandromd WHERE f237 < 0.0;
+2025-04-19 06:11:22,679 [DEBUG]  		Latency: 3.46ms
+2025-04-19 06:11:22,680 [DEBUG]  		True: 0
+2025-04-19 06:11:22,680 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,680 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,680 [DEBUG]  Predicting cardinality for query 319: SELECT COUNT(*) FROM tuandromd WHERE f48 > 0.0;
+2025-04-19 06:11:22,683 [DEBUG]  		Latency: 1.85ms
+2025-04-19 06:11:22,683 [DEBUG]  		True: 26
+2025-04-19 06:11:22,683 [DEBUG]  		Predicted: 25.99999999999998
+2025-04-19 06:11:22,683 [DEBUG]  Q-Error was: 1.0000000000000009
+2025-04-19 06:11:22,684 [DEBUG]  Predicting cardinality for query 320: SELECT COUNT(*) FROM tuandromd WHERE f79 < 0.0;
+2025-04-19 06:11:22,688 [DEBUG]  		Latency: 2.50ms
+2025-04-19 06:11:22,688 [DEBUG]  		True: 0
+2025-04-19 06:11:22,688 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,688 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,688 [DEBUG]  Predicting cardinality for query 321: SELECT COUNT(*) FROM tuandromd WHERE f32 <= 0.0 AND f71 >= 0.0 AND f135 > 0.0 AND f134 < 0.0 AND f139 > 0.0;
+2025-04-19 06:11:22,696 [DEBUG]  		Latency: 5.50ms
+2025-04-19 06:11:22,696 [DEBUG]  		True: 0
+2025-04-19 06:11:22,696 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,696 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,696 [DEBUG]  Predicting cardinality for query 322: SELECT COUNT(*) FROM tuandromd WHERE f195 = 0.0 AND f240 < 0.0 AND f237 = 0.0;
+2025-04-19 06:11:22,703 [DEBUG]  		Latency: 5.10ms
+2025-04-19 06:11:22,703 [DEBUG]  		True: 0
+2025-04-19 06:11:22,703 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,703 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,703 [DEBUG]  Predicting cardinality for query 323: SELECT COUNT(*) FROM tuandromd WHERE f76 = 0.0;
+2025-04-19 06:11:22,707 [DEBUG]  		Latency: 1.53ms
+2025-04-19 06:11:22,707 [DEBUG]  		True: 4464
+2025-04-19 06:11:22,707 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:22,707 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,707 [DEBUG]  Predicting cardinality for query 324: SELECT COUNT(*) FROM tuandromd WHERE f90 > 0.0 AND f155 < 0.0 AND f217 > 0.0 AND f126 = 0.0;
+2025-04-19 06:11:22,716 [DEBUG]  		Latency: 7.29ms
+2025-04-19 06:11:22,717 [DEBUG]  		True: 0
+2025-04-19 06:11:22,717 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,717 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,717 [DEBUG]  Predicting cardinality for query 325: SELECT COUNT(*) FROM tuandromd WHERE f140 < 0.0 AND f14 < 0.0 AND f73 > 0.0 AND f42 <= 0.0;
+2025-04-19 06:11:22,724 [DEBUG]  		Latency: 4.78ms
+2025-04-19 06:11:22,724 [DEBUG]  		True: 0
+2025-04-19 06:11:22,724 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,724 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,724 [DEBUG]  Predicting cardinality for query 326: SELECT COUNT(*) FROM tuandromd WHERE f157 < 0.0 AND f168 > 0.0 AND f17 >= 0.0 AND f120 >= 0.0;
+2025-04-19 06:11:22,731 [DEBUG]  		Latency: 5.39ms
+2025-04-19 06:11:22,732 [DEBUG]  		True: 0
+2025-04-19 06:11:22,732 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,732 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,732 [DEBUG]  Predicting cardinality for query 327: SELECT COUNT(*) FROM tuandromd WHERE f218 <= 0.0 AND f159 = 0.0 AND f144 < 0.0;
+2025-04-19 06:11:22,740 [DEBUG]  		Latency: 5.77ms
+2025-04-19 06:11:22,740 [DEBUG]  		True: 0
+2025-04-19 06:11:22,740 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,740 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,740 [DEBUG]  Predicting cardinality for query 328: SELECT COUNT(*) FROM tuandromd WHERE f37 = 0.0 AND f227 <= 0.0 AND f149 = 0.0;
+2025-04-19 06:11:22,746 [DEBUG]  		Latency: 3.87ms
+2025-04-19 06:11:22,746 [DEBUG]  		True: 4367
+2025-04-19 06:11:22,746 [DEBUG]  		Predicted: 4365.080350620891
+2025-04-19 06:11:22,746 [DEBUG]  Q-Error was: 1.0004397741221043
+2025-04-19 06:11:22,746 [DEBUG]  Predicting cardinality for query 329: SELECT COUNT(*) FROM tuandromd WHERE f66 = 0.0 AND f86 < 0.0 AND f234 = 0.0 AND f126 >= 0.0;
+2025-04-19 06:11:22,755 [DEBUG]  		Latency: 6.62ms
+2025-04-19 06:11:22,755 [DEBUG]  		True: 0
+2025-04-19 06:11:22,755 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,755 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,755 [DEBUG]  Predicting cardinality for query 330: SELECT COUNT(*) FROM tuandromd WHERE f240 < 0.0 AND f186 = 0.0;
+2025-04-19 06:11:22,760 [DEBUG]  		Latency: 3.51ms
+2025-04-19 06:11:22,760 [DEBUG]  		True: 0
+2025-04-19 06:11:22,760 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,761 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,761 [DEBUG]  Predicting cardinality for query 331: SELECT COUNT(*) FROM tuandromd WHERE f41 > 0.0 AND f180 > 0.0 AND f87 <= 1.0 AND f73 > 0.0;
+2025-04-19 06:11:22,769 [DEBUG]  		Latency: 5.94ms
+2025-04-19 06:11:22,769 [DEBUG]  		True: 0
+2025-04-19 06:11:22,769 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,769 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,769 [DEBUG]  Predicting cardinality for query 332: SELECT COUNT(*) FROM tuandromd WHERE f191 <= 1.0 AND f237 > 1.0 AND f205 <= 0.0 AND f132 >= 0.0;
+2025-04-19 06:11:22,778 [DEBUG]  		Latency: 6.33ms
+2025-04-19 06:11:22,778 [DEBUG]  		True: 0
+2025-04-19 06:11:22,778 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,778 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,778 [DEBUG]  Predicting cardinality for query 333: SELECT COUNT(*) FROM tuandromd WHERE f147 > 0.0 AND f217 >= 0.0 AND f162 <= 0.0 AND f146 < 0.0;
+2025-04-19 06:11:22,786 [DEBUG]  		Latency: 6.18ms
+2025-04-19 06:11:22,786 [DEBUG]  		True: 0
+2025-04-19 06:11:22,786 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,786 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,786 [DEBUG]  Predicting cardinality for query 334: SELECT COUNT(*) FROM tuandromd WHERE f72 <= 0.0;
+2025-04-19 06:11:22,791 [DEBUG]  		Latency: 2.37ms
+2025-04-19 06:11:22,791 [DEBUG]  		True: 4432
+2025-04-19 06:11:22,791 [DEBUG]  		Predicted: 4432.0
+2025-04-19 06:11:22,791 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,791 [DEBUG]  Predicting cardinality for query 335: SELECT COUNT(*) FROM tuandromd WHERE f22 > 0.0;
+2025-04-19 06:11:22,794 [DEBUG]  		Latency: 1.52ms
+2025-04-19 06:11:22,794 [DEBUG]  		True: 0
+2025-04-19 06:11:22,794 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,794 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,794 [DEBUG]  Predicting cardinality for query 336: SELECT COUNT(*) FROM tuandromd WHERE f150 > 1.0 AND f213 < 0.0;
+2025-04-19 06:11:22,800 [DEBUG]  		Latency: 3.99ms
+2025-04-19 06:11:22,800 [DEBUG]  		True: 0
+2025-04-19 06:11:22,800 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,800 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,800 [DEBUG]  Predicting cardinality for query 337: SELECT COUNT(*) FROM tuandromd WHERE f27 <= 0.0 AND f110 < 0.0 AND f91 >= 0.0 AND f143 = 0.0 AND f15 >= 0.0;
+2025-04-19 06:11:22,807 [DEBUG]  		Latency: 3.94ms
+2025-04-19 06:11:22,807 [DEBUG]  		True: 0
+2025-04-19 06:11:22,807 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,807 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,807 [DEBUG]  Predicting cardinality for query 338: SELECT COUNT(*) FROM tuandromd WHERE f166 <= 0.0 AND f56 < 0.0;
+2025-04-19 06:11:22,813 [DEBUG]  		Latency: 4.60ms
+2025-04-19 06:11:22,814 [DEBUG]  		True: 0
+2025-04-19 06:11:22,814 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,814 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,814 [DEBUG]  Predicting cardinality for query 339: SELECT COUNT(*) FROM tuandromd WHERE f205 >= 0.0 AND f187 > 0.0;
+2025-04-19 06:11:22,818 [DEBUG]  		Latency: 2.80ms
+2025-04-19 06:11:22,818 [DEBUG]  		True: 4
+2025-04-19 06:11:22,818 [DEBUG]  		Predicted: 3.999999999999997
+2025-04-19 06:11:22,819 [DEBUG]  Q-Error was: 1.0000000000000009
+2025-04-19 06:11:22,819 [DEBUG]  Predicting cardinality for query 340: SELECT COUNT(*) FROM tuandromd WHERE f78 = 0.0 AND f183 >= 1.0 AND f63 = 0.0 AND f12 <= 0.0;
+2025-04-19 06:11:22,827 [DEBUG]  		Latency: 5.84ms
+2025-04-19 06:11:22,827 [DEBUG]  		True: 1623
+2025-04-19 06:11:22,827 [DEBUG]  		Predicted: 1623.4884881109465
+2025-04-19 06:11:22,827 [DEBUG]  Q-Error was: 1.0003009785033559
+2025-04-19 06:11:22,827 [DEBUG]  Predicting cardinality for query 341: SELECT COUNT(*) FROM tuandromd WHERE f171 > 0.0;
+2025-04-19 06:11:22,830 [DEBUG]  		Latency: 1.70ms
+2025-04-19 06:11:22,830 [DEBUG]  		True: 22
+2025-04-19 06:11:22,830 [DEBUG]  		Predicted: 21.999999999999986
+2025-04-19 06:11:22,831 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:22,831 [DEBUG]  Predicting cardinality for query 342: SELECT COUNT(*) FROM tuandromd WHERE f74 >= 0.0 AND f224 = 0.0 AND f100 >= 0.0;
+2025-04-19 06:11:22,837 [DEBUG]  		Latency: 4.43ms
+2025-04-19 06:11:22,837 [DEBUG]  		True: 4133
+2025-04-19 06:11:22,837 [DEBUG]  		Predicted: 4131.08035062089
+2025-04-19 06:11:22,837 [DEBUG]  Q-Error was: 1.00046468459003
+2025-04-19 06:11:22,837 [DEBUG]  Predicting cardinality for query 343: SELECT COUNT(*) FROM tuandromd WHERE f167 <= 0.0 AND f33 <= 0.0 AND f192 = 0.0 AND f187 <= 0.0 AND f172 <= 0.0;
+2025-04-19 06:11:22,846 [DEBUG]  		Latency: 6.22ms
+2025-04-19 06:11:22,846 [DEBUG]  		True: 510
+2025-04-19 06:11:22,846 [DEBUG]  		Predicted: 507.9558465339868
+2025-04-19 06:11:22,846 [DEBUG]  Q-Error was: 1.0040242739205807
+2025-04-19 06:11:22,846 [DEBUG]  Predicting cardinality for query 344: SELECT COUNT(*) FROM tuandromd WHERE f99 > 1.0 AND f183 < 0.0;
+2025-04-19 06:11:22,853 [DEBUG]  		Latency: 4.92ms
+2025-04-19 06:11:22,853 [DEBUG]  		True: 0
+2025-04-19 06:11:22,853 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,853 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,853 [DEBUG]  Predicting cardinality for query 345: SELECT COUNT(*) FROM tuandromd WHERE f204 > 0.0 AND f59 < 0.0 AND f60 <= 0.0 AND f168 <= 0.0;
+2025-04-19 06:11:22,860 [DEBUG]  		Latency: 4.44ms
+2025-04-19 06:11:22,860 [DEBUG]  		True: 0
+2025-04-19 06:11:22,860 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,860 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,860 [DEBUG]  Predicting cardinality for query 346: SELECT COUNT(*) FROM tuandromd WHERE f177 >= 0.0 AND f48 > 0.0 AND f7 >= 0.0;
+2025-04-19 06:11:22,866 [DEBUG]  		Latency: 3.72ms
+2025-04-19 06:11:22,866 [DEBUG]  		True: 26
+2025-04-19 06:11:22,866 [DEBUG]  		Predicted: 25.99999999999998
+2025-04-19 06:11:22,866 [DEBUG]  Q-Error was: 1.0000000000000009
+2025-04-19 06:11:22,866 [DEBUG]  Predicting cardinality for query 347: SELECT COUNT(*) FROM tuandromd WHERE f234 >= 0.0;
+2025-04-19 06:11:22,871 [DEBUG]  		Latency: 3.62ms
+2025-04-19 06:11:22,872 [DEBUG]  		True: 4464
+2025-04-19 06:11:22,872 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:22,872 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,872 [DEBUG]  Predicting cardinality for query 348: SELECT COUNT(*) FROM tuandromd WHERE f149 >= 0.0 AND f159 >= 0.0 AND f78 = 0.0 AND f119 > 0.0 AND f199 > 0.0;
+2025-04-19 06:11:22,880 [DEBUG]  		Latency: 5.58ms
+2025-04-19 06:11:22,880 [DEBUG]  		True: 0
+2025-04-19 06:11:22,880 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,880 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,880 [DEBUG]  Predicting cardinality for query 349: SELECT COUNT(*) FROM tuandromd WHERE f13 >= 0.0 AND f122 = 0.0 AND f194 < 0.0 AND f191 >= 0.0 AND f135 > 0.0;
+2025-04-19 06:11:22,889 [DEBUG]  		Latency: 6.34ms
+2025-04-19 06:11:22,889 [DEBUG]  		True: 0
+2025-04-19 06:11:22,889 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,889 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,889 [DEBUG]  Predicting cardinality for query 350: SELECT COUNT(*) FROM tuandromd WHERE f14 = 0.0 AND f91 < 0.0 AND f76 < 0.0;
+2025-04-19 06:11:22,894 [DEBUG]  		Latency: 3.27ms
+2025-04-19 06:11:22,894 [DEBUG]  		True: 0
+2025-04-19 06:11:22,894 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,894 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,894 [DEBUG]  Predicting cardinality for query 351: SELECT COUNT(*) FROM tuandromd WHERE f235 <= 0.0 AND f21 <= 0.0 AND f32 = 0.0 AND f110 = 0.0;
+2025-04-19 06:11:22,902 [DEBUG]  		Latency: 5.28ms
+2025-04-19 06:11:22,902 [DEBUG]  		True: 3481
+2025-04-19 06:11:22,902 [DEBUG]  		Predicted: 3478.1592600635704
+2025-04-19 06:11:22,902 [DEBUG]  Q-Error was: 1.0008167365908305
+2025-04-19 06:11:22,902 [DEBUG]  Predicting cardinality for query 352: SELECT COUNT(*) FROM tuandromd WHERE f151 = 0.0 AND f139 < 0.0 AND f108 > 0.0;
+2025-04-19 06:11:22,909 [DEBUG]  		Latency: 4.92ms
+2025-04-19 06:11:22,909 [DEBUG]  		True: 0
+2025-04-19 06:11:22,909 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,909 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,909 [DEBUG]  Predicting cardinality for query 353: SELECT COUNT(*) FROM tuandromd WHERE f39 >= 0.0 AND f48 > 0.0 AND f142 > 1.0 AND f70 > 0.0 AND f202 > 0.0;
+2025-04-19 06:11:22,917 [DEBUG]  		Latency: 5.46ms
+2025-04-19 06:11:22,917 [DEBUG]  		True: 0
+2025-04-19 06:11:22,917 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,917 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,917 [DEBUG]  Predicting cardinality for query 354: SELECT COUNT(*) FROM tuandromd WHERE f50 = 0.0 AND f65 > 0.0 AND f228 <= 0.0 AND f232 = 0.0;
+2025-04-19 06:11:22,926 [DEBUG]  		Latency: 5.87ms
+2025-04-19 06:11:22,926 [DEBUG]  		True: 1155
+2025-04-19 06:11:22,926 [DEBUG]  		Predicted: 1161.1101306227833
+2025-04-19 06:11:22,926 [DEBUG]  Q-Error was: 1.0052901563833623
+2025-04-19 06:11:22,926 [DEBUG]  Predicting cardinality for query 355: SELECT COUNT(*) FROM tuandromd WHERE f223 < 0.0 AND f33 < 0.0 AND f109 = 0.0 AND f128 > 0.0;
+2025-04-19 06:11:22,934 [DEBUG]  		Latency: 5.26ms
+2025-04-19 06:11:22,934 [DEBUG]  		True: 0
+2025-04-19 06:11:22,934 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,934 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,934 [DEBUG]  Predicting cardinality for query 356: SELECT COUNT(*) FROM tuandromd WHERE f182 < 0.0;
+2025-04-19 06:11:22,937 [DEBUG]  		Latency: 1.60ms
+2025-04-19 06:11:22,937 [DEBUG]  		True: 0
+2025-04-19 06:11:22,937 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,937 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,937 [DEBUG]  Predicting cardinality for query 357: SELECT COUNT(*) FROM tuandromd WHERE f15 <= 0.0 AND f147 <= 0.0;
+2025-04-19 06:11:22,942 [DEBUG]  		Latency: 2.26ms
+2025-04-19 06:11:22,942 [DEBUG]  		True: 4442
+2025-04-19 06:11:22,942 [DEBUG]  		Predicted: 4441.027027027027
+2025-04-19 06:11:22,942 [DEBUG]  Q-Error was: 1.00021908737935
+2025-04-19 06:11:22,942 [DEBUG]  Predicting cardinality for query 358: SELECT COUNT(*) FROM tuandromd WHERE f191 <= 0.0;
+2025-04-19 06:11:22,948 [DEBUG]  		Latency: 4.06ms
+2025-04-19 06:11:22,948 [DEBUG]  		True: 3570
+2025-04-19 06:11:22,948 [DEBUG]  		Predicted: 3569.999999999999
+2025-04-19 06:11:22,948 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-19 06:11:22,948 [DEBUG]  Predicting cardinality for query 359: SELECT COUNT(*) FROM tuandromd WHERE f28 = 0.0 AND f54 > 0.0 AND f63 >= 0.0 AND f219 < 0.0 AND f190 = 0.0;
+2025-04-19 06:11:22,957 [DEBUG]  		Latency: 7.00ms
+2025-04-19 06:11:22,957 [DEBUG]  		True: 0
+2025-04-19 06:11:22,957 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,957 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,957 [DEBUG]  Predicting cardinality for query 360: SELECT COUNT(*) FROM tuandromd WHERE f190 >= 0.0 AND f103 > 0.0 AND f223 >= 1.0 AND f228 < 0.0;
+2025-04-19 06:11:22,965 [DEBUG]  		Latency: 5.61ms
+2025-04-19 06:11:22,965 [DEBUG]  		True: 0
+2025-04-19 06:11:22,965 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,965 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,965 [DEBUG]  Predicting cardinality for query 361: SELECT COUNT(*) FROM tuandromd WHERE f170 <= 0.0 AND f112 < 0.0 AND f53 > 0.0;
+2025-04-19 06:11:22,972 [DEBUG]  		Latency: 4.08ms
+2025-04-19 06:11:22,972 [DEBUG]  		True: 0
+2025-04-19 06:11:22,972 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,972 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,972 [DEBUG]  Predicting cardinality for query 362: SELECT COUNT(*) FROM tuandromd WHERE f224 <= 0.0 AND f78 = 0.0 AND f160 <= 0.0 AND f198 = 0.0;
+2025-04-19 06:11:22,980 [DEBUG]  		Latency: 5.52ms
+2025-04-19 06:11:22,980 [DEBUG]  		True: 4005
+2025-04-19 06:11:22,980 [DEBUG]  		Predicted: 3995.9498178342496
+2025-04-19 06:11:22,980 [DEBUG]  Q-Error was: 1.0022648387938604
+2025-04-19 06:11:22,980 [DEBUG]  Predicting cardinality for query 363: SELECT COUNT(*) FROM tuandromd WHERE f227 >= 0.0 AND f172 = 0.0 AND f20 <= 0.0 AND f190 < 0.0;
+2025-04-19 06:11:22,987 [DEBUG]  		Latency: 4.59ms
+2025-04-19 06:11:22,987 [DEBUG]  		True: 0
+2025-04-19 06:11:22,987 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:22,987 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:22,987 [DEBUG]  Predicting cardinality for query 364: SELECT COUNT(*) FROM tuandromd WHERE f58 = 0.0 AND f154 >= 0.0 AND f198 <= 0.0;
+2025-04-19 06:11:22,993 [DEBUG]  		Latency: 4.31ms
+2025-04-19 06:11:22,993 [DEBUG]  		True: 4294
+2025-04-19 06:11:22,993 [DEBUG]  		Predicted: 4292.133674214756
+2025-04-19 06:11:22,993 [DEBUG]  Q-Error was: 1.0004348247111818
+2025-04-19 06:11:22,993 [DEBUG]  Predicting cardinality for query 365: SELECT COUNT(*) FROM tuandromd WHERE f216 >= 1.0;
+2025-04-19 06:11:22,999 [DEBUG]  		Latency: 4.15ms
+2025-04-19 06:11:22,999 [DEBUG]  		True: 2306
+2025-04-19 06:11:22,999 [DEBUG]  		Predicted: 2306.000000000001
+2025-04-19 06:11:23,000 [DEBUG]  Q-Error was: 1.0000000000000004
+2025-04-19 06:11:23,000 [DEBUG]  Predicting cardinality for query 366: SELECT COUNT(*) FROM tuandromd WHERE f67 <= 0.0 AND f24 < 0.0 AND f158 > 0.0 AND f98 = 0.0;
+2025-04-19 06:11:23,006 [DEBUG]  		Latency: 4.23ms
+2025-04-19 06:11:23,006 [DEBUG]  		True: 0
+2025-04-19 06:11:23,007 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,007 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,007 [DEBUG]  Predicting cardinality for query 367: SELECT COUNT(*) FROM tuandromd WHERE f211 <= 0.0;
+2025-04-19 06:11:23,010 [DEBUG]  		Latency: 1.59ms
+2025-04-19 06:11:23,010 [DEBUG]  		True: 4365
+2025-04-19 06:11:23,010 [DEBUG]  		Predicted: 4365.0
+2025-04-19 06:11:23,010 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,010 [DEBUG]  Predicting cardinality for query 368: SELECT COUNT(*) FROM tuandromd WHERE f152 >= 0.0;
+2025-04-19 06:11:23,013 [DEBUG]  		Latency: 1.54ms
+2025-04-19 06:11:23,014 [DEBUG]  		True: 4464
+2025-04-19 06:11:23,014 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:23,014 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,014 [DEBUG]  Predicting cardinality for query 369: SELECT COUNT(*) FROM tuandromd WHERE f123 <= 0.0 AND f65 < 1.0 AND f66 < 0.0 AND f181 >= 0.0 AND f175 > 0.0;
+2025-04-19 06:11:23,022 [DEBUG]  		Latency: 5.61ms
+2025-04-19 06:11:23,022 [DEBUG]  		True: 0
+2025-04-19 06:11:23,022 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,022 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,022 [DEBUG]  Predicting cardinality for query 370: SELECT COUNT(*) FROM tuandromd WHERE f194 <= 0.0 AND f146 < 0.0 AND f88 <= 0.0;
+2025-04-19 06:11:23,028 [DEBUG]  		Latency: 3.48ms
+2025-04-19 06:11:23,028 [DEBUG]  		True: 0
+2025-04-19 06:11:23,028 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,028 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,028 [DEBUG]  Predicting cardinality for query 371: SELECT COUNT(*) FROM tuandromd WHERE f75 < 1.0 AND f232 = 0.0 AND f207 <= 0.0 AND f108 = 0.0;
+2025-04-19 06:11:23,036 [DEBUG]  		Latency: 6.05ms
+2025-04-19 06:11:23,037 [DEBUG]  		True: 3004
+2025-04-19 06:11:23,037 [DEBUG]  		Predicted: 2996.213685616372
+2025-04-19 06:11:23,037 [DEBUG]  Q-Error was: 1.002598717982301
+2025-04-19 06:11:23,037 [DEBUG]  Predicting cardinality for query 372: SELECT COUNT(*) FROM tuandromd WHERE f113 > 0.0 AND f146 > 0.0 AND f6 = 0.0 AND f75 < 1.0 AND f91 >= 0.0;
+2025-04-19 06:11:23,046 [DEBUG]  		Latency: 6.81ms
+2025-04-19 06:11:23,046 [DEBUG]  		True: 0
+2025-04-19 06:11:23,046 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,046 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,046 [DEBUG]  Predicting cardinality for query 373: SELECT COUNT(*) FROM tuandromd WHERE f98 < 0.0 AND f181 = 0.0;
+2025-04-19 06:11:23,050 [DEBUG]  		Latency: 2.20ms
+2025-04-19 06:11:23,050 [DEBUG]  		True: 0
+2025-04-19 06:11:23,050 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,050 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,050 [DEBUG]  Predicting cardinality for query 374: SELECT COUNT(*) FROM tuandromd WHERE f132 <= 0.0 AND f7 >= 0.0 AND f139 = 1.0 AND f96 < 0.0 AND f102 > 0.0;
+2025-04-19 06:11:23,058 [DEBUG]  		Latency: 5.61ms
+2025-04-19 06:11:23,058 [DEBUG]  		True: 0
+2025-04-19 06:11:23,059 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,059 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,059 [DEBUG]  Predicting cardinality for query 375: SELECT COUNT(*) FROM tuandromd WHERE f234 > 0.0;
+2025-04-19 06:11:23,064 [DEBUG]  		Latency: 3.51ms
+2025-04-19 06:11:23,064 [DEBUG]  		True: 1096
+2025-04-19 06:11:23,064 [DEBUG]  		Predicted: 1096.0000000000002
+2025-04-19 06:11:23,064 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-19 06:11:23,064 [DEBUG]  Predicting cardinality for query 376: SELECT COUNT(*) FROM tuandromd WHERE f68 > 0.0 AND f6 = 1.0;
+2025-04-19 06:11:23,071 [DEBUG]  		Latency: 4.61ms
+2025-04-19 06:11:23,071 [DEBUG]  		True: 31
+2025-04-19 06:11:23,071 [DEBUG]  		Predicted: 30.612903225806434
+2025-04-19 06:11:23,071 [DEBUG]  Q-Error was: 1.0126448893572186
+2025-04-19 06:11:23,071 [DEBUG]  Predicting cardinality for query 377: SELECT COUNT(*) FROM tuandromd WHERE f171 >= 0.0;
+2025-04-19 06:11:23,074 [DEBUG]  		Latency: 1.69ms
+2025-04-19 06:11:23,074 [DEBUG]  		True: 4464
+2025-04-19 06:11:23,074 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:23,074 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,075 [DEBUG]  Predicting cardinality for query 378: SELECT COUNT(*) FROM tuandromd WHERE f160 >= 0.0 AND f181 < 0.0;
+2025-04-19 06:11:23,079 [DEBUG]  		Latency: 2.14ms
+2025-04-19 06:11:23,079 [DEBUG]  		True: 0
+2025-04-19 06:11:23,079 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,079 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,079 [DEBUG]  Predicting cardinality for query 379: SELECT COUNT(*) FROM tuandromd WHERE f180 >= 0.0 AND f81 = 0.0 AND f8 < 0.0 AND f114 < 0.0;
+2025-04-19 06:11:23,086 [DEBUG]  		Latency: 5.27ms
+2025-04-19 06:11:23,086 [DEBUG]  		True: 0
+2025-04-19 06:11:23,086 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,086 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,086 [DEBUG]  Predicting cardinality for query 380: SELECT COUNT(*) FROM tuandromd WHERE f159 <= 0.0 AND f82 < 0.0 AND f39 = 0.0 AND f166 < 0.0 AND f236 >= 0.0;
+2025-04-19 06:11:23,095 [DEBUG]  		Latency: 6.61ms
+2025-04-19 06:11:23,096 [DEBUG]  		True: 0
+2025-04-19 06:11:23,096 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,096 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,096 [DEBUG]  Predicting cardinality for query 381: SELECT COUNT(*) FROM tuandromd WHERE f181 < 0.0 AND f90 >= 0.0 AND f56 < 0.0 AND f198 > 0.0 AND f226 > 0.0;
+2025-04-19 06:11:23,105 [DEBUG]  		Latency: 6.69ms
+2025-04-19 06:11:23,105 [DEBUG]  		True: 0
+2025-04-19 06:11:23,105 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,105 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,105 [DEBUG]  Predicting cardinality for query 382: SELECT COUNT(*) FROM tuandromd WHERE f241 = 0.0 AND f150 <= 1.0 AND f7 = 0.0 AND f25 > 0.0 AND f83 <= 0.0;
+2025-04-19 06:11:23,114 [DEBUG]  		Latency: 6.55ms
+2025-04-19 06:11:23,114 [DEBUG]  		True: 0
+2025-04-19 06:11:23,114 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,114 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,114 [DEBUG]  Predicting cardinality for query 383: SELECT COUNT(*) FROM tuandromd WHERE f233 = 1.0;
+2025-04-19 06:11:23,120 [DEBUG]  		Latency: 3.96ms
+2025-04-19 06:11:23,120 [DEBUG]  		True: 773
+2025-04-19 06:11:23,120 [DEBUG]  		Predicted: 773.0000000000001
+2025-04-19 06:11:23,120 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-19 06:11:23,120 [DEBUG]  Predicting cardinality for query 384: SELECT COUNT(*) FROM tuandromd WHERE f142 < 0.0 AND f70 >= 0.0;
+2025-04-19 06:11:23,126 [DEBUG]  		Latency: 4.01ms
+2025-04-19 06:11:23,126 [DEBUG]  		True: 0
+2025-04-19 06:11:23,126 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,126 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,126 [DEBUG]  Predicting cardinality for query 385: SELECT COUNT(*) FROM tuandromd WHERE f120 < 0.0;
+2025-04-19 06:11:23,131 [DEBUG]  		Latency: 2.95ms
+2025-04-19 06:11:23,131 [DEBUG]  		True: 0
+2025-04-19 06:11:23,131 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,131 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,131 [DEBUG]  Predicting cardinality for query 386: SELECT COUNT(*) FROM tuandromd WHERE f6 >= 0.0 AND f92 >= 0.0 AND f64 > 0.0 AND f93 >= 0.0 AND f1 = 0.0;
+2025-04-19 06:11:23,140 [DEBUG]  		Latency: 6.58ms
+2025-04-19 06:11:23,140 [DEBUG]  		True: 118
+2025-04-19 06:11:23,140 [DEBUG]  		Predicted: 117.77075098814223
+2025-04-19 06:11:23,140 [DEBUG]  Q-Error was: 1.001946570009398
+2025-04-19 06:11:23,140 [DEBUG]  Predicting cardinality for query 387: SELECT COUNT(*) FROM tuandromd WHERE f69 < 0.0 AND f45 <= 0.0;
+2025-04-19 06:11:23,146 [DEBUG]  		Latency: 4.05ms
+2025-04-19 06:11:23,146 [DEBUG]  		True: 0
+2025-04-19 06:11:23,146 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,147 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,147 [DEBUG]  Predicting cardinality for query 388: SELECT COUNT(*) FROM tuandromd WHERE f49 <= 0.0 AND f80 = 0.0 AND f140 <= 0.0 AND f228 >= 0.0 AND f226 >= 0.0;
+2025-04-19 06:11:23,154 [DEBUG]  		Latency: 5.47ms
+2025-04-19 06:11:23,154 [DEBUG]  		True: 4317
+2025-04-19 06:11:23,155 [DEBUG]  		Predicted: 4313.263063845635
+2025-04-19 06:11:23,155 [DEBUG]  Q-Error was: 1.0008663826200839
+2025-04-19 06:11:23,155 [DEBUG]  Predicting cardinality for query 389: SELECT COUNT(*) FROM tuandromd WHERE f114 >= 0.0 AND f136 >= 0.0 AND f148 <= 0.0 AND f137 > 0.0;
+2025-04-19 06:11:23,162 [DEBUG]  		Latency: 5.51ms
+2025-04-19 06:11:23,162 [DEBUG]  		True: 0
+2025-04-19 06:11:23,162 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,163 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,163 [DEBUG]  Predicting cardinality for query 390: SELECT COUNT(*) FROM tuandromd WHERE f117 <= 0.0 AND f74 >= 0.0 AND f134 > 0.0 AND f49 = 0.0 AND f95 < 0.0;
+2025-04-19 06:11:23,169 [DEBUG]  		Latency: 4.46ms
+2025-04-19 06:11:23,170 [DEBUG]  		True: 0
+2025-04-19 06:11:23,170 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,170 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,170 [DEBUG]  Predicting cardinality for query 391: SELECT COUNT(*) FROM tuandromd WHERE f168 > 0.0 AND f235 = 0.0 AND f224 = 0.0 AND f214 = 0.0 AND f50 >= 0.0;
+2025-04-19 06:11:23,179 [DEBUG]  		Latency: 6.70ms
+2025-04-19 06:11:23,179 [DEBUG]  		True: 2
+2025-04-19 06:11:23,179 [DEBUG]  		Predicted: 2.2251082251082264
+2025-04-19 06:11:23,179 [DEBUG]  Q-Error was: 1.1125541125541132
+2025-04-19 06:11:23,179 [DEBUG]  Predicting cardinality for query 392: SELECT COUNT(*) FROM tuandromd WHERE f221 = 0.0;
+2025-04-19 06:11:23,185 [DEBUG]  		Latency: 4.04ms
+2025-04-19 06:11:23,185 [DEBUG]  		True: 3662
+2025-04-19 06:11:23,185 [DEBUG]  		Predicted: 3662.0
+2025-04-19 06:11:23,185 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,185 [DEBUG]  Predicting cardinality for query 393: SELECT COUNT(*) FROM tuandromd WHERE f20 < 0.0 AND f137 > 0.0 AND f29 = 0.0;
+2025-04-19 06:11:23,190 [DEBUG]  		Latency: 3.14ms
+2025-04-19 06:11:23,191 [DEBUG]  		True: 0
+2025-04-19 06:11:23,191 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,191 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,191 [DEBUG]  Predicting cardinality for query 394: SELECT COUNT(*) FROM tuandromd WHERE f152 < 0.0 AND f196 <= 0.0 AND f140 <= 0.0 AND f15 <= 0.0;
+2025-04-19 06:11:23,198 [DEBUG]  		Latency: 4.82ms
+2025-04-19 06:11:23,198 [DEBUG]  		True: 0
+2025-04-19 06:11:23,198 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,198 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,198 [DEBUG]  Predicting cardinality for query 395: SELECT COUNT(*) FROM tuandromd WHERE f208 > 0.0 AND f87 < 0.0 AND f148 < 0.0 AND f236 > 0.0 AND f162 >= 0.0;
+2025-04-19 06:11:23,207 [DEBUG]  		Latency: 7.04ms
+2025-04-19 06:11:23,208 [DEBUG]  		True: 0
+2025-04-19 06:11:23,208 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,208 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,208 [DEBUG]  Predicting cardinality for query 396: SELECT COUNT(*) FROM tuandromd WHERE f46 > 0.0 AND f229 < 0.0 AND f144 < 0.0;
+2025-04-19 06:11:23,215 [DEBUG]  		Latency: 5.21ms
+2025-04-19 06:11:23,215 [DEBUG]  		True: 0
+2025-04-19 06:11:23,215 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,215 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,215 [DEBUG]  Predicting cardinality for query 397: SELECT COUNT(*) FROM tuandromd WHERE f195 >= 0.0 AND f43 < 0.0;
+2025-04-19 06:11:23,219 [DEBUG]  		Latency: 2.19ms
+2025-04-19 06:11:23,219 [DEBUG]  		True: 0
+2025-04-19 06:11:23,219 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,219 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,220 [DEBUG]  Predicting cardinality for query 398: SELECT COUNT(*) FROM tuandromd WHERE f163 <= 0.0 AND f8 >= 0.0;
+2025-04-19 06:11:23,225 [DEBUG]  		Latency: 3.30ms
+2025-04-19 06:11:23,225 [DEBUG]  		True: 4442
+2025-04-19 06:11:23,225 [DEBUG]  		Predicted: 4441.027027027027
+2025-04-19 06:11:23,225 [DEBUG]  Q-Error was: 1.00021908737935
+2025-04-19 06:11:23,225 [DEBUG]  Predicting cardinality for query 399: SELECT COUNT(*) FROM tuandromd WHERE f231 >= 0.0 AND f212 > 0.0 AND f190 > 0.0;
+2025-04-19 06:11:23,232 [DEBUG]  		Latency: 5.33ms
+2025-04-19 06:11:23,232 [DEBUG]  		True: 99
+2025-04-19 06:11:23,233 [DEBUG]  		Predicted: 98.99999999999993
+2025-04-19 06:11:23,233 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:23,233 [DEBUG]  Predicting cardinality for query 400: SELECT COUNT(*) FROM tuandromd WHERE f222 >= 0.0;
+2025-04-19 06:11:23,238 [DEBUG]  		Latency: 4.00ms
+2025-04-19 06:11:23,238 [DEBUG]  		True: 4464
+2025-04-19 06:11:23,239 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:23,239 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,239 [DEBUG]  Predicting cardinality for query 401: SELECT COUNT(*) FROM tuandromd WHERE f226 < 0.0 AND f211 <= 0.0 AND f169 > 0.0 AND f65 = 0.0;
+2025-04-19 06:11:23,247 [DEBUG]  		Latency: 5.84ms
+2025-04-19 06:11:23,247 [DEBUG]  		True: 0
+2025-04-19 06:11:23,247 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,247 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,247 [DEBUG]  Predicting cardinality for query 402: SELECT COUNT(*) FROM tuandromd WHERE f70 > 0.0 AND f235 >= 0.0 AND f52 < 0.0;
+2025-04-19 06:11:23,254 [DEBUG]  		Latency: 4.55ms
+2025-04-19 06:11:23,254 [DEBUG]  		True: 0
+2025-04-19 06:11:23,254 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,254 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,254 [DEBUG]  Predicting cardinality for query 403: SELECT COUNT(*) FROM tuandromd WHERE f75 > 1.0 AND f240 <= 0.0 AND f217 <= 0.0 AND f171 > 0.0;
+2025-04-19 06:11:23,263 [DEBUG]  		Latency: 6.73ms
+2025-04-19 06:11:23,263 [DEBUG]  		True: 0
+2025-04-19 06:11:23,263 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,263 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,263 [DEBUG]  Predicting cardinality for query 404: SELECT COUNT(*) FROM tuandromd WHERE f126 >= 0.0 AND f151 > 0.0 AND f99 >= 0.0 AND f32 >= 0.0;
+2025-04-19 06:11:23,272 [DEBUG]  		Latency: 6.61ms
+2025-04-19 06:11:23,272 [DEBUG]  		True: 98
+2025-04-19 06:11:23,272 [DEBUG]  		Predicted: 97.99999999999993
+2025-04-19 06:11:23,272 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:23,272 [DEBUG]  Predicting cardinality for query 405: SELECT COUNT(*) FROM tuandromd WHERE f85 = 1.0 AND f100 < 0.0 AND f38 > 0.0 AND f242 = 1.0 AND f152 < 0.0;
+2025-04-19 06:11:23,281 [DEBUG]  		Latency: 6.49ms
+2025-04-19 06:11:23,281 [DEBUG]  		True: 0
+2025-04-19 06:11:23,281 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,281 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,281 [DEBUG]  Predicting cardinality for query 406: SELECT COUNT(*) FROM tuandromd WHERE f49 = 0.0 AND f125 < 0.0 AND f186 <= 0.0 AND f11 < 0.0;
+2025-04-19 06:11:23,288 [DEBUG]  		Latency: 4.46ms
+2025-04-19 06:11:23,288 [DEBUG]  		True: 0
+2025-04-19 06:11:23,288 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,288 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,288 [DEBUG]  Predicting cardinality for query 407: SELECT COUNT(*) FROM tuandromd WHERE f159 > 0.0 AND f97 > 0.0 AND f191 >= 0.0 AND f42 = 0.0;
+2025-04-19 06:11:23,297 [DEBUG]  		Latency: 6.35ms
+2025-04-19 06:11:23,297 [DEBUG]  		True: 0
+2025-04-19 06:11:23,297 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,297 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,297 [DEBUG]  Predicting cardinality for query 408: SELECT COUNT(*) FROM tuandromd WHERE f230 < 0.0;
+2025-04-19 06:11:23,303 [DEBUG]  		Latency: 4.46ms
+2025-04-19 06:11:23,303 [DEBUG]  		True: 0
+2025-04-19 06:11:23,303 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,303 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,304 [DEBUG]  Predicting cardinality for query 409: SELECT COUNT(*) FROM tuandromd WHERE f38 >= 0.0 AND f23 > 0.0 AND f183 > 1.0 AND f12 >= 0.0;
+2025-04-19 06:11:23,312 [DEBUG]  		Latency: 5.82ms
+2025-04-19 06:11:23,312 [DEBUG]  		True: 0
+2025-04-19 06:11:23,312 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,312 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,312 [DEBUG]  Predicting cardinality for query 410: SELECT COUNT(*) FROM tuandromd WHERE f49 <= 0.0 AND f116 > 0.0;
+2025-04-19 06:11:23,316 [DEBUG]  		Latency: 2.21ms
+2025-04-19 06:11:23,316 [DEBUG]  		True: 78
+2025-04-19 06:11:23,316 [DEBUG]  		Predicted: 77.99999999999991
+2025-04-19 06:11:23,316 [DEBUG]  Q-Error was: 1.000000000000001
+2025-04-19 06:11:23,316 [DEBUG]  Predicting cardinality for query 411: SELECT COUNT(*) FROM tuandromd WHERE f44 <= 0.0 AND f19 <= 0.0 AND f212 = 0.0 AND f138 <= 0.0 AND f203 <= 0.0;
+2025-04-19 06:11:23,325 [DEBUG]  		Latency: 6.38ms
+2025-04-19 06:11:23,325 [DEBUG]  		True: 4224
+2025-04-19 06:11:23,325 [DEBUG]  		Predicted: 4219.496569664562
+2025-04-19 06:11:23,325 [DEBUG]  Q-Error was: 1.0010672909104406
+2025-04-19 06:11:23,325 [DEBUG]  Predicting cardinality for query 412: SELECT COUNT(*) FROM tuandromd WHERE f11 >= 0.0 AND f158 <= 0.0 AND f8 <= 0.0;
+2025-04-19 06:11:23,331 [DEBUG]  		Latency: 3.53ms
+2025-04-19 06:11:23,331 [DEBUG]  		True: 4358
+2025-04-19 06:11:23,331 [DEBUG]  		Predicted: 4356.080350620891
+2025-04-19 06:11:23,331 [DEBUG]  Q-Error was: 1.0004406827295633
+2025-04-19 06:11:23,331 [DEBUG]  Predicting cardinality for query 413: SELECT COUNT(*) FROM tuandromd WHERE f139 < 1.0 AND f74 <= 0.0 AND f241 >= 1.0;
+2025-04-19 06:11:23,339 [DEBUG]  		Latency: 5.67ms
+2025-04-19 06:11:23,339 [DEBUG]  		True: 79
+2025-04-19 06:11:23,339 [DEBUG]  		Predicted: 73.89842836890614
+2025-04-19 06:11:23,339 [DEBUG]  Q-Error was: 1.0690349137822859
+2025-04-19 06:11:23,339 [DEBUG]  Predicting cardinality for query 414: SELECT COUNT(*) FROM tuandromd WHERE f233 > 1.0;
+2025-04-19 06:11:23,345 [DEBUG]  		Latency: 3.91ms
+2025-04-19 06:11:23,345 [DEBUG]  		True: 0
+2025-04-19 06:11:23,345 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,345 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,345 [DEBUG]  Predicting cardinality for query 415: SELECT COUNT(*) FROM tuandromd WHERE f73 > 0.0 AND f77 < 0.0 AND f75 <= 1.0;
+2025-04-19 06:11:23,352 [DEBUG]  		Latency: 4.93ms
+2025-04-19 06:11:23,352 [DEBUG]  		True: 0
+2025-04-19 06:11:23,352 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,352 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,352 [DEBUG]  Predicting cardinality for query 416: SELECT COUNT(*) FROM tuandromd WHERE f196 > 0.0 AND f65 >= 0.0 AND f29 = 0.0;
+2025-04-19 06:11:23,359 [DEBUG]  		Latency: 5.09ms
+2025-04-19 06:11:23,359 [DEBUG]  		True: 93
+2025-04-19 06:11:23,359 [DEBUG]  		Predicted: 92.99999999999997
+2025-04-19 06:11:23,359 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-19 06:11:23,360 [DEBUG]  Predicting cardinality for query 417: SELECT COUNT(*) FROM tuandromd WHERE f230 <= 0.0 AND f226 >= 0.0 AND f148 < 0.0 AND f228 <= 0.0 AND f72 = 0.0;
+2025-04-19 06:11:23,369 [DEBUG]  		Latency: 7.57ms
+2025-04-19 06:11:23,370 [DEBUG]  		True: 0
+2025-04-19 06:11:23,370 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,370 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,370 [DEBUG]  Predicting cardinality for query 418: SELECT COUNT(*) FROM tuandromd WHERE f34 > 0.0;
+2025-04-19 06:11:23,373 [DEBUG]  		Latency: 1.87ms
+2025-04-19 06:11:23,373 [DEBUG]  		True: 22
+2025-04-19 06:11:23,373 [DEBUG]  		Predicted: 21.999999999999986
+2025-04-19 06:11:23,374 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:23,374 [DEBUG]  Predicting cardinality for query 419: SELECT COUNT(*) FROM tuandromd WHERE f161 = 0.0 AND f149 < 0.0 AND f72 <= 0.0 AND f54 > 0.0;
+2025-04-19 06:11:23,382 [DEBUG]  		Latency: 5.61ms
+2025-04-19 06:11:23,382 [DEBUG]  		True: 0
+2025-04-19 06:11:23,382 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,382 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,382 [DEBUG]  Predicting cardinality for query 420: SELECT COUNT(*) FROM tuandromd WHERE f48 = 0.0 AND f94 = 0.0 AND f130 < 0.0;
+2025-04-19 06:11:23,389 [DEBUG]  		Latency: 5.17ms
+2025-04-19 06:11:23,389 [DEBUG]  		True: 0
+2025-04-19 06:11:23,389 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,389 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,389 [DEBUG]  Predicting cardinality for query 421: SELECT COUNT(*) FROM tuandromd WHERE f143 > 0.0 AND f156 > 0.0 AND f87 >= 1.0 AND f188 >= 0.0;
+2025-04-19 06:11:23,398 [DEBUG]  		Latency: 6.69ms
+2025-04-19 06:11:23,398 [DEBUG]  		True: 99
+2025-04-19 06:11:23,398 [DEBUG]  		Predicted: 98.99999999999993
+2025-04-19 06:11:23,398 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:23,398 [DEBUG]  Predicting cardinality for query 422: SELECT COUNT(*) FROM tuandromd WHERE f130 < 0.0 AND f164 < 0.0 AND f7 <= 0.0 AND f17 <= 0.0;
+2025-04-19 06:11:23,407 [DEBUG]  		Latency: 6.38ms
+2025-04-19 06:11:23,407 [DEBUG]  		True: 0
+2025-04-19 06:11:23,407 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,407 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,407 [DEBUG]  Predicting cardinality for query 423: SELECT COUNT(*) FROM tuandromd WHERE f82 >= 0.0 AND f144 = 0.0 AND f102 = 0.0;
+2025-04-19 06:11:23,414 [DEBUG]  		Latency: 4.59ms
+2025-04-19 06:11:23,414 [DEBUG]  		True: 4321
+2025-04-19 06:11:23,414 [DEBUG]  		Predicted: 4319.080350620891
+2025-04-19 06:11:23,414 [DEBUG]  Q-Error was: 1.0004444578991991
+2025-04-19 06:11:23,414 [DEBUG]  Predicting cardinality for query 424: SELECT COUNT(*) FROM tuandromd WHERE f235 < 1.0 AND f201 = 0.0;
+2025-04-19 06:11:23,421 [DEBUG]  		Latency: 5.56ms
+2025-04-19 06:11:23,422 [DEBUG]  		True: 2422
+2025-04-19 06:11:23,422 [DEBUG]  		Predicted: 2423.3473301682197
+2025-04-19 06:11:23,422 [DEBUG]  Q-Error was: 1.0005562882610322
+2025-04-19 06:11:23,422 [DEBUG]  Predicting cardinality for query 425: SELECT COUNT(*) FROM tuandromd WHERE f42 = 0.0 AND f176 = 0.0 AND f10 >= 1.0 AND f108 > 0.0 AND f106 > 0.0;
+2025-04-19 06:11:23,430 [DEBUG]  		Latency: 6.18ms
+2025-04-19 06:11:23,430 [DEBUG]  		True: 0
+2025-04-19 06:11:23,430 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,430 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,431 [DEBUG]  Predicting cardinality for query 426: SELECT COUNT(*) FROM tuandromd WHERE f36 >= 0.0;
+2025-04-19 06:11:23,434 [DEBUG]  		Latency: 1.88ms
+2025-04-19 06:11:23,434 [DEBUG]  		True: 4464
+2025-04-19 06:11:23,434 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:23,434 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,434 [DEBUG]  Predicting cardinality for query 427: SELECT COUNT(*) FROM tuandromd WHERE f141 > 0.0 AND f117 > 0.0 AND f220 < 0.0;
+2025-04-19 06:11:23,441 [DEBUG]  		Latency: 4.48ms
+2025-04-19 06:11:23,441 [DEBUG]  		True: 0
+2025-04-19 06:11:23,441 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,441 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,441 [DEBUG]  Predicting cardinality for query 428: SELECT COUNT(*) FROM tuandromd WHERE f8 < 0.0;
+2025-04-19 06:11:23,446 [DEBUG]  		Latency: 2.71ms
+2025-04-19 06:11:23,446 [DEBUG]  		True: 0
+2025-04-19 06:11:23,446 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,446 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,446 [DEBUG]  Predicting cardinality for query 429: SELECT COUNT(*) FROM tuandromd WHERE f42 >= 0.0;
+2025-04-19 06:11:23,449 [DEBUG]  		Latency: 1.73ms
+2025-04-19 06:11:23,449 [DEBUG]  		True: 4464
+2025-04-19 06:11:23,449 [DEBUG]  		Predicted: 4464.0
+2025-04-19 06:11:23,450 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,450 [DEBUG]  Predicting cardinality for query 430: SELECT COUNT(*) FROM tuandromd WHERE f24 >= 0.0 AND f155 >= 0.0;
+2025-04-19 06:11:23,454 [DEBUG]  		Latency: 2.54ms
+2025-04-19 06:11:23,454 [DEBUG]  		True: 4464
+2025-04-19 06:11:23,454 [DEBUG]  		Predicted: 4463.0270270270275
+2025-04-19 06:11:23,454 [DEBUG]  Q-Error was: 1.000218007412252
+2025-04-19 06:11:23,454 [DEBUG]  Predicting cardinality for query 431: SELECT COUNT(*) FROM tuandromd WHERE f227 = 0.0 AND f110 > 0.0 AND f142 = 1.0;
+2025-04-19 06:11:23,462 [DEBUG]  		Latency: 5.29ms
+2025-04-19 06:11:23,462 [DEBUG]  		True: 0
+2025-04-19 06:11:23,462 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,462 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,462 [DEBUG]  Predicting cardinality for query 432: SELECT COUNT(*) FROM tuandromd WHERE f74 <= 0.0 AND f114 < 0.0 AND f199 <= 0.0;
+2025-04-19 06:11:23,468 [DEBUG]  		Latency: 4.08ms
+2025-04-19 06:11:23,468 [DEBUG]  		True: 0
+2025-04-19 06:11:23,468 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,468 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,468 [DEBUG]  Predicting cardinality for query 433: SELECT COUNT(*) FROM tuandromd WHERE f219 < 0.0 AND f68 >= 0.0 AND f124 = 0.0 AND f154 >= 0.0;
+2025-04-19 06:11:23,476 [DEBUG]  		Latency: 5.92ms
+2025-04-19 06:11:23,476 [DEBUG]  		True: 0
+2025-04-19 06:11:23,477 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,477 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,477 [DEBUG]  Predicting cardinality for query 434: SELECT COUNT(*) FROM tuandromd WHERE f94 > 0.0 AND f175 = 0.0 AND f25 <= 0.0 AND f203 <= 0.0 AND f187 <= 0.0;
+2025-04-19 06:11:23,483 [DEBUG]  		Latency: 4.13ms
+2025-04-19 06:11:23,483 [DEBUG]  		True: 2
+2025-04-19 06:11:23,483 [DEBUG]  		Predicted: 1.999999999999999
+2025-04-19 06:11:23,483 [DEBUG]  Q-Error was: 1.0000000000000007
+2025-04-19 06:11:23,483 [DEBUG]  Predicting cardinality for query 435: SELECT COUNT(*) FROM tuandromd WHERE f175 > 0.0 AND f123 <= 0.0 AND f219 > 0.0 AND f92 < 0.0;
+2025-04-19 06:11:23,491 [DEBUG]  		Latency: 5.30ms
+2025-04-19 06:11:23,491 [DEBUG]  		True: 0
+2025-04-19 06:11:23,491 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,491 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,491 [DEBUG]  Predicting cardinality for query 436: SELECT COUNT(*) FROM tuandromd WHERE f39 < 0.0 AND f146 <= 0.0 AND f109 >= 0.0 AND f26 >= 0.0;
+2025-04-19 06:11:23,498 [DEBUG]  		Latency: 4.46ms
+2025-04-19 06:11:23,498 [DEBUG]  		True: 0
+2025-04-19 06:11:23,498 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,498 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,498 [DEBUG]  Predicting cardinality for query 437: SELECT COUNT(*) FROM tuandromd WHERE f228 > 0.0 AND f234 <= 0.0 AND f55 < 0.0 AND f187 < 0.0;
+2025-04-19 06:11:23,506 [DEBUG]  		Latency: 5.41ms
+2025-04-19 06:11:23,506 [DEBUG]  		True: 0
+2025-04-19 06:11:23,506 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,506 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,506 [DEBUG]  Predicting cardinality for query 438: SELECT COUNT(*) FROM tuandromd WHERE f228 = 0.0;
+2025-04-19 06:11:23,509 [DEBUG]  		Latency: 1.50ms
+2025-04-19 06:11:23,509 [DEBUG]  		True: 4461
+2025-04-19 06:11:23,509 [DEBUG]  		Predicted: 4461.0
+2025-04-19 06:11:23,509 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,509 [DEBUG]  Predicting cardinality for query 439: SELECT COUNT(*) FROM tuandromd WHERE f55 < 0.0 AND f86 > 0.0;
+2025-04-19 06:11:23,515 [DEBUG]  		Latency: 3.72ms
+2025-04-19 06:11:23,515 [DEBUG]  		True: 0
+2025-04-19 06:11:23,515 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,515 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,515 [DEBUG]  Predicting cardinality for query 440: SELECT COUNT(*) FROM tuandromd WHERE f240 < 0.0 AND f13 > 0.0 AND f86 = 0.0;
+2025-04-19 06:11:23,522 [DEBUG]  		Latency: 4.64ms
+2025-04-19 06:11:23,522 [DEBUG]  		True: 0
+2025-04-19 06:11:23,522 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,522 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,522 [DEBUG]  Predicting cardinality for query 441: SELECT COUNT(*) FROM tuandromd WHERE f167 <= 0.0;
+2025-04-19 06:11:23,526 [DEBUG]  		Latency: 1.81ms
+2025-04-19 06:11:23,526 [DEBUG]  		True: 4441
+2025-04-19 06:11:23,526 [DEBUG]  		Predicted: 4441.0
+2025-04-19 06:11:23,526 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,526 [DEBUG]  Predicting cardinality for query 442: SELECT COUNT(*) FROM tuandromd WHERE f231 > 0.0 AND f236 < 0.0 AND f203 <= 0.0 AND f196 >= 0.0;
+2025-04-19 06:11:23,535 [DEBUG]  		Latency: 6.33ms
+2025-04-19 06:11:23,535 [DEBUG]  		True: 0
+2025-04-19 06:11:23,535 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,535 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,535 [DEBUG]  Predicting cardinality for query 443: SELECT COUNT(*) FROM tuandromd WHERE f54 < 0.0 AND f199 = 0.0 AND f165 >= 0.0 AND f19 <= 0.0;
+2025-04-19 06:11:23,543 [DEBUG]  		Latency: 5.50ms
+2025-04-19 06:11:23,543 [DEBUG]  		True: 0
+2025-04-19 06:11:23,543 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,543 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,543 [DEBUG]  Predicting cardinality for query 444: SELECT COUNT(*) FROM tuandromd WHERE f210 < 0.0;
+2025-04-19 06:11:23,547 [DEBUG]  		Latency: 2.94ms
+2025-04-19 06:11:23,548 [DEBUG]  		True: 0
+2025-04-19 06:11:23,548 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,548 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,548 [DEBUG]  Predicting cardinality for query 445: SELECT COUNT(*) FROM tuandromd WHERE f217 = 1.0 AND f140 < 0.0;
+2025-04-19 06:11:23,555 [DEBUG]  		Latency: 5.29ms
+2025-04-19 06:11:23,555 [DEBUG]  		True: 0
+2025-04-19 06:11:23,555 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,555 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,555 [DEBUG]  Predicting cardinality for query 446: SELECT COUNT(*) FROM tuandromd WHERE f142 < 0.0 AND f133 >= 0.0;
+2025-04-19 06:11:23,561 [DEBUG]  		Latency: 4.11ms
+2025-04-19 06:11:23,561 [DEBUG]  		True: 0
+2025-04-19 06:11:23,561 [DEBUG]  		Predicted: 1.0
+2025-04-19 06:11:23,561 [DEBUG]  Q-Error was: 1.0
+2025-04-19 06:11:23,562 [INFO ]  [1.03008679 1.06903491 1.06944444 1.09045226 1.11255411 1.19098134
+ 1.21787996 1.28463635 1.30489074 1.60840605]
+2025-04-19 06:11:23,562 [INFO ]  Q-Error 50%-Percentile: 1.000 (vs. DeepDB: 1.3)
+2025-04-19 06:11:23,562 [INFO ]  Q-Error 70%-Percentile: 1.000 (vs. DeepDB: 111)
+2025-04-19 06:11:23,562 [INFO ]  Q-Error 90%-Percentile: 1.001 (vs. DeepDB: 3.46)
+2025-04-19 06:11:23,562 [INFO ]  Q-Error 95%-Percentile: 1.003 (vs. DeepDB: 5.09)
+2025-04-19 06:11:23,563 [INFO ]  Q-Error 99%-Percentile: 1.155 (vs. DeepDB: 111)
+2025-04-19 06:11:23,563 [INFO ]  Q-Error 100%-Percentile: 1.608 (vs. DeepDB: 40.64)
+2025-04-19 06:11:23,563 [INFO ]  Q-Mean wo inf 1.005 (vs. DeepDB: 2.76)
+2025-04-19 06:11:23,563 [INFO ]  Latency avg: 4.449ms
+2025-04-19 06:11:23,564 [INFO ]  Saving results to ./baselines/cardinality_estimation/results/deepDB/tuandromd_model_based_budget_5.csv

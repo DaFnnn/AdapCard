@@ -1,0 +1,4 @@
+2025-04-16 14:52:21,202 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Wave Energy Converters
+2025-04-16 14:52:21,203 [DEBUG]  Creating sample for tasmania_data
+2025-04-16 14:52:21,203 [DEBUG]  generate_join_sample(single_table=tasmania_data, relationship_list=None, split_condition=None)
+2025-04-16 14:52:21,293 [INFO ]  Files successfully created

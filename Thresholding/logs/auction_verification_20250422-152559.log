@@ -1,0 +1,1038 @@
+2025-04-22 15:25:59,993 [INFO ]  maqp(evaluate_cardinalities: database_name=None, target_path=./baselines/cardinality_estimation/results/deepDB/auction_verification_model_based_budget_5.csv)
+2025-04-22 15:26:00,043 [DEBUG]  Including SPN with table_set {'auction_verification'} with sampling ratio(2043 / 2043.0)
+2025-04-22 15:26:00,043 [DEBUG]  Predicting cardinality for query 0: SELECT COUNT(*) FROM auction_verification WHERE f9 < 15294.303 AND f8 = 0.0 AND f4 = 1.0 AND f5 > 66.0;
+2025-04-22 15:26:00,056 [DEBUG]  		Latency: 10.08ms
+2025-04-22 15:26:00,056 [DEBUG]  		True: 553
+2025-04-22 15:26:00,056 [DEBUG]  		Predicted: 567.908142263589
+2025-04-22 15:26:00,057 [DEBUG]  Q-Error was: 1.0269586659377739
+2025-04-22 15:26:00,057 [DEBUG]  Predicting cardinality for query 1: SELECT COUNT(*) FROM auction_verification WHERE f5 > 84.0 AND f3 <= 2.0 AND f1 = 1.0 AND f9 < 23889.909;
+2025-04-22 15:26:00,068 [DEBUG]  		Latency: 9.29ms
+2025-04-22 15:26:00,068 [DEBUG]  		True: 68
+2025-04-22 15:26:00,068 [DEBUG]  		Predicted: 66.60620526399552
+2025-04-22 15:26:00,068 [DEBUG]  Q-Error was: 1.0209258991783143
+2025-04-22 15:26:00,068 [DEBUG]  Predicting cardinality for query 2: SELECT COUNT(*) FROM auction_verification WHERE f1 = 1.0 AND f2 <= 1.0 AND f9 <= 1216.675 AND f7 < 0.0 AND f8 < 0.0;
+2025-04-22 15:26:00,082 [DEBUG]  		Latency: 10.89ms
+2025-04-22 15:26:00,082 [DEBUG]  		True: 0
+2025-04-22 15:26:00,082 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,082 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,082 [DEBUG]  Predicting cardinality for query 3: SELECT COUNT(*) FROM auction_verification WHERE f8 <= 0.0 AND f1 >= 2.0 AND f6 = 4.0;
+2025-04-22 15:26:00,090 [DEBUG]  		Latency: 6.35ms
+2025-04-22 15:26:00,091 [DEBUG]  		True: 54
+2025-04-22 15:26:00,091 [DEBUG]  		Predicted: 46.69905309381713
+2025-04-22 15:26:00,091 [DEBUG]  Q-Error was: 1.1563403628659337
+2025-04-22 15:26:00,091 [DEBUG]  Predicting cardinality for query 4: SELECT COUNT(*) FROM auction_verification WHERE f5 < 70.0;
+2025-04-22 15:26:00,096 [DEBUG]  		Latency: 3.82ms
+2025-04-22 15:26:00,096 [DEBUG]  		True: 851
+2025-04-22 15:26:00,096 [DEBUG]  		Predicted: 851.0
+2025-04-22 15:26:00,096 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,097 [DEBUG]  Predicting cardinality for query 5: SELECT COUNT(*) FROM auction_verification WHERE f5 > 72.0 AND f1 <= 1.0 AND f8 > 0.0 AND f9 > 28461.327 AND f7 < 0.0;
+2025-04-22 15:26:00,111 [DEBUG]  		Latency: 11.72ms
+2025-04-22 15:26:00,111 [DEBUG]  		True: 0
+2025-04-22 15:26:00,111 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,111 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,111 [DEBUG]  Predicting cardinality for query 6: SELECT COUNT(*) FROM auction_verification WHERE f8 <= 0.0;
+2025-04-22 15:26:00,115 [DEBUG]  		Latency: 2.05ms
+2025-04-22 15:26:00,115 [DEBUG]  		True: 1781
+2025-04-22 15:26:00,115 [DEBUG]  		Predicted: 1781.0000000000002
+2025-04-22 15:26:00,115 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:00,115 [DEBUG]  Predicting cardinality for query 7: SELECT COUNT(*) FROM auction_verification WHERE f2 >= 2.0 AND f4 >= 0.0 AND f7 > 0.0 AND f6 > 4.0;
+2025-04-22 15:26:00,126 [DEBUG]  		Latency: 8.90ms
+2025-04-22 15:26:00,126 [DEBUG]  		True: 76
+2025-04-22 15:26:00,126 [DEBUG]  		Predicted: 74.8417226880898
+2025-04-22 15:26:00,126 [DEBUG]  Q-Error was: 1.0154763582438826
+2025-04-22 15:26:00,126 [DEBUG]  Predicting cardinality for query 8: SELECT COUNT(*) FROM auction_verification WHERE f4 > 0.0 AND f2 <= 3.0;
+2025-04-22 15:26:00,133 [DEBUG]  		Latency: 5.02ms
+2025-04-22 15:26:00,133 [DEBUG]  		True: 1201
+2025-04-22 15:26:00,133 [DEBUG]  		Predicted: 1201.0
+2025-04-22 15:26:00,133 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,134 [DEBUG]  Predicting cardinality for query 9: SELECT COUNT(*) FROM auction_verification WHERE f9 = 3397.538 AND f4 < 0.0;
+2025-04-22 15:26:00,141 [DEBUG]  		Latency: 5.93ms
+2025-04-22 15:26:00,141 [DEBUG]  		True: 0
+2025-04-22 15:26:00,141 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,142 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,142 [DEBUG]  Predicting cardinality for query 10: SELECT COUNT(*) FROM auction_verification WHERE f7 > 0.0 AND f2 = 2.0 AND f4 > 1.0 AND f9 < 678.755;
+2025-04-22 15:26:00,154 [DEBUG]  		Latency: 10.13ms
+2025-04-22 15:26:00,154 [DEBUG]  		True: 0
+2025-04-22 15:26:00,154 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,154 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,154 [DEBUG]  Predicting cardinality for query 11: SELECT COUNT(*) FROM auction_verification WHERE f2 >= 2.0 AND f1 = 0.0 AND f9 >= 1235.441 AND f7 > 0.0;
+2025-04-22 15:26:00,166 [DEBUG]  		Latency: 9.43ms
+2025-04-22 15:26:00,166 [DEBUG]  		True: 2
+2025-04-22 15:26:00,166 [DEBUG]  		Predicted: 7.338231649581423
+2025-04-22 15:26:00,166 [DEBUG]  Q-Error was: 3.6691158247907114
+2025-04-22 15:26:00,166 [DEBUG]  Predicting cardinality for query 12: SELECT COUNT(*) FROM auction_verification WHERE f2 = 2.0;
+2025-04-22 15:26:00,171 [DEBUG]  		Latency: 2.73ms
+2025-04-22 15:26:00,171 [DEBUG]  		True: 753
+2025-04-22 15:26:00,171 [DEBUG]  		Predicted: 753.0000000000001
+2025-04-22 15:26:00,171 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:00,171 [DEBUG]  Predicting cardinality for query 13: SELECT COUNT(*) FROM auction_verification WHERE f1 = 1.0 AND f6 < 4.0;
+2025-04-22 15:26:00,178 [DEBUG]  		Latency: 5.12ms
+2025-04-22 15:26:00,178 [DEBUG]  		True: 388
+2025-04-22 15:26:00,178 [DEBUG]  		Predicted: 415.9450119539903
+2025-04-22 15:26:00,178 [DEBUG]  Q-Error was: 1.0720232266855418
+2025-04-22 15:26:00,178 [DEBUG]  Predicting cardinality for query 14: SELECT COUNT(*) FROM auction_verification WHERE f8 < 0.0 AND f3 < 2.0 AND f7 < 1.0 AND f4 < 0.0 AND f2 = 3.0;
+2025-04-22 15:26:00,190 [DEBUG]  		Latency: 9.73ms
+2025-04-22 15:26:00,190 [DEBUG]  		True: 0
+2025-04-22 15:26:00,190 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,191 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,191 [DEBUG]  Predicting cardinality for query 15: SELECT COUNT(*) FROM auction_verification WHERE f7 > 0.0 AND f8 > 0.0;
+2025-04-22 15:26:00,198 [DEBUG]  		Latency: 5.04ms
+2025-04-22 15:26:00,198 [DEBUG]  		True: 142
+2025-04-22 15:26:00,198 [DEBUG]  		Predicted: 110.13696744432038
+2025-04-22 15:26:00,198 [DEBUG]  Q-Error was: 1.289303703334559
+2025-04-22 15:26:00,198 [DEBUG]  Predicting cardinality for query 16: SELECT COUNT(*) FROM auction_verification WHERE f2 = 1.0;
+2025-04-22 15:26:00,202 [DEBUG]  		Latency: 2.76ms
+2025-04-22 15:26:00,202 [DEBUG]  		True: 513
+2025-04-22 15:26:00,202 [DEBUG]  		Predicted: 513.0000000000001
+2025-04-22 15:26:00,202 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:00,203 [DEBUG]  Predicting cardinality for query 17: SELECT COUNT(*) FROM auction_verification WHERE f4 = 1.0 AND f7 >= 0.0 AND f3 < 2.0;
+2025-04-22 15:26:00,211 [DEBUG]  		Latency: 6.74ms
+2025-04-22 15:26:00,211 [DEBUG]  		True: 165
+2025-04-22 15:26:00,211 [DEBUG]  		Predicted: 156.15798612292417
+2025-04-22 15:26:00,212 [DEBUG]  Q-Error was: 1.0566222330128898
+2025-04-22 15:26:00,212 [DEBUG]  Predicting cardinality for query 18: SELECT COUNT(*) FROM auction_verification WHERE f3 <= 2.0;
+2025-04-22 15:26:00,215 [DEBUG]  		Latency: 1.57ms
+2025-04-22 15:26:00,215 [DEBUG]  		True: 2043
+2025-04-22 15:26:00,215 [DEBUG]  		Predicted: 2043.0
+2025-04-22 15:26:00,215 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,215 [DEBUG]  Predicting cardinality for query 19: SELECT COUNT(*) FROM auction_verification WHERE f2 >= 1.0 AND f5 <= 72.0 AND f9 > 793.577 AND f7 < 0.0 AND f1 >= 1.0;
+2025-04-22 15:26:00,229 [DEBUG]  		Latency: 11.77ms
+2025-04-22 15:26:00,229 [DEBUG]  		True: 0
+2025-04-22 15:26:00,229 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,229 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,229 [DEBUG]  Predicting cardinality for query 20: SELECT COUNT(*) FROM auction_verification WHERE f3 = 2.0 AND f2 < 3.0 AND f9 > 15294.303 AND f8 <= 0.0 AND f4 >= 1.0;
+2025-04-22 15:26:00,241 [DEBUG]  		Latency: 9.40ms
+2025-04-22 15:26:00,241 [DEBUG]  		True: 161
+2025-04-22 15:26:00,241 [DEBUG]  		Predicted: 159.2191843244475
+2025-04-22 15:26:00,242 [DEBUG]  Q-Error was: 1.0111846803078934
+2025-04-22 15:26:00,242 [DEBUG]  Predicting cardinality for query 21: SELECT COUNT(*) FROM auction_verification WHERE f1 > 2.0;
+2025-04-22 15:26:00,246 [DEBUG]  		Latency: 2.90ms
+2025-04-22 15:26:00,246 [DEBUG]  		True: 0
+2025-04-22 15:26:00,246 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,246 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,246 [DEBUG]  Predicting cardinality for query 22: SELECT COUNT(*) FROM auction_verification WHERE f2 > 1.0 AND f5 = 74.0 AND f3 > 2.0 AND f9 < 31239.981;
+2025-04-22 15:26:00,258 [DEBUG]  		Latency: 9.03ms
+2025-04-22 15:26:00,258 [DEBUG]  		True: 0
+2025-04-22 15:26:00,258 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,258 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,258 [DEBUG]  Predicting cardinality for query 23: SELECT COUNT(*) FROM auction_verification WHERE f6 > 4.0 AND f2 > 2.0 AND f9 = 7836.537;
+2025-04-22 15:26:00,267 [DEBUG]  		Latency: 7.32ms
+2025-04-22 15:26:00,268 [DEBUG]  		True: 0
+2025-04-22 15:26:00,268 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,268 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,268 [DEBUG]  Predicting cardinality for query 24: SELECT COUNT(*) FROM auction_verification WHERE f7 = 0.0;
+2025-04-22 15:26:00,273 [DEBUG]  		Latency: 3.68ms
+2025-04-22 15:26:00,273 [DEBUG]  		True: 1680
+2025-04-22 15:26:00,273 [DEBUG]  		Predicted: 1680.0000000000002
+2025-04-22 15:26:00,273 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:00,273 [DEBUG]  Predicting cardinality for query 25: SELECT COUNT(*) FROM auction_verification WHERE f2 > 1.0;
+2025-04-22 15:26:00,278 [DEBUG]  		Latency: 2.69ms
+2025-04-22 15:26:00,278 [DEBUG]  		True: 1506
+2025-04-22 15:26:00,278 [DEBUG]  		Predicted: 1506.0
+2025-04-22 15:26:00,278 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,278 [DEBUG]  Predicting cardinality for query 26: SELECT COUNT(*) FROM auction_verification WHERE f5 >= 72.0;
+2025-04-22 15:26:00,283 [DEBUG]  		Latency: 3.65ms
+2025-04-22 15:26:00,284 [DEBUG]  		True: 909
+2025-04-22 15:26:00,284 [DEBUG]  		Predicted: 909.0000000000001
+2025-04-22 15:26:00,284 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:00,284 [DEBUG]  Predicting cardinality for query 27: SELECT COUNT(*) FROM auction_verification WHERE f8 = 0.0 AND f9 > 8467.469 AND f4 = 1.0 AND f5 <= 62.0;
+2025-04-22 15:26:00,295 [DEBUG]  		Latency: 9.41ms
+2025-04-22 15:26:00,295 [DEBUG]  		True: 40
+2025-04-22 15:26:00,295 [DEBUG]  		Predicted: 46.2308775503822
+2025-04-22 15:26:00,295 [DEBUG]  Q-Error was: 1.155771938759555
+2025-04-22 15:26:00,296 [DEBUG]  Predicting cardinality for query 28: SELECT COUNT(*) FROM auction_verification WHERE f4 > 1.0;
+2025-04-22 15:26:00,301 [DEBUG]  		Latency: 3.29ms
+2025-04-22 15:26:00,301 [DEBUG]  		True: 0
+2025-04-22 15:26:00,301 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,301 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,301 [DEBUG]  Predicting cardinality for query 29: SELECT COUNT(*) FROM auction_verification WHERE f8 < 0.0 AND f5 = 81.0 AND f1 = 0.0 AND f3 >= 2.0;
+2025-04-22 15:26:00,311 [DEBUG]  		Latency: 8.29ms
+2025-04-22 15:26:00,311 [DEBUG]  		True: 0
+2025-04-22 15:26:00,311 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,311 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,312 [DEBUG]  Predicting cardinality for query 30: SELECT COUNT(*) FROM auction_verification WHERE f8 >= 1.0 AND f4 <= 0.0 AND f3 < 2.0 AND f9 < 1463.682;
+2025-04-22 15:26:00,322 [DEBUG]  		Latency: 7.82ms
+2025-04-22 15:26:00,322 [DEBUG]  		True: 16
+2025-04-22 15:26:00,322 [DEBUG]  		Predicted: 20.875420001796975
+2025-04-22 15:26:00,322 [DEBUG]  Q-Error was: 1.304713750112311
+2025-04-22 15:26:00,322 [DEBUG]  Predicting cardinality for query 31: SELECT COUNT(*) FROM auction_verification WHERE f6 > 3.0 AND f4 >= 0.0 AND f2 > 1.0 AND f7 <= 0.0 AND f8 < 0.0;
+2025-04-22 15:26:00,335 [DEBUG]  		Latency: 10.29ms
+2025-04-22 15:26:00,335 [DEBUG]  		True: 0
+2025-04-22 15:26:00,335 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,335 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,335 [DEBUG]  Predicting cardinality for query 32: SELECT COUNT(*) FROM auction_verification WHERE f7 <= 1.0 AND f8 > 0.0 AND f6 >= 1.0 AND f3 > 2.0;
+2025-04-22 15:26:00,345 [DEBUG]  		Latency: 7.76ms
+2025-04-22 15:26:00,345 [DEBUG]  		True: 0
+2025-04-22 15:26:00,345 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,345 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,345 [DEBUG]  Predicting cardinality for query 33: SELECT COUNT(*) FROM auction_verification WHERE f6 > 5.0 AND f5 < 80.0 AND f9 <= 1559.639;
+2025-04-22 15:26:00,355 [DEBUG]  		Latency: 7.86ms
+2025-04-22 15:26:00,355 [DEBUG]  		True: 174
+2025-04-22 15:26:00,355 [DEBUG]  		Predicted: 186.21163355907936
+2025-04-22 15:26:00,355 [DEBUG]  Q-Error was: 1.0701818020636744
+2025-04-22 15:26:00,355 [DEBUG]  Predicting cardinality for query 34: SELECT COUNT(*) FROM auction_verification WHERE f1 < 1.0 AND f5 > 61.0;
+2025-04-22 15:26:00,363 [DEBUG]  		Latency: 5.78ms
+2025-04-22 15:26:00,363 [DEBUG]  		True: 531
+2025-04-22 15:26:00,363 [DEBUG]  		Predicted: 539.71561305052
+2025-04-22 15:26:00,363 [DEBUG]  Q-Error was: 1.0164135838992845
+2025-04-22 15:26:00,363 [DEBUG]  Predicting cardinality for query 35: SELECT COUNT(*) FROM auction_verification WHERE f2 < 2.0 AND f6 >= 4.0 AND f1 > 0.0 AND f8 = 0.0;
+2025-04-22 15:26:00,373 [DEBUG]  		Latency: 8.01ms
+2025-04-22 15:26:00,373 [DEBUG]  		True: 140
+2025-04-22 15:26:00,373 [DEBUG]  		Predicted: 138.76756288016298
+2025-04-22 15:26:00,374 [DEBUG]  Q-Error was: 1.0088813055029389
+2025-04-22 15:26:00,374 [DEBUG]  Predicting cardinality for query 36: SELECT COUNT(*) FROM auction_verification WHERE f3 >= 2.0;
+2025-04-22 15:26:00,377 [DEBUG]  		Latency: 1.54ms
+2025-04-22 15:26:00,377 [DEBUG]  		True: 1806
+2025-04-22 15:26:00,377 [DEBUG]  		Predicted: 1806.0
+2025-04-22 15:26:00,377 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,377 [DEBUG]  Predicting cardinality for query 37: SELECT COUNT(*) FROM auction_verification WHERE f9 < 30216.603 AND f3 <= 2.0 AND f4 < 1.0;
+2025-04-22 15:26:00,386 [DEBUG]  		Latency: 6.84ms
+2025-04-22 15:26:00,386 [DEBUG]  		True: 822
+2025-04-22 15:26:00,386 [DEBUG]  		Predicted: 822.1818181818181
+2025-04-22 15:26:00,386 [DEBUG]  Q-Error was: 1.0002211900022118
+2025-04-22 15:26:00,386 [DEBUG]  Predicting cardinality for query 38: SELECT COUNT(*) FROM auction_verification WHERE f8 = 0.0 AND f4 = 1.0 AND f6 <= 3.0 AND f1 < 1.0;
+2025-04-22 15:26:00,397 [DEBUG]  		Latency: 8.82ms
+2025-04-22 15:26:00,397 [DEBUG]  		True: 167
+2025-04-22 15:26:00,397 [DEBUG]  		Predicted: 143.10743389124397
+2025-04-22 15:26:00,398 [DEBUG]  Q-Error was: 1.1669554505946451
+2025-04-22 15:26:00,398 [DEBUG]  Predicting cardinality for query 39: SELECT COUNT(*) FROM auction_verification WHERE f2 < 2.0;
+2025-04-22 15:26:00,402 [DEBUG]  		Latency: 2.67ms
+2025-04-22 15:26:00,402 [DEBUG]  		True: 537
+2025-04-22 15:26:00,402 [DEBUG]  		Predicted: 537.0000000000001
+2025-04-22 15:26:00,402 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:00,402 [DEBUG]  Predicting cardinality for query 40: SELECT COUNT(*) FROM auction_verification WHERE f2 > 2.0 AND f5 = 70.0 AND f8 > 0.0 AND f3 >= 2.0;
+2025-04-22 15:26:00,413 [DEBUG]  		Latency: 8.24ms
+2025-04-22 15:26:00,413 [DEBUG]  		True: 20
+2025-04-22 15:26:00,413 [DEBUG]  		Predicted: 11.3331800237536
+2025-04-22 15:26:00,413 [DEBUG]  Q-Error was: 1.7647297544097345
+2025-04-22 15:26:00,413 [DEBUG]  Predicting cardinality for query 41: SELECT COUNT(*) FROM auction_verification WHERE f7 <= 0.0 AND f5 < 60.0 AND f4 >= 1.0 AND f1 < 2.0 AND f2 < 3.0;
+2025-04-22 15:26:00,427 [DEBUG]  		Latency: 11.33ms
+2025-04-22 15:26:00,427 [DEBUG]  		True: 24
+2025-04-22 15:26:00,427 [DEBUG]  		Predicted: 19.525307682730947
+2025-04-22 15:26:00,427 [DEBUG]  Q-Error was: 1.229173972056106
+2025-04-22 15:26:00,427 [DEBUG]  Predicting cardinality for query 42: SELECT COUNT(*) FROM auction_verification WHERE f9 <= 741.811 AND f8 = 0.0 AND f4 = 1.0 AND f5 < 80.0 AND f1 = 2.0;
+2025-04-22 15:26:00,441 [DEBUG]  		Latency: 11.55ms
+2025-04-22 15:26:00,441 [DEBUG]  		True: 0
+2025-04-22 15:26:00,441 [DEBUG]  		Predicted: 11.310887167637619
+2025-04-22 15:26:00,441 [DEBUG]  Q-Error was: 11.310887167637619
+2025-04-22 15:26:00,441 [DEBUG]  Predicting cardinality for query 43: SELECT COUNT(*) FROM auction_verification WHERE f5 >= 67.0 AND f9 = 508.806 AND f6 >= 5.0 AND f4 <= 1.0 AND f8 <= 0.0;
+2025-04-22 15:26:00,455 [DEBUG]  		Latency: 11.13ms
+2025-04-22 15:26:00,455 [DEBUG]  		True: 0
+2025-04-22 15:26:00,455 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,455 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,455 [DEBUG]  Predicting cardinality for query 44: SELECT COUNT(*) FROM auction_verification WHERE f2 > 3.0 AND f1 <= 2.0 AND f5 = 78.0 AND f4 <= 0.0 AND f8 < 0.0;
+2025-04-22 15:26:00,468 [DEBUG]  		Latency: 10.80ms
+2025-04-22 15:26:00,468 [DEBUG]  		True: 0
+2025-04-22 15:26:00,468 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,468 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,468 [DEBUG]  Predicting cardinality for query 45: SELECT COUNT(*) FROM auction_verification WHERE f9 <= 3563.428;
+2025-04-22 15:26:00,474 [DEBUG]  		Latency: 3.48ms
+2025-04-22 15:26:00,474 [DEBUG]  		True: 1287
+2025-04-22 15:26:00,474 [DEBUG]  		Predicted: 1286.9999999999995
+2025-04-22 15:26:00,474 [DEBUG]  Q-Error was: 1.0000000000000004
+2025-04-22 15:26:00,474 [DEBUG]  Predicting cardinality for query 46: SELECT COUNT(*) FROM auction_verification WHERE f5 >= 64.0 AND f4 <= 1.0 AND f8 >= 0.0 AND f7 < 0.0;
+2025-04-22 15:26:00,486 [DEBUG]  		Latency: 9.37ms
+2025-04-22 15:26:00,486 [DEBUG]  		True: 0
+2025-04-22 15:26:00,486 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,486 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,486 [DEBUG]  Predicting cardinality for query 47: SELECT COUNT(*) FROM auction_verification WHERE f1 > 0.0 AND f5 < 66.0 AND f2 > 2.0 AND f6 >= 6.0;
+2025-04-22 15:26:00,497 [DEBUG]  		Latency: 8.91ms
+2025-04-22 15:26:00,497 [DEBUG]  		True: 28
+2025-04-22 15:26:00,497 [DEBUG]  		Predicted: 28.205032050055753
+2025-04-22 15:26:00,497 [DEBUG]  Q-Error was: 1.007322573216277
+2025-04-22 15:26:00,497 [DEBUG]  Predicting cardinality for query 48: SELECT COUNT(*) FROM auction_verification WHERE f6 > 4.0 AND f4 = 1.0 AND f5 = 64.0;
+2025-04-22 15:26:00,507 [DEBUG]  		Latency: 8.15ms
+2025-04-22 15:26:00,508 [DEBUG]  		True: 6
+2025-04-22 15:26:00,508 [DEBUG]  		Predicted: 9.862106067431785
+2025-04-22 15:26:00,508 [DEBUG]  Q-Error was: 1.6436843445719642
+2025-04-22 15:26:00,508 [DEBUG]  Predicting cardinality for query 49: SELECT COUNT(*) FROM auction_verification WHERE f5 <= 60.0 AND f4 <= 1.0 AND f6 = 5.0 AND f9 = 546.819 AND f8 = 0.0;
+2025-04-22 15:26:00,522 [DEBUG]  		Latency: 11.57ms
+2025-04-22 15:26:00,522 [DEBUG]  		True: 0
+2025-04-22 15:26:00,522 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,522 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,522 [DEBUG]  Predicting cardinality for query 50: SELECT COUNT(*) FROM auction_verification WHERE f9 = 10022.609 AND f4 < 1.0;
+2025-04-22 15:26:00,530 [DEBUG]  		Latency: 6.19ms
+2025-04-22 15:26:00,530 [DEBUG]  		True: 0
+2025-04-22 15:26:00,530 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,530 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,530 [DEBUG]  Predicting cardinality for query 51: SELECT COUNT(*) FROM auction_verification WHERE f6 = 3.0 AND f3 < 2.0;
+2025-04-22 15:26:00,536 [DEBUG]  		Latency: 4.22ms
+2025-04-22 15:26:00,536 [DEBUG]  		True: 23
+2025-04-22 15:26:00,537 [DEBUG]  		Predicted: 29.228160865622165
+2025-04-22 15:26:00,537 [DEBUG]  Q-Error was: 1.2707896028531376
+2025-04-22 15:26:00,537 [DEBUG]  Predicting cardinality for query 52: SELECT COUNT(*) FROM auction_verification WHERE f4 < 0.0 AND f2 > 1.0;
+2025-04-22 15:26:00,544 [DEBUG]  		Latency: 5.10ms
+2025-04-22 15:26:00,544 [DEBUG]  		True: 0
+2025-04-22 15:26:00,544 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,544 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,544 [DEBUG]  Predicting cardinality for query 53: SELECT COUNT(*) FROM auction_verification WHERE f7 = 0.0 AND f2 < 3.0 AND f4 <= 0.0;
+2025-04-22 15:26:00,554 [DEBUG]  		Latency: 7.97ms
+2025-04-22 15:26:00,554 [DEBUG]  		True: 440
+2025-04-22 15:26:00,554 [DEBUG]  		Predicted: 425.3516636268003
+2025-04-22 15:26:00,554 [DEBUG]  Q-Error was: 1.0344381781613343
+2025-04-22 15:26:00,554 [DEBUG]  Predicting cardinality for query 54: SELECT COUNT(*) FROM auction_verification WHERE f2 = 2.0;
+2025-04-22 15:26:00,556 [DEBUG]  		Latency: 0.05ms
+2025-04-22 15:26:00,556 [DEBUG]  		True: 753
+2025-04-22 15:26:00,556 [DEBUG]  		Predicted: 753.0000000000001
+2025-04-22 15:26:00,556 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:00,556 [DEBUG]  Predicting cardinality for query 55: SELECT COUNT(*) FROM auction_verification WHERE f6 >= 4.0 AND f2 < 3.0 AND f9 <= 408.725;
+2025-04-22 15:26:00,565 [DEBUG]  		Latency: 7.01ms
+2025-04-22 15:26:00,565 [DEBUG]  		True: 92
+2025-04-22 15:26:00,565 [DEBUG]  		Predicted: 91.80562595299436
+2025-04-22 15:26:00,565 [DEBUG]  Q-Error was: 1.0021172345919755
+2025-04-22 15:26:00,565 [DEBUG]  Predicting cardinality for query 56: SELECT COUNT(*) FROM auction_verification WHERE f1 = 0.0;
+2025-04-22 15:26:00,570 [DEBUG]  		Latency: 3.03ms
+2025-04-22 15:26:00,570 [DEBUG]  		True: 681
+2025-04-22 15:26:00,570 [DEBUG]  		Predicted: 681.0000000000001
+2025-04-22 15:26:00,570 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:00,570 [DEBUG]  Predicting cardinality for query 57: SELECT COUNT(*) FROM auction_verification WHERE f9 < 451.098 AND f8 < 0.0 AND f2 > 2.0 AND f7 > 0.0 AND f6 <= 2.0;
+2025-04-22 15:26:00,584 [DEBUG]  		Latency: 10.78ms
+2025-04-22 15:26:00,584 [DEBUG]  		True: 0
+2025-04-22 15:26:00,584 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,584 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,584 [DEBUG]  Predicting cardinality for query 58: SELECT COUNT(*) FROM auction_verification WHERE f2 <= 2.0;
+2025-04-22 15:26:00,588 [DEBUG]  		Latency: 2.62ms
+2025-04-22 15:26:00,588 [DEBUG]  		True: 1290
+2025-04-22 15:26:00,588 [DEBUG]  		Predicted: 1290.0
+2025-04-22 15:26:00,588 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,588 [DEBUG]  Predicting cardinality for query 59: SELECT COUNT(*) FROM auction_verification WHERE f7 >= 0.0 AND f6 > 1.0 AND f4 < 0.0 AND f2 <= 2.0;
+2025-04-22 15:26:00,600 [DEBUG]  		Latency: 9.24ms
+2025-04-22 15:26:00,600 [DEBUG]  		True: 0
+2025-04-22 15:26:00,600 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,600 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,600 [DEBUG]  Predicting cardinality for query 60: SELECT COUNT(*) FROM auction_verification WHERE f6 < 5.0 AND f7 = 0.0 AND f2 >= 1.0;
+2025-04-22 15:26:00,610 [DEBUG]  		Latency: 7.38ms
+2025-04-22 15:26:00,610 [DEBUG]  		True: 1178
+2025-04-22 15:26:00,610 [DEBUG]  		Predicted: 1172.5701112142785
+2025-04-22 15:26:00,610 [DEBUG]  Q-Error was: 1.0046307583092822
+2025-04-22 15:26:00,610 [DEBUG]  Predicting cardinality for query 61: SELECT COUNT(*) FROM auction_verification WHERE f7 = 0.0;
+2025-04-22 15:26:00,612 [DEBUG]  		Latency: 0.05ms
+2025-04-22 15:26:00,612 [DEBUG]  		True: 1680
+2025-04-22 15:26:00,612 [DEBUG]  		Predicted: 1680.0000000000002
+2025-04-22 15:26:00,612 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:00,612 [DEBUG]  Predicting cardinality for query 62: SELECT COUNT(*) FROM auction_verification WHERE f9 >= 926.987 AND f6 < 1.0;
+2025-04-22 15:26:00,620 [DEBUG]  		Latency: 5.70ms
+2025-04-22 15:26:00,620 [DEBUG]  		True: 0
+2025-04-22 15:26:00,620 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,620 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,620 [DEBUG]  Predicting cardinality for query 63: SELECT COUNT(*) FROM auction_verification WHERE f3 <= 2.0 AND f6 <= 2.0 AND f5 < 67.0 AND f8 >= 0.0;
+2025-04-22 15:26:00,630 [DEBUG]  		Latency: 7.92ms
+2025-04-22 15:26:00,630 [DEBUG]  		True: 304
+2025-04-22 15:26:00,630 [DEBUG]  		Predicted: 290.5497331959406
+2025-04-22 15:26:00,630 [DEBUG]  Q-Error was: 1.0462924768717266
+2025-04-22 15:26:00,630 [DEBUG]  Predicting cardinality for query 64: SELECT COUNT(*) FROM auction_verification WHERE f8 = 0.0 AND f2 < 1.0 AND f1 >= 1.0;
+2025-04-22 15:26:00,639 [DEBUG]  		Latency: 6.23ms
+2025-04-22 15:26:00,639 [DEBUG]  		True: 0
+2025-04-22 15:26:00,639 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,639 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,639 [DEBUG]  Predicting cardinality for query 65: SELECT COUNT(*) FROM auction_verification WHERE f4 = 0.0 AND f7 <= 0.0 AND f5 <= 76.0;
+2025-04-22 15:26:00,649 [DEBUG]  		Latency: 8.06ms
+2025-04-22 15:26:00,649 [DEBUG]  		True: 578
+2025-04-22 15:26:00,649 [DEBUG]  		Predicted: 518.8592900575678
+2025-04-22 15:26:00,649 [DEBUG]  Q-Error was: 1.113982174118672
+2025-04-22 15:26:00,649 [DEBUG]  Predicting cardinality for query 66: SELECT COUNT(*) FROM auction_verification WHERE f2 > 3.0 AND f7 = 0.0;
+2025-04-22 15:26:00,657 [DEBUG]  		Latency: 5.53ms
+2025-04-22 15:26:00,657 [DEBUG]  		True: 0
+2025-04-22 15:26:00,657 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,657 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,657 [DEBUG]  Predicting cardinality for query 67: SELECT COUNT(*) FROM auction_verification WHERE f4 <= 0.0;
+2025-04-22 15:26:00,662 [DEBUG]  		Latency: 3.14ms
+2025-04-22 15:26:00,662 [DEBUG]  		True: 842
+2025-04-22 15:26:00,662 [DEBUG]  		Predicted: 842.0
+2025-04-22 15:26:00,662 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,662 [DEBUG]  Predicting cardinality for query 68: SELECT COUNT(*) FROM auction_verification WHERE f9 <= 22142.437 AND f1 > 0.0 AND f7 >= 0.0 AND f2 >= 2.0;
+2025-04-22 15:26:00,674 [DEBUG]  		Latency: 9.17ms
+2025-04-22 15:26:00,674 [DEBUG]  		True: 865
+2025-04-22 15:26:00,674 [DEBUG]  		Predicted: 851.30609400919
+2025-04-22 15:26:00,674 [DEBUG]  Q-Error was: 1.0160857605591886
+2025-04-22 15:26:00,674 [DEBUG]  Predicting cardinality for query 69: SELECT COUNT(*) FROM auction_verification WHERE f9 <= 20531.248 AND f7 > 2.0 AND f5 = 78.0 AND f8 > 1.0 AND f1 < 1.0;
+2025-04-22 15:26:00,688 [DEBUG]  		Latency: 11.56ms
+2025-04-22 15:26:00,688 [DEBUG]  		True: 0
+2025-04-22 15:26:00,688 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,688 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,688 [DEBUG]  Predicting cardinality for query 70: SELECT COUNT(*) FROM auction_verification WHERE f8 = 0.0 AND f3 > 2.0 AND f7 <= 0.0 AND f4 >= 1.0;
+2025-04-22 15:26:00,698 [DEBUG]  		Latency: 7.99ms
+2025-04-22 15:26:00,698 [DEBUG]  		True: 0
+2025-04-22 15:26:00,698 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,698 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,698 [DEBUG]  Predicting cardinality for query 71: SELECT COUNT(*) FROM auction_verification WHERE f7 >= 0.0 AND f5 >= 78.0 AND f3 >= 2.0 AND f8 > 0.0 AND f9 = 793.577;
+2025-04-22 15:26:00,712 [DEBUG]  		Latency: 10.74ms
+2025-04-22 15:26:00,712 [DEBUG]  		True: 0
+2025-04-22 15:26:00,712 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,712 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,712 [DEBUG]  Predicting cardinality for query 72: SELECT COUNT(*) FROM auction_verification WHERE f3 <= 2.0;
+2025-04-22 15:26:00,714 [DEBUG]  		Latency: 0.05ms
+2025-04-22 15:26:00,714 [DEBUG]  		True: 2043
+2025-04-22 15:26:00,714 [DEBUG]  		Predicted: 2043.0
+2025-04-22 15:26:00,714 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,714 [DEBUG]  Predicting cardinality for query 73: SELECT COUNT(*) FROM auction_verification WHERE f6 > 3.0;
+2025-04-22 15:26:00,718 [DEBUG]  		Latency: 2.99ms
+2025-04-22 15:26:00,718 [DEBUG]  		True: 898
+2025-04-22 15:26:00,718 [DEBUG]  		Predicted: 897.9999999999999
+2025-04-22 15:26:00,719 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:00,719 [DEBUG]  Predicting cardinality for query 74: SELECT COUNT(*) FROM auction_verification WHERE f6 >= 4.0 AND f2 > 2.0 AND f7 > 0.0 AND f8 < 0.0 AND f4 = 0.0;
+2025-04-22 15:26:00,732 [DEBUG]  		Latency: 10.81ms
+2025-04-22 15:26:00,732 [DEBUG]  		True: 0
+2025-04-22 15:26:00,732 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,732 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,732 [DEBUG]  Predicting cardinality for query 75: SELECT COUNT(*) FROM auction_verification WHERE f1 <= 2.0;
+2025-04-22 15:26:00,737 [DEBUG]  		Latency: 2.89ms
+2025-04-22 15:26:00,737 [DEBUG]  		True: 2043
+2025-04-22 15:26:00,737 [DEBUG]  		Predicted: 2043.0
+2025-04-22 15:26:00,737 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,737 [DEBUG]  Predicting cardinality for query 76: SELECT COUNT(*) FROM auction_verification WHERE f2 = 2.0 AND f4 > 0.0 AND f7 <= 0.0 AND f1 <= 0.0;
+2025-04-22 15:26:00,748 [DEBUG]  		Latency: 9.23ms
+2025-04-22 15:26:00,748 [DEBUG]  		True: 102
+2025-04-22 15:26:00,748 [DEBUG]  		Predicted: 105.50999708545143
+2025-04-22 15:26:00,749 [DEBUG]  Q-Error was: 1.0344117361318768
+2025-04-22 15:26:00,749 [DEBUG]  Predicting cardinality for query 77: SELECT COUNT(*) FROM auction_verification WHERE f5 < 77.0 AND f7 < 0.0 AND f3 <= 2.0 AND f6 = 1.0;
+2025-04-22 15:26:00,760 [DEBUG]  		Latency: 9.01ms
+2025-04-22 15:26:00,760 [DEBUG]  		True: 0
+2025-04-22 15:26:00,760 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,760 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,760 [DEBUG]  Predicting cardinality for query 78: SELECT COUNT(*) FROM auction_verification WHERE f9 = 1001.447 AND f6 = 6.0 AND f3 = 2.0;
+2025-04-22 15:26:00,769 [DEBUG]  		Latency: 7.02ms
+2025-04-22 15:26:00,769 [DEBUG]  		True: 0
+2025-04-22 15:26:00,769 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,769 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,769 [DEBUG]  Predicting cardinality for query 79: SELECT COUNT(*) FROM auction_verification WHERE f5 < 66.0 AND f4 < 1.0;
+2025-04-22 15:26:00,777 [DEBUG]  		Latency: 5.88ms
+2025-04-22 15:26:00,777 [DEBUG]  		True: 251
+2025-04-22 15:26:00,777 [DEBUG]  		Predicted: 225.83101418275558
+2025-04-22 15:26:00,777 [DEBUG]  Q-Error was: 1.1114505282116662
+2025-04-22 15:26:00,777 [DEBUG]  Predicting cardinality for query 80: SELECT COUNT(*) FROM auction_verification WHERE f1 >= 0.0;
+2025-04-22 15:26:00,782 [DEBUG]  		Latency: 2.84ms
+2025-04-22 15:26:00,782 [DEBUG]  		True: 2043
+2025-04-22 15:26:00,782 [DEBUG]  		Predicted: 2043.0
+2025-04-22 15:26:00,782 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,782 [DEBUG]  Predicting cardinality for query 81: SELECT COUNT(*) FROM auction_verification WHERE f7 > 0.0 AND f1 = 0.0 AND f5 > 69.0;
+2025-04-22 15:26:00,793 [DEBUG]  		Latency: 8.26ms
+2025-04-22 15:26:00,793 [DEBUG]  		True: 121
+2025-04-22 15:26:00,793 [DEBUG]  		Predicted: 86.91187915887507
+2025-04-22 15:26:00,793 [DEBUG]  Q-Error was: 1.3922147486744796
+2025-04-22 15:26:00,793 [DEBUG]  Predicting cardinality for query 82: SELECT COUNT(*) FROM auction_verification WHERE f3 < 2.0;
+2025-04-22 15:26:00,796 [DEBUG]  		Latency: 1.70ms
+2025-04-22 15:26:00,796 [DEBUG]  		True: 237
+2025-04-22 15:26:00,796 [DEBUG]  		Predicted: 236.99999999999991
+2025-04-22 15:26:00,796 [DEBUG]  Q-Error was: 1.0000000000000004
+2025-04-22 15:26:00,796 [DEBUG]  Predicting cardinality for query 83: SELECT COUNT(*) FROM auction_verification WHERE f8 >= 0.0 AND f9 <= 1258.023 AND f3 > 2.0;
+2025-04-22 15:26:00,804 [DEBUG]  		Latency: 5.89ms
+2025-04-22 15:26:00,805 [DEBUG]  		True: 0
+2025-04-22 15:26:00,805 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,805 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,805 [DEBUG]  Predicting cardinality for query 84: SELECT COUNT(*) FROM auction_verification WHERE f8 < 0.0;
+2025-04-22 15:26:00,809 [DEBUG]  		Latency: 2.26ms
+2025-04-22 15:26:00,809 [DEBUG]  		True: 0
+2025-04-22 15:26:00,809 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,809 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,809 [DEBUG]  Predicting cardinality for query 85: SELECT COUNT(*) FROM auction_verification WHERE f7 < 0.0 AND f5 = 80.0 AND f4 >= 1.0 AND f2 < 3.0;
+2025-04-22 15:26:00,821 [DEBUG]  		Latency: 9.92ms
+2025-04-22 15:26:00,821 [DEBUG]  		True: 0
+2025-04-22 15:26:00,821 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,821 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,821 [DEBUG]  Predicting cardinality for query 86: SELECT COUNT(*) FROM auction_verification WHERE f6 = 1.0 AND f2 <= 1.0 AND f4 = 1.0 AND f3 <= 2.0;
+2025-04-22 15:26:00,831 [DEBUG]  		Latency: 7.89ms
+2025-04-22 15:26:00,832 [DEBUG]  		True: 34
+2025-04-22 15:26:00,832 [DEBUG]  		Predicted: 33.51134914565576
+2025-04-22 15:26:00,832 [DEBUG]  Q-Error was: 1.0145816526878801
+2025-04-22 15:26:00,832 [DEBUG]  Predicting cardinality for query 87: SELECT COUNT(*) FROM auction_verification WHERE f1 = 0.0 AND f2 >= 1.0 AND f3 >= 2.0;
+2025-04-22 15:26:00,839 [DEBUG]  		Latency: 5.74ms
+2025-04-22 15:26:00,840 [DEBUG]  		True: 420
+2025-04-22 15:26:00,840 [DEBUG]  		Predicted: 450.16484641969214
+2025-04-22 15:26:00,840 [DEBUG]  Q-Error was: 1.071821062904029
+2025-04-22 15:26:00,840 [DEBUG]  Predicting cardinality for query 88: SELECT COUNT(*) FROM auction_verification WHERE f3 >= 2.0 AND f4 > 1.0 AND f9 <= 1216.675;
+2025-04-22 15:26:00,848 [DEBUG]  		Latency: 6.61ms
+2025-04-22 15:26:00,848 [DEBUG]  		True: 0
+2025-04-22 15:26:00,848 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,849 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,849 [DEBUG]  Predicting cardinality for query 89: SELECT COUNT(*) FROM auction_verification WHERE f5 < 70.0 AND f8 = 0.0 AND f9 > 793.577 AND f3 >= 2.0 AND f4 >= 0.0;
+2025-04-22 15:26:00,862 [DEBUG]  		Latency: 10.66ms
+2025-04-22 15:26:00,862 [DEBUG]  		True: 498
+2025-04-22 15:26:00,862 [DEBUG]  		Predicted: 489.58184962406017
+2025-04-22 15:26:00,862 [DEBUG]  Q-Error was: 1.0171945720259115
+2025-04-22 15:26:00,862 [DEBUG]  Predicting cardinality for query 90: SELECT COUNT(*) FROM auction_verification WHERE f7 <= 0.0 AND f4 < 1.0 AND f6 = 5.0 AND f5 < 66.0;
+2025-04-22 15:26:00,874 [DEBUG]  		Latency: 10.06ms
+2025-04-22 15:26:00,874 [DEBUG]  		True: 0
+2025-04-22 15:26:00,874 [DEBUG]  		Predicted: 2.282936917227079
+2025-04-22 15:26:00,874 [DEBUG]  Q-Error was: 2.282936917227079
+2025-04-22 15:26:00,874 [DEBUG]  Predicting cardinality for query 91: SELECT COUNT(*) FROM auction_verification WHERE f8 > 0.0;
+2025-04-22 15:26:00,878 [DEBUG]  		Latency: 2.17ms
+2025-04-22 15:26:00,878 [DEBUG]  		True: 262
+2025-04-22 15:26:00,879 [DEBUG]  		Predicted: 261.99999999999994
+2025-04-22 15:26:00,879 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:00,879 [DEBUG]  Predicting cardinality for query 92: SELECT COUNT(*) FROM auction_verification WHERE f9 < 10022.609 AND f1 >= 2.0;
+2025-04-22 15:26:00,886 [DEBUG]  		Latency: 5.57ms
+2025-04-22 15:26:00,886 [DEBUG]  		True: 415
+2025-04-22 15:26:00,886 [DEBUG]  		Predicted: 415.65000000000003
+2025-04-22 15:26:00,886 [DEBUG]  Q-Error was: 1.001566265060241
+2025-04-22 15:26:00,886 [DEBUG]  Predicting cardinality for query 93: SELECT COUNT(*) FROM auction_verification WHERE f7 = 0.0;
+2025-04-22 15:26:00,888 [DEBUG]  		Latency: 0.05ms
+2025-04-22 15:26:00,888 [DEBUG]  		True: 1680
+2025-04-22 15:26:00,888 [DEBUG]  		Predicted: 1680.0000000000002
+2025-04-22 15:26:00,888 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:00,888 [DEBUG]  Predicting cardinality for query 94: SELECT COUNT(*) FROM auction_verification WHERE f5 >= 63.0 AND f2 > 1.0 AND f3 < 2.0 AND f1 <= 0.0 AND f7 < 0.0;
+2025-04-22 15:26:00,901 [DEBUG]  		Latency: 10.54ms
+2025-04-22 15:26:00,901 [DEBUG]  		True: 0
+2025-04-22 15:26:00,901 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,901 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,901 [DEBUG]  Predicting cardinality for query 95: SELECT COUNT(*) FROM auction_verification WHERE f9 >= 1521.694 AND f6 >= 3.0 AND f7 < 3.0 AND f4 <= 1.0;
+2025-04-22 15:26:00,913 [DEBUG]  		Latency: 9.74ms
+2025-04-22 15:26:00,914 [DEBUG]  		True: 313
+2025-04-22 15:26:00,914 [DEBUG]  		Predicted: 316.6962384953982
+2025-04-22 15:26:00,914 [DEBUG]  Q-Error was: 1.0118090686753936
+2025-04-22 15:26:00,914 [DEBUG]  Predicting cardinality for query 96: SELECT COUNT(*) FROM auction_verification WHERE f2 <= 1.0 AND f1 <= 0.0 AND f4 > 1.0 AND f6 >= 5.0 AND f3 > 2.0;
+2025-04-22 15:26:00,925 [DEBUG]  		Latency: 9.32ms
+2025-04-22 15:26:00,926 [DEBUG]  		True: 0
+2025-04-22 15:26:00,926 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,926 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,926 [DEBUG]  Predicting cardinality for query 97: SELECT COUNT(*) FROM auction_verification WHERE f7 < 0.0;
+2025-04-22 15:26:00,931 [DEBUG]  		Latency: 3.52ms
+2025-04-22 15:26:00,931 [DEBUG]  		True: 0
+2025-04-22 15:26:00,931 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,931 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,931 [DEBUG]  Predicting cardinality for query 98: SELECT COUNT(*) FROM auction_verification WHERE f3 < 2.0 AND f7 < 0.0;
+2025-04-22 15:26:00,938 [DEBUG]  		Latency: 4.60ms
+2025-04-22 15:26:00,938 [DEBUG]  		True: 0
+2025-04-22 15:26:00,938 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,938 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,938 [DEBUG]  Predicting cardinality for query 99: SELECT COUNT(*) FROM auction_verification WHERE f7 >= 0.0 AND f5 >= 63.0 AND f3 < 2.0 AND f1 > 0.0;
+2025-04-22 15:26:00,949 [DEBUG]  		Latency: 8.77ms
+2025-04-22 15:26:00,949 [DEBUG]  		True: 0
+2025-04-22 15:26:00,949 [DEBUG]  		Predicted: 22.24867205941856
+2025-04-22 15:26:00,949 [DEBUG]  Q-Error was: 22.24867205941856
+2025-04-22 15:26:00,949 [DEBUG]  Predicting cardinality for query 100: SELECT COUNT(*) FROM auction_verification WHERE f1 > 1.0 AND f8 < 0.0 AND f7 < 0.0 AND f9 < 15294.303;
+2025-04-22 15:26:00,961 [DEBUG]  		Latency: 9.35ms
+2025-04-22 15:26:00,961 [DEBUG]  		True: 0
+2025-04-22 15:26:00,961 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,961 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,961 [DEBUG]  Predicting cardinality for query 101: SELECT COUNT(*) FROM auction_verification WHERE f8 < 0.0 AND f4 = 1.0 AND f9 <= 10876.639 AND f2 <= 2.0 AND f3 >= 2.0;
+2025-04-22 15:26:00,973 [DEBUG]  		Latency: 9.62ms
+2025-04-22 15:26:00,973 [DEBUG]  		True: 0
+2025-04-22 15:26:00,973 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,973 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,973 [DEBUG]  Predicting cardinality for query 102: SELECT COUNT(*) FROM auction_verification WHERE f2 < 1.0 AND f8 <= 0.0 AND f7 = 0.0 AND f9 > 1062.35 AND f4 < 1.0;
+2025-04-22 15:26:00,987 [DEBUG]  		Latency: 11.07ms
+2025-04-22 15:26:00,987 [DEBUG]  		True: 0
+2025-04-22 15:26:00,987 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,987 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,987 [DEBUG]  Predicting cardinality for query 103: SELECT COUNT(*) FROM auction_verification WHERE f8 <= 0.0;
+2025-04-22 15:26:00,989 [DEBUG]  		Latency: 0.05ms
+2025-04-22 15:26:00,989 [DEBUG]  		True: 1781
+2025-04-22 15:26:00,989 [DEBUG]  		Predicted: 1781.0000000000002
+2025-04-22 15:26:00,989 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:00,989 [DEBUG]  Predicting cardinality for query 104: SELECT COUNT(*) FROM auction_verification WHERE f7 < 0.0 AND f3 < 2.0;
+2025-04-22 15:26:00,991 [DEBUG]  		Latency: 0.06ms
+2025-04-22 15:26:00,991 [DEBUG]  		True: 0
+2025-04-22 15:26:00,991 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,991 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,991 [DEBUG]  Predicting cardinality for query 105: SELECT COUNT(*) FROM auction_verification WHERE f9 >= 18420.373 AND f3 = 2.0 AND f6 < 1.0;
+2025-04-22 15:26:00,999 [DEBUG]  		Latency: 6.43ms
+2025-04-22 15:26:00,999 [DEBUG]  		True: 0
+2025-04-22 15:26:00,999 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:00,999 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:00,999 [DEBUG]  Predicting cardinality for query 106: SELECT COUNT(*) FROM auction_verification WHERE f3 >= 2.0 AND f1 = 1.0 AND f2 > 3.0 AND f7 <= 0.0 AND f6 = 1.0;
+2025-04-22 15:26:01,012 [DEBUG]  		Latency: 9.95ms
+2025-04-22 15:26:01,012 [DEBUG]  		True: 0
+2025-04-22 15:26:01,012 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,012 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,012 [DEBUG]  Predicting cardinality for query 107: SELECT COUNT(*) FROM auction_verification WHERE f9 > 608.431 AND f5 < 73.0 AND f1 = 0.0 AND f2 = 2.0 AND f4 < 1.0;
+2025-04-22 15:26:01,026 [DEBUG]  		Latency: 12.15ms
+2025-04-22 15:26:01,027 [DEBUG]  		True: 14
+2025-04-22 15:26:01,027 [DEBUG]  		Predicted: 20.005361617260657
+2025-04-22 15:26:01,027 [DEBUG]  Q-Error was: 1.428954401232904
+2025-04-22 15:26:01,027 [DEBUG]  Predicting cardinality for query 108: SELECT COUNT(*) FROM auction_verification WHERE f6 = 1.0 AND f5 <= 70.0 AND f4 > 1.0;
+2025-04-22 15:26:01,037 [DEBUG]  		Latency: 7.86ms
+2025-04-22 15:26:01,037 [DEBUG]  		True: 0
+2025-04-22 15:26:01,037 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,037 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,037 [DEBUG]  Predicting cardinality for query 109: SELECT COUNT(*) FROM auction_verification WHERE f2 <= 3.0 AND f3 <= 2.0 AND f1 <= 0.0;
+2025-04-22 15:26:01,044 [DEBUG]  		Latency: 5.49ms
+2025-04-22 15:26:01,044 [DEBUG]  		True: 681
+2025-04-22 15:26:01,045 [DEBUG]  		Predicted: 681.0000000000001
+2025-04-22 15:26:01,045 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:01,045 [DEBUG]  Predicting cardinality for query 110: SELECT COUNT(*) FROM auction_verification WHERE f7 <= 3.0;
+2025-04-22 15:26:01,050 [DEBUG]  		Latency: 3.35ms
+2025-04-22 15:26:01,050 [DEBUG]  		True: 1972
+2025-04-22 15:26:01,050 [DEBUG]  		Predicted: 1972.0
+2025-04-22 15:26:01,050 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,050 [DEBUG]  Predicting cardinality for query 111: SELECT COUNT(*) FROM auction_verification WHERE f5 > 74.0 AND f2 = 2.0;
+2025-04-22 15:26:01,057 [DEBUG]  		Latency: 5.48ms
+2025-04-22 15:26:01,057 [DEBUG]  		True: 267
+2025-04-22 15:26:01,057 [DEBUG]  		Predicted: 269.07219084235334
+2025-04-22 15:26:01,058 [DEBUG]  Q-Error was: 1.0077610143908364
+2025-04-22 15:26:01,058 [DEBUG]  Predicting cardinality for query 112: SELECT COUNT(*) FROM auction_verification WHERE f5 >= 78.0 AND f7 <= 0.0;
+2025-04-22 15:26:01,065 [DEBUG]  		Latency: 5.71ms
+2025-04-22 15:26:01,065 [DEBUG]  		True: 326
+2025-04-22 15:26:01,065 [DEBUG]  		Predicted: 416.9526903093467
+2025-04-22 15:26:01,065 [DEBUG]  Q-Error was: 1.2789959825440083
+2025-04-22 15:26:01,065 [DEBUG]  Predicting cardinality for query 113: SELECT COUNT(*) FROM auction_verification WHERE f2 >= 1.0 AND f5 >= 70.0 AND f9 <= 12414.406 AND f7 >= 2.0 AND f4 <= 1.0;
+2025-04-22 15:26:01,079 [DEBUG]  		Latency: 11.54ms
+2025-04-22 15:26:01,079 [DEBUG]  		True: 223
+2025-04-22 15:26:01,080 [DEBUG]  		Predicted: 157.02164954731003
+2025-04-22 15:26:01,080 [DEBUG]  Q-Error was: 1.4201863287190275
+2025-04-22 15:26:01,080 [DEBUG]  Predicting cardinality for query 114: SELECT COUNT(*) FROM auction_verification WHERE f2 = 1.0;
+2025-04-22 15:26:01,081 [DEBUG]  		Latency: 0.05ms
+2025-04-22 15:26:01,081 [DEBUG]  		True: 513
+2025-04-22 15:26:01,082 [DEBUG]  		Predicted: 513.0000000000001
+2025-04-22 15:26:01,082 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:01,082 [DEBUG]  Predicting cardinality for query 115: SELECT COUNT(*) FROM auction_verification WHERE f3 < 2.0;
+2025-04-22 15:26:01,083 [DEBUG]  		Latency: 0.05ms
+2025-04-22 15:26:01,083 [DEBUG]  		True: 237
+2025-04-22 15:26:01,083 [DEBUG]  		Predicted: 236.99999999999991
+2025-04-22 15:26:01,083 [DEBUG]  Q-Error was: 1.0000000000000004
+2025-04-22 15:26:01,083 [DEBUG]  Predicting cardinality for query 116: SELECT COUNT(*) FROM auction_verification WHERE f4 <= 0.0 AND f7 > 0.0;
+2025-04-22 15:26:01,091 [DEBUG]  		Latency: 5.73ms
+2025-04-22 15:26:01,091 [DEBUG]  		True: 124
+2025-04-22 15:26:01,091 [DEBUG]  		Predicted: 148.18981116492725
+2025-04-22 15:26:01,091 [DEBUG]  Q-Error was: 1.1950791222978003
+2025-04-22 15:26:01,091 [DEBUG]  Predicting cardinality for query 117: SELECT COUNT(*) FROM auction_verification WHERE f4 < 0.0;
+2025-04-22 15:26:01,096 [DEBUG]  		Latency: 3.29ms
+2025-04-22 15:26:01,096 [DEBUG]  		True: 0
+2025-04-22 15:26:01,096 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,096 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,096 [DEBUG]  Predicting cardinality for query 118: SELECT COUNT(*) FROM auction_verification WHERE f7 > 0.0;
+2025-04-22 15:26:01,102 [DEBUG]  		Latency: 3.63ms
+2025-04-22 15:26:01,102 [DEBUG]  		True: 363
+2025-04-22 15:26:01,102 [DEBUG]  		Predicted: 363.00000000000006
+2025-04-22 15:26:01,102 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:01,102 [DEBUG]  Predicting cardinality for query 119: SELECT COUNT(*) FROM auction_verification WHERE f7 < 0.0 AND f3 <= 2.0 AND f6 >= 4.0;
+2025-04-22 15:26:01,111 [DEBUG]  		Latency: 6.52ms
+2025-04-22 15:26:01,111 [DEBUG]  		True: 0
+2025-04-22 15:26:01,111 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,111 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,111 [DEBUG]  Predicting cardinality for query 120: SELECT COUNT(*) FROM auction_verification WHERE f1 < 1.0 AND f7 = 2.0 AND f5 > 77.0 AND f6 >= 2.0;
+2025-04-22 15:26:01,123 [DEBUG]  		Latency: 9.85ms
+2025-04-22 15:26:01,123 [DEBUG]  		True: 12
+2025-04-22 15:26:01,123 [DEBUG]  		Predicted: 5.997243400266765
+2025-04-22 15:26:01,123 [DEBUG]  Q-Error was: 2.0009192889296816
+2025-04-22 15:26:01,123 [DEBUG]  Predicting cardinality for query 121: SELECT COUNT(*) FROM auction_verification WHERE f6 <= 6.0 AND f5 = 63.0;
+2025-04-22 15:26:01,131 [DEBUG]  		Latency: 5.77ms
+2025-04-22 15:26:01,131 [DEBUG]  		True: 68
+2025-04-22 15:26:01,131 [DEBUG]  		Predicted: 67.99999999999999
+2025-04-22 15:26:01,131 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:01,131 [DEBUG]  Predicting cardinality for query 122: SELECT COUNT(*) FROM auction_verification WHERE f4 = 0.0 AND f6 >= 2.0 AND f7 >= 0.0 AND f3 < 2.0;
+2025-04-22 15:26:01,142 [DEBUG]  		Latency: 8.88ms
+2025-04-22 15:26:01,142 [DEBUG]  		True: 44
+2025-04-22 15:26:01,142 [DEBUG]  		Predicted: 59.21768198110488
+2025-04-22 15:26:01,142 [DEBUG]  Q-Error was: 1.3458564086614746
+2025-04-22 15:26:01,143 [DEBUG]  Predicting cardinality for query 123: SELECT COUNT(*) FROM auction_verification WHERE f9 = 635.8 AND f3 < 2.0 AND f5 > 79.0;
+2025-04-22 15:26:01,152 [DEBUG]  		Latency: 7.58ms
+2025-04-22 15:26:01,152 [DEBUG]  		True: 0
+2025-04-22 15:26:01,152 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,152 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,152 [DEBUG]  Predicting cardinality for query 124: SELECT COUNT(*) FROM auction_verification WHERE f2 <= 2.0 AND f3 <= 2.0;
+2025-04-22 15:26:01,158 [DEBUG]  		Latency: 4.01ms
+2025-04-22 15:26:01,158 [DEBUG]  		True: 1290
+2025-04-22 15:26:01,158 [DEBUG]  		Predicted: 1290.0
+2025-04-22 15:26:01,158 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,158 [DEBUG]  Predicting cardinality for query 125: SELECT COUNT(*) FROM auction_verification WHERE f6 >= 3.0 AND f2 > 3.0 AND f7 < 0.0;
+2025-04-22 15:26:01,168 [DEBUG]  		Latency: 7.23ms
+2025-04-22 15:26:01,168 [DEBUG]  		True: 0
+2025-04-22 15:26:01,168 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,168 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,168 [DEBUG]  Predicting cardinality for query 126: SELECT COUNT(*) FROM auction_verification WHERE f9 >= 11647.089 AND f2 >= 1.0;
+2025-04-22 15:26:01,175 [DEBUG]  		Latency: 5.10ms
+2025-04-22 15:26:01,175 [DEBUG]  		True: 491
+2025-04-22 15:26:01,175 [DEBUG]  		Predicted: 491.00000000000006
+2025-04-22 15:26:01,175 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:01,175 [DEBUG]  Predicting cardinality for query 127: SELECT COUNT(*) FROM auction_verification WHERE f3 >= 2.0 AND f2 = 2.0 AND f7 < 0.0 AND f1 = 0.0 AND f9 > 10876.639;
+2025-04-22 15:26:01,188 [DEBUG]  		Latency: 10.60ms
+2025-04-22 15:26:01,188 [DEBUG]  		True: 0
+2025-04-22 15:26:01,188 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,188 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,188 [DEBUG]  Predicting cardinality for query 128: SELECT COUNT(*) FROM auction_verification WHERE f1 >= 0.0 AND f7 <= 2.0 AND f2 = 3.0 AND f6 > 6.0;
+2025-04-22 15:26:01,200 [DEBUG]  		Latency: 8.80ms
+2025-04-22 15:26:01,200 [DEBUG]  		True: 0
+2025-04-22 15:26:01,200 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,200 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,200 [DEBUG]  Predicting cardinality for query 129: SELECT COUNT(*) FROM auction_verification WHERE f4 > 1.0 AND f7 = 0.0;
+2025-04-22 15:26:01,207 [DEBUG]  		Latency: 5.84ms
+2025-04-22 15:26:01,208 [DEBUG]  		True: 0
+2025-04-22 15:26:01,208 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,208 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,208 [DEBUG]  Predicting cardinality for query 130: SELECT COUNT(*) FROM auction_verification WHERE f2 < 3.0 AND f7 < 0.0 AND f9 >= 12414.406 AND f3 > 1.0;
+2025-04-22 15:26:01,218 [DEBUG]  		Latency: 8.37ms
+2025-04-22 15:26:01,218 [DEBUG]  		True: 0
+2025-04-22 15:26:01,218 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,219 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,219 [DEBUG]  Predicting cardinality for query 131: SELECT COUNT(*) FROM auction_verification WHERE f7 > 0.0 AND f8 >= 0.0;
+2025-04-22 15:26:01,225 [DEBUG]  		Latency: 5.00ms
+2025-04-22 15:26:01,226 [DEBUG]  		True: 363
+2025-04-22 15:26:01,226 [DEBUG]  		Predicted: 363.00000000000006
+2025-04-22 15:26:01,226 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:01,226 [DEBUG]  Predicting cardinality for query 132: SELECT COUNT(*) FROM auction_verification WHERE f7 <= 3.0 AND f5 > 73.0 AND f4 > 1.0 AND f9 >= 8803.293;
+2025-04-22 15:26:01,238 [DEBUG]  		Latency: 9.98ms
+2025-04-22 15:26:01,238 [DEBUG]  		True: 0
+2025-04-22 15:26:01,238 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,238 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,238 [DEBUG]  Predicting cardinality for query 133: SELECT COUNT(*) FROM auction_verification WHERE f9 >= 360.213 AND f7 <= 1.0 AND f4 = 1.0 AND f1 >= 1.0 AND f3 > 2.0;
+2025-04-22 15:26:01,251 [DEBUG]  		Latency: 10.78ms
+2025-04-22 15:26:01,252 [DEBUG]  		True: 0
+2025-04-22 15:26:01,252 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,252 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,252 [DEBUG]  Predicting cardinality for query 134: SELECT COUNT(*) FROM auction_verification WHERE f2 = 2.0 AND f8 > 0.0;
+2025-04-22 15:26:01,258 [DEBUG]  		Latency: 4.49ms
+2025-04-22 15:26:01,258 [DEBUG]  		True: 92
+2025-04-22 15:26:01,258 [DEBUG]  		Predicted: 91.2611937855746
+2025-04-22 15:26:01,258 [DEBUG]  Q-Error was: 1.0080955133696945
+2025-04-22 15:26:01,258 [DEBUG]  Predicting cardinality for query 135: SELECT COUNT(*) FROM auction_verification WHERE f2 <= 3.0 AND f4 > 0.0 AND f5 >= 80.0 AND f3 <= 2.0;
+2025-04-22 15:26:01,269 [DEBUG]  		Latency: 8.45ms
+2025-04-22 15:26:01,269 [DEBUG]  		True: 276
+2025-04-22 15:26:01,269 [DEBUG]  		Predicted: 254.91815187306676
+2025-04-22 15:26:01,269 [DEBUG]  Q-Error was: 1.0827004588415134
+2025-04-22 15:26:01,269 [DEBUG]  Predicting cardinality for query 136: SELECT COUNT(*) FROM auction_verification WHERE f3 > 2.0 AND f4 > 0.0 AND f6 < 5.0 AND f7 = 0.0 AND f8 <= 0.0;
+2025-04-22 15:26:01,282 [DEBUG]  		Latency: 10.14ms
+2025-04-22 15:26:01,282 [DEBUG]  		True: 0
+2025-04-22 15:26:01,282 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,282 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,282 [DEBUG]  Predicting cardinality for query 137: SELECT COUNT(*) FROM auction_verification WHERE f5 >= 68.0;
+2025-04-22 15:26:01,288 [DEBUG]  		Latency: 3.77ms
+2025-04-22 15:26:01,288 [DEBUG]  		True: 1365
+2025-04-22 15:26:01,288 [DEBUG]  		Predicted: 1364.9999999999998
+2025-04-22 15:26:01,288 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:01,288 [DEBUG]  Predicting cardinality for query 138: SELECT COUNT(*) FROM auction_verification WHERE f6 > 2.0;
+2025-04-22 15:26:01,293 [DEBUG]  		Latency: 3.26ms
+2025-04-22 15:26:01,293 [DEBUG]  		True: 1138
+2025-04-22 15:26:01,293 [DEBUG]  		Predicted: 1138.0
+2025-04-22 15:26:01,293 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,293 [DEBUG]  Predicting cardinality for query 139: SELECT COUNT(*) FROM auction_verification WHERE f8 = 1.0 AND f7 > 0.0 AND f2 > 2.0 AND f3 >= 2.0;
+2025-04-22 15:26:01,303 [DEBUG]  		Latency: 7.85ms
+2025-04-22 15:26:01,303 [DEBUG]  		True: 41
+2025-04-22 15:26:01,303 [DEBUG]  		Predicted: 30.44656048433749
+2025-04-22 15:26:01,303 [DEBUG]  Q-Error was: 1.3466217315775777
+2025-04-22 15:26:01,304 [DEBUG]  Predicting cardinality for query 140: SELECT COUNT(*) FROM auction_verification WHERE f6 < 4.0 AND f8 >= 0.0 AND f2 > 3.0;
+2025-04-22 15:26:01,312 [DEBUG]  		Latency: 6.39ms
+2025-04-22 15:26:01,312 [DEBUG]  		True: 0
+2025-04-22 15:26:01,312 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,312 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,312 [DEBUG]  Predicting cardinality for query 141: SELECT COUNT(*) FROM auction_verification WHERE f6 > 4.0 AND f9 = 574.134;
+2025-04-22 15:26:01,320 [DEBUG]  		Latency: 5.83ms
+2025-04-22 15:26:01,320 [DEBUG]  		True: 0
+2025-04-22 15:26:01,320 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,320 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,320 [DEBUG]  Predicting cardinality for query 142: SELECT COUNT(*) FROM auction_verification WHERE f9 > 608.431 AND f4 > 1.0;
+2025-04-22 15:26:01,328 [DEBUG]  		Latency: 5.85ms
+2025-04-22 15:26:01,328 [DEBUG]  		True: 0
+2025-04-22 15:26:01,328 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,328 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,328 [DEBUG]  Predicting cardinality for query 143: SELECT COUNT(*) FROM auction_verification WHERE f6 < 4.0 AND f5 <= 70.0 AND f7 > 0.0;
+2025-04-22 15:26:01,338 [DEBUG]  		Latency: 7.92ms
+2025-04-22 15:26:01,338 [DEBUG]  		True: 62
+2025-04-22 15:26:01,338 [DEBUG]  		Predicted: 102.87706851279094
+2025-04-22 15:26:01,338 [DEBUG]  Q-Error was: 1.6593075566579185
+2025-04-22 15:26:01,338 [DEBUG]  Predicting cardinality for query 144: SELECT COUNT(*) FROM auction_verification WHERE f4 < 0.0 AND f5 < 69.0;
+2025-04-22 15:26:01,346 [DEBUG]  		Latency: 6.03ms
+2025-04-22 15:26:01,346 [DEBUG]  		True: 0
+2025-04-22 15:26:01,346 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,346 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,347 [DEBUG]  Predicting cardinality for query 145: SELECT COUNT(*) FROM auction_verification WHERE f9 >= 1001.447 AND f5 = 80.0;
+2025-04-22 15:26:01,355 [DEBUG]  		Latency: 6.25ms
+2025-04-22 15:26:01,355 [DEBUG]  		True: 119
+2025-04-22 15:26:01,355 [DEBUG]  		Predicted: 119.0
+2025-04-22 15:26:01,355 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,355 [DEBUG]  Predicting cardinality for query 146: SELECT COUNT(*) FROM auction_verification WHERE f9 >= 752.075;
+2025-04-22 15:26:01,360 [DEBUG]  		Latency: 3.65ms
+2025-04-22 15:26:01,360 [DEBUG]  		True: 1348
+2025-04-22 15:26:01,360 [DEBUG]  		Predicted: 1348.0000000000002
+2025-04-22 15:26:01,361 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:01,361 [DEBUG]  Predicting cardinality for query 147: SELECT COUNT(*) FROM auction_verification WHERE f4 > 0.0 AND f5 > 74.0;
+2025-04-22 15:26:01,369 [DEBUG]  		Latency: 6.03ms
+2025-04-22 15:26:01,369 [DEBUG]  		True: 461
+2025-04-22 15:26:01,369 [DEBUG]  		Predicted: 445.261290347939
+2025-04-22 15:26:01,369 [DEBUG]  Q-Error was: 1.035347132106998
+2025-04-22 15:26:01,369 [DEBUG]  Predicting cardinality for query 148: SELECT COUNT(*) FROM auction_verification WHERE f9 = 119.932 AND f2 >= 3.0 AND f5 >= 77.0 AND f1 = 1.0;
+2025-04-22 15:26:01,381 [DEBUG]  		Latency: 9.68ms
+2025-04-22 15:26:01,381 [DEBUG]  		True: 0
+2025-04-22 15:26:01,381 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,381 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,381 [DEBUG]  Predicting cardinality for query 149: SELECT COUNT(*) FROM auction_verification WHERE f3 < 2.0;
+2025-04-22 15:26:01,383 [DEBUG]  		Latency: 0.05ms
+2025-04-22 15:26:01,383 [DEBUG]  		True: 237
+2025-04-22 15:26:01,383 [DEBUG]  		Predicted: 236.99999999999991
+2025-04-22 15:26:01,383 [DEBUG]  Q-Error was: 1.0000000000000004
+2025-04-22 15:26:01,383 [DEBUG]  Predicting cardinality for query 150: SELECT COUNT(*) FROM auction_verification WHERE f3 > 2.0 AND f5 < 66.0;
+2025-04-22 15:26:01,389 [DEBUG]  		Latency: 4.73ms
+2025-04-22 15:26:01,390 [DEBUG]  		True: 0
+2025-04-22 15:26:01,390 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,390 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,390 [DEBUG]  Predicting cardinality for query 151: SELECT COUNT(*) FROM auction_verification WHERE f8 <= 0.0;
+2025-04-22 15:26:01,391 [DEBUG]  		Latency: 0.06ms
+2025-04-22 15:26:01,392 [DEBUG]  		True: 1781
+2025-04-22 15:26:01,392 [DEBUG]  		Predicted: 1781.0000000000002
+2025-04-22 15:26:01,392 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:01,392 [DEBUG]  Predicting cardinality for query 152: SELECT COUNT(*) FROM auction_verification WHERE f8 < 0.0;
+2025-04-22 15:26:01,393 [DEBUG]  		Latency: 0.05ms
+2025-04-22 15:26:01,393 [DEBUG]  		True: 0
+2025-04-22 15:26:01,393 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,393 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,393 [DEBUG]  Predicting cardinality for query 153: SELECT COUNT(*) FROM auction_verification WHERE f9 >= 22142.437;
+2025-04-22 15:26:01,399 [DEBUG]  		Latency: 3.47ms
+2025-04-22 15:26:01,399 [DEBUG]  		True: 266
+2025-04-22 15:26:01,399 [DEBUG]  		Predicted: 266.0000000000001
+2025-04-22 15:26:01,399 [DEBUG]  Q-Error was: 1.0000000000000004
+2025-04-22 15:26:01,399 [DEBUG]  Predicting cardinality for query 154: SELECT COUNT(*) FROM auction_verification WHERE f8 = 0.0 AND f1 = 2.0 AND f5 < 77.0;
+2025-04-22 15:26:01,409 [DEBUG]  		Latency: 7.35ms
+2025-04-22 15:26:01,409 [DEBUG]  		True: 414
+2025-04-22 15:26:01,409 [DEBUG]  		Predicted: 419.62023490238687
+2025-04-22 15:26:01,409 [DEBUG]  Q-Error was: 1.013575446624123
+2025-04-22 15:26:01,409 [DEBUG]  Predicting cardinality for query 155: SELECT COUNT(*) FROM auction_verification WHERE f3 <= 2.0 AND f2 >= 3.0 AND f5 >= 68.0 AND f4 = 1.0 AND f8 = 0.0;
+2025-04-22 15:26:01,421 [DEBUG]  		Latency: 10.12ms
+2025-04-22 15:26:01,421 [DEBUG]  		True: 253
+2025-04-22 15:26:01,421 [DEBUG]  		Predicted: 259.47084649397397
+2025-04-22 15:26:01,422 [DEBUG]  Q-Error was: 1.0255764683556283
+2025-04-22 15:26:01,422 [DEBUG]  Predicting cardinality for query 156: SELECT COUNT(*) FROM auction_verification WHERE f8 = 0.0 AND f5 < 74.0 AND f1 < 1.0 AND f2 > 3.0 AND f9 <= 17026.352;
+2025-04-22 15:26:01,435 [DEBUG]  		Latency: 11.13ms
+2025-04-22 15:26:01,435 [DEBUG]  		True: 0
+2025-04-22 15:26:01,435 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,435 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,435 [DEBUG]  Predicting cardinality for query 157: SELECT COUNT(*) FROM auction_verification WHERE f9 > 213.992 AND f8 < 0.0 AND f6 = 5.0 AND f3 < 2.0;
+2025-04-22 15:26:01,446 [DEBUG]  		Latency: 8.38ms
+2025-04-22 15:26:01,446 [DEBUG]  		True: 0
+2025-04-22 15:26:01,446 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,446 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,446 [DEBUG]  Predicting cardinality for query 158: SELECT COUNT(*) FROM auction_verification WHERE f3 >= 2.0 AND f1 = 2.0 AND f9 = 926.987 AND f4 > 1.0 AND f8 = 1.0;
+2025-04-22 15:26:01,459 [DEBUG]  		Latency: 10.14ms
+2025-04-22 15:26:01,459 [DEBUG]  		True: 0
+2025-04-22 15:26:01,459 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,459 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,459 [DEBUG]  Predicting cardinality for query 159: SELECT COUNT(*) FROM auction_verification WHERE f7 < 0.0 AND f5 = 76.0;
+2025-04-22 15:26:01,467 [DEBUG]  		Latency: 6.33ms
+2025-04-22 15:26:01,467 [DEBUG]  		True: 0
+2025-04-22 15:26:01,467 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,467 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,467 [DEBUG]  Predicting cardinality for query 160: SELECT COUNT(*) FROM auction_verification WHERE f1 < 1.0 AND f6 > 6.0 AND f4 <= 0.0 AND f7 < 0.0;
+2025-04-22 15:26:01,479 [DEBUG]  		Latency: 9.40ms
+2025-04-22 15:26:01,479 [DEBUG]  		True: 0
+2025-04-22 15:26:01,479 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,479 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,479 [DEBUG]  Predicting cardinality for query 161: SELECT COUNT(*) FROM auction_verification WHERE f8 < 0.0 AND f1 = 1.0;
+2025-04-22 15:26:01,486 [DEBUG]  		Latency: 4.70ms
+2025-04-22 15:26:01,486 [DEBUG]  		True: 0
+2025-04-22 15:26:01,486 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,486 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,486 [DEBUG]  Predicting cardinality for query 162: SELECT COUNT(*) FROM auction_verification WHERE f2 >= 3.0 AND f7 <= 0.0;
+2025-04-22 15:26:01,493 [DEBUG]  		Latency: 4.98ms
+2025-04-22 15:26:01,493 [DEBUG]  		True: 624
+2025-04-22 15:26:01,493 [DEBUG]  		Predicted: 628.7987090996378
+2025-04-22 15:26:01,493 [DEBUG]  Q-Error was: 1.0076902389417273
+2025-04-22 15:26:01,493 [DEBUG]  Predicting cardinality for query 163: SELECT COUNT(*) FROM auction_verification WHERE f1 = 2.0;
+2025-04-22 15:26:01,498 [DEBUG]  		Latency: 3.02ms
+2025-04-22 15:26:01,498 [DEBUG]  		True: 681
+2025-04-22 15:26:01,498 [DEBUG]  		Predicted: 680.9999999999999
+2025-04-22 15:26:01,498 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:01,498 [DEBUG]  Predicting cardinality for query 164: SELECT COUNT(*) FROM auction_verification WHERE f5 = 64.0 AND f9 <= 762.958;
+2025-04-22 15:26:01,506 [DEBUG]  		Latency: 6.14ms
+2025-04-22 15:26:01,506 [DEBUG]  		True: 26
+2025-04-22 15:26:01,507 [DEBUG]  		Predicted: 25.99999999999999
+2025-04-22 15:26:01,507 [DEBUG]  Q-Error was: 1.0000000000000004
+2025-04-22 15:26:01,507 [DEBUG]  Predicting cardinality for query 165: SELECT COUNT(*) FROM auction_verification WHERE f2 = 2.0 AND f4 > 0.0 AND f3 <= 2.0 AND f7 > 0.0;
+2025-04-22 15:26:01,518 [DEBUG]  		Latency: 8.79ms
+2025-04-22 15:26:01,518 [DEBUG]  		True: 81
+2025-04-22 15:26:01,518 [DEBUG]  		Predicted: 73.55701438849904
+2025-04-22 15:26:01,518 [DEBUG]  Q-Error was: 1.1011866192962925
+2025-04-22 15:26:01,518 [DEBUG]  Predicting cardinality for query 166: SELECT COUNT(*) FROM auction_verification WHERE f3 < 2.0 AND f8 <= 0.0 AND f7 < 0.0;
+2025-04-22 15:26:01,526 [DEBUG]  		Latency: 5.85ms
+2025-04-22 15:26:01,526 [DEBUG]  		True: 0
+2025-04-22 15:26:01,526 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,526 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,526 [DEBUG]  Predicting cardinality for query 167: SELECT COUNT(*) FROM auction_verification WHERE f6 <= 2.0 AND f4 <= 0.0 AND f2 = 2.0 AND f5 >= 74.0;
+2025-04-22 15:26:01,537 [DEBUG]  		Latency: 9.02ms
+2025-04-22 15:26:01,537 [DEBUG]  		True: 69
+2025-04-22 15:26:01,537 [DEBUG]  		Predicted: 70.64293136418331
+2025-04-22 15:26:01,538 [DEBUG]  Q-Error was: 1.0238105994809175
+2025-04-22 15:26:01,538 [DEBUG]  Predicting cardinality for query 168: SELECT COUNT(*) FROM auction_verification WHERE f8 <= 0.0 AND f9 = 678.755 AND f6 <= 3.0 AND f7 > 0.0;
+2025-04-22 15:26:01,549 [DEBUG]  		Latency: 9.51ms
+2025-04-22 15:26:01,549 [DEBUG]  		True: 0
+2025-04-22 15:26:01,549 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,550 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,550 [DEBUG]  Predicting cardinality for query 169: SELECT COUNT(*) FROM auction_verification WHERE f6 = 1.0 AND f5 >= 66.0 AND f8 <= 0.0;
+2025-04-22 15:26:01,559 [DEBUG]  		Latency: 7.25ms
+2025-04-22 15:26:01,559 [DEBUG]  		True: 265
+2025-04-22 15:26:01,559 [DEBUG]  		Predicted: 281.5281834248053
+2025-04-22 15:26:01,559 [DEBUG]  Q-Error was: 1.0623705034898314
+2025-04-22 15:26:01,559 [DEBUG]  Predicting cardinality for query 170: SELECT COUNT(*) FROM auction_verification WHERE f4 >= 0.0 AND f5 < 64.0 AND f1 > 0.0 AND f3 <= 2.0 AND f7 > 0.0;
+2025-04-22 15:26:01,572 [DEBUG]  		Latency: 10.79ms
+2025-04-22 15:26:01,572 [DEBUG]  		True: 0
+2025-04-22 15:26:01,573 [DEBUG]  		Predicted: 22.911382441612098
+2025-04-22 15:26:01,573 [DEBUG]  Q-Error was: 22.911382441612098
+2025-04-22 15:26:01,573 [DEBUG]  Predicting cardinality for query 171: SELECT COUNT(*) FROM auction_verification WHERE f6 > 6.0 AND f5 <= 70.0 AND f7 < 0.0 AND f8 > 0.0;
+2025-04-22 15:26:01,584 [DEBUG]  		Latency: 9.52ms
+2025-04-22 15:26:01,584 [DEBUG]  		True: 0
+2025-04-22 15:26:01,585 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,585 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,585 [DEBUG]  Predicting cardinality for query 172: SELECT COUNT(*) FROM auction_verification WHERE f3 < 1.0 AND f9 <= 1170.73;
+2025-04-22 15:26:01,591 [DEBUG]  		Latency: 4.40ms
+2025-04-22 15:26:01,591 [DEBUG]  		True: 0
+2025-04-22 15:26:01,591 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,591 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,591 [DEBUG]  Predicting cardinality for query 173: SELECT COUNT(*) FROM auction_verification WHERE f8 >= 0.0 AND f3 <= 2.0 AND f5 <= 80.0 AND f6 < 2.0;
+2025-04-22 15:26:01,601 [DEBUG]  		Latency: 7.91ms
+2025-04-22 15:26:01,601 [DEBUG]  		True: 340
+2025-04-22 15:26:01,601 [DEBUG]  		Predicted: 353.17077994245165
+2025-04-22 15:26:01,601 [DEBUG]  Q-Error was: 1.0387375880660343
+2025-04-22 15:26:01,602 [DEBUG]  Predicting cardinality for query 174: SELECT COUNT(*) FROM auction_verification WHERE f9 <= 480.999 AND f8 >= 0.0 AND f4 > 0.0;
+2025-04-22 15:26:01,611 [DEBUG]  		Latency: 7.04ms
+2025-04-22 15:26:01,611 [DEBUG]  		True: 149
+2025-04-22 15:26:01,611 [DEBUG]  		Predicted: 152.23529411764702
+2025-04-22 15:26:01,611 [DEBUG]  Q-Error was: 1.0217133833399128
+2025-04-22 15:26:01,611 [DEBUG]  Predicting cardinality for query 175: SELECT COUNT(*) FROM auction_verification WHERE f6 < 2.0 AND f9 > 322.514 AND f5 <= 80.0;
+2025-04-22 15:26:01,621 [DEBUG]  		Latency: 7.84ms
+2025-04-22 15:26:01,621 [DEBUG]  		True: 336
+2025-04-22 15:26:01,621 [DEBUG]  		Predicted: 344.654416306088
+2025-04-22 15:26:01,621 [DEBUG]  Q-Error was: 1.0257571913871668
+2025-04-22 15:26:01,621 [DEBUG]  Predicting cardinality for query 176: SELECT COUNT(*) FROM auction_verification WHERE f1 = 0.0 AND f5 >= 84.0 AND f6 > 6.0 AND f7 < 0.0 AND f9 >= 19442.696;
+2025-04-22 15:26:01,635 [DEBUG]  		Latency: 11.51ms
+2025-04-22 15:26:01,635 [DEBUG]  		True: 0
+2025-04-22 15:26:01,635 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,635 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,635 [DEBUG]  Predicting cardinality for query 177: SELECT COUNT(*) FROM auction_verification WHERE f7 <= 0.0;
+2025-04-22 15:26:01,640 [DEBUG]  		Latency: 3.39ms
+2025-04-22 15:26:01,640 [DEBUG]  		True: 1680
+2025-04-22 15:26:01,640 [DEBUG]  		Predicted: 1680.0000000000002
+2025-04-22 15:26:01,640 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:01,641 [DEBUG]  Predicting cardinality for query 178: SELECT COUNT(*) FROM auction_verification WHERE f1 <= 1.0 AND f8 >= 1.0 AND f4 < 0.0 AND f3 < 2.0;
+2025-04-22 15:26:01,650 [DEBUG]  		Latency: 7.64ms
+2025-04-22 15:26:01,650 [DEBUG]  		True: 0
+2025-04-22 15:26:01,651 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,651 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,651 [DEBUG]  Predicting cardinality for query 179: SELECT COUNT(*) FROM auction_verification WHERE f3 = 2.0 AND f6 >= 1.0 AND f8 < 0.0 AND f7 = 0.0;
+2025-04-22 15:26:01,661 [DEBUG]  		Latency: 8.14ms
+2025-04-22 15:26:01,661 [DEBUG]  		True: 0
+2025-04-22 15:26:01,661 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,661 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,661 [DEBUG]  Predicting cardinality for query 180: SELECT COUNT(*) FROM auction_verification WHERE f9 <= 171.762 AND f5 >= 64.0 AND f6 <= 1.0;
+2025-04-22 15:26:01,671 [DEBUG]  		Latency: 7.65ms
+2025-04-22 15:26:01,671 [DEBUG]  		True: 0
+2025-04-22 15:26:01,671 [DEBUG]  		Predicted: 1.8791208791208782
+2025-04-22 15:26:01,671 [DEBUG]  Q-Error was: 1.8791208791208782
+2025-04-22 15:26:01,671 [DEBUG]  Predicting cardinality for query 181: SELECT COUNT(*) FROM auction_verification WHERE f1 >= 2.0 AND f7 >= 0.0 AND f4 > 0.0;
+2025-04-22 15:26:01,681 [DEBUG]  		Latency: 7.42ms
+2025-04-22 15:26:01,681 [DEBUG]  		True: 386
+2025-04-22 15:26:01,681 [DEBUG]  		Predicted: 394.14320221939965
+2025-04-22 15:26:01,681 [DEBUG]  Q-Error was: 1.0210963788067349
+2025-04-22 15:26:01,681 [DEBUG]  Predicting cardinality for query 182: SELECT COUNT(*) FROM auction_verification WHERE f1 >= 1.0;
+2025-04-22 15:26:01,686 [DEBUG]  		Latency: 2.90ms
+2025-04-22 15:26:01,686 [DEBUG]  		True: 1362
+2025-04-22 15:26:01,686 [DEBUG]  		Predicted: 1362.0000000000002
+2025-04-22 15:26:01,686 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:01,686 [DEBUG]  Predicting cardinality for query 183: SELECT COUNT(*) FROM auction_verification WHERE f5 < 80.0 AND f9 <= 22142.437 AND f7 = 0.0;
+2025-04-22 15:26:01,696 [DEBUG]  		Latency: 8.45ms
+2025-04-22 15:26:01,696 [DEBUG]  		True: 1245
+2025-04-22 15:26:01,696 [DEBUG]  		Predicted: 1165.1443103808815
+2025-04-22 15:26:01,697 [DEBUG]  Q-Error was: 1.0685371665188959
+2025-04-22 15:26:01,697 [DEBUG]  Predicting cardinality for query 184: SELECT COUNT(*) FROM auction_verification WHERE f6 < 6.0 AND f1 > 0.0 AND f5 = 80.0;
+2025-04-22 15:26:01,706 [DEBUG]  		Latency: 7.87ms
+2025-04-22 15:26:01,707 [DEBUG]  		True: 122
+2025-04-22 15:26:01,707 [DEBUG]  		Predicted: 133.52455271236065
+2025-04-22 15:26:01,707 [DEBUG]  Q-Error was: 1.0944635468226283
+2025-04-22 15:26:01,707 [DEBUG]  Predicting cardinality for query 185: SELECT COUNT(*) FROM auction_verification WHERE f7 <= 0.0 AND f2 <= 2.0 AND f3 < 1.0 AND f1 = 2.0;
+2025-04-22 15:26:01,717 [DEBUG]  		Latency: 7.93ms
+2025-04-22 15:26:01,717 [DEBUG]  		True: 0
+2025-04-22 15:26:01,717 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,717 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,717 [DEBUG]  Predicting cardinality for query 186: SELECT COUNT(*) FROM auction_verification WHERE f5 > 75.0 AND f8 = 0.0 AND f3 >= 2.0;
+2025-04-22 15:26:01,725 [DEBUG]  		Latency: 5.96ms
+2025-04-22 15:26:01,725 [DEBUG]  		True: 499
+2025-04-22 15:26:01,725 [DEBUG]  		Predicted: 513.1532673238092
+2025-04-22 15:26:01,725 [DEBUG]  Q-Error was: 1.0283632611699585
+2025-04-22 15:26:01,725 [DEBUG]  Predicting cardinality for query 187: SELECT COUNT(*) FROM auction_verification WHERE f5 = 68.0 AND f4 = 0.0;
+2025-04-22 15:26:01,734 [DEBUG]  		Latency: 6.24ms
+2025-04-22 15:26:01,734 [DEBUG]  		True: 33
+2025-04-22 15:26:01,734 [DEBUG]  		Predicted: 34.528954284449625
+2025-04-22 15:26:01,734 [DEBUG]  Q-Error was: 1.046331948013625
+2025-04-22 15:26:01,734 [DEBUG]  Predicting cardinality for query 188: SELECT COUNT(*) FROM auction_verification WHERE f1 = 2.0 AND f4 = 0.0 AND f5 >= 78.0 AND f8 >= 0.0;
+2025-04-22 15:26:01,745 [DEBUG]  		Latency: 9.14ms
+2025-04-22 15:26:01,745 [DEBUG]  		True: 86
+2025-04-22 15:26:01,745 [DEBUG]  		Predicted: 84.42443709259983
+2025-04-22 15:26:01,745 [DEBUG]  Q-Error was: 1.0186624034658596
+2025-04-22 15:26:01,745 [DEBUG]  Predicting cardinality for query 189: SELECT COUNT(*) FROM auction_verification WHERE f1 < 1.0;
+2025-04-22 15:26:01,750 [DEBUG]  		Latency: 3.08ms
+2025-04-22 15:26:01,750 [DEBUG]  		True: 681
+2025-04-22 15:26:01,750 [DEBUG]  		Predicted: 681.0000000000001
+2025-04-22 15:26:01,750 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:01,750 [DEBUG]  Predicting cardinality for query 190: SELECT COUNT(*) FROM auction_verification WHERE f3 >= 2.0 AND f4 <= 1.0 AND f7 >= 0.0 AND f2 <= 2.0;
+2025-04-22 15:26:01,761 [DEBUG]  		Latency: 8.02ms
+2025-04-22 15:26:01,761 [DEBUG]  		True: 1144
+2025-04-22 15:26:01,761 [DEBUG]  		Predicted: 1137.1364398759135
+2025-04-22 15:26:01,761 [DEBUG]  Q-Error was: 1.0060358281411115
+2025-04-22 15:26:01,761 [DEBUG]  Predicting cardinality for query 191: SELECT COUNT(*) FROM auction_verification WHERE f6 < 6.0 AND f8 >= 0.0 AND f2 < 3.0;
+2025-04-22 15:26:01,769 [DEBUG]  		Latency: 6.13ms
+2025-04-22 15:26:01,769 [DEBUG]  		True: 1050
+2025-04-22 15:26:01,769 [DEBUG]  		Predicted: 1053.426261217283
+2025-04-22 15:26:01,769 [DEBUG]  Q-Error was: 1.0032631059212218
+2025-04-22 15:26:01,769 [DEBUG]  Predicting cardinality for query 192: SELECT COUNT(*) FROM auction_verification WHERE f3 <= 2.0 AND f2 <= 3.0 AND f1 < 0.0 AND f7 <= 1.0 AND f9 > 6605.123;
+2025-04-22 15:26:01,781 [DEBUG]  		Latency: 9.80ms
+2025-04-22 15:26:01,782 [DEBUG]  		True: 0
+2025-04-22 15:26:01,782 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,782 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,782 [DEBUG]  Predicting cardinality for query 193: SELECT COUNT(*) FROM auction_verification WHERE f5 <= 84.0 AND f7 >= 0.0 AND f9 >= 1393.264;
+2025-04-22 15:26:01,792 [DEBUG]  		Latency: 8.05ms
+2025-04-22 15:26:01,792 [DEBUG]  		True: 876
+2025-04-22 15:26:01,792 [DEBUG]  		Predicted: 876.5000000000001
+2025-04-22 15:26:01,792 [DEBUG]  Q-Error was: 1.000570776255708
+2025-04-22 15:26:01,792 [DEBUG]  Predicting cardinality for query 194: SELECT COUNT(*) FROM auction_verification WHERE f6 < 5.0 AND f4 <= 1.0;
+2025-04-22 15:26:01,799 [DEBUG]  		Latency: 5.21ms
+2025-04-22 15:26:01,799 [DEBUG]  		True: 1433
+2025-04-22 15:26:01,799 [DEBUG]  		Predicted: 1433.0000000000002
+2025-04-22 15:26:01,799 [DEBUG]  Q-Error was: 1.0000000000000002
+2025-04-22 15:26:01,799 [DEBUG]  Predicting cardinality for query 195: SELECT COUNT(*) FROM auction_verification WHERE f5 < 64.0 AND f3 = 2.0;
+2025-04-22 15:26:01,806 [DEBUG]  		Latency: 4.83ms
+2025-04-22 15:26:01,806 [DEBUG]  		True: 333
+2025-04-22 15:26:01,806 [DEBUG]  		Predicted: 334.30592549865
+2025-04-22 15:26:01,806 [DEBUG]  Q-Error was: 1.0039216981941441
+2025-04-22 15:26:01,806 [DEBUG]  Predicting cardinality for query 196: SELECT COUNT(*) FROM auction_verification WHERE f4 = 1.0 AND f3 < 2.0 AND f1 >= 1.0;
+2025-04-22 15:26:01,815 [DEBUG]  		Latency: 6.39ms
+2025-04-22 15:26:01,815 [DEBUG]  		True: 0
+2025-04-22 15:26:01,815 [DEBUG]  		Predicted: 10.756347141868634
+2025-04-22 15:26:01,815 [DEBUG]  Q-Error was: 10.756347141868634
+2025-04-22 15:26:01,815 [DEBUG]  Predicting cardinality for query 197: SELECT COUNT(*) FROM auction_verification WHERE f5 > 64.0 AND f7 > 0.0 AND f4 < 0.0 AND f6 >= 2.0;
+2025-04-22 15:26:01,828 [DEBUG]  		Latency: 10.26ms
+2025-04-22 15:26:01,828 [DEBUG]  		True: 0
+2025-04-22 15:26:01,828 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,828 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,828 [DEBUG]  Predicting cardinality for query 198: SELECT COUNT(*) FROM auction_verification WHERE f2 < 3.0 AND f7 > 0.0 AND f3 <= 2.0 AND f1 >= 2.0 AND f5 <= 67.0;
+2025-04-22 15:26:01,840 [DEBUG]  		Latency: 10.15ms
+2025-04-22 15:26:01,840 [DEBUG]  		True: 0
+2025-04-22 15:26:01,840 [DEBUG]  		Predicted: 12.87912938005318
+2025-04-22 15:26:01,840 [DEBUG]  Q-Error was: 12.87912938005318
+2025-04-22 15:26:01,841 [DEBUG]  Predicting cardinality for query 199: SELECT COUNT(*) FROM auction_verification WHERE f7 >= 0.0 AND f3 <= 2.0 AND f5 > 66.0 AND f4 >= 1.0 AND f2 <= 3.0;
+2025-04-22 15:26:01,853 [DEBUG]  		Latency: 10.29ms
+2025-04-22 15:26:01,853 [DEBUG]  		True: 875
+2025-04-22 15:26:01,853 [DEBUG]  		Predicted: 848.6151291390067
+2025-04-22 15:26:01,853 [DEBUG]  Q-Error was: 1.0310916809693966
+2025-04-22 15:26:01,853 [DEBUG]  Predicting cardinality for query 200: SELECT COUNT(*) FROM auction_verification WHERE f3 > 2.0;
+2025-04-22 15:26:01,857 [DEBUG]  		Latency: 1.61ms
+2025-04-22 15:26:01,857 [DEBUG]  		True: 0
+2025-04-22 15:26:01,857 [DEBUG]  		Predicted: 1.0
+2025-04-22 15:26:01,857 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,857 [DEBUG]  Predicting cardinality for query 201: SELECT COUNT(*) FROM auction_verification WHERE f3 >= 2.0 AND f5 < 70.0 AND f6 <= 1.0;
+2025-04-22 15:26:01,866 [DEBUG]  		Latency: 6.76ms
+2025-04-22 15:26:01,866 [DEBUG]  		True: 158
+2025-04-22 15:26:01,866 [DEBUG]  		Predicted: 161.18925330099486
+2025-04-22 15:26:01,866 [DEBUG]  Q-Error was: 1.020185147474651
+2025-04-22 15:26:01,866 [DEBUG]  Predicting cardinality for query 202: SELECT COUNT(*) FROM auction_verification WHERE f6 > 5.0 AND f5 > 65.0;
+2025-04-22 15:26:01,874 [DEBUG]  		Latency: 5.52ms
+2025-04-22 15:26:01,874 [DEBUG]  		True: 222
+2025-04-22 15:26:01,874 [DEBUG]  		Predicted: 220.7551049268928
+2025-04-22 15:26:01,874 [DEBUG]  Q-Error was: 1.0056392583696738
+2025-04-22 15:26:01,874 [DEBUG]  Predicting cardinality for query 203: SELECT COUNT(*) FROM auction_verification WHERE f5 > 80.0;
+2025-04-22 15:26:01,879 [DEBUG]  		Latency: 3.66ms
+2025-04-22 15:26:01,880 [DEBUG]  		True: 192
+2025-04-22 15:26:01,880 [DEBUG]  		Predicted: 192.0
+2025-04-22 15:26:01,880 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,880 [DEBUG]  Predicting cardinality for query 204: SELECT COUNT(*) FROM auction_verification WHERE f3 <= 2.0;
+2025-04-22 15:26:01,881 [DEBUG]  		Latency: 0.05ms
+2025-04-22 15:26:01,882 [DEBUG]  		True: 2043
+2025-04-22 15:26:01,882 [DEBUG]  		Predicted: 2043.0
+2025-04-22 15:26:01,882 [DEBUG]  Q-Error was: 1.0
+2025-04-22 15:26:01,882 [INFO ]  [ 1.76472975  1.87912088  2.00091929  2.28293692  3.66911582 10.75634714
+ 11.31088717 12.87912938 22.24867206 22.91138244]
+2025-04-22 15:26:01,882 [INFO ]  Q-Error 50%-Percentile: 1.000 (vs. DeepDB: 1.3)
+2025-04-22 15:26:01,882 [INFO ]  Q-Error 70%-Percentile: 1.011 (vs. DeepDB: 111)
+2025-04-22 15:26:01,883 [INFO ]  Q-Error 90%-Percentile: 1.254 (vs. DeepDB: 3.46)
+2025-04-22 15:26:01,883 [INFO ]  Q-Error 95%-Percentile: 1.656 (vs. DeepDB: 5.09)
+2025-04-22 15:26:01,883 [INFO ]  Q-Error 99%-Percentile: 12.816 (vs. DeepDB: 111)
+2025-04-22 15:26:01,883 [INFO ]  Q-Error 100%-Percentile: 22.911 (vs. DeepDB: 40.64)
+2025-04-22 15:26:01,883 [INFO ]  Q-Mean wo inf 1.432 (vs. DeepDB: 2.76)
+2025-04-22 15:26:01,883 [INFO ]  Latency avg: 6.669ms
+2025-04-22 15:26:01,884 [INFO ]  Saving results to ./baselines/cardinality_estimation/results/deepDB/auction_verification_model_based_budget_5.csv

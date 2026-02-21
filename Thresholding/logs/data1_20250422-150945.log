@@ -1,0 +1,34 @@
+2025-04-22 15:09:45,676 [INFO ]  Creating naive ensemble.
+2025-04-22 15:09:45,676 [INFO ]  Learning SPN for data1.
+2025-04-22 15:09:45,676 [DEBUG]  generate_join_sample(single_table=data1, relationship_list=None, split_condition=None)
+2025-04-22 15:09:45,703 [DEBUG]  Using min_instance_slice parameter 205.20000000000002.
+2025-04-22 15:09:45,703 [INFO ]  SPN training phase with 20520 samples
+2025-04-22 15:09:45,707 [DEBUG]  Built domains in 0.00367892200301867 sec
+2025-04-22 15:09:46,058 [DEBUG]  CACHEDIR=/home/dafn/.cache/matplotlib
+2025-04-22 15:09:46,060 [DEBUG]  Using fontManager instance from /home/dafn/.cache/matplotlib/fontlist-v300.json
+2025-04-22 15:09:46,153 [DEBUG]  Loaded backend qt5agg version unknown.
+2025-04-22 15:09:46,183 [DEBUG]  Loaded backend qt5agg version unknown.
+2025-04-22 15:09:46,184 [DEBUG]  Loaded backend qt4agg version unknown.
+2025-04-22 15:09:46,190 [DEBUG]  Loaded backend tkagg version unknown.
+2025-04-22 15:09:46,191 [DEBUG]  Loaded backend agg version unknown.
+2025-04-22 15:09:46,191 [DEBUG]  Loaded backend agg version unknown.
+2025-04-22 15:09:46,194 [DEBUG]  OP: Operation.SPLIT_ROWS on slice (20520, 3) (remaining tasks 0)
+2025-04-22 15:09:46,256 [DEBUG]  		found 2 row clusters (in 0.06177 secs)
+2025-04-22 15:09:46,257 [DEBUG]  OP: Operation.SPLIT_COLUMNS on slice (10149, 3) (remaining tasks 1)
+2025-04-22 15:09:46,373 [DEBUG]  		found 3 col clusters (in 0.11571 secs)
+2025-04-22 15:09:46,375 [DEBUG]  OP: Operation.SPLIT_COLUMNS on slice (10371, 3) (remaining tasks 3)
+2025-04-22 15:09:46,556 [DEBUG]  		found 3 col clusters (in 0.18140 secs)
+2025-04-22 15:09:46,556 [DEBUG]  OP: Operation.CREATE_LEAF on slice (10149, 1) (remaining tasks 5)
+2025-04-22 15:09:46,558 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[0] (in 0.00137 secs)
+2025-04-22 15:09:46,558 [DEBUG]  OP: Operation.CREATE_LEAF on slice (10149, 1) (remaining tasks 4)
+2025-04-22 15:09:46,563 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[1] (in 0.00503 secs)
+2025-04-22 15:09:46,563 [DEBUG]  OP: Operation.CREATE_LEAF on slice (10149, 1) (remaining tasks 3)
+2025-04-22 15:09:46,569 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[2] (in 0.00510 secs)
+2025-04-22 15:09:46,569 [DEBUG]  OP: Operation.CREATE_LEAF on slice (10371, 1) (remaining tasks 2)
+2025-04-22 15:09:46,570 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[0] (in 0.00070 secs)
+2025-04-22 15:09:46,570 [DEBUG]  OP: Operation.CREATE_LEAF on slice (10371, 1) (remaining tasks 1)
+2025-04-22 15:09:46,575 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[1] (in 0.00500 secs)
+2025-04-22 15:09:46,578 [DEBUG]  OP: Operation.CREATE_LEAF on slice (10371, 1) (remaining tasks 0)
+2025-04-22 15:09:46,584 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[2] (in 0.00497 secs)
+2025-04-22 15:09:47,129 [DEBUG]  Built SPN in 1.4216001579916338 sec
+2025-04-22 15:09:47,129 [INFO ]  Saving ensemble to /home/dafn/card/deepcard/collected_temp_benchmarks/spn_ensembles/2D elastodynamic metamaterials/ensemble_single_data1_10000000.pkl

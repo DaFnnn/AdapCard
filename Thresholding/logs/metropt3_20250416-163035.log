@@ -1,0 +1,25 @@
+2025-04-16 16:30:35,597 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/MetroPT-3 Dataset and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/MetroPT-3 Dataset
+2025-04-16 16:30:35,597 [INFO ]  Preparing hdf file for table metropt3
+2025-04-16 16:30:36,706 [INFO ]  Managing functional dependencies for table metropt3
+2025-04-16 16:30:36,734 [INFO ]  Preparing multipliers for table metropt3
+2025-04-16 16:30:36,734 [INFO ]  Preparing categorical values and null values for table metropt3
+2025-04-16 16:30:36,734 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 16:30:36,744 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 16:30:36,757 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 16:30:36,769 [DEBUG]  		Preparing numerical values for column f4
+2025-04-16 16:30:36,781 [DEBUG]  		Preparing numerical values for column f5
+2025-04-16 16:30:36,793 [DEBUG]  		Preparing numerical values for column f6
+2025-04-16 16:30:36,804 [DEBUG]  		Preparing numerical values for column f7
+2025-04-16 16:30:36,816 [DEBUG]  		Preparing numerical values for column f8
+2025-04-16 16:30:36,828 [DEBUG]  		Preparing numerical values for column f9
+2025-04-16 16:30:36,837 [DEBUG]  		Preparing numerical values for column f10
+2025-04-16 16:30:36,846 [DEBUG]  		Preparing numerical values for column f11
+2025-04-16 16:30:36,855 [DEBUG]  		Preparing numerical values for column f12
+2025-04-16 16:30:36,864 [DEBUG]  		Preparing numerical values for column f13
+2025-04-16 16:30:36,873 [DEBUG]  		Preparing numerical values for column f14
+2025-04-16 16:30:36,882 [DEBUG]  		Preparing numerical values for column f15
+2025-04-16 16:30:36,891 [DEBUG]  		Preparing numerical values for column f16
+2025-04-16 16:30:36,900 [INFO ]  Relevant attributes for table metropt3 are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12', 'f13', 'f14', 'f15', 'f16']
+2025-04-16 16:30:36,901 [INFO ]  NULL values for table metropt3 are [5242870.0001, 1.4369242786639012, 8.963560277042653, 7.473976623036023, 0.0863602655985504, 8.964149770402685, 61.1270057530458, 1.9805509834775759, 0.8267647593162148, 0.16931917840879288, 0.9159286245619054, 0.8219858927592208, 0.002546176954438166, 0.9893396824261498, 0.985656588703717, 0.911386269460935]
+2025-04-16 16:30:37,433 [INFO ]  Adding table parts without join partners for table metropt3
+2025-04-16 16:30:37,434 [INFO ]  Files successfully created

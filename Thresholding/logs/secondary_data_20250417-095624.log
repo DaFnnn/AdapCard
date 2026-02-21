@@ -1,0 +1,4 @@
+2025-04-17 09:56:24,827 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Secondary Mushroom
+2025-04-17 09:56:24,828 [DEBUG]  Creating sample for secondary_data
+2025-04-17 09:56:24,828 [DEBUG]  generate_join_sample(single_table=secondary_data, relationship_list=None, split_condition=None)
+2025-04-17 09:56:24,900 [INFO ]  Files successfully created

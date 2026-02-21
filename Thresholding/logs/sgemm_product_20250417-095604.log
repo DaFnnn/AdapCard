@@ -1,0 +1,4 @@
+2025-04-17 09:56:04,891 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/SGEMM GPU kernel performance
+2025-04-17 09:56:04,892 [DEBUG]  Creating sample for sgemm_product
+2025-04-17 09:56:04,892 [DEBUG]  generate_join_sample(single_table=sgemm_product, relationship_list=None, split_condition=None)
+2025-04-17 09:56:05,045 [INFO ]  Files successfully created

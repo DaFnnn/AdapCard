@@ -1,0 +1,18 @@
+2025-04-16 14:52:44,071 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Accelerometer Gyro Mobile Phone and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Accelerometer Gyro Mobile Phone
+2025-04-16 14:52:44,072 [INFO ]  Making target path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Accelerometer Gyro Mobile Phone
+2025-04-16 14:52:44,072 [INFO ]  Preparing hdf file for table accelerometer_gyro_mobile_phone_dataset
+2025-04-16 14:52:44,107 [INFO ]  Managing functional dependencies for table accelerometer_gyro_mobile_phone_dataset
+2025-04-16 14:52:44,108 [INFO ]  Preparing multipliers for table accelerometer_gyro_mobile_phone_dataset
+2025-04-16 14:52:44,108 [INFO ]  Preparing categorical values and null values for table accelerometer_gyro_mobile_phone_dataset
+2025-04-16 14:52:44,109 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 14:52:44,110 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 14:52:44,112 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 14:52:44,113 [DEBUG]  		Preparing numerical values for column f4
+2025-04-16 14:52:44,114 [DEBUG]  		Preparing numerical values for column f5
+2025-04-16 14:52:44,116 [DEBUG]  		Preparing numerical values for column f6
+2025-04-16 14:52:44,118 [DEBUG]  		Preparing numerical values for column f7
+2025-04-16 14:52:44,119 [DEBUG]  		Preparing numerical values for column f8
+2025-04-16 14:52:44,119 [INFO ]  Relevant attributes for table accelerometer_gyro_mobile_phone_dataset are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8']
+2025-04-16 14:52:44,119 [INFO ]  NULL values for table accelerometer_gyro_mobile_phone_dataset are [0.023925226626238638, 2.1539577652777346, 9.53800911743928, -0.004393486761901785, -0.01465559579256666, -0.006920891813322498, 10773.600456350223, 0.9822512300334469]
+2025-04-16 14:52:44,160 [INFO ]  Adding table parts without join partners for table accelerometer_gyro_mobile_phone_dataset
+2025-04-16 14:52:44,160 [INFO ]  Files successfully created

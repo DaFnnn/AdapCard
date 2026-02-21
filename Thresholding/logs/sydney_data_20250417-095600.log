@@ -1,0 +1,58 @@
+2025-04-17 09:56:00,959 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Wave Energy Converters and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Wave Energy Converters
+2025-04-17 09:56:00,960 [INFO ]  Preparing hdf file for table sydney_data
+2025-04-17 09:56:01,460 [INFO ]  Managing functional dependencies for table sydney_data
+2025-04-17 09:56:01,469 [INFO ]  Preparing multipliers for table sydney_data
+2025-04-17 09:56:01,469 [INFO ]  Preparing categorical values and null values for table sydney_data
+2025-04-17 09:56:01,469 [DEBUG]  		Preparing numerical values for column f1
+2025-04-17 09:56:01,471 [DEBUG]  		Preparing numerical values for column f2
+2025-04-17 09:56:01,473 [DEBUG]  		Preparing numerical values for column f3
+2025-04-17 09:56:01,475 [DEBUG]  		Preparing numerical values for column f4
+2025-04-17 09:56:01,477 [DEBUG]  		Preparing numerical values for column f5
+2025-04-17 09:56:01,479 [DEBUG]  		Preparing numerical values for column f6
+2025-04-17 09:56:01,481 [DEBUG]  		Preparing numerical values for column f7
+2025-04-17 09:56:01,483 [DEBUG]  		Preparing numerical values for column f8
+2025-04-17 09:56:01,484 [DEBUG]  		Preparing numerical values for column f9
+2025-04-17 09:56:01,486 [DEBUG]  		Preparing numerical values for column f10
+2025-04-17 09:56:01,488 [DEBUG]  		Preparing numerical values for column f11
+2025-04-17 09:56:01,490 [DEBUG]  		Preparing numerical values for column f12
+2025-04-17 09:56:01,492 [DEBUG]  		Preparing numerical values for column f13
+2025-04-17 09:56:01,494 [DEBUG]  		Preparing numerical values for column f14
+2025-04-17 09:56:01,496 [DEBUG]  		Preparing numerical values for column f15
+2025-04-17 09:56:01,497 [DEBUG]  		Preparing numerical values for column f16
+2025-04-17 09:56:01,499 [DEBUG]  		Preparing numerical values for column f17
+2025-04-17 09:56:01,501 [DEBUG]  		Preparing numerical values for column f18
+2025-04-17 09:56:01,503 [DEBUG]  		Preparing numerical values for column f19
+2025-04-17 09:56:01,505 [DEBUG]  		Preparing numerical values for column f20
+2025-04-17 09:56:01,507 [DEBUG]  		Preparing numerical values for column f21
+2025-04-17 09:56:01,508 [DEBUG]  		Preparing numerical values for column f22
+2025-04-17 09:56:01,510 [DEBUG]  		Preparing numerical values for column f23
+2025-04-17 09:56:01,512 [DEBUG]  		Preparing numerical values for column f24
+2025-04-17 09:56:01,514 [DEBUG]  		Preparing numerical values for column f25
+2025-04-17 09:56:01,516 [DEBUG]  		Preparing numerical values for column f26
+2025-04-17 09:56:01,518 [DEBUG]  		Preparing numerical values for column f27
+2025-04-17 09:56:01,519 [DEBUG]  		Preparing numerical values for column f28
+2025-04-17 09:56:01,521 [DEBUG]  		Preparing numerical values for column f29
+2025-04-17 09:56:01,523 [DEBUG]  		Preparing numerical values for column f30
+2025-04-17 09:56:01,525 [DEBUG]  		Preparing numerical values for column f31
+2025-04-17 09:56:01,527 [DEBUG]  		Preparing numerical values for column f32
+2025-04-17 09:56:01,529 [DEBUG]  		Preparing numerical values for column f33
+2025-04-17 09:56:01,530 [DEBUG]  		Preparing numerical values for column f34
+2025-04-17 09:56:01,532 [DEBUG]  		Preparing numerical values for column f35
+2025-04-17 09:56:01,534 [DEBUG]  		Preparing numerical values for column f36
+2025-04-17 09:56:01,536 [DEBUG]  		Preparing numerical values for column f37
+2025-04-17 09:56:01,538 [DEBUG]  		Preparing numerical values for column f38
+2025-04-17 09:56:01,540 [DEBUG]  		Preparing numerical values for column f39
+2025-04-17 09:56:01,542 [DEBUG]  		Preparing numerical values for column f40
+2025-04-17 09:56:01,543 [DEBUG]  		Preparing numerical values for column f41
+2025-04-17 09:56:01,545 [DEBUG]  		Preparing numerical values for column f42
+2025-04-17 09:56:01,547 [DEBUG]  		Preparing numerical values for column f43
+2025-04-17 09:56:01,549 [DEBUG]  		Preparing numerical values for column f44
+2025-04-17 09:56:01,551 [DEBUG]  		Preparing numerical values for column f45
+2025-04-17 09:56:01,553 [DEBUG]  		Preparing numerical values for column f46
+2025-04-17 09:56:01,554 [DEBUG]  		Preparing numerical values for column f47
+2025-04-17 09:56:01,556 [DEBUG]  		Preparing numerical values for column f48
+2025-04-17 09:56:01,558 [DEBUG]  		Preparing numerical values for column f49
+2025-04-17 09:56:01,560 [INFO ]  Relevant attributes for table sydney_data are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12', 'f13', 'f14', 'f15', 'f16', 'f17', 'f18', 'f19', 'f20', 'f21', 'f22', 'f23', 'f24', 'f25', 'f26', 'f27', 'f28', 'f29', 'f30', 'f31', 'f32', 'f33', 'f34', 'f35', 'f36', 'f37', 'f38', 'f39', 'f40', 'f41', 'f42', 'f43', 'f44', 'f45', 'f46', 'f47', 'f48', 'f49']
+2025-04-17 09:56:01,560 [INFO ]  NULL values for table sydney_data are [324.1307496236111, 318.47671898194443, 248.65022682083332, 273.8050729125, 364.12088829444446, 270.71568090138885, 268.0908145625, 251.21168476250003, 257.46939854027767, 263.8338687222222, 314.0223368611111, 276.95794783749994, 273.3386266958333, 339.76768010416663, 280.2367408458333, 273.91755194999996, 336.5771670527778, 235.63547081805555, 257.0776705597222, 288.7629585833333, 305.7680894152778, 335.8798440083333, 263.636395425, 253.8931992625, 285.6783548152777, 295.07522553055554, 276.51682305694436, 306.63038303055555, 255.18489878194444, 250.94580795555558, 303.2986079708333, 269.98890022361104, 92419.63934212778, 94310.6400313625, 92892.88256341944, 92348.56789937777, 93587.05347635836, 92039.60966605, 93027.35500835002, 92460.88974725139, 92400.86718077085, 92359.87481126112, 93528.55859087362, 92533.0206951111, 92866.78228806944, 94515.4223584, 92124.90226767222, 92812.67148826944, 1486228.9723641807]
+2025-04-17 09:56:01,648 [INFO ]  Adding table parts without join partners for table sydney_data
+2025-04-17 09:56:01,648 [INFO ]  Files successfully created

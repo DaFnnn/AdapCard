@@ -1,0 +1,92 @@
+2025-04-16 14:51:51,594 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Superconductivty Data and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Superconductivty Data
+2025-04-16 14:51:51,594 [INFO ]  Making target path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Superconductivty Data
+2025-04-16 14:51:51,594 [INFO ]  Preparing hdf file for table train
+2025-04-16 14:51:51,924 [INFO ]  Managing functional dependencies for table train
+2025-04-16 14:51:51,928 [INFO ]  Preparing multipliers for table train
+2025-04-16 14:51:51,928 [INFO ]  Preparing categorical values and null values for table train
+2025-04-16 14:51:51,928 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 14:51:51,929 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 14:51:51,931 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 14:51:51,932 [DEBUG]  		Preparing numerical values for column f4
+2025-04-16 14:51:51,933 [DEBUG]  		Preparing numerical values for column f5
+2025-04-16 14:51:51,934 [DEBUG]  		Preparing numerical values for column f6
+2025-04-16 14:51:51,936 [DEBUG]  		Preparing numerical values for column f7
+2025-04-16 14:51:51,937 [DEBUG]  		Preparing numerical values for column f8
+2025-04-16 14:51:51,938 [DEBUG]  		Preparing numerical values for column f9
+2025-04-16 14:51:51,940 [DEBUG]  		Preparing numerical values for column f10
+2025-04-16 14:51:51,941 [DEBUG]  		Preparing numerical values for column f11
+2025-04-16 14:51:51,942 [DEBUG]  		Preparing numerical values for column f12
+2025-04-16 14:51:51,943 [DEBUG]  		Preparing numerical values for column f13
+2025-04-16 14:51:51,945 [DEBUG]  		Preparing numerical values for column f14
+2025-04-16 14:51:51,946 [DEBUG]  		Preparing numerical values for column f15
+2025-04-16 14:51:51,947 [DEBUG]  		Preparing numerical values for column f16
+2025-04-16 14:51:51,948 [DEBUG]  		Preparing numerical values for column f17
+2025-04-16 14:51:51,950 [DEBUG]  		Preparing numerical values for column f18
+2025-04-16 14:51:51,951 [DEBUG]  		Preparing numerical values for column f19
+2025-04-16 14:51:51,952 [DEBUG]  		Preparing numerical values for column f20
+2025-04-16 14:51:51,954 [DEBUG]  		Preparing numerical values for column f21
+2025-04-16 14:51:51,955 [DEBUG]  		Preparing numerical values for column f22
+2025-04-16 14:51:51,956 [DEBUG]  		Preparing numerical values for column f23
+2025-04-16 14:51:51,957 [DEBUG]  		Preparing numerical values for column f24
+2025-04-16 14:51:51,959 [DEBUG]  		Preparing numerical values for column f25
+2025-04-16 14:51:51,960 [DEBUG]  		Preparing numerical values for column f26
+2025-04-16 14:51:51,961 [DEBUG]  		Preparing numerical values for column f27
+2025-04-16 14:51:51,963 [DEBUG]  		Preparing numerical values for column f28
+2025-04-16 14:51:51,963 [DEBUG]  		Preparing numerical values for column f29
+2025-04-16 14:51:51,965 [DEBUG]  		Preparing numerical values for column f30
+2025-04-16 14:51:51,966 [DEBUG]  		Preparing numerical values for column f31
+2025-04-16 14:51:51,967 [DEBUG]  		Preparing numerical values for column f32
+2025-04-16 14:51:51,969 [DEBUG]  		Preparing numerical values for column f33
+2025-04-16 14:51:51,970 [DEBUG]  		Preparing numerical values for column f34
+2025-04-16 14:51:51,971 [DEBUG]  		Preparing numerical values for column f35
+2025-04-16 14:51:51,973 [DEBUG]  		Preparing numerical values for column f36
+2025-04-16 14:51:51,974 [DEBUG]  		Preparing numerical values for column f37
+2025-04-16 14:51:51,975 [DEBUG]  		Preparing numerical values for column f38
+2025-04-16 14:51:51,976 [DEBUG]  		Preparing numerical values for column f39
+2025-04-16 14:51:51,978 [DEBUG]  		Preparing numerical values for column f40
+2025-04-16 14:51:51,979 [DEBUG]  		Preparing numerical values for column f41
+2025-04-16 14:51:51,980 [DEBUG]  		Preparing numerical values for column f42
+2025-04-16 14:51:51,981 [DEBUG]  		Preparing numerical values for column f43
+2025-04-16 14:51:51,983 [DEBUG]  		Preparing numerical values for column f44
+2025-04-16 14:51:51,984 [DEBUG]  		Preparing numerical values for column f45
+2025-04-16 14:51:51,985 [DEBUG]  		Preparing numerical values for column f46
+2025-04-16 14:51:51,987 [DEBUG]  		Preparing numerical values for column f47
+2025-04-16 14:51:51,988 [DEBUG]  		Preparing numerical values for column f48
+2025-04-16 14:51:51,989 [DEBUG]  		Preparing numerical values for column f49
+2025-04-16 14:51:51,990 [DEBUG]  		Preparing numerical values for column f50
+2025-04-16 14:51:51,992 [DEBUG]  		Preparing numerical values for column f51
+2025-04-16 14:51:51,993 [DEBUG]  		Preparing numerical values for column f52
+2025-04-16 14:51:51,994 [DEBUG]  		Preparing numerical values for column f53
+2025-04-16 14:51:51,995 [DEBUG]  		Preparing numerical values for column f54
+2025-04-16 14:51:51,997 [DEBUG]  		Preparing numerical values for column f55
+2025-04-16 14:51:51,998 [DEBUG]  		Preparing numerical values for column f56
+2025-04-16 14:51:51,999 [DEBUG]  		Preparing numerical values for column f57
+2025-04-16 14:51:52,001 [DEBUG]  		Preparing numerical values for column f58
+2025-04-16 14:51:52,002 [DEBUG]  		Preparing numerical values for column f59
+2025-04-16 14:51:52,003 [DEBUG]  		Preparing numerical values for column f60
+2025-04-16 14:51:52,004 [DEBUG]  		Preparing numerical values for column f61
+2025-04-16 14:51:52,006 [DEBUG]  		Preparing numerical values for column f62
+2025-04-16 14:51:52,007 [DEBUG]  		Preparing numerical values for column f63
+2025-04-16 14:51:52,008 [DEBUG]  		Preparing numerical values for column f64
+2025-04-16 14:51:52,010 [DEBUG]  		Preparing numerical values for column f65
+2025-04-16 14:51:52,011 [DEBUG]  		Preparing numerical values for column f66
+2025-04-16 14:51:52,012 [DEBUG]  		Preparing numerical values for column f67
+2025-04-16 14:51:52,014 [DEBUG]  		Preparing numerical values for column f68
+2025-04-16 14:51:52,015 [DEBUG]  		Preparing numerical values for column f69
+2025-04-16 14:51:52,016 [DEBUG]  		Preparing numerical values for column f70
+2025-04-16 14:51:52,017 [DEBUG]  		Preparing numerical values for column f71
+2025-04-16 14:51:52,019 [DEBUG]  		Preparing numerical values for column f72
+2025-04-16 14:51:52,020 [DEBUG]  		Preparing numerical values for column f73
+2025-04-16 14:51:52,021 [DEBUG]  		Preparing numerical values for column f74
+2025-04-16 14:51:52,022 [DEBUG]  		Preparing numerical values for column f75
+2025-04-16 14:51:52,024 [DEBUG]  		Preparing numerical values for column f76
+2025-04-16 14:51:52,025 [DEBUG]  		Preparing numerical values for column f77
+2025-04-16 14:51:52,026 [DEBUG]  		Preparing numerical values for column f78
+2025-04-16 14:51:52,027 [DEBUG]  		Preparing numerical values for column f79
+2025-04-16 14:51:52,029 [DEBUG]  		Preparing numerical values for column f80
+2025-04-16 14:51:52,030 [DEBUG]  		Preparing numerical values for column f81
+2025-04-16 14:51:52,031 [DEBUG]  		Preparing numerical values for column f82
+2025-04-16 14:51:52,032 [INFO ]  Relevant attributes for table train are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12', 'f13', 'f14', 'f15', 'f16', 'f17', 'f18', 'f19', 'f20', 'f21', 'f22', 'f23', 'f24', 'f25', 'f26', 'f27', 'f28', 'f29', 'f30', 'f31', 'f32', 'f33', 'f34', 'f35', 'f36', 'f37', 'f38', 'f39', 'f40', 'f41', 'f42', 'f43', 'f44', 'f45', 'f46', 'f47', 'f48', 'f49', 'f50', 'f51', 'f52', 'f53', 'f54', 'f55', 'f56', 'f57', 'f58', 'f59', 'f60', 'f61', 'f62', 'f63', 'f64', 'f65', 'f66', 'f67', 'f68', 'f69', 'f70', 'f71', 'f72', 'f73', 'f74', 'f75', 'f76', 'f77', 'f78', 'f79', 'f80', 'f81', 'f82']
+2025-04-16 14:51:52,032 [INFO ]  NULL values for table train are [4.115323627898227, 87.55773086475905, 72.98841044307746, 71.2907270377003, 58.54001555419585, 1.1657079642319457, 1.0639835275958267, 115.60135125331516, 33.22531792173843, 44.39199327527615, 41.44814474886692, 769.614848322035, 870.4424172901025, 737.4748507972785, 832.7697487659008, 1.2992721607957372, 0.9268258145043101, 572.2227120490994, 483.51736440781417, 215.6313794464955, 224.05013328379877, 157.98320075852754, 134.72013911907217, 144.448838033233, 120.98943048313367, 1.267855878438339, 1.1312377209982563, 139.32512469077741, 51.36998487982804, 51.60136669129966, 52.34056493754296, 6111.465314254488, 5267.188647254163, 3460.692335215076, 3117.2412099859075, 1.072524606420924, 0.8561366124008446, 8665.438917941963, 2902.7369144493637, 3416.910883960488, 3319.1707278798804, 76.87985062184181, 92.71758621630399, 54.35960154241109, 72.41632533082105, 1.0703497970193114, 0.7708565499103158, 120.73061403847058, 59.332737395568756, 48.91230732020931, 44.409455928051486, 14.296212664595851, 13.848100883359619, 10.137076826474308, 10.141260706071776, 1.0934429814697326, 0.9141646259558485, 21.139093933123263, 8.218628401445525, 8.323433205231302, 7.717675894832423, 89.70701087705038, 81.54917964090552, 29.841827389885175, 27.308161297005608, 0.7277302117667414, 0.5400907521509002, 250.8935429116306, 62.033166314733485, 98.94409291978201, 96.23415099692858, 3.1983284600494635, 3.153226732255915, 3.05663554664032, 3.0559851572011993, 1.2957824572428525, 1.0529414938856556, 2.041110205521328, 1.4831072246436976, 0.8394423829019059, 0.6740867746255926, 34.42131913535249]
+2025-04-16 14:51:52,095 [INFO ]  Adding table parts without join partners for table train
+2025-04-16 14:51:52,095 [INFO ]  Files successfully created

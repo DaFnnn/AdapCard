@@ -1,0 +1,4 @@
+2025-04-17 09:55:52,192 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Parkinsons Telemonitoring
+2025-04-17 09:55:52,192 [DEBUG]  Creating sample for parkinsons_updrs
+2025-04-17 09:55:52,193 [DEBUG]  generate_join_sample(single_table=parkinsons_updrs, relationship_list=None, split_condition=None)
+2025-04-17 09:55:52,235 [INFO ]  Files successfully created

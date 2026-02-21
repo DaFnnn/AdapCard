@@ -1,0 +1,19 @@
+2025-04-16 16:31:46,816 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Single Elder Home Monitoring Gas and Position and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Single Elder Home Monitoring Gas and Position
+2025-04-16 16:31:46,817 [INFO ]  Preparing hdf file for table data_ref_until
+2025-04-16 16:31:46,883 [INFO ]  Managing functional dependencies for table data_ref_until
+2025-04-16 16:31:46,886 [INFO ]  Preparing multipliers for table data_ref_until
+2025-04-16 16:31:46,886 [INFO ]  Preparing categorical values and null values for table data_ref_until
+2025-04-16 16:31:46,886 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 16:31:46,888 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 16:31:46,890 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 16:31:46,892 [DEBUG]  		Preparing numerical values for column f4
+2025-04-16 16:31:46,894 [DEBUG]  		Preparing numerical values for column f5
+2025-04-16 16:31:46,895 [DEBUG]  		Preparing numerical values for column f6
+2025-04-16 16:31:46,897 [DEBUG]  		Preparing numerical values for column f7
+2025-04-16 16:31:46,899 [DEBUG]  		Preparing numerical values for column f8
+2025-04-16 16:31:46,901 [DEBUG]  		Preparing numerical values for column f9
+2025-04-16 16:31:46,903 [DEBUG]  		Preparing numerical values for column f10
+2025-04-16 16:31:46,905 [INFO ]  Relevant attributes for table data_ref_until are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10']
+2025-04-16 16:31:46,905 [INFO ]  NULL values for table data_ref_until are [37755.0001, 20.02586737164122, 56.69104290898015, 70.17632598032075, 510.00362266557187, 538.7314901285905, 724.0359490815907, 675.748719406444, 625.2105726463694, 114.2373899312683]
+2025-04-16 16:31:46,957 [INFO ]  Adding table parts without join partners for table data_ref_until
+2025-04-16 16:31:46,957 [INFO ]  Files successfully created

@@ -1,0 +1,20 @@
+2025-04-16 16:30:29,936 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Gas Turbine CO and NOx Emission Data Set and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Gas Turbine CO and NOx Emission Data Set
+2025-04-16 16:30:29,937 [INFO ]  Preparing hdf file for table gt_2015
+2025-04-16 16:30:29,950 [INFO ]  Managing functional dependencies for table gt_2015
+2025-04-16 16:30:29,950 [INFO ]  Preparing multipliers for table gt_2015
+2025-04-16 16:30:29,950 [INFO ]  Preparing categorical values and null values for table gt_2015
+2025-04-16 16:30:29,951 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 16:30:29,952 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 16:30:29,953 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 16:30:29,954 [DEBUG]  		Preparing numerical values for column f4
+2025-04-16 16:30:29,955 [DEBUG]  		Preparing numerical values for column f5
+2025-04-16 16:30:29,957 [DEBUG]  		Preparing numerical values for column f6
+2025-04-16 16:30:29,958 [DEBUG]  		Preparing numerical values for column f7
+2025-04-16 16:30:29,959 [DEBUG]  		Preparing numerical values for column f8
+2025-04-16 16:30:29,960 [DEBUG]  		Preparing numerical values for column f9
+2025-04-16 16:30:29,961 [DEBUG]  		Preparing numerical values for column f10
+2025-04-16 16:30:29,962 [DEBUG]  		Preparing numerical values for column f11
+2025-04-16 16:30:29,963 [INFO ]  Relevant attributes for table gt_2015 are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11']
+2025-04-16 16:30:29,963 [INFO ]  NULL values for table gt_2015 are [17.225359291170097, 1014.5092102383531, 68.64756411159263, 3.599009060130011, 26.13024869989166, 1078.9747885157096, 546.6425837486456, 133.99348028169015, 12.09712474268689, 3.13008553900325, 59.890609479956666]
+2025-04-16 16:30:29,995 [INFO ]  Adding table parts without join partners for table gt_2015
+2025-04-16 16:30:29,995 [INFO ]  Files successfully created

@@ -1,0 +1,638 @@
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=27.0 AND Global_reactive_power<0.17 AND Sub_metering_3>16.0 AND Sub_metering_1<10.0 AND Global_active_power<3.3||189
+SELECT COUNT(*) FROM power WHERE Voltage>236.05 AND Global_reactive_power=0.544||193
+SELECT COUNT(*) FROM power WHERE Voltage<228.83 AND Sub_metering_1<51.0 AND Sub_metering_3<14.0 AND Global_active_power>1.528||146
+SELECT COUNT(*) FROM power WHERE Voltage>241.26 AND Sub_metering_2>39.0||506
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.61 AND Global_intensity>25.4 AND Sub_metering_2>55.0||1
+SELECT COUNT(*) FROM power WHERE Voltage=238.79 AND Sub_metering_2=27.0 AND Global_intensity>5.6 AND Global_reactive_power<0.376||5
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.688 AND Voltage<234.48 AND Sub_metering_2>7.0 AND Sub_metering_1=11.0||8
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=23.0 AND Sub_metering_2=2.0||46
+SELECT COUNT(*) FROM power WHERE Voltage>229.69 AND Global_intensity>22.2||12868
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.41200000000000003 AND Sub_metering_3<8.0 AND Global_active_power<3.696 AND Sub_metering_1<38.0||1329264
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<59.0 AND Voltage<228.09||27466
+SELECT COUNT(*) FROM power WHERE Global_intensity>26.6 AND Sub_metering_3>5.0 AND Global_active_power>2.96 AND Sub_metering_2=3.0 AND Global_reactive_power>0.19||7
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>5.0 AND Sub_metering_1<68.0 AND Global_active_power<2.46 AND Global_reactive_power>0.512||180
+SELECT COUNT(*) FROM power WHERE Global_active_power>2.944 AND Voltage<242.29 AND Sub_metering_2<29.0 AND Global_reactive_power>0.502 AND Sub_metering_1=15.0 AND Sub_metering_3<20.0||8
+SELECT COUNT(*) FROM power WHERE Global_intensity<23.6 AND Sub_metering_3<10.0 AND Sub_metering_1=46.0||69
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>12.0 AND Global_active_power<4.372 AND Global_reactive_power<0.16 AND Voltage<227.61||24
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>3.0 AND Sub_metering_1>1.0||53763
+SELECT COUNT(*) FROM power WHERE Global_intensity<17.2 AND Global_reactive_power=0.618 AND Sub_metering_1<42.0||64
+SELECT COUNT(*) FROM power WHERE Voltage<230.99 AND Global_reactive_power>0.426||438
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.08800000000000001 AND Sub_metering_1>7.0 AND Voltage=232.79||25
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<35.0 AND Voltage=242.06 AND Global_intensity<4.8||2070
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.79 AND Sub_metering_3<15.0 AND Global_intensity<18.0||7
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>16.0 AND Voltage<242.98 AND Sub_metering_2<3.0 AND Sub_metering_1<27.0||510325
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<44.0 AND Voltage>245.64 AND Global_reactive_power>0.19399999999999998 AND Sub_metering_2<41.0||19669
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=66.0 AND Global_reactive_power>0.11599999999999999 AND Global_active_power<8.052 AND Global_intensity>14.4||9
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=18.0 AND Voltage>229.75 AND Sub_metering_1<22.0||338966
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<58.0 AND Sub_metering_3>24.0||17469
+SELECT COUNT(*) FROM power WHERE Global_active_power<5.4879999999999995 AND Global_reactive_power<0.29600000000000004 AND Sub_metering_2<73.0 AND Global_intensity<14.6||1847913
+SELECT COUNT(*) FROM power WHERE Sub_metering_1>60.0 AND Global_reactive_power>0.222 AND Global_intensity>7.8||465
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<5.0 AND Sub_metering_1>26.0 AND Sub_metering_3<4.0||18233
+SELECT COUNT(*) FROM power WHERE Global_active_power<4.176 AND Global_reactive_power<0.248 AND Sub_metering_2<69.0 AND Sub_metering_1<20.0 AND Global_intensity<26.6 AND Sub_metering_3<5.0||1203935
+SELECT COUNT(*) FROM power WHERE Global_active_power>3.068 AND Global_intensity>21.8||15001
+SELECT COUNT(*) FROM power WHERE Voltage<249.13 AND Sub_metering_1>18.0||56579
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>35.0 AND Sub_metering_1<33.0 AND Voltage<239.29||17017
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>32.0 AND Voltage<228.83||300
+SELECT COUNT(*) FROM power WHERE Global_active_power<3.7260000000000004 AND Sub_metering_3=19.0||118717
+SELECT COUNT(*) FROM power WHERE Global_active_power<7.022 AND Global_reactive_power>0.606 AND Sub_metering_1<54.0||4928
+SELECT COUNT(*) FROM power WHERE Voltage>226.95 AND Sub_metering_1<55.0 AND Sub_metering_2>46.0||4265
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<63.0 AND Global_active_power<9.248 AND Voltage<228.34 AND Sub_metering_3<20.0 AND Global_reactive_power<0.5660000000000001 AND Global_intensity=6.4||36
+SELECT COUNT(*) FROM power WHERE Global_intensity<25.0 AND Sub_metering_3=0.0 AND Global_reactive_power<0.638 AND Global_active_power>2.2680000000000002||44881
+SELECT COUNT(*) FROM power WHERE Global_active_power<5.797999999999999 AND Sub_metering_1>9.0||57659
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.08 AND Sub_metering_2>44.0 AND Global_intensity>26.6||259
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>35.0 AND Global_reactive_power<0.162||12912
+SELECT COUNT(*) FROM power WHERE Voltage=238.31 AND Sub_metering_2>1.0 AND Sub_metering_3<13.0 AND Sub_metering_1<69.0||108
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>21.0 AND Sub_metering_2>54.0||23
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>17.0 AND Global_active_power<7.888 AND Global_reactive_power>0.778 AND Sub_metering_2<2.0 AND Sub_metering_1=37.0||7
+SELECT COUNT(*) FROM power WHERE Global_active_power>4.852 AND Sub_metering_2=77.0 AND Sub_metering_3<28.0||24
+SELECT COUNT(*) FROM power WHERE Voltage<243.96 AND Sub_metering_2=6.0||1318
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=11.0 AND Sub_metering_1>13.0||32
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.046 AND Voltage>227.15 AND Sub_metering_3>13.0 AND Sub_metering_2=44.0 AND Global_active_power>5.228||1
+SELECT COUNT(*) FROM power WHERE Global_intensity<1.8 AND Sub_metering_1<12.0||775187
+SELECT COUNT(*) FROM power WHERE Global_active_power<4.136 AND Sub_metering_1>41.0 AND Sub_metering_3<8.0 AND Sub_metering_2<58.0||441
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<74.0 AND Sub_metering_3>1.0 AND Global_active_power=5.426||16
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<1.148 AND Voltage=238.69 AND Sub_metering_2<61.0 AND Sub_metering_3<4.0 AND Sub_metering_1<24.0||614
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>3.0 AND Global_reactive_power>0.23399999999999999||137629
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<18.0 AND Voltage<238.58 AND Global_intensity>0.2 AND Sub_metering_2<47.0 AND Global_reactive_power<0.5820000000000001||327983
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>23.0 AND Global_active_power<2.102||7268
+SELECT COUNT(*) FROM power WHERE Global_active_power<9.132 AND Global_reactive_power<0.3 AND Sub_metering_2>0.0||501664
+SELECT COUNT(*) FROM power WHERE Voltage<232.21 AND Global_reactive_power<0.20600000000000002 AND Global_intensity<36.6 AND Global_active_power<7.71 AND Sub_metering_2>28.0||1447
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<8.0 AND Global_intensity>15.4 AND Sub_metering_3>10.0 AND Sub_metering_2=65.0||61
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=30.0 AND Sub_metering_2<42.0||3119
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.446 AND Voltage<240.67 AND Global_intensity<15.0||13330
+SELECT COUNT(*) FROM power WHERE Global_intensity<15.8 AND Sub_metering_3<10.0 AND Global_reactive_power<0.9279999999999999||1354484
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>63.0 AND Global_reactive_power<0.29 AND Sub_metering_1=37.0||65
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<3.0 AND Global_reactive_power<0.374||1943496
+SELECT COUNT(*) FROM power WHERE Global_intensity>2.4 AND Sub_metering_3<15.0 AND Sub_metering_1>7.0 AND Voltage<231.62||746
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<26.0 AND Global_reactive_power>0.6659999999999999 AND Sub_metering_2<42.0||2729
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=49.0 AND Voltage<235.54 AND Global_active_power<6.6 AND Global_intensity=18.6||3
+SELECT COUNT(*) FROM power WHERE Voltage<248.12 AND Sub_metering_1<31.0||2001096
+SELECT COUNT(*) FROM power WHERE Global_intensity<35.8 AND Voltage<243.67 AND Sub_metering_2<32.0||1689209
+SELECT COUNT(*) FROM power WHERE Global_active_power=2.39 AND Voltage<241.36 AND Global_reactive_power<0.856||336
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<47.0 AND Voltage<249.98||2069538
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<75.0 AND Global_reactive_power>0.29||168316
+SELECT COUNT(*) FROM power WHERE Global_intensity<19.6 AND Voltage<226.93||26506
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.654 AND Sub_metering_2<40.0||73
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.466 AND Voltage<243.82 AND Sub_metering_1>13.0 AND Sub_metering_3<24.0 AND Global_active_power<7.892||71
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<47.0 AND Voltage<225.88||26148
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<69.0 AND Voltage<247.33 AND Sub_metering_3>25.0 AND Global_intensity>5.4 AND Global_reactive_power=0.184||85
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<39.0 AND Global_intensity<32.2 AND Global_reactive_power=0.204||10514
+SELECT COUNT(*) FROM power WHERE Voltage<227.12 AND Sub_metering_2>26.0||100
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=6.0 AND Global_reactive_power=0.588||1
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.244 AND Sub_metering_1<50.0 AND Global_active_power>5.99 AND Voltage<242.69||19
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<34.0 AND Global_intensity=29.6||29
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<32.0 AND Sub_metering_3=4.0||1886
+SELECT COUNT(*) FROM power WHERE Sub_metering_1>22.0 AND Global_reactive_power<0.684 AND Global_active_power>5.984||3178
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<55.0 AND Global_intensity<22.8||2062735
+SELECT COUNT(*) FROM power WHERE Global_intensity>2.4 AND Voltage<238.04 AND Sub_metering_1<61.0 AND Sub_metering_2>8.0||29347
+SELECT COUNT(*) FROM power WHERE Global_intensity=19.6 AND Sub_metering_3<19.0 AND Global_reactive_power<0.35600000000000004 AND Sub_metering_2=1.0||82
+SELECT COUNT(*) FROM power WHERE Voltage>242.19 AND Sub_metering_2<5.0 AND Sub_metering_1>42.0||114
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<24.0 AND Global_active_power>4.024 AND Sub_metering_1=65.0||11
+SELECT COUNT(*) FROM power WHERE Global_active_power<5.8260000000000005 AND Voltage=244.5 AND Global_intensity<2.6||892
+SELECT COUNT(*) FROM power WHERE Global_active_power<1.002 AND Sub_metering_3<10.0||1168685
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.28800000000000003 AND Global_active_power<5.2139999999999995||1895114
+SELECT COUNT(*) FROM power WHERE Global_intensity<28.8 AND Global_active_power=2.694||326
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<73.0 AND Global_active_power<7.74 AND Global_intensity=7.0 AND Sub_metering_3<31.0 AND Sub_metering_2<76.0 AND Voltage>247.69||161
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.7020000000000001 AND Sub_metering_3>13.0||671963
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<17.0 AND Sub_metering_1=44.0 AND Voltage<250.48 AND Sub_metering_3>25.0||8
+SELECT COUNT(*) FROM power WHERE Voltage<248.86 AND Global_intensity<46.4 AND Sub_metering_3>21.0 AND Global_reactive_power<0.872||19521
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.20600000000000002 AND Voltage<235.21 AND Sub_metering_2=27.0||183
+SELECT COUNT(*) FROM power WHERE Global_intensity>1.6 AND Global_active_power<6.303999999999999 AND Global_reactive_power=0.758 AND Sub_metering_1<37.0||18
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<4.0 AND Global_reactive_power=0.218 AND Voltage>235.88||9757
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=26.0 AND Voltage<243.72 AND Global_reactive_power>0.48200000000000004 AND Global_intensity>14.6||37
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<77.0 AND Global_intensity>1.6 AND Sub_metering_2<20.0||1250319
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<29.0 AND Global_intensity<32.8 AND Global_active_power>3.762 AND Global_reactive_power=0.316||197
+SELECT COUNT(*) FROM power WHERE Global_intensity<39.4 AND Voltage>241.03 AND Sub_metering_3=13.0||2248
+SELECT COUNT(*) FROM power WHERE Global_active_power>4.516 AND Sub_metering_3<24.0 AND Voltage>244.07||170
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<17.0 AND Sub_metering_1>20.0 AND Voltage<246.15||24420
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=5.0 AND Global_intensity>4.0 AND Global_active_power<5.934 AND Voltage>235.02 AND Sub_metering_3<10.0||801
+SELECT COUNT(*) FROM power WHERE Global_active_power>6.638 AND Sub_metering_2=45.0||2
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<72.0 AND Global_active_power<3.2960000000000003||1975519
+SELECT COUNT(*) FROM power WHERE Global_active_power<5.707999999999999 AND Sub_metering_2>37.0||10393
+SELECT COUNT(*) FROM power WHERE Global_active_power>0.8440000000000001 AND Global_intensity<22.0||919888
+SELECT COUNT(*) FROM power WHERE Global_intensity<36.2 AND Sub_metering_2<53.0 AND Global_reactive_power>0.248 AND Sub_metering_3<19.0 AND Sub_metering_1<56.0 AND Voltage>228.41||225329
+SELECT COUNT(*) FROM power WHERE Global_active_power>0.644 AND Global_intensity>15.2 AND Sub_metering_2<16.0 AND Sub_metering_1>2.0 AND Sub_metering_3=13.0||21
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=20.0 AND Sub_metering_2<22.0 AND Sub_metering_3=0.0||97
+SELECT COUNT(*) FROM power WHERE Global_intensity>11.2 AND Global_active_power<6.31 AND Sub_metering_3<3.0||32885
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=31.0 AND Sub_metering_2=0.0||345
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<1.034 AND Sub_metering_2<48.0 AND Global_intensity>13.6 AND Sub_metering_1<77.0 AND Sub_metering_3=10.0||112
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<17.0 AND Voltage<243.09 AND Sub_metering_2<27.0 AND Global_active_power<6.2 AND Global_reactive_power=0.828 AND Sub_metering_3>6.0||2
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<59.0 AND Voltage=236.73||957
+SELECT COUNT(*) FROM power WHERE Voltage>242.23 AND Global_reactive_power<0.7040000000000001 AND Sub_metering_3>14.0 AND Sub_metering_2<49.0||120670
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>26.0 AND Voltage<238.57||6982
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.986 AND Sub_metering_3=23.0 AND Global_intensity<11.6||591
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.79 AND Voltage>246.07 AND Sub_metering_3>8.0 AND Sub_metering_2<36.0 AND Sub_metering_1>21.0 AND Global_intensity>3.4||39
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>20.0 AND Sub_metering_1<15.0 AND Voltage<248.58 AND Global_intensity>26.4||35
+SELECT COUNT(*) FROM power WHERE Voltage>242.31 AND Sub_metering_3=3.0 AND Sub_metering_1<17.0||569
+SELECT COUNT(*) FROM power WHERE Voltage<231.8 AND Sub_metering_2>31.0||2060
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.35200000000000004 AND Voltage<238.99 AND Global_active_power>3.858||34328
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>29.0 AND Sub_metering_1<53.0 AND Global_intensity<20.6||25791
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.11 AND Global_active_power=1.53||8
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<53.0 AND Global_active_power>7.547999999999999 AND Sub_metering_3<28.0||491
+SELECT COUNT(*) FROM power WHERE Global_active_power>0.33399999999999996 AND Sub_metering_3<28.0 AND Sub_metering_2=28.0 AND Global_intensity>29.8 AND Voltage<249.52||12
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>1.0 AND Sub_metering_1=6.0 AND Global_active_power<7.892 AND Global_intensity>18.6||20
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<23.0 AND Global_active_power>9.628||28
+SELECT COUNT(*) FROM power WHERE Global_active_power<8.036 AND Sub_metering_2>75.0 AND Global_reactive_power>0.376 AND Global_intensity>5.0||18
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<44.0 AND Global_intensity=13.6||3743
+SELECT COUNT(*) FROM power WHERE Voltage=230.89 AND Global_active_power<0.17800000000000002||2
+SELECT COUNT(*) FROM power WHERE Global_active_power<0.88 AND Sub_metering_3=8.0 AND Sub_metering_1<14.0||1164
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=0.0 AND Global_intensity<36.8 AND Global_active_power>5.747999999999999||2548
+SELECT COUNT(*) FROM power WHERE Global_intensity<42.6 AND Global_active_power<8.812000000000001 AND Global_reactive_power=0.188 AND Voltage>235.76||7824
+SELECT COUNT(*) FROM power WHERE Voltage<244.76 AND Global_intensity<5.0 AND Sub_metering_1<79.0 AND Sub_metering_2>8.0||231
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<54.0 AND Global_active_power>6.938||1074
+SELECT COUNT(*) FROM power WHERE Global_intensity<2.4 AND Voltage=226.89||2
+SELECT COUNT(*) FROM power WHERE Global_intensity=32.0 AND Global_reactive_power<0.124||16
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<48.0 AND Global_intensity<11.2 AND Sub_metering_1=0.0||1779891
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.878 AND Sub_metering_3=20.0 AND Global_intensity>20.6||22
+SELECT COUNT(*) FROM power WHERE Global_intensity=33.4 AND Global_reactive_power<0.42 AND Sub_metering_2>5.0||34
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>47.0 AND Global_reactive_power>0.736||2
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<5.0 AND Sub_metering_2<9.0||1958903
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.09 AND Voltage<233.41 AND Global_intensity>9.4 AND Sub_metering_1<25.0||7512
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=48.0 AND Voltage>226.3||47
+SELECT COUNT(*) FROM power WHERE Voltage<226.28 AND Sub_metering_2<58.0||26269
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=3.0 AND Global_active_power>2.358||167
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=9.0 AND Global_reactive_power<0.23600000000000002 AND Sub_metering_3=19.0||17
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=58.0 AND Global_intensity>3.8||48
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>31.0 AND Voltage=237.51||38
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.47200000000000003 AND Sub_metering_3<6.0||1349790
+SELECT COUNT(*) FROM power WHERE Global_intensity=9.0 AND Sub_metering_2=19.0 AND Sub_metering_3<3.0||13
+SELECT COUNT(*) FROM power WHERE Sub_metering_1>29.0 AND Voltage<235.16||12807
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.34600000000000003 AND Global_intensity=9.4||9183
+SELECT COUNT(*) FROM power WHERE Sub_metering_1>26.0 AND Sub_metering_2=62.0||5
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.43 AND Sub_metering_2=40.0 AND Sub_metering_1<24.0 AND Voltage<244.88||32
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>20.0 AND Global_reactive_power=0.128||309
+SELECT COUNT(*) FROM power WHERE Sub_metering_1>20.0 AND Sub_metering_2=0.0 AND Global_active_power>2.248 AND Global_intensity>31.4 AND Voltage<242.56||144
+SELECT COUNT(*) FROM power WHERE Global_intensity>2.8 AND Global_reactive_power=0.212 AND Sub_metering_3=14.0||1
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<24.0 AND Voltage>245.82 AND Global_reactive_power<0.214||95010
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>26.0 AND Sub_metering_1<28.0||15330
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=45.0 AND Global_active_power>3.0239999999999996 AND Global_reactive_power<0.33399999999999996 AND Sub_metering_1<49.0 AND Global_intensity<38.8 AND Sub_metering_3>15.0||19
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>6.0 AND Global_active_power>0.318 AND Global_reactive_power<0.9 AND Sub_metering_2=75.0||139
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>42.0 AND Global_intensity>15.8 AND Sub_metering_3<14.0||1332
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<67.0 AND Global_intensity=39.0||5
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=18.0 AND Global_reactive_power>0.21 AND Global_active_power<4.814||316
+SELECT COUNT(*) FROM power WHERE Global_intensity<26.8 AND Global_reactive_power=0.162||5880
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=12.0 AND Global_active_power<5.422000000000001 AND Global_intensity=17.4 AND Voltage>230.44||3
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<48.0 AND Voltage<238.35 AND Global_intensity=23.4 AND Sub_metering_3=0.0||31
+SELECT COUNT(*) FROM power WHERE Voltage>237.32 AND Global_active_power>0.892||731484
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>21.0 AND Sub_metering_1>51.0||23
+SELECT COUNT(*) FROM power WHERE Global_intensity>38.4 AND Sub_metering_3<22.0||85
+SELECT COUNT(*) FROM power WHERE Global_intensity=7.4 AND Sub_metering_3<4.0||4235
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.982 AND Voltage>232.45||5
+SELECT COUNT(*) FROM power WHERE Global_intensity>20.2 AND Global_reactive_power<0.19||9640
+SELECT COUNT(*) FROM power WHERE Global_active_power<3.492 AND Global_reactive_power<0.618||1987137
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=31.0 AND Sub_metering_3<20.0 AND Global_intensity>23.8||69
+SELECT COUNT(*) FROM power WHERE Global_active_power<5.52 AND Sub_metering_2=33.0 AND Sub_metering_3>25.0||15
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.40399999999999997 AND Sub_metering_3>12.0 AND Voltage<250.27||654968
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.38 AND Sub_metering_3>8.0||35018
+SELECT COUNT(*) FROM power WHERE Global_active_power<2.6519999999999997 AND Voltage=249.84 AND Sub_metering_1<23.0 AND Global_intensity<41.4 AND Global_reactive_power<0.8740000000000001||60
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.264 AND Global_intensity<40.2||4091
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<19.0 AND Global_reactive_power>0.43799999999999994 AND Voltage=231.59 AND Global_active_power>0.516||5
+SELECT COUNT(*) FROM power WHERE Global_active_power<2.5639999999999996 AND Global_reactive_power>0.498 AND Sub_metering_2<32.0 AND Voltage>240.26 AND Sub_metering_3<15.0||3235
+SELECT COUNT(*) FROM power WHERE Global_active_power=0.568 AND Sub_metering_2<64.0 AND Sub_metering_3<15.0||1185
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>11.0 AND Global_active_power<5.164 AND Sub_metering_2<13.0 AND Global_intensity>1.2||656767
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<55.0 AND Global_intensity<34.6||2074174
+SELECT COUNT(*) FROM power WHERE Voltage=227.05 AND Global_reactive_power<0.8759999999999999||9
+SELECT COUNT(*) FROM power WHERE Voltage>235.03 AND Global_reactive_power>0.478 AND Global_active_power<3.6319999999999997 AND Global_intensity<35.4||14660
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<8.0 AND Voltage>237.67||1199257
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<44.0 AND Global_reactive_power>0.6779999999999999 AND Sub_metering_2>72.0 AND Voltage<240.88||1
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<37.0 AND Global_active_power<2.6319999999999997||1898604
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>16.0 AND Sub_metering_2<47.0||653525
+SELECT COUNT(*) FROM power WHERE Voltage>232.67 AND Global_reactive_power>0.212 AND Global_intensity=7.0 AND Sub_metering_2<22.0||5657
+SELECT COUNT(*) FROM power WHERE Voltage>236.5 AND Sub_metering_2<6.0 AND Global_reactive_power>0.10400000000000001 AND Global_active_power<7.972||849327
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.54 AND Global_intensity>29.2||135
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.324 AND Sub_metering_1<38.0 AND Global_active_power=6.102||12
+SELECT COUNT(*) FROM power WHERE Sub_metering_1>1.0 AND Sub_metering_2=35.0 AND Global_intensity<11.2||1
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.242 AND Global_intensity=8.4 AND Global_active_power<6.984 AND Voltage=238.52 AND Sub_metering_3<22.0 AND Sub_metering_1<12.0||16
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>47.0 AND Sub_metering_1<74.0 AND Sub_metering_3=0.0||876
+SELECT COUNT(*) FROM power WHERE Global_intensity<12.8 AND Sub_metering_1<76.0 AND Sub_metering_2=15.0||344
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<4.0 AND Global_reactive_power<0.966 AND Sub_metering_1<13.0 AND Sub_metering_2<18.0||1311517
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.762 AND Global_active_power>2.906||7
+SELECT COUNT(*) FROM power WHERE Global_active_power<3.306 AND Global_intensity>11.4||60727
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=3.0 AND Sub_metering_2<1.0||1305
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.39 AND Voltage>233.31 AND Sub_metering_2<17.0 AND Global_intensity<20.8||43387
+SELECT COUNT(*) FROM power WHERE Global_active_power>5.794 AND Sub_metering_1<1.0 AND Sub_metering_3>19.0||41
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>3.0 AND Sub_metering_1=27.0||87
+SELECT COUNT(*) FROM power WHERE Global_intensity>33.4 AND Global_active_power>7.062 AND Voltage<234.09||432
+SELECT COUNT(*) FROM power WHERE Global_active_power>2.886 AND Voltage<245.87||138092
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=13.0 AND Voltage>246.4 AND Global_active_power<2.07 AND Global_reactive_power<1.18||12
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<56.0 AND Global_active_power>1.8459999999999999 AND Voltage=243.63||91
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>63.0 AND Global_intensity=24.0||95
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<59.0 AND Global_reactive_power<0.78 AND Global_intensity>0.2||2033435
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<72.0 AND Global_reactive_power<0.34600000000000003||1984144
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.972 AND Sub_metering_1<17.0||113
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.762 AND Global_intensity<39.2 AND Voltage>231.69 AND Sub_metering_1>69.0||1
+SELECT COUNT(*) FROM power WHERE Voltage<245.51 AND Global_intensity>24.8 AND Sub_metering_3=10.0||4
+SELECT COUNT(*) FROM power WHERE Sub_metering_1>18.0 AND Global_intensity=9.2 AND Global_reactive_power<0.722||91
+SELECT COUNT(*) FROM power WHERE Global_intensity<43.2 AND Global_reactive_power<0.528||2063281
+SELECT COUNT(*) FROM power WHERE Voltage=231.75 AND Sub_metering_1<26.0||70
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<4.0 AND Voltage>241.31 AND Global_active_power<3.978 AND Sub_metering_2=33.0||138
+SELECT COUNT(*) FROM power WHERE Global_active_power<4.148 AND Sub_metering_2=51.0||12
+SELECT COUNT(*) FROM power WHERE Global_intensity=23.4 AND Voltage<236.8||369
+SELECT COUNT(*) FROM power WHERE Global_intensity<27.4 AND Voltage<230.04||30787
+SELECT COUNT(*) FROM power WHERE Global_intensity>11.2 AND Global_active_power>4.606||25888
+SELECT COUNT(*) FROM power WHERE Voltage<244.85 AND Sub_metering_1<21.0||1829286
+SELECT COUNT(*) FROM power WHERE Global_active_power<3.23 AND Global_reactive_power<0.092||917766
+SELECT COUNT(*) FROM power WHERE Voltage=240.49 AND Global_reactive_power>0.516 AND Sub_metering_3<10.0||8
+SELECT COUNT(*) FROM power WHERE Voltage>248.36 AND Global_reactive_power<0.7879999999999999||18930
+SELECT COUNT(*) FROM power WHERE Voltage>241.25 AND Sub_metering_1=27.0 AND Global_active_power>0.948 AND Sub_metering_2<30.0 AND Sub_metering_3<26.0 AND Global_intensity>5.8||40
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<14.0 AND Global_intensity<16.0||1984680
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.084 AND Voltage>228.15 AND Sub_metering_1>29.0 AND Global_intensity<43.2||15521
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=18.0 AND Sub_metering_2<64.0 AND Voltage>229.18 AND Global_reactive_power=0.266 AND Sub_metering_1<25.0||516
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<18.0 AND Global_reactive_power<0.096 AND Global_active_power>0.366 AND Sub_metering_3>25.0||1249
+SELECT COUNT(*) FROM power WHERE Voltage>246.26 AND Sub_metering_1>0.0 AND Sub_metering_2<52.0 AND Global_active_power>2.434 AND Sub_metering_3>8.0 AND Global_reactive_power<0.292||84
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.44 AND Sub_metering_1=1.0 AND Voltage<240.18||2273
+SELECT COUNT(*) FROM power WHERE Global_active_power>2.7260000000000004 AND Global_intensity>25.4 AND Sub_metering_3<27.0 AND Global_reactive_power>0.542 AND Sub_metering_1>0.0 AND Voltage>237.8||25
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>37.0 AND Global_intensity>0.8 AND Global_active_power>7.7860000000000005 AND Global_reactive_power>0.276 AND Sub_metering_3>2.0||130
+SELECT COUNT(*) FROM power WHERE Global_active_power<7.69 AND Sub_metering_2>32.0||30652
+SELECT COUNT(*) FROM power WHERE Global_intensity<40.8 AND Sub_metering_1<31.0 AND Sub_metering_3>13.0 AND Global_reactive_power<0.838||641622
+SELECT COUNT(*) FROM power WHERE Global_active_power<5.5 AND Sub_metering_2>75.0||59
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<28.0 AND Sub_metering_2>58.0 AND Global_reactive_power>0.556 AND Voltage>227.12||50
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.418 AND Voltage<239.97||22587
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<73.0 AND Voltage=232.01||133
+SELECT COUNT(*) FROM power WHERE Global_intensity<21.2 AND Global_reactive_power>0.9 AND Sub_metering_2<19.0 AND Sub_metering_1<65.0||219
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.816 AND Sub_metering_1>58.0||695
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=1.0 AND Global_intensity>10.0 AND Sub_metering_1=28.0||34
+SELECT COUNT(*) FROM power WHERE Global_active_power>4.266 AND Sub_metering_3<5.0 AND Sub_metering_1<3.0||2657
+SELECT COUNT(*) FROM power WHERE Global_active_power<8.02 AND Sub_metering_2<6.0 AND Global_reactive_power>0.5920000000000001||4860
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<4.0 AND Voltage>228.44||1327212
+SELECT COUNT(*) FROM power WHERE Global_intensity<8.4 AND Voltage<226.87||26392
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>0.0 AND Global_reactive_power>0.41 AND Sub_metering_1=41.0||12
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.644 AND Sub_metering_3<27.0 AND Sub_metering_1<16.0||1998743
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.762 AND Global_active_power<7.526||17
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<59.0 AND Sub_metering_1>5.0 AND Voltage<250.2 AND Global_intensity<32.0||62924
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>20.0 AND Global_active_power>0.986 AND Global_reactive_power>0.956 AND Global_intensity<25.6 AND Sub_metering_3>7.0||11
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>69.0 AND Global_active_power>1.018||2750
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<32.0 AND Voltage<244.31 AND Sub_metering_2>52.0||3758
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<2.0 AND Sub_metering_2>70.0||765
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<23.0 AND Global_intensity>21.0 AND Sub_metering_3=17.0 AND Sub_metering_1>67.0||219
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<8.0 AND Sub_metering_2=1.0 AND Voltage<229.8 AND Global_active_power>5.874||5
+SELECT COUNT(*) FROM power WHERE Global_intensity>13.8 AND Sub_metering_2<41.0 AND Sub_metering_3<17.0 AND Sub_metering_1<58.0 AND Global_active_power>1.278 AND Global_reactive_power<0.7020000000000001||21713
+SELECT COUNT(*) FROM power WHERE Global_intensity>16.2 AND Sub_metering_1<31.0 AND Sub_metering_2=34.0 AND Voltage=231.94||1
+SELECT COUNT(*) FROM power WHERE Voltage=237.93 AND Global_intensity>23.8 AND Sub_metering_1<71.0||4
+SELECT COUNT(*) FROM power WHERE Global_active_power>2.16 AND Global_reactive_power>0.21600000000000003 AND Global_intensity=11.6||2107
+SELECT COUNT(*) FROM power WHERE Global_intensity=14.8 AND Sub_metering_2=1.0||516
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.9740000000000001 AND Voltage>228.52 AND Sub_metering_2>4.0 AND Global_active_power<4.106 AND Sub_metering_3>18.0 AND Global_intensity=12.4||48
+SELECT COUNT(*) FROM power WHERE Global_intensity=23.4 AND Sub_metering_3>4.0 AND Voltage<237.94||372
+SELECT COUNT(*) FROM power WHERE Global_active_power>3.5 AND Global_reactive_power>0.452 AND Voltage>227.16 AND Global_intensity=19.4 AND Sub_metering_3<5.0||33
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>10.0 AND Global_intensity>16.6 AND Sub_metering_3<8.0 AND Global_active_power>0.6679999999999999 AND Sub_metering_1=28.0||5
+SELECT COUNT(*) FROM power WHERE Global_intensity=14.8 AND Voltage<245.92 AND Sub_metering_1=3.0 AND Sub_metering_3<27.0||2
+SELECT COUNT(*) FROM power WHERE Global_intensity<41.4 AND Voltage<230.25||31992
+SELECT COUNT(*) FROM power WHERE Voltage>239.21 AND Global_reactive_power>0.168||414066
+SELECT COUNT(*) FROM power WHERE Voltage<251.89 AND Sub_metering_3<7.0 AND Global_active_power>0.68 AND Global_intensity<37.2 AND Global_reactive_power<0.594||273492
+SELECT COUNT(*) FROM power WHERE Global_active_power<6.482 AND Sub_metering_3<30.0 AND Global_reactive_power>0.18600000000000003 AND Sub_metering_2=41.0 AND Sub_metering_1>4.0 AND Global_intensity>5.4||6
+SELECT COUNT(*) FROM power WHERE Global_intensity>15.4 AND Global_reactive_power<0.22 AND Sub_metering_2<69.0 AND Voltage>233.48||32061
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<28.0 AND Global_intensity<6.4 AND Global_reactive_power=0.682||9
+SELECT COUNT(*) FROM power WHERE Global_intensity<40.6 AND Sub_metering_1>20.0 AND Sub_metering_3>2.0 AND Voltage>234.12 AND Global_reactive_power=0.532 AND Sub_metering_2<2.0||15
+SELECT COUNT(*) FROM power WHERE Voltage<237.54 AND Global_active_power<3.8939999999999997 AND Global_reactive_power<0.055999999999999994 AND Sub_metering_1<41.0||94125
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>27.0 AND Voltage<241.11 AND Global_active_power=7.394||2
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<78.0 AND Global_reactive_power<0.098 AND Global_intensity<22.4 AND Voltage>248.23||11770
+SELECT COUNT(*) FROM power WHERE Voltage=237.91 AND Global_intensity<13.4 AND Global_active_power>1.92 AND Sub_metering_3=0.0||53
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<32.0 AND Voltage=232.21 AND Global_reactive_power<0.838||119
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<73.0 AND Global_active_power>2.09||283269
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<65.0 AND Sub_metering_3>28.0 AND Global_reactive_power>0.24||6386
+SELECT COUNT(*) FROM power WHERE Global_intensity>0.8 AND Sub_metering_2>39.0||5654
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>27.0 AND Global_intensity>32.6 AND Sub_metering_1>60.0||18
+SELECT COUNT(*) FROM power WHERE Sub_metering_1>75.0 AND Global_active_power>0.24600000000000002||192
+SELECT COUNT(*) FROM power WHERE Global_active_power>5.35 AND Global_intensity<34.2 AND Global_reactive_power<0.20199999999999999 AND Sub_metering_1<62.0 AND Sub_metering_3<21.0||5212
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>2.0 AND Sub_metering_2>12.0 AND Global_intensity>3.2||33035
+SELECT COUNT(*) FROM power WHERE Voltage=230.29 AND Sub_metering_1<10.0||24
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=1.0 AND Global_intensity=10.2 AND Global_active_power>0.19399999999999998 AND Sub_metering_2<22.0||341
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>17.0 AND Sub_metering_2>47.0 AND Sub_metering_1<36.0 AND Global_intensity=22.0||9
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.602 AND Global_active_power<0.718||1098956
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>0.0 AND Sub_metering_2>35.0||18691
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=4.0 AND Sub_metering_1<40.0 AND Sub_metering_2<40.0 AND Global_reactive_power<0.606||1903
+SELECT COUNT(*) FROM power WHERE Voltage<239.38 AND Sub_metering_3<7.0 AND Global_reactive_power>0.986||24
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<7.0 AND Global_intensity<11.4||1898995
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<45.0 AND Global_active_power<5.522 AND Sub_metering_2>20.0 AND Global_intensity<6.8||153
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.33 AND Voltage>224.62 AND Global_intensity<25.4 AND Global_active_power>5.91||3
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=9.0 AND Sub_metering_3>1.0||357
+SELECT COUNT(*) FROM power WHERE Voltage>244.19 AND Global_intensity=16.4||43
+SELECT COUNT(*) FROM power WHERE Voltage=237.41 AND Sub_metering_2=16.0||2
+SELECT COUNT(*) FROM power WHERE Global_intensity=22.6 AND Global_reactive_power>0.376 AND Voltage<231.08||4
+SELECT COUNT(*) FROM power WHERE Voltage>235.47 AND Global_intensity<23.0||1923325
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=23.0 AND Global_active_power>2.084||250
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<20.0 AND Voltage<243.38 AND Sub_metering_2>42.0||4111
+SELECT COUNT(*) FROM power WHERE Sub_metering_1>50.0 AND Global_reactive_power>0.28800000000000003||555
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.74 AND Sub_metering_3<27.0||1338
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<1.0 AND Global_intensity<5.8 AND Sub_metering_3<22.0||1360371
+SELECT COUNT(*) FROM power WHERE Voltage>231.18 AND Global_reactive_power=0.188||8595
+SELECT COUNT(*) FROM power WHERE Global_active_power=4.044 AND Global_reactive_power<0.738||94
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>35.0 AND Sub_metering_1<25.0 AND Global_reactive_power<0.8320000000000001 AND Global_active_power>7.568 AND Sub_metering_3<17.0 AND Global_intensity=40.8||1
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.122 AND Voltage<239.53||273353
+SELECT COUNT(*) FROM power WHERE Global_active_power>7.946000000000001 AND Sub_metering_1>4.0 AND Sub_metering_3<10.0||13
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.862 AND Sub_metering_3<21.0 AND Voltage>231.55||2014744
+SELECT COUNT(*) FROM power WHERE Global_intensity<39.2 AND Global_reactive_power<0.306 AND Global_active_power>3.9219999999999997 AND Sub_metering_1>47.0 AND Sub_metering_2>34.0 AND Sub_metering_3>4.0||14
+SELECT COUNT(*) FROM power WHERE Global_intensity>9.6 AND Sub_metering_2<14.0 AND Global_active_power>5.25 AND Sub_metering_3<20.0||5515
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<66.0 AND Sub_metering_2=71.0||457
+SELECT COUNT(*) FROM power WHERE Voltage>246.29 AND Sub_metering_1<8.0||82226
+SELECT COUNT(*) FROM power WHERE Voltage<229.28 AND Global_active_power<1.9280000000000002||27768
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<27.0 AND Sub_metering_2>31.0 AND Voltage>230.32 AND Global_intensity=9.2||39
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=20.0 AND Sub_metering_2<47.0||4666
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<2.0 AND Global_reactive_power<0.8540000000000001 AND Voltage>232.08 AND Global_active_power>5.617999999999999 AND Sub_metering_3<30.0||2357
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<64.0 AND Global_reactive_power>0.055999999999999994 AND Global_intensity<11.0 AND Voltage<233.04 AND Sub_metering_1>16.0 AND Global_active_power<4.904||94
+SELECT COUNT(*) FROM power WHERE Global_active_power>0.43200000000000005 AND Voltage>236.75 AND Global_reactive_power<0.162 AND Sub_metering_1>33.0||14276
+SELECT COUNT(*) FROM power WHERE Voltage>231.0 AND Sub_metering_1>70.0||433
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<39.0 AND Sub_metering_1<23.0||2013055
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=20.0 AND Sub_metering_3=1.0 AND Global_reactive_power>0.17600000000000002||112
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>5.0 AND Global_reactive_power=0.828||4
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<28.0 AND Sub_metering_2>54.0 AND Global_intensity<40.2||3685
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<29.0 AND Global_intensity=14.6 AND Sub_metering_3<6.0 AND Global_active_power<7.256 AND Voltage<238.8 AND Sub_metering_1<22.0||135
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<10.0 AND Sub_metering_3>5.0 AND Sub_metering_2>28.0 AND Voltage>238.64 AND Global_intensity=23.2 AND Global_reactive_power<0.332||14
+SELECT COUNT(*) FROM power WHERE Global_active_power>5.47 AND Sub_metering_2=53.0 AND Sub_metering_3<19.0 AND Sub_metering_1>8.0||1
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<5.0 AND Global_intensity=16.0 AND Sub_metering_1>47.0||6
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<79.0 AND Voltage<250.29 AND Global_reactive_power=0.066||18377
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=41.0 AND Sub_metering_3<8.0||112
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<21.0 AND Voltage<242.94 AND Global_intensity>20.8||8346
+SELECT COUNT(*) FROM power WHERE Global_intensity<37.6 AND Sub_metering_3<3.0||1351906
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<62.0 AND Sub_metering_1=36.0||5184
+SELECT COUNT(*) FROM power WHERE Global_active_power<8.722000000000001 AND Sub_metering_3<20.0||2050190
+SELECT COUNT(*) FROM power WHERE Global_active_power<2.256 AND Sub_metering_2=4.0||4409
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<65.0 AND Sub_metering_2=67.0||101
+SELECT COUNT(*) FROM power WHERE Global_intensity=44.2 AND Voltage<245.85||1
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<45.0 AND Global_intensity<36.8 AND Global_active_power<1.276 AND Global_reactive_power=0.36 AND Voltage>235.97||1002
+SELECT COUNT(*) FROM power WHERE Voltage>240.78 AND Sub_metering_1<25.0 AND Global_reactive_power>0.19399999999999998||243944
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=41.0 AND Sub_metering_3<9.0||87
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>22.0 AND Sub_metering_1<49.0 AND Global_reactive_power>0.802||83
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=47.0 AND Global_reactive_power=0.096||1
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=19.0 AND Global_intensity>29.2||3
+SELECT COUNT(*) FROM power WHERE Global_intensity=20.0 AND Voltage>237.44 AND Sub_metering_1<24.0 AND Sub_metering_2<46.0||165
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<1.092 AND Sub_metering_3=4.0 AND Global_active_power<9.162||1913
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.184 AND Global_intensity<40.8 AND Sub_metering_1>26.0 AND Sub_metering_2>1.0 AND Voltage>235.44 AND Sub_metering_3>13.0||15
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<16.0 AND Global_reactive_power<0.758||1402840
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>2.0 AND Sub_metering_1<49.0 AND Global_reactive_power>0.314 AND Sub_metering_2<49.0 AND Voltage>236.7||56869
+SELECT COUNT(*) FROM power WHERE Global_active_power>1.374 AND Global_reactive_power<0.428 AND Global_intensity>19.8||20790
+SELECT COUNT(*) FROM power WHERE Global_intensity<26.2 AND Global_active_power<4.412||2044017
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<43.0 AND Global_intensity<28.0 AND Voltage>227.08||2043573
+SELECT COUNT(*) FROM power WHERE Voltage=230.11 AND Global_intensity<9.8||8
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<31.0 AND Voltage<244.61 AND Sub_metering_3>13.0 AND Global_active_power>1.446 AND Sub_metering_2>41.0 AND Global_intensity<44.4||2871
+SELECT COUNT(*) FROM power WHERE Global_active_power<8.044 AND Sub_metering_1<46.0 AND Voltage<233.82||78607
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=18.0 AND Sub_metering_2>51.0||784
+SELECT COUNT(*) FROM power WHERE Voltage<248.9 AND Global_active_power>0.44||1154557
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.26 AND Sub_metering_1<76.0 AND Global_active_power>6.16 AND Sub_metering_2>50.0 AND Voltage<233.52 AND Sub_metering_3<7.0||2
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<25.0 AND Sub_metering_1<60.0||2031550
+SELECT COUNT(*) FROM power WHERE Voltage>230.21 AND Global_active_power<3.48||1959594
+SELECT COUNT(*) FROM power WHERE Global_intensity<39.0 AND Sub_metering_1>18.0 AND Global_reactive_power>0.46799999999999997 AND Sub_metering_2=15.0 AND Global_active_power<7.99 AND Voltage<236.84||3
+SELECT COUNT(*) FROM power WHERE Global_active_power<7.91 AND Sub_metering_2<48.0 AND Global_intensity<23.6 AND Sub_metering_3<20.0 AND Voltage<241.92 AND Sub_metering_1>20.0||45516
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<48.0 AND Sub_metering_2<68.0 AND Global_active_power<7.8260000000000005||2070589
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<1.0 AND Global_reactive_power<0.306||836469
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>23.0 AND Global_active_power=4.688 AND Global_reactive_power<0.6||17
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<46.0 AND Sub_metering_1<56.0 AND Voltage<241.95 AND Global_intensity<19.0||1292487
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>4.0 AND Global_intensity=37.6||7
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=0.0 AND Sub_metering_2>3.0||54122
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>1.0 AND Global_active_power=2.616||70
+SELECT COUNT(*) FROM power WHERE Sub_metering_1>64.0 AND Voltage<251.88||608
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.126 AND Global_active_power>2.214 AND Sub_metering_2=16.0 AND Global_intensity>18.8 AND Voltage<246.22||20
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<14.0 AND Global_reactive_power<0.22399999999999998 AND Global_active_power>0.602 AND Voltage<228.48 AND Global_intensity>6.4 AND Sub_metering_1>47.0||6
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<52.0 AND Global_intensity=14.6 AND Sub_metering_3>14.0 AND Global_reactive_power=0.494||3
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.614 AND Global_intensity=11.2||71
+SELECT COUNT(*) FROM power WHERE Global_intensity<24.6 AND Sub_metering_3>10.0||699459
+SELECT COUNT(*) FROM power WHERE Global_intensity<18.6 AND Sub_metering_3=6.0||1971
+SELECT COUNT(*) FROM power WHERE Voltage=237.8 AND Global_intensity<16.4 AND Sub_metering_3<23.0||1363
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>48.0 AND Global_reactive_power<0.38 AND Voltage=230.9 AND Global_active_power>2.966||2
+SELECT COUNT(*) FROM power WHERE Voltage>249.34 AND Global_intensity<3.2||6842
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>18.0 AND Global_reactive_power<0.638 AND Voltage>242.55 AND Sub_metering_3>1.0||1616
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.696 AND Voltage<234.2 AND Sub_metering_2>69.0||816
+SELECT COUNT(*) FROM power WHERE Global_active_power>5.42 AND Sub_metering_3>16.0 AND Sub_metering_2<19.0||3369
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>24.0 AND Global_active_power>4.984 AND Sub_metering_1<67.0||360
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<21.0 AND Global_active_power>1.192 AND Sub_metering_1=39.0||6307
+SELECT COUNT(*) FROM power WHERE Global_intensity=37.8 AND Global_reactive_power<0.7979999999999999||9
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>1.0 AND Global_active_power>1.294 AND Global_reactive_power<1.148||634481
+SELECT COUNT(*) FROM power WHERE Global_intensity<4.4 AND Global_active_power<1.04 AND Global_reactive_power<0.7020000000000001||1185911
+SELECT COUNT(*) FROM power WHERE Global_intensity>22.6 AND Global_reactive_power<0.612 AND Sub_metering_3=14.0||10
+SELECT COUNT(*) FROM power WHERE Global_intensity<28.8 AND Sub_metering_2=52.0||43
+SELECT COUNT(*) FROM power WHERE Global_active_power>1.112 AND Sub_metering_3=2.0||297
+SELECT COUNT(*) FROM power WHERE Voltage<246.31 AND Sub_metering_1>50.0||1133
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<77.0 AND Sub_metering_2=2.0 AND Global_intensity=5.4||1934
+SELECT COUNT(*) FROM power WHERE Global_intensity>13.8 AND Sub_metering_3<7.0||17003
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>12.0 AND Sub_metering_1<45.0||677193
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<73.0 AND Global_active_power<8.1||2073598
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<7.0 AND Global_active_power>2.468||146941
+SELECT COUNT(*) FROM power WHERE Global_intensity<13.2 AND Global_reactive_power>0.826 AND Sub_metering_3>20.0||9
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<53.0 AND Voltage<229.6 AND Sub_metering_2=64.0||2
+SELECT COUNT(*) FROM power WHERE Global_intensity>16.8 AND Global_reactive_power=0.358 AND Global_active_power<7.524||133
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<43.0 AND Voltage<227.76 AND Sub_metering_3>12.0||742
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<5.0 AND Global_active_power=0.466 AND Voltage>245.49||237
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=17.0 AND Global_active_power<3.406||122977
+SELECT COUNT(*) FROM power WHERE Global_intensity<28.0 AND Global_active_power<7.196000000000001 AND Sub_metering_2>14.0||53151
+SELECT COUNT(*) FROM power WHERE Global_intensity<10.4 AND Sub_metering_3<6.0||1310195
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.20199999999999999 AND Sub_metering_1<7.0||1561760
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.41200000000000003 AND Sub_metering_1=29.0 AND Voltage>236.66||42
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.3 AND Global_intensity>11.8 AND Sub_metering_2>66.0||8
+SELECT COUNT(*) FROM power WHERE Global_active_power<9.134 AND Voltage<233.65 AND Sub_metering_2>14.0||6460
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>5.0 AND Voltage>225.17||59824
+SELECT COUNT(*) FROM power WHERE Global_intensity<7.8 AND Sub_metering_2<45.0||1718996
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.366 AND Global_intensity>18.0||84
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.636 AND Sub_metering_1>37.0||224
+SELECT COUNT(*) FROM power WHERE Sub_metering_1>9.0 AND Global_intensity>34.6 AND Voltage>233.25||88
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<5.0 AND Global_active_power<5.1 AND Sub_metering_1>54.0||59
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<2.0 AND Global_intensity>11.8 AND Voltage<225.64||11
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>15.0 AND Global_intensity=23.2 AND Global_reactive_power<0.47 AND Sub_metering_1=0.0 AND Sub_metering_2>5.0 AND Voltage>237.19||16
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>14.0 AND Global_active_power>2.31 AND Sub_metering_3>29.0 AND Global_reactive_power>0.622 AND Global_intensity<36.6||3
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<11.0 AND Sub_metering_1>34.0 AND Global_active_power<3.2739999999999996||10397
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.132 AND Sub_metering_2=21.0||423
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.586 AND Global_active_power<5.648||5832
+SELECT COUNT(*) FROM power WHERE Global_intensity>11.0 AND Sub_metering_3>21.0||4868
+SELECT COUNT(*) FROM power WHERE Voltage<249.32 AND Sub_metering_2>45.0 AND Global_intensity>7.2 AND Global_reactive_power>0.622||25
+SELECT COUNT(*) FROM power WHERE Global_intensity=12.4 AND Sub_metering_3<11.0 AND Global_reactive_power<0.49200000000000005 AND Global_active_power<2.802 AND Voltage<242.61||98
+SELECT COUNT(*) FROM power WHERE Voltage<238.3 AND Global_intensity<28.2 AND Sub_metering_2<10.0 AND Sub_metering_1<42.0 AND Sub_metering_3<16.0||194322
+SELECT COUNT(*) FROM power WHERE Global_active_power=2.226 AND Global_intensity<15.6||391
+SELECT COUNT(*) FROM power WHERE Global_intensity<32.8 AND Voltage>245.14 AND Sub_metering_1<57.0 AND Sub_metering_3>15.0 AND Global_active_power>4.62 AND Global_reactive_power<0.43200000000000005||40
+SELECT COUNT(*) FROM power WHERE Global_active_power>3.8560000000000003 AND Global_intensity<29.0||53254
+SELECT COUNT(*) FROM power WHERE Voltage<234.15 AND Sub_metering_2=8.0 AND Global_reactive_power<0.862 AND Sub_metering_1<12.0||17
+SELECT COUNT(*) FROM power WHERE Global_intensity<11.4 AND Global_reactive_power=0.324||2335
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=45.0 AND Global_reactive_power<0.054000000000000006||6
+SELECT COUNT(*) FROM power WHERE Global_intensity=27.0 AND Sub_metering_2<36.0 AND Voltage>232.43 AND Sub_metering_1>50.0 AND Global_reactive_power<0.64 AND Sub_metering_3>4.0||12
+SELECT COUNT(*) FROM power WHERE Global_active_power>8.468 AND Global_intensity>1.6||167
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.856 AND Sub_metering_1>45.0 AND Sub_metering_2<49.0||3
+SELECT COUNT(*) FROM power WHERE Global_active_power<6.426 AND Voltage<246.65||2006160
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<17.0 AND Global_reactive_power<0.21 AND Global_intensity=25.0||119
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=14.0 AND Voltage>230.33||534
+SELECT COUNT(*) FROM power WHERE Voltage<235.12 AND Sub_metering_3>17.0||5481
+SELECT COUNT(*) FROM power WHERE Global_intensity=26.4 AND Global_reactive_power<0.28800000000000003||144
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<25.0 AND Sub_metering_1<28.0 AND Global_active_power<2.688 AND Sub_metering_2<76.0 AND Global_intensity<29.0 AND Global_reactive_power<0.96||1890802
+SELECT COUNT(*) FROM power WHERE Voltage=228.25 AND Sub_metering_2>14.0||1
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.6679999999999999 AND Global_intensity=25.4 AND Sub_metering_1<79.0 AND Global_active_power>0.76||3
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=41.0 AND Global_reactive_power<0.32 AND Global_active_power>5.684||8
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=13.0 AND Sub_metering_2<74.0||5339
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=14.0 AND Sub_metering_3<19.0||398
+SELECT COUNT(*) FROM power WHERE Voltage>242.67 AND Global_intensity<33.8||562108
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>10.0 AND Sub_metering_3<9.0 AND Global_active_power>5.078||1221
+SELECT COUNT(*) FROM power WHERE Voltage<236.71 AND Sub_metering_3<24.0||230375
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.8859999999999999 AND Voltage<228.8||28352
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.278 AND Sub_metering_3=15.0 AND Sub_metering_2<55.0 AND Global_active_power<7.504||1
+SELECT COUNT(*) FROM power WHERE Global_active_power<4.854 AND Voltage=249.89||47
+SELECT COUNT(*) FROM power WHERE Global_intensity<22.6 AND Global_reactive_power>0.23800000000000002 AND Voltage=232.03 AND Sub_metering_1<13.0 AND Sub_metering_3<27.0||14
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.5760000000000001 AND Global_intensity<7.0 AND Sub_metering_3>7.0||168
+SELECT COUNT(*) FROM power WHERE Voltage<241.6 AND Global_reactive_power=0.43 AND Sub_metering_3=30.0||4
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<67.0 AND Global_intensity>23.0||8985
+SELECT COUNT(*) FROM power WHERE Sub_metering_1>5.0 AND Voltage>225.26 AND Global_reactive_power>0.114 AND Sub_metering_2<33.0||38742
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.904 AND Global_intensity<31.4||3
+SELECT COUNT(*) FROM power WHERE Global_intensity<8.2 AND Voltage>239.72 AND Sub_metering_2<41.0 AND Global_reactive_power=0.278 AND Global_active_power<0.48200000000000004 AND Sub_metering_1<53.0||663
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<12.0 AND Sub_metering_3>9.0 AND Global_active_power=4.364||36
+SELECT COUNT(*) FROM power WHERE Global_active_power<1.508 AND Sub_metering_2<61.0||1544409
+SELECT COUNT(*) FROM power WHERE Voltage=244.9 AND Sub_metering_2<74.0 AND Global_active_power>2.864 AND Sub_metering_1<71.0 AND Global_intensity>4.8||7
+SELECT COUNT(*) FROM power WHERE Voltage=236.95 AND Global_intensity<35.8||700
+SELECT COUNT(*) FROM power WHERE Global_active_power>7.9239999999999995 AND Voltage<244.52 AND Sub_metering_1<20.0||89
+SELECT COUNT(*) FROM power WHERE Global_intensity<24.0 AND Sub_metering_1<11.0||2009986
+SELECT COUNT(*) FROM power WHERE Voltage<226.94 AND Global_reactive_power<0.106||26341
+SELECT COUNT(*) FROM power WHERE Global_intensity<34.2 AND Sub_metering_3>15.0||671472
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>71.0 AND Global_reactive_power=0.294||5
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<20.0 AND Voltage<247.76||2020694
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<54.0 AND Global_active_power=3.208 AND Voltage<242.58||144
+SELECT COUNT(*) FROM power WHERE Global_active_power>3.7119999999999997 AND Sub_metering_2=50.0 AND Global_intensity<40.6 AND Global_reactive_power>0.184||12
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.326 AND Global_active_power>2.9819999999999998||25403
+SELECT COUNT(*) FROM power WHERE Global_active_power>3.392 AND Sub_metering_2>41.0||4571
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<31.0 AND Global_reactive_power<0.368 AND Global_active_power=6.046||6
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.79 AND Sub_metering_2=51.0||47
+SELECT COUNT(*) FROM power WHERE Global_intensity<18.8 AND Sub_metering_1=25.0 AND Global_reactive_power<0.08800000000000001||92
+SELECT COUNT(*) FROM power WHERE Global_active_power<7.294 AND Voltage=224.54 AND Sub_metering_3<10.0||1
+SELECT COUNT(*) FROM power WHERE Global_intensity<17.4 AND Sub_metering_2<78.0||2032379
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=11.0 AND Sub_metering_2<73.0 AND Global_intensity=22.8||2
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.836 AND Global_intensity<28.0||17
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.106 AND Sub_metering_3=21.0 AND Global_active_power<5.442 AND Voltage<236.25||1
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.16 AND Sub_metering_3>19.0 AND Voltage>232.65 AND Sub_metering_2>52.0 AND Global_active_power>4.216||18
+SELECT COUNT(*) FROM power WHERE Global_intensity=18.4 AND Global_active_power>2.528 AND Global_reactive_power<0.06||259
+SELECT COUNT(*) FROM power WHERE Global_active_power>0.446 AND Sub_metering_3=28.0 AND Global_reactive_power<0.336||3218
+SELECT COUNT(*) FROM power WHERE Voltage>226.42 AND Global_active_power<7.206 AND Sub_metering_2>24.0 AND Sub_metering_1<31.0 AND Sub_metering_3>22.0||374
+SELECT COUNT(*) FROM power WHERE Global_active_power<0.47200000000000003 AND Voltage>246.79||42456
+SELECT COUNT(*) FROM power WHERE Global_active_power>3.0980000000000003 AND Global_intensity>24.0 AND Sub_metering_1<63.0 AND Sub_metering_3<19.0||7900
+SELECT COUNT(*) FROM power WHERE Global_intensity<37.4 AND Sub_metering_1>30.0||50778
+SELECT COUNT(*) FROM power WHERE Voltage<236.94 AND Sub_metering_2<40.0 AND Global_reactive_power>0.514 AND Sub_metering_3=28.0||65
+SELECT COUNT(*) FROM power WHERE Voltage>226.09 AND Sub_metering_1=14.0||702
+SELECT COUNT(*) FROM power WHERE Voltage=243.81 AND Global_intensity>4.2||325
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<71.0 AND Sub_metering_2=33.0 AND Voltage>245.02 AND Global_intensity<39.4||19
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>14.0 AND Global_intensity=18.8 AND Global_active_power>1.526||1014
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.716 AND Sub_metering_2>28.0 AND Global_intensity<20.6 AND Voltage<240.06||49
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=13.0 AND Voltage<237.85 AND Global_intensity<35.4||217
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=38.0 AND Global_reactive_power<0.134||7169
+SELECT COUNT(*) FROM power WHERE Global_active_power>2.638 AND Voltage>226.82 AND Global_reactive_power>0.10400000000000001 AND Sub_metering_1=47.0||98
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.738 AND Voltage<243.43 AND Sub_metering_3<5.0 AND Sub_metering_1<31.0 AND Global_active_power>6.466||92
+SELECT COUNT(*) FROM power WHERE Voltage<245.23 AND Global_active_power=1.268||1450
+SELECT COUNT(*) FROM power WHERE Global_active_power<5.8420000000000005 AND Sub_metering_2=7.0||695
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.74 AND Sub_metering_3>15.0 AND Global_intensity>21.8||6
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<38.0 AND Global_active_power>1.788 AND Global_intensity<29.2||345384
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.63 AND Global_intensity>0.2 AND Global_active_power>0.706||3936
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.8420000000000001 AND Sub_metering_3<17.0 AND Sub_metering_2<75.0 AND Sub_metering_1>55.0||2
+SELECT COUNT(*) FROM power WHERE Global_active_power>5.5520000000000005 AND Global_reactive_power>0.055999999999999994 AND Sub_metering_3>21.0||223
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.774 AND Sub_metering_1<9.0 AND Global_intensity<34.4||934
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.8640000000000001 AND Global_active_power>6.768 AND Sub_metering_3>12.0 AND Global_intensity>20.2 AND Sub_metering_2>23.0 AND Voltage<232.74||618
+SELECT COUNT(*) FROM power WHERE Voltage=233.65 AND Global_intensity=13.6||2
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<17.0 AND Global_reactive_power>0.29||100818
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.96 AND Sub_metering_3>18.0 AND Sub_metering_2>21.0 AND Global_intensity<42.2||2196
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=40.0 AND Sub_metering_1<41.0||727
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<47.0 AND Sub_metering_2>68.0 AND Global_active_power>0.63||2897
+SELECT COUNT(*) FROM power WHERE Global_intensity>36.0 AND Sub_metering_2=64.0||1
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.368 AND Sub_metering_2>3.0 AND Voltage<249.36 AND Global_active_power>2.026||7453
+SELECT COUNT(*) FROM power WHERE Global_intensity>30.2 AND Sub_metering_1=46.0 AND Sub_metering_2>27.0||1
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<72.0 AND Voltage<227.15||26755
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=74.0 AND Voltage<239.96||80
+SELECT COUNT(*) FROM power WHERE Global_intensity>27.2 AND Sub_metering_3<29.0||3208
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.28 AND Sub_metering_3<16.0 AND Sub_metering_1<47.0 AND Voltage<235.32||5508
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.40399999999999997 AND Voltage>248.27||136
+SELECT COUNT(*) FROM power WHERE Sub_metering_1>52.0 AND Global_reactive_power<1.012||943
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.722 AND Global_intensity=36.8 AND Sub_metering_3>7.0||6
+SELECT COUNT(*) FROM power WHERE Voltage<238.06 AND Global_reactive_power>0.064||248427
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=25.0 AND Voltage>233.39||674
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.46399999999999997 AND Sub_metering_2>59.0 AND Voltage=228.7||2
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<3.0 AND Sub_metering_3>14.0||629112
+SELECT COUNT(*) FROM power WHERE Global_intensity<32.6 AND Voltage<251.52 AND Sub_metering_2>33.0||29422
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.71 AND Sub_metering_2=2.0 AND Voltage=243.99 AND Sub_metering_3>10.0 AND Sub_metering_1<31.0||20
+SELECT COUNT(*) FROM power WHERE Global_active_power=6.772 AND Global_reactive_power<0.95||2
+SELECT COUNT(*) FROM power WHERE Voltage<236.8 AND Sub_metering_3<29.0||240032
+SELECT COUNT(*) FROM power WHERE Voltage>230.85 AND Global_active_power<4.6419999999999995 AND Sub_metering_3=13.0||5326
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<30.0 AND Sub_metering_3>2.0 AND Sub_metering_2<69.0||689279
+SELECT COUNT(*) FROM power WHERE Sub_metering_1<17.0 AND Sub_metering_3=18.0 AND Global_intensity>29.2 AND Voltage<239.25 AND Sub_metering_2<32.0 AND Global_active_power>5.617999999999999||16
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.7879999999999999 AND Sub_metering_2>1.0||295
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<22.0 AND Global_reactive_power>0.516 AND Sub_metering_3>20.0||849
+SELECT COUNT(*) FROM power WHERE Voltage>231.12 AND Global_active_power<1.676 AND Sub_metering_1<13.0||1620999
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>12.0 AND Sub_metering_2>71.0||1337
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=30.0 AND Voltage<229.5||10
+SELECT COUNT(*) FROM power WHERE Global_active_power<2.05 AND Sub_metering_2<32.0||1781475
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<1.036 AND Global_active_power<7.644||2074426
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.8220000000000001 AND Global_active_power<5.664 AND Voltage>247.69 AND Global_intensity<23.2||32070
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<9.0 AND Sub_metering_1>29.0||19322
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<11.0 AND Global_reactive_power=0.65||64
+SELECT COUNT(*) FROM power WHERE Voltage>244.84 AND Global_active_power<0.9640000000000001||152440
+SELECT COUNT(*) FROM power WHERE Global_active_power=5.9 AND Global_intensity>25.0 AND Global_reactive_power<1.04||8
+SELECT COUNT(*) FROM power WHERE Global_active_power<5.652 AND Sub_metering_1=44.0||319
+SELECT COUNT(*) FROM power WHERE Global_active_power<6.266 AND Sub_metering_1=39.0 AND Global_intensity<14.6||2561
+SELECT COUNT(*) FROM power WHERE Global_intensity<31.0 AND Voltage>230.29 AND Sub_metering_3=0.0||850677
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.84 AND Global_active_power=2.966||222
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<13.0 AND Global_active_power<2.7439999999999998 AND Global_reactive_power<0.16 AND Voltage<246.95||937090
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<50.0 AND Global_intensity>18.4 AND Sub_metering_1=16.0||57
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=43.0 AND Global_active_power>5.414||107
+SELECT COUNT(*) FROM power WHERE Voltage<251.17 AND Global_reactive_power<0.762 AND Sub_metering_1<53.0 AND Sub_metering_2<72.0||2069999
+SELECT COUNT(*) FROM power WHERE Global_active_power>3.886 AND Global_intensity>31.4 AND Sub_metering_2=75.0||10
+SELECT COUNT(*) FROM power WHERE Global_intensity<21.0 AND Sub_metering_2<8.0 AND Global_reactive_power<0.624||2005026
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<31.0 AND Voltage=228.31 AND Global_reactive_power<0.5479999999999999 AND Global_active_power<5.118||3
+SELECT COUNT(*) FROM power WHERE Global_intensity<38.6 AND Sub_metering_3>24.0||17489
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=1.0 AND Global_intensity=23.4||36
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.262 AND Global_intensity<34.6 AND Sub_metering_2<9.0 AND Voltage>243.61||339018
+SELECT COUNT(*) FROM power WHERE Global_intensity=25.4 AND Sub_metering_2>48.0||78
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.758 AND Sub_metering_2>36.0||39
+SELECT COUNT(*) FROM power WHERE Voltage<230.54 AND Sub_metering_3<30.0||33212
+SELECT COUNT(*) FROM power WHERE Global_active_power<8.01 AND Sub_metering_1=43.0||339
+SELECT COUNT(*) FROM power WHERE Voltage>231.77 AND Sub_metering_1=16.0||560
+SELECT COUNT(*) FROM power WHERE Global_intensity>10.6 AND Global_reactive_power>0.664 AND Voltage<241.87 AND Sub_metering_2>7.0 AND Global_active_power>1.84||349
+SELECT COUNT(*) FROM power WHERE Global_intensity<37.4 AND Global_active_power>2.544 AND Global_reactive_power<0.28 AND Sub_metering_3=20.0 AND Sub_metering_2<36.0||251
+SELECT COUNT(*) FROM power WHERE Sub_metering_2=41.0 AND Global_reactive_power=0.304||1
+SELECT COUNT(*) FROM power WHERE Sub_metering_1>64.0 AND Global_reactive_power>0.5 AND Global_active_power>1.054||43
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=26.0 AND Sub_metering_3>10.0||320
+SELECT COUNT(*) FROM power WHERE Global_active_power<7.916 AND Sub_metering_1<41.0||2071816
+SELECT COUNT(*) FROM power WHERE Global_intensity=11.6 AND Global_active_power<6.797999999999999 AND Sub_metering_1<11.0 AND Global_reactive_power>0.354||551
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<14.0 AND Global_reactive_power<0.272 AND Sub_metering_3=26.0||470
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=11.0 AND Global_reactive_power>0.88||16
+SELECT COUNT(*) FROM power WHERE Voltage>249.63 AND Sub_metering_1<15.0||5916
+SELECT COUNT(*) FROM power WHERE Global_active_power>0.948 AND Sub_metering_3<13.0 AND Sub_metering_1<6.0 AND Global_reactive_power>1.192||4
+SELECT COUNT(*) FROM power WHERE Sub_metering_3=23.0 AND Global_reactive_power>0.606 AND Sub_metering_1<7.0 AND Voltage>237.57||4
+SELECT COUNT(*) FROM power WHERE Global_active_power<6.83 AND Sub_metering_2<69.0||2070964
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>8.0 AND Sub_metering_1<44.0||710253
+SELECT COUNT(*) FROM power WHERE Sub_metering_1=0.0 AND Voltage<237.15 AND Global_active_power<6.518 AND Sub_metering_2<44.0 AND Global_reactive_power>0.84 AND Global_intensity<24.4||93
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<26.0 AND Sub_metering_2<49.0 AND Sub_metering_1<50.0 AND Global_reactive_power<0.19399999999999998 AND Global_active_power<0.528 AND Voltage<242.67||502684
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<55.0 AND Sub_metering_3<29.0||2060970
+SELECT COUNT(*) FROM power WHERE Global_intensity>8.6 AND Voltage<236.45||74767
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>3.0 AND Global_active_power<4.343999999999999||54778
+SELECT COUNT(*) FROM power WHERE Sub_metering_2>3.0 AND Global_active_power=1.114||11
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>24.0 AND Voltage<247.73 AND Global_active_power<7.662000000000001||17461
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.528 AND Sub_metering_3=23.0||701
+SELECT COUNT(*) FROM power WHERE Global_intensity>18.0 AND Global_reactive_power<0.408 AND Global_active_power<7.797999999999999||29787
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.522 AND Sub_metering_2>31.0 AND Voltage<237.94||564
+SELECT COUNT(*) FROM power WHERE Global_reactive_power=0.358 AND Sub_metering_2>67.0||6
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>0.0 AND Global_reactive_power<0.688 AND Global_active_power>2.024 AND Sub_metering_1=75.0 AND Sub_metering_2<31.0 AND Voltage>226.33||60
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<78.0 AND Global_active_power>5.292000000000001 AND Sub_metering_1<66.0||12342
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>3.0 AND Global_intensity<40.0 AND Global_active_power<7.694||720710
+SELECT COUNT(*) FROM power WHERE Global_intensity>12.6 AND Global_active_power<4.152 AND Sub_metering_3>6.0||68975
+SELECT COUNT(*) FROM power WHERE Global_intensity<38.6 AND Sub_metering_2=48.0||47
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>22.0 AND Global_reactive_power<0.648 AND Sub_metering_1>38.0 AND Voltage<245.95 AND Global_intensity<20.4||36
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>5.0 AND Sub_metering_1<4.0 AND Global_reactive_power>0.272 AND Global_active_power>1.002 AND Voltage=238.91||129
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<20.0 AND Sub_metering_1=25.0||449
+SELECT COUNT(*) FROM power WHERE Global_reactive_power>0.192 AND Sub_metering_3=24.0 AND Voltage<235.63 AND Sub_metering_2<1.0||10
+SELECT COUNT(*) FROM power WHERE Global_intensity<40.0 AND Sub_metering_2<67.0 AND Global_active_power<5.186 AND Sub_metering_3=10.0||3299
+SELECT COUNT(*) FROM power WHERE Voltage>230.36 AND Sub_metering_2=24.0||1320
+SELECT COUNT(*) FROM power WHERE Global_active_power<9.107999999999999 AND Global_intensity=18.2 AND Sub_metering_2>23.0||413
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.95 AND Sub_metering_1<28.0||2022818
+SELECT COUNT(*) FROM power WHERE Global_active_power<8.027999999999999 AND Global_intensity>12.6 AND Sub_metering_1<35.0 AND Voltage<232.55||5122
+SELECT COUNT(*) FROM power WHERE Voltage<251.68 AND Sub_metering_2>60.0 AND Sub_metering_3<21.0||3587
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<32.0 AND Global_intensity<2.4||990520
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.366 AND Global_intensity<30.2 AND Voltage=236.85 AND Sub_metering_2<39.0 AND Sub_metering_3<15.0||410
+SELECT COUNT(*) FROM power WHERE Global_intensity<10.6 AND Global_reactive_power<0.9279999999999999 AND Global_active_power<0.544 AND Voltage>227.99 AND Sub_metering_3=5.0 AND Sub_metering_1<31.0||612
+SELECT COUNT(*) FROM power WHERE Sub_metering_3>8.0 AND Global_reactive_power<1.148 AND Global_intensity<40.6 AND Global_active_power>1.8980000000000001 AND Voltage>226.22 AND Sub_metering_2>35.0||15741
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<26.0 AND Global_intensity=26.6 AND Global_reactive_power<0.382 AND Sub_metering_2<60.0 AND Sub_metering_1>41.0||15
+SELECT COUNT(*) FROM power WHERE Voltage<237.6 AND Sub_metering_1<31.0 AND Global_reactive_power<0.7440000000000001 AND Global_intensity>12.4 AND Sub_metering_3<29.0||44851
+SELECT COUNT(*) FROM power WHERE Global_intensity>6.6 AND Sub_metering_3>14.0||344556
+SELECT COUNT(*) FROM power WHERE Global_reactive_power<0.9940000000000001 AND Sub_metering_3>22.0 AND Sub_metering_2<52.0||18835
+SELECT COUNT(*) FROM power WHERE Global_intensity>31.0 AND Sub_metering_3>23.0 AND Voltage<230.98||2
+SELECT COUNT(*) FROM power WHERE Sub_metering_3<10.0 AND Voltage=242.03 AND Global_reactive_power<0.914 AND Sub_metering_2<42.0 AND Sub_metering_1<77.0||2257
+SELECT COUNT(*) FROM power WHERE Global_intensity<17.0 AND Sub_metering_2<64.0 AND Voltage=229.33||8
+SELECT COUNT(*) FROM power WHERE Global_intensity<46.4 AND Global_active_power=2.85 AND Sub_metering_2>25.0||11
+SELECT COUNT(*) FROM power WHERE Sub_metering_1>53.0 AND Global_intensity<18.8 AND Global_reactive_power<0.552||20
+SELECT COUNT(*) FROM power WHERE Global_intensity>6.6 AND Sub_metering_3=31.0||278
+SELECT COUNT(*) FROM power WHERE Voltage<245.32 AND Global_intensity>32.8 AND Global_reactive_power=0.284 AND Global_active_power>2.334 AND Sub_metering_1>0.0||1
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<8.0 AND Sub_metering_1>58.0||658
+SELECT COUNT(*) FROM power WHERE Global_intensity<24.6 AND Sub_metering_3<30.0 AND Global_reactive_power>0.066 AND Voltage>238.6||1057615
+SELECT COUNT(*) FROM power WHERE Sub_metering_2<2.0 AND Sub_metering_3=19.0 AND Global_intensity>18.2||465
+SELECT COUNT(*) FROM power WHERE Global_intensity<17.8 AND Sub_metering_2<28.0||2011898
+SELECT COUNT(*) FROM power WHERE Global_active_power>1.482 AND Sub_metering_3>24.0||17489
+SELECT COUNT(*) FROM power WHERE Voltage>242.73 AND Sub_metering_2<60.0||547006
+SELECT COUNT(*) FROM power WHERE Voltage>227.88 AND Global_reactive_power<1.06 AND Sub_metering_3>10.0 AND Global_active_power<3.5039999999999996 AND Global_intensity<12.6 AND Sub_metering_2=27.0||61
+SELECT COUNT(*) FROM power WHERE Voltage>228.28 AND Global_reactive_power>0.502 AND Sub_metering_3=14.0 AND Sub_metering_2>14.0 AND Sub_metering_1<70.0||3

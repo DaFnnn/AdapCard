@@ -1,0 +1,4 @@
+2025-04-16 16:30:40,630 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Bias correction of numerical prediction model temperature forecast
+2025-04-16 16:30:40,630 [DEBUG]  Creating sample for bias_correction_ucl
+2025-04-16 16:30:40,630 [DEBUG]  generate_join_sample(single_table=bias_correction_ucl, relationship_list=None, split_condition=None)
+2025-04-16 16:30:40,675 [INFO ]  Files successfully created

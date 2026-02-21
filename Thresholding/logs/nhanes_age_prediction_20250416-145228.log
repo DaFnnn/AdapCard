@@ -1,0 +1,4 @@
+2025-04-16 14:52:28,123 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/National Health and Nutrition Health Survey 2013-2014 (NHANES) Age Prediction Subset
+2025-04-16 14:52:28,123 [DEBUG]  Creating sample for nhanes_age_prediction
+2025-04-16 14:52:28,123 [DEBUG]  generate_join_sample(single_table=nhanes_age_prediction, relationship_list=None, split_condition=None)
+2025-04-16 14:52:28,160 [INFO ]  Files successfully created

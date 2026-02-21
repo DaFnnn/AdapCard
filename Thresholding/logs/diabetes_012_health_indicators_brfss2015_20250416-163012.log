@@ -1,0 +1,4 @@
+2025-04-16 16:30:12,118 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Diabetes Health Indicators Dataset
+2025-04-16 16:30:12,118 [DEBUG]  Creating sample for diabetes_012_health_indicators_brfss2015
+2025-04-16 16:30:12,119 [DEBUG]  generate_join_sample(single_table=diabetes_012_health_indicators_brfss2015, relationship_list=None, split_condition=None)
+2025-04-16 16:30:12,236 [INFO ]  Files successfully created

@@ -1,0 +1,54 @@
+2025-04-22 15:05:45,120 [INFO ]  Creating naive ensemble.
+2025-04-22 15:05:45,120 [INFO ]  Learning SPN for accelerometer_gyro_mobile_phone_dataset.
+2025-04-22 15:05:45,120 [DEBUG]  generate_join_sample(single_table=accelerometer_gyro_mobile_phone_dataset, relationship_list=None, split_condition=None)
+2025-04-22 15:05:45,153 [DEBUG]  Using min_instance_slice parameter 319.91.
+2025-04-22 15:05:45,153 [INFO ]  SPN training phase with 31991 samples
+2025-04-22 15:05:45,170 [DEBUG]  Built domains in 0.015644504004740156 sec
+2025-04-22 15:05:45,525 [DEBUG]  CACHEDIR=/home/dafn/.cache/matplotlib
+2025-04-22 15:05:45,527 [DEBUG]  Using fontManager instance from /home/dafn/.cache/matplotlib/fontlist-v300.json
+2025-04-22 15:05:45,620 [DEBUG]  Loaded backend qt5agg version unknown.
+2025-04-22 15:05:45,650 [DEBUG]  Loaded backend qt5agg version unknown.
+2025-04-22 15:05:45,651 [DEBUG]  Loaded backend qt4agg version unknown.
+2025-04-22 15:05:45,658 [DEBUG]  Loaded backend tkagg version unknown.
+2025-04-22 15:05:45,659 [DEBUG]  Loaded backend agg version unknown.
+2025-04-22 15:05:45,659 [DEBUG]  Loaded backend agg version unknown.
+2025-04-22 15:05:45,663 [DEBUG]  OP: Operation.SPLIT_ROWS on slice (31991, 8) (remaining tasks 0)
+2025-04-22 15:05:45,826 [DEBUG]  		found 2 row clusters (in 0.16297 secs)
+2025-04-22 15:05:45,828 [DEBUG]  OP: Operation.SPLIT_COLUMNS on slice (16142, 8) (remaining tasks 1)
+2025-04-22 15:05:47,236 [DEBUG]  		found 8 col clusters (in 1.40759 secs)
+2025-04-22 15:05:47,238 [DEBUG]  OP: Operation.SPLIT_COLUMNS on slice (15849, 8) (remaining tasks 8)
+2025-04-22 15:05:48,772 [DEBUG]  		found 8 col clusters (in 1.53335 secs)
+2025-04-22 15:05:48,772 [DEBUG]  OP: Operation.CREATE_LEAF on slice (16142, 1) (remaining tasks 15)
+2025-04-22 15:05:48,806 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[0] (in 0.03386 secs)
+2025-04-22 15:05:48,807 [DEBUG]  OP: Operation.CREATE_LEAF on slice (16142, 1) (remaining tasks 14)
+2025-04-22 15:05:48,900 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[1] (in 0.09183 secs)
+2025-04-22 15:05:48,901 [DEBUG]  OP: Operation.CREATE_LEAF on slice (16142, 1) (remaining tasks 13)
+2025-04-22 15:05:48,927 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[2] (in 0.02479 secs)
+2025-04-22 15:05:48,927 [DEBUG]  OP: Operation.CREATE_LEAF on slice (16142, 1) (remaining tasks 12)
+2025-04-22 15:05:48,934 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[3] (in 0.00634 secs)
+2025-04-22 15:05:48,934 [DEBUG]  OP: Operation.CREATE_LEAF on slice (16142, 1) (remaining tasks 11)
+2025-04-22 15:05:48,940 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[4] (in 0.00577 secs)
+2025-04-22 15:05:48,940 [DEBUG]  OP: Operation.CREATE_LEAF on slice (16142, 1) (remaining tasks 10)
+2025-04-22 15:05:48,945 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[5] (in 0.00540 secs)
+2025-04-22 15:05:48,945 [DEBUG]  OP: Operation.CREATE_LEAF on slice (16142, 1) (remaining tasks 9)
+2025-04-22 15:05:48,949 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[6] (in 0.00294 secs)
+2025-04-22 15:05:48,949 [DEBUG]  OP: Operation.CREATE_LEAF on slice (16142, 1) (remaining tasks 8)
+2025-04-22 15:05:48,949 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[7] (in 0.00058 secs)
+2025-04-22 15:05:48,949 [DEBUG]  OP: Operation.CREATE_LEAF on slice (15849, 1) (remaining tasks 7)
+2025-04-22 15:05:48,953 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[0] (in 0.00399 secs)
+2025-04-22 15:05:48,954 [DEBUG]  OP: Operation.CREATE_LEAF on slice (15849, 1) (remaining tasks 6)
+2025-04-22 15:05:48,958 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[1] (in 0.00473 secs)
+2025-04-22 15:05:48,958 [DEBUG]  OP: Operation.CREATE_LEAF on slice (15849, 1) (remaining tasks 5)
+2025-04-22 15:05:48,964 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[2] (in 0.00500 secs)
+2025-04-22 15:05:48,964 [DEBUG]  OP: Operation.CREATE_LEAF on slice (15849, 1) (remaining tasks 4)
+2025-04-22 15:05:48,969 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[3] (in 0.00545 secs)
+2025-04-22 15:05:48,969 [DEBUG]  OP: Operation.CREATE_LEAF on slice (15849, 1) (remaining tasks 3)
+2025-04-22 15:05:48,975 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[4] (in 0.00532 secs)
+2025-04-22 15:05:48,975 [DEBUG]  OP: Operation.CREATE_LEAF on slice (15849, 1) (remaining tasks 2)
+2025-04-22 15:05:48,980 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[5] (in 0.00522 secs)
+2025-04-22 15:05:48,980 [DEBUG]  OP: Operation.CREATE_LEAF on slice (15849, 1) (remaining tasks 1)
+2025-04-22 15:05:48,983 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[6] (in 0.00323 secs)
+2025-04-22 15:05:48,984 [DEBUG]  OP: Operation.CREATE_LEAF on slice (15849, 1) (remaining tasks 0)
+2025-04-22 15:05:48,984 [DEBUG]  		 created leaf IdentityNumericLeaf for scope=[7] (in 0.00052 secs)
+2025-04-22 15:05:51,508 [DEBUG]  Built SPN in 6.337609509006143 sec
+2025-04-22 15:05:51,508 [INFO ]  Saving ensemble to /home/dafn/card/deepcard/collected_temp_benchmarks/spn_ensembles/Accelerometer Gyro Mobile Phone/ensemble_single_accelerometer_gyro_mobile_phone_dataset_10000000.pkl

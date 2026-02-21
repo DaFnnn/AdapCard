@@ -1,0 +1,4 @@
+2025-04-17 09:56:35,257 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Recipe Reviews and User Feedback
+2025-04-17 09:56:35,257 [DEBUG]  Creating sample for recipereviews
+2025-04-17 09:56:35,258 [DEBUG]  generate_join_sample(single_table=recipereviews, relationship_list=None, split_condition=None)
+2025-04-17 09:56:35,300 [INFO ]  Files successfully created

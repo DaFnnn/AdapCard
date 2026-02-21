@@ -1,0 +1,50 @@
+2025-04-17 09:55:03,498 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Lattice-physics and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Lattice-physics
+2025-04-17 09:55:03,498 [INFO ]  Preparing hdf file for table raw1
+2025-04-17 09:55:03,670 [INFO ]  Managing functional dependencies for table raw1
+2025-04-17 09:55:03,673 [INFO ]  Preparing multipliers for table raw1
+2025-04-17 09:55:03,673 [INFO ]  Preparing categorical values and null values for table raw1
+2025-04-17 09:55:03,673 [DEBUG]  		Preparing numerical values for column f1
+2025-04-17 09:55:03,675 [DEBUG]  		Preparing numerical values for column f2
+2025-04-17 09:55:03,676 [DEBUG]  		Preparing numerical values for column f3
+2025-04-17 09:55:03,678 [DEBUG]  		Preparing numerical values for column f4
+2025-04-17 09:55:03,679 [DEBUG]  		Preparing numerical values for column f5
+2025-04-17 09:55:03,680 [DEBUG]  		Preparing numerical values for column f6
+2025-04-17 09:55:03,682 [DEBUG]  		Preparing numerical values for column f7
+2025-04-17 09:55:03,683 [DEBUG]  		Preparing numerical values for column f8
+2025-04-17 09:55:03,684 [DEBUG]  		Preparing numerical values for column f9
+2025-04-17 09:55:03,685 [DEBUG]  		Preparing numerical values for column f10
+2025-04-17 09:55:03,687 [DEBUG]  		Preparing numerical values for column f11
+2025-04-17 09:55:03,688 [DEBUG]  		Preparing numerical values for column f12
+2025-04-17 09:55:03,689 [DEBUG]  		Preparing numerical values for column f13
+2025-04-17 09:55:03,691 [DEBUG]  		Preparing numerical values for column f14
+2025-04-17 09:55:03,692 [DEBUG]  		Preparing numerical values for column f15
+2025-04-17 09:55:03,693 [DEBUG]  		Preparing numerical values for column f16
+2025-04-17 09:55:03,694 [DEBUG]  		Preparing numerical values for column f17
+2025-04-17 09:55:03,696 [DEBUG]  		Preparing numerical values for column f18
+2025-04-17 09:55:03,698 [DEBUG]  		Preparing numerical values for column f19
+2025-04-17 09:55:03,699 [DEBUG]  		Preparing numerical values for column f20
+2025-04-17 09:55:03,700 [DEBUG]  		Preparing numerical values for column f21
+2025-04-17 09:55:03,702 [DEBUG]  		Preparing numerical values for column f22
+2025-04-17 09:55:03,703 [DEBUG]  		Preparing numerical values for column f23
+2025-04-17 09:55:03,704 [DEBUG]  		Preparing numerical values for column f24
+2025-04-17 09:55:03,706 [DEBUG]  		Preparing numerical values for column f25
+2025-04-17 09:55:03,707 [DEBUG]  		Preparing numerical values for column f26
+2025-04-17 09:55:03,708 [DEBUG]  		Preparing numerical values for column f27
+2025-04-17 09:55:03,709 [DEBUG]  		Preparing numerical values for column f28
+2025-04-17 09:55:03,711 [DEBUG]  		Preparing numerical values for column f29
+2025-04-17 09:55:03,712 [DEBUG]  		Preparing numerical values for column f30
+2025-04-17 09:55:03,713 [DEBUG]  		Preparing numerical values for column f31
+2025-04-17 09:55:03,714 [DEBUG]  		Preparing numerical values for column f32
+2025-04-17 09:55:03,716 [DEBUG]  		Preparing numerical values for column f33
+2025-04-17 09:55:03,717 [DEBUG]  		Preparing numerical values for column f34
+2025-04-17 09:55:03,718 [DEBUG]  		Preparing numerical values for column f35
+2025-04-17 09:55:03,720 [DEBUG]  		Preparing numerical values for column f36
+2025-04-17 09:55:03,721 [DEBUG]  		Preparing numerical values for column f37
+2025-04-17 09:55:03,722 [DEBUG]  		Preparing numerical values for column f38
+2025-04-17 09:55:03,723 [DEBUG]  		Preparing numerical values for column f39
+2025-04-17 09:55:03,725 [DEBUG]  		Preparing numerical values for column f40
+2025-04-17 09:55:03,726 [DEBUG]  		Preparing numerical values for column f41
+2025-04-17 09:55:03,727 [INFO ]  Relevant attributes for table raw1 are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12', 'f13', 'f14', 'f15', 'f16', 'f17', 'f18', 'f19', 'f20', 'f21', 'f22', 'f23', 'f24', 'f25', 'f26', 'f27', 'f28', 'f29', 'f30', 'f31', 'f32', 'f33', 'f34', 'f35', 'f36', 'f37', 'f38', 'f39', 'f40', 'f41']
+2025-04-17 09:55:03,727 [INFO ]  NULL values for table raw1 are [1.3252394070833333, 1.8836586542101668, 2.855794122999208, 2.8600944737400833, 2.8575506858870425, 2.8676542419521254, 2.8490966860301663, 2.8402229392866665, 2.867460383323542, 2.8510475346397506, 2.8551972500963334, 2.854270260791917, 2.854710410996833, 2.845172875326583, 2.8659910236550004, 2.8470305122354165, 2.8520968068918755, 2.8334881448605835, 2.8448891610151663, 2.856125182435959, 2.8673122164108333, 2.8535242515017507, 2.8468705588070415, 2.8481153847469582, 2.8454641408710417, 2.860544322505542, 2.87584061450825, 2.8439844178127918, 2.853901382684708, 2.8376882700181674, 2.841459210683291, 2.8462178666120423, 2.8463393875770002, 2.83924593686875, 2.838950165021333, 2.846778279108917, 2.8459711650668753, 2.838778001356208, 2.8449849781915004, 2.8520783594122916, 2.851348548742334]
+2025-04-17 09:55:03,777 [INFO ]  Adding table parts without join partners for table raw1
+2025-04-17 09:55:03,777 [INFO ]  Files successfully created

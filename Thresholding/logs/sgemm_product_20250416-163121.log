@@ -1,0 +1,27 @@
+2025-04-16 16:31:21,524 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/SGEMM GPU kernel performance and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/SGEMM GPU kernel performance
+2025-04-16 16:31:21,524 [INFO ]  Preparing hdf file for table sgemm_product
+2025-04-16 16:31:21,757 [INFO ]  Managing functional dependencies for table sgemm_product
+2025-04-16 16:31:21,766 [INFO ]  Preparing multipliers for table sgemm_product
+2025-04-16 16:31:21,766 [INFO ]  Preparing categorical values and null values for table sgemm_product
+2025-04-16 16:31:21,767 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 16:31:21,770 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 16:31:21,773 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 16:31:21,776 [DEBUG]  		Preparing numerical values for column f4
+2025-04-16 16:31:21,778 [DEBUG]  		Preparing numerical values for column f5
+2025-04-16 16:31:21,781 [DEBUG]  		Preparing numerical values for column f6
+2025-04-16 16:31:21,784 [DEBUG]  		Preparing numerical values for column f7
+2025-04-16 16:31:21,786 [DEBUG]  		Preparing numerical values for column f8
+2025-04-16 16:31:21,789 [DEBUG]  		Preparing numerical values for column f9
+2025-04-16 16:31:21,792 [DEBUG]  		Preparing numerical values for column f10
+2025-04-16 16:31:21,794 [DEBUG]  		Preparing numerical values for column f11
+2025-04-16 16:31:21,797 [DEBUG]  		Preparing numerical values for column f12
+2025-04-16 16:31:21,800 [DEBUG]  		Preparing numerical values for column f13
+2025-04-16 16:31:21,802 [DEBUG]  		Preparing numerical values for column f14
+2025-04-16 16:31:21,805 [DEBUG]  		Preparing numerical values for column f15
+2025-04-16 16:31:21,809 [DEBUG]  		Preparing numerical values for column f16
+2025-04-16 16:31:21,812 [DEBUG]  		Preparing numerical values for column f17
+2025-04-16 16:31:21,816 [DEBUG]  		Preparing numerical values for column f18
+2025-04-16 16:31:21,819 [INFO ]  Relevant attributes for table sgemm_product are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12', 'f13', 'f14', 'f15', 'f16', 'f17', 'f18']
+2025-04-16 16:31:21,819 [INFO ]  NULL values for table sgemm_product are [80.41546423841059, 80.41546423841059, 25.513212582781456, 13.9359940397351, 13.9359940397351, 17.37122582781457, 17.37122582781457, 5.0001, 2.448709271523179, 2.448709271523179, 0.5001, 0.5001, 0.5001, 0.5001, 217.6479518625828, 217.57963609271525, 217.53285579470202, 217.5277686258278]
+2025-04-16 16:31:21,973 [INFO ]  Adding table parts without join partners for table sgemm_product
+2025-04-16 16:31:21,974 [INFO ]  Files successfully created

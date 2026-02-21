@@ -1,0 +1,4 @@
+2025-04-16 16:30:47,497 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Printed Circuit Board Processed Image
+2025-04-16 16:30:47,498 [DEBUG]  Creating sample for testpad_pcb_xyrgb_v2
+2025-04-16 16:30:47,498 [DEBUG]  generate_join_sample(single_table=testpad_pcb_xyrgb_v2, relationship_list=None, split_condition=None)
+2025-04-16 16:30:47,636 [INFO ]  Files successfully created

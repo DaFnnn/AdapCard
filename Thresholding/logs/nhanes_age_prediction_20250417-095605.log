@@ -1,0 +1,19 @@
+2025-04-17 09:56:05,945 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/National Health and Nutrition Health Survey 2013-2014 (NHANES) Age Prediction Subset and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/National Health and Nutrition Health Survey 2013-2014 (NHANES) Age Prediction Subset
+2025-04-17 09:56:05,946 [INFO ]  Preparing hdf file for table nhanes_age_prediction
+2025-04-17 09:56:05,953 [INFO ]  Managing functional dependencies for table nhanes_age_prediction
+2025-04-17 09:56:05,953 [INFO ]  Preparing multipliers for table nhanes_age_prediction
+2025-04-17 09:56:05,953 [INFO ]  Preparing categorical values and null values for table nhanes_age_prediction
+2025-04-17 09:56:05,954 [DEBUG]  		Preparing numerical values for column f1
+2025-04-17 09:56:05,955 [DEBUG]  		Preparing numerical values for column f2
+2025-04-17 09:56:05,956 [DEBUG]  		Preparing numerical values for column f3
+2025-04-17 09:56:05,957 [DEBUG]  		Preparing numerical values for column f4
+2025-04-17 09:56:05,958 [DEBUG]  		Preparing numerical values for column f5
+2025-04-17 09:56:05,959 [DEBUG]  		Preparing numerical values for column f6
+2025-04-17 09:56:05,960 [DEBUG]  		Preparing numerical values for column f7
+2025-04-17 09:56:05,961 [DEBUG]  		Preparing numerical values for column f8
+2025-04-17 09:56:05,962 [DEBUG]  		Preparing numerical values for column f9
+2025-04-17 09:56:05,963 [DEBUG]  		Preparing numerical values for column f10
+2025-04-17 09:56:05,964 [INFO ]  Relevant attributes for table nhanes_age_prediction are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10']
+2025-04-17 09:56:05,964 [INFO ]  NULL values for table nhanes_age_prediction are [78691.8539191396, 0.1598892888498683, 41.79597357330992, 1.5115135206321335, 1.8227514486391572, 27.955279982440736, 99.5532167690957, 2.0163423178226516, 114.97902888498683, 11.834893678665496]
+2025-04-17 09:56:05,996 [INFO ]  Adding table parts without join partners for table nhanes_age_prediction
+2025-04-17 09:56:05,996 [INFO ]  Files successfully created

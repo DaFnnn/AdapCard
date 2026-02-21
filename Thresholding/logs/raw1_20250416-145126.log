@@ -1,0 +1,4 @@
+2025-04-16 14:51:26,314 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Lattice-physics
+2025-04-16 14:51:26,315 [DEBUG]  Creating sample for raw1
+2025-04-16 14:51:26,315 [DEBUG]  generate_join_sample(single_table=raw1, relationship_list=None, split_condition=None)
+2025-04-16 14:51:26,368 [INFO ]  Files successfully created

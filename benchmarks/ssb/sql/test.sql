@@ -1,0 +1,1 @@
+select count(*) from supplier, dwdate, customer, lineorder where lo_orderdate = d_datekey and lo_suppkey = s_suppkey and lo_custkey = c_custkey and d_year >= 1997 and s_nation = 'UNITED STATES';

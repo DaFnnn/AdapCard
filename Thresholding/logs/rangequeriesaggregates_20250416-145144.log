@@ -1,0 +1,18 @@
+2025-04-16 14:51:44,627 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Query Analytics Workloads Dataset and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Query Analytics Workloads Dataset
+2025-04-16 14:51:44,627 [INFO ]  Making target path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Query Analytics Workloads Dataset
+2025-04-16 14:51:44,627 [INFO ]  Preparing hdf file for table rangequeriesaggregates
+2025-04-16 14:51:44,825 [INFO ]  Managing functional dependencies for table rangequeriesaggregates
+2025-04-16 14:51:44,830 [INFO ]  Preparing multipliers for table rangequeriesaggregates
+2025-04-16 14:51:44,831 [INFO ]  Preparing categorical values and null values for table rangequeriesaggregates
+2025-04-16 14:51:44,831 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 14:51:44,834 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 14:51:44,838 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 14:51:44,841 [DEBUG]  		Preparing numerical values for column f4
+2025-04-16 14:51:44,845 [DEBUG]  		Preparing numerical values for column f5
+2025-04-16 14:51:44,848 [DEBUG]  		Preparing numerical values for column f6
+2025-04-16 14:51:44,850 [DEBUG]  		Preparing numerical values for column f7
+2025-04-16 14:51:44,853 [DEBUG]  		Preparing numerical values for column f8
+2025-04-16 14:51:44,856 [INFO ]  Relevant attributes for table rangequeriesaggregates are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8']
+2025-04-16 14:51:44,856 [INFO ]  NULL values for table rangequeriesaggregates are [124902.68327000001, 1162688.60443296, 1889317.10805106, 4041.768807176769, 7849.787506631021, 159552.880745, 47932.136865, 1042.6867300477134]
+2025-04-16 14:51:44,975 [INFO ]  Adding table parts without join partners for table rangequeriesaggregates
+2025-04-16 14:51:44,976 [INFO ]  Files successfully created

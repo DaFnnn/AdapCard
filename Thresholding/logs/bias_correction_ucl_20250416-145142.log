@@ -1,0 +1,35 @@
+2025-04-16 14:51:42,684 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Bias correction of numerical prediction model temperature forecast and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Bias correction of numerical prediction model temperature forecast
+2025-04-16 14:51:42,684 [INFO ]  Making target path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Bias correction of numerical prediction model temperature forecast
+2025-04-16 14:51:42,684 [INFO ]  Preparing hdf file for table bias_correction_ucl
+2025-04-16 14:51:42,714 [INFO ]  Managing functional dependencies for table bias_correction_ucl
+2025-04-16 14:51:42,714 [INFO ]  Preparing multipliers for table bias_correction_ucl
+2025-04-16 14:51:42,715 [INFO ]  Preparing categorical values and null values for table bias_correction_ucl
+2025-04-16 14:51:42,715 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 14:51:42,716 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 14:51:42,717 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 14:51:42,718 [DEBUG]  		Preparing numerical values for column f4
+2025-04-16 14:51:42,719 [DEBUG]  		Preparing numerical values for column f5
+2025-04-16 14:51:42,721 [DEBUG]  		Preparing numerical values for column f6
+2025-04-16 14:51:42,722 [DEBUG]  		Preparing numerical values for column f7
+2025-04-16 14:51:42,724 [DEBUG]  		Preparing numerical values for column f8
+2025-04-16 14:51:42,725 [DEBUG]  		Preparing numerical values for column f9
+2025-04-16 14:51:42,726 [DEBUG]  		Preparing numerical values for column f10
+2025-04-16 14:51:42,728 [DEBUG]  		Preparing numerical values for column f11
+2025-04-16 14:51:42,729 [DEBUG]  		Preparing numerical values for column f12
+2025-04-16 14:51:42,730 [DEBUG]  		Preparing numerical values for column f13
+2025-04-16 14:51:42,732 [DEBUG]  		Preparing numerical values for column f14
+2025-04-16 14:51:42,733 [DEBUG]  		Preparing numerical values for column f15
+2025-04-16 14:51:42,734 [DEBUG]  		Preparing numerical values for column f16
+2025-04-16 14:51:42,736 [DEBUG]  		Preparing numerical values for column f17
+2025-04-16 14:51:42,737 [DEBUG]  		Preparing numerical values for column f18
+2025-04-16 14:51:42,738 [DEBUG]  		Preparing numerical values for column f19
+2025-04-16 14:51:42,739 [DEBUG]  		Preparing numerical values for column f20
+2025-04-16 14:51:42,741 [DEBUG]  		Preparing numerical values for column f21
+2025-04-16 14:51:42,742 [DEBUG]  		Preparing numerical values for column f22
+2025-04-16 14:51:42,743 [DEBUG]  		Preparing numerical values for column f23
+2025-04-16 14:51:42,744 [DEBUG]  		Preparing numerical values for column f24
+2025-04-16 14:51:42,745 [DEBUG]  		Preparing numerical values for column f25
+2025-04-16 14:51:42,746 [INFO ]  Relevant attributes for table bias_correction_ucl are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12', 'f13', 'f14', 'f15', 'f16', 'f17', 'f18', 'f19', 'f20', 'f21', 'f22', 'f23', 'f24', 'f25']
+2025-04-16 14:51:42,747 [INFO ]  NULL values for table bias_correction_ucl are [13.0001, 154.5001, 29.768563541666666, 23.2258421875, 56.75884665799089, 88.37722482166124, 29.613945198720522, 23.513097009348535, 7.096600699726255, 62.49537288246215, 0.3688436533302932, 0.35614705719465795, 0.3184587465910097, 0.29924235611373284, 0.5891606433073614, 0.48241178962957654, 0.27630812975530944, 0.2674074601392834, 37.54482, 126.99150000000002, 61.855044, 1.2567920000000001, 5341.549430287355, 30.275537006344685, 22.932936980448012]
+2025-04-16 14:51:42,781 [INFO ]  Adding table parts without join partners for table bias_correction_ucl
+2025-04-16 14:51:42,781 [INFO ]  Files successfully created

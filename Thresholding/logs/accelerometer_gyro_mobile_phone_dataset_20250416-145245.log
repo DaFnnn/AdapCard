@@ -1,0 +1,4 @@
+2025-04-16 14:52:45,055 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Accelerometer Gyro Mobile Phone
+2025-04-16 14:52:45,055 [DEBUG]  Creating sample for accelerometer_gyro_mobile_phone_dataset
+2025-04-16 14:52:45,055 [DEBUG]  generate_join_sample(single_table=accelerometer_gyro_mobile_phone_dataset, relationship_list=None, split_condition=None)
+2025-04-16 14:52:45,101 [INFO ]  Files successfully created

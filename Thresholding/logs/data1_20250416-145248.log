@@ -1,0 +1,17 @@
+2025-04-16 14:52:48,028 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/2D elastodynamic metamaterials and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/2D elastodynamic metamaterials
+2025-04-16 14:52:48,028 [INFO ]  Making target path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/2D elastodynamic metamaterials
+2025-04-16 14:52:48,028 [INFO ]  Preparing hdf file for table data1
+2025-04-16 14:52:48,043 [INFO ]  Managing functional dependencies for table data1
+2025-04-16 14:52:48,043 [INFO ]  Preparing multipliers for table data1
+2025-04-16 14:52:48,043 [INFO ]  Preparing categorical values and null values for table data1
+2025-04-16 14:52:48,044 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 14:52:48,045 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 14:52:48,046 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 14:52:48,048 [INFO ]  Relevant attributes for table data1 are ['f1', 'f2', 'f3']
+2025-04-16 14:52:48,048 [INFO ]  NULL values for table data1 are [56563230273114.91, 1136.258806300619, 134.95190636491375]
+2025-04-16 14:52:48,080 [INFO ]  Adding table parts without join partners for table data1
+2025-04-16 14:52:48,080 [INFO ]  Files successfully created
+2025-04-16 14:52:48,975 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/2D elastodynamic metamaterials
+2025-04-16 14:52:48,975 [DEBUG]  Creating sample for data1
+2025-04-16 14:52:48,975 [DEBUG]  generate_join_sample(single_table=data1, relationship_list=None, split_condition=None)
+2025-04-16 14:52:49,012 [INFO ]  Files successfully created

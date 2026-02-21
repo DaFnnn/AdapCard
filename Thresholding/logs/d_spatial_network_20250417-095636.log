@@ -1,0 +1,13 @@
+2025-04-17 09:56:36,195 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/3D Road Network (North Jutland, Denmark) and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/3D Road Network (North Jutland, Denmark)
+2025-04-17 09:56:36,196 [INFO ]  Preparing hdf file for table d_spatial_network
+2025-04-17 09:56:36,449 [INFO ]  Managing functional dependencies for table d_spatial_network
+2025-04-17 09:56:36,455 [INFO ]  Preparing multipliers for table d_spatial_network
+2025-04-17 09:56:36,455 [INFO ]  Preparing categorical values and null values for table d_spatial_network
+2025-04-17 09:56:36,455 [DEBUG]  		Preparing numerical values for column f1
+2025-04-17 09:56:36,461 [DEBUG]  		Preparing numerical values for column f2
+2025-04-17 09:56:36,467 [DEBUG]  		Preparing numerical values for column f3
+2025-04-17 09:56:36,473 [DEBUG]  		Preparing numerical values for column f4
+2025-04-17 09:56:36,478 [INFO ]  Relevant attributes for table d_spatial_network are ['f1', 'f2', 'f3', 'f4']
+2025-04-17 09:56:36,479 [INFO ]  NULL values for table d_spatial_network are [97869977.61012268, 9.731936134905514, 57.0838582906359, 22.1855047682103]
+2025-04-17 09:56:36,704 [INFO ]  Adding table parts without join partners for table d_spatial_network
+2025-04-17 09:56:36,705 [INFO ]  Files successfully created

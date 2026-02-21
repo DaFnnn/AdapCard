@@ -1,0 +1,4 @@
+2025-04-16 16:31:08,218 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Large-scale Wave Energy Farm
+2025-04-16 16:31:08,219 [DEBUG]  Creating sample for wec_perth_49
+2025-04-16 16:31:08,219 [DEBUG]  generate_join_sample(single_table=wec_perth_49, relationship_list=None, split_condition=None)
+2025-04-16 16:31:08,325 [INFO ]  Files successfully created

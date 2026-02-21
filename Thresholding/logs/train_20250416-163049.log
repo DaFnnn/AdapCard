@@ -1,0 +1,4 @@
+2025-04-16 16:30:49,956 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Superconductivty Data
+2025-04-16 16:30:49,957 [DEBUG]  Creating sample for train
+2025-04-16 16:30:49,957 [DEBUG]  generate_join_sample(single_table=train, relationship_list=None, split_condition=None)
+2025-04-16 16:30:50,034 [INFO ]  Files successfully created

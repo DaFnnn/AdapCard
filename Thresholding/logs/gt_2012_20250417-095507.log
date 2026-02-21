@@ -1,0 +1,20 @@
+2025-04-17 09:55:07,539 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Gas Turbine CO and NOx Emission Data Set and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Gas Turbine CO and NOx Emission Data Set
+2025-04-17 09:55:07,539 [INFO ]  Preparing hdf file for table gt_2012
+2025-04-17 09:55:07,553 [INFO ]  Managing functional dependencies for table gt_2012
+2025-04-17 09:55:07,553 [INFO ]  Preparing multipliers for table gt_2012
+2025-04-17 09:55:07,553 [INFO ]  Preparing categorical values and null values for table gt_2012
+2025-04-17 09:55:07,553 [DEBUG]  		Preparing numerical values for column f1
+2025-04-17 09:55:07,555 [DEBUG]  		Preparing numerical values for column f2
+2025-04-17 09:55:07,556 [DEBUG]  		Preparing numerical values for column f3
+2025-04-17 09:55:07,557 [DEBUG]  		Preparing numerical values for column f4
+2025-04-17 09:55:07,558 [DEBUG]  		Preparing numerical values for column f5
+2025-04-17 09:55:07,559 [DEBUG]  		Preparing numerical values for column f6
+2025-04-17 09:55:07,561 [DEBUG]  		Preparing numerical values for column f7
+2025-04-17 09:55:07,562 [DEBUG]  		Preparing numerical values for column f8
+2025-04-17 09:55:07,563 [DEBUG]  		Preparing numerical values for column f9
+2025-04-17 09:55:07,564 [DEBUG]  		Preparing numerical values for column f10
+2025-04-17 09:55:07,565 [DEBUG]  		Preparing numerical values for column f11
+2025-04-17 09:55:07,566 [INFO ]  Relevant attributes for table gt_2012 are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11']
+2025-04-17 09:55:07,566 [INFO ]  NULL values for table gt_2012 are [18.398049938384894, 1012.2582528578919, 79.07490414263242, 4.3068174750917665, 25.181460513896173, 1082.8903333508129, 546.2638926061877, 132.67565191400104, 12.00022108023073, 2.361232952018878, 68.78906512847405]
+2025-04-17 09:55:07,598 [INFO ]  Adding table parts without join partners for table gt_2012
+2025-04-17 09:55:07,599 [INFO ]  Files successfully created

@@ -1,0 +1,4 @@
+2025-04-16 14:51:45,877 [INFO ]  Generating sampled HDF files for tables in ../ssb-benchmark and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Query Analytics Workloads Dataset
+2025-04-16 14:51:45,878 [DEBUG]  Creating sample for rangequeriesaggregates
+2025-04-16 14:51:45,878 [DEBUG]  generate_join_sample(single_table=rangequeriesaggregates, relationship_list=None, split_condition=None)
+2025-04-16 14:51:45,974 [INFO ]  Files successfully created

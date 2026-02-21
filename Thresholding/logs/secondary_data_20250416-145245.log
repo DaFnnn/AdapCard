@@ -1,0 +1,31 @@
+2025-04-16 14:52:46,000 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Secondary Mushroom and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Secondary Mushroom
+2025-04-16 14:52:46,000 [INFO ]  Making target path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Secondary Mushroom
+2025-04-16 14:52:46,000 [INFO ]  Preparing hdf file for table secondary_data
+2025-04-16 14:52:46,074 [INFO ]  Managing functional dependencies for table secondary_data
+2025-04-16 14:52:46,077 [INFO ]  Preparing multipliers for table secondary_data
+2025-04-16 14:52:46,078 [INFO ]  Preparing categorical values and null values for table secondary_data
+2025-04-16 14:52:46,078 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 14:52:46,080 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 14:52:46,081 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 14:52:46,083 [DEBUG]  		Preparing numerical values for column f4
+2025-04-16 14:52:46,084 [DEBUG]  		Preparing numerical values for column f5
+2025-04-16 14:52:46,085 [DEBUG]  		Preparing numerical values for column f6
+2025-04-16 14:52:46,086 [DEBUG]  		Preparing numerical values for column f7
+2025-04-16 14:52:46,088 [DEBUG]  		Preparing numerical values for column f8
+2025-04-16 14:52:46,089 [DEBUG]  		Preparing numerical values for column f9
+2025-04-16 14:52:46,090 [DEBUG]  		Preparing numerical values for column f10
+2025-04-16 14:52:46,092 [DEBUG]  		Preparing numerical values for column f11
+2025-04-16 14:52:46,094 [DEBUG]  		Preparing numerical values for column f12
+2025-04-16 14:52:46,095 [DEBUG]  		Preparing numerical values for column f13
+2025-04-16 14:52:46,096 [DEBUG]  		Preparing numerical values for column f14
+2025-04-16 14:52:46,098 [DEBUG]  		Preparing numerical values for column f15
+2025-04-16 14:52:46,099 [DEBUG]  		Preparing numerical values for column f16
+2025-04-16 14:52:46,100 [DEBUG]  		Preparing numerical values for column f17
+2025-04-16 14:52:46,101 [DEBUG]  		Preparing numerical values for column f18
+2025-04-16 14:52:46,102 [DEBUG]  		Preparing numerical values for column f19
+2025-04-16 14:52:46,104 [DEBUG]  		Preparing numerical values for column f20
+2025-04-16 14:52:46,105 [DEBUG]  		Preparing numerical values for column f21
+2025-04-16 14:52:46,106 [INFO ]  Relevant attributes for table secondary_data are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12', 'f13', 'f14', 'f15', 'f16', 'f17', 'f18', 'f19', 'f20', 'f21']
+2025-04-16 14:52:46,106 [INFO ]  NULL values for table secondary_data are [0.5550132947976878, 6.733954492459349, 4.041741421998068, 4.984199952512731, 6.144641420360576, 0.17351040462427744, 2.9482406278144397, 0.8324699421965318, 7.338602349801045, 6.5816382600009815, 12.149510011626194, 0.4798687861271676, 2.06106382780134, 8.429172033273838, 0.05212312138728324, 0.5634955034469207, 0.24865491329479766, 2.3691743257626623, 0.38053852036221325, 0.6238207093615419, 1.0534003651607198]
+2025-04-16 14:52:46,164 [INFO ]  Adding table parts without join partners for table secondary_data
+2025-04-16 14:52:46,164 [INFO ]  Files successfully created

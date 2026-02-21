@@ -1,0 +1,12 @@
+2025-04-16 16:31:44,943 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/2D elastodynamic metamaterials and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/2D elastodynamic metamaterials
+2025-04-16 16:31:44,943 [INFO ]  Preparing hdf file for table data1
+2025-04-16 16:31:44,957 [INFO ]  Managing functional dependencies for table data1
+2025-04-16 16:31:44,958 [INFO ]  Preparing multipliers for table data1
+2025-04-16 16:31:44,958 [INFO ]  Preparing categorical values and null values for table data1
+2025-04-16 16:31:44,958 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 16:31:44,960 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 16:31:44,961 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 16:31:44,962 [INFO ]  Relevant attributes for table data1 are ['f1', 'f2', 'f3']
+2025-04-16 16:31:44,962 [INFO ]  NULL values for table data1 are [56563230273114.91, 1136.258806300619, 134.95190636491375]
+2025-04-16 16:31:44,995 [INFO ]  Adding table parts without join partners for table data1
+2025-04-16 16:31:44,995 [INFO ]  Files successfully created

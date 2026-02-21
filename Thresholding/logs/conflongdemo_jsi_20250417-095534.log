@@ -1,0 +1,16 @@
+2025-04-17 09:55:34,665 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/Localization Data for Person Activity and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/Localization Data for Person Activity
+2025-04-17 09:55:34,665 [INFO ]  Preparing hdf file for table conflongdemo_jsi
+2025-04-17 09:55:34,791 [INFO ]  Managing functional dependencies for table conflongdemo_jsi
+2025-04-17 09:55:34,795 [INFO ]  Preparing multipliers for table conflongdemo_jsi
+2025-04-17 09:55:34,795 [INFO ]  Preparing categorical values and null values for table conflongdemo_jsi
+2025-04-17 09:55:34,796 [DEBUG]  		Preparing numerical values for column f1
+2025-04-17 09:55:34,798 [DEBUG]  		Preparing numerical values for column f2
+2025-04-17 09:55:34,800 [DEBUG]  		Preparing numerical values for column f4
+2025-04-17 09:55:34,803 [DEBUG]  		Preparing numerical values for column f5
+2025-04-17 09:55:34,806 [DEBUG]  		Preparing numerical values for column f6
+2025-04-17 09:55:34,809 [DEBUG]  		Preparing numerical values for column f7
+2025-04-17 09:55:34,812 [DEBUG]  		Preparing numerical values for column f8
+2025-04-17 09:55:34,814 [INFO ]  Relevant attributes for table conflongdemo_jsi are ['f1', 'f2', 'f4', 'f5', 'f6', 'f7', 'f8']
+2025-04-17 09:55:34,814 [INFO ]  NULL values for table conflongdemo_jsi are [12.999475227465728, 1.431065667839379, 82415.60680872256, 2.8114479961088805, 1.696976940480432, 0.41831044644414644, 4.627862950382142]
+2025-04-17 09:55:34,944 [INFO ]  Adding table parts without join partners for table conflongdemo_jsi
+2025-04-17 09:55:34,945 [INFO ]  Files successfully created

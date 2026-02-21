@@ -1,0 +1,697 @@
+query_no,query,cardinality_true
+0,"SELECT COUNT(*) FROM title t,movie_companies mc WHERE t.id=mc.movie_id AND mc.company_type_id=2;",1333880
+1,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_companies mc WHERE t.id=mi_idx.movie_id AND t.id=mc.movie_id AND mi_idx.info_type_id=112 AND mc.company_type_id=2;",715
+2,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=112;",250
+3,"SELECT COUNT(*) FROM movie_info_idx mi_idx,movie_companies mc,title t WHERE t.id=mi_idx.movie_id AND t.id=mc.movie_id AND mi_idx.info_type_id=112 AND mc.company_type_id=2;",715
+4,"SELECT COUNT(*) FROM title t,movie_companies mc WHERE t.id=mc.movie_id AND t.production_year>2005 AND t.production_year<2010 AND mc.company_type_id=2;",211716
+5,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_companies mc WHERE t.id=mi_idx.movie_id AND t.id=mc.movie_id AND mi_idx.info_type_id=113 AND mc.company_type_id=2;",22
+6,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=113 AND t.production_year>2005 AND t.production_year<2010;",3
+7,"SELECT COUNT(*) FROM movie_info_idx mi_idx,movie_companies mc,title t WHERE t.id=mi_idx.movie_id AND t.id=mc.movie_id AND mi_idx.info_type_id=113 AND mc.company_type_id=2 AND t.production_year>2005 AND t.production_year<2010;",9
+8,"SELECT COUNT(*) FROM title t,movie_companies mc WHERE t.id=mc.movie_id AND t.production_year>2010 AND mc.company_type_id=2;",176044
+9,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_companies mc WHERE t.id=mi_idx.movie_id AND t.id=mc.movie_id AND mi_idx.info_type_id=112 AND mc.company_type_id=2;",715
+10,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=112 AND t.production_year>2010;",12
+11,"SELECT COUNT(*) FROM movie_info_idx mi_idx,movie_companies mc,title t WHERE t.id=mi_idx.movie_id AND t.id=mc.movie_id AND mi_idx.info_type_id=112 AND mc.company_type_id=2 AND t.production_year>2010;",47
+12,"SELECT COUNT(*) FROM title t,movie_companies mc WHERE t.id=mc.movie_id AND t.production_year>2000 AND mc.company_type_id=2;",619531
+13,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_companies mc WHERE t.id=mi_idx.movie_id AND t.id=mc.movie_id AND mi_idx.info_type_id=113 AND mc.company_type_id=2;",22
+14,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=113 AND t.production_year>2000;",6
+15,"SELECT COUNT(*) FROM movie_info_idx mi_idx,movie_companies mc,title t WHERE t.id=mi_idx.movie_id AND t.id=mc.movie_id AND mi_idx.info_type_id=113 AND mc.company_type_id=2 AND t.production_year>2000;",16
+16,"SELECT COUNT(*) FROM title t,movie_companies mc WHERE t.id=mc.movie_id;",2607346
+17,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND mk.keyword_id=117;",148507
+18,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND mk.keyword_id=117;",41818
+19,"SELECT COUNT(*) FROM movie_keyword mk,movie_companies mc,title t WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND mk.keyword_id=117;",148507
+20,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND t.production_year>2005;",4840697
+21,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2005;",1252383
+22,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id;",232115307
+23,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>2005;",61956654
+24,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND t.production_year>2010;",1696239
+25,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2010;",299428
+26,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id;",232115307
+27,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>2010;",11835512
+28,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND t.production_year>1990;",8945392
+29,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>1990;",2741414
+30,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id;",232115307
+31,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>1990;",155153990
+32,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2005;",143429
+33,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2005;",1252383
+34,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=101;",3460671
+35,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2005 AND mi_idx.info_type_id=101;",850157
+36,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2010;",43800
+37,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2010;",299428
+38,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=101;",3460671
+39,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2010 AND mi_idx.info_type_id=101;",179546
+40,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=101 AND t.production_year>1990;",303210
+41,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>1990;",2741414
+42,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=101;",3460671
+43,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.production_year>1990 AND mi_idx.info_type_id=101;",2030845
+44,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND t.production_year>2005;",4840697
+45,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND mc.company_type_id=2 AND t.production_year>2005;",450190
+46,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mc.company_type_id=2;",19178280
+47,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mc.company_type_id=2 AND t.production_year>2005;",6244636
+48,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND t.production_year>2010;",1696239
+49,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND mc.company_type_id=2 AND t.production_year>2010;",176044
+50,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mc.company_type_id=2;",19178280
+51,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mc.company_type_id=2 AND t.production_year>2010;",1904755
+52,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND t.production_year>1990;",8945392
+53,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND mc.company_type_id=2 AND t.production_year>1990;",794168
+54,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mc.company_type_id=2;",19178280
+55,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mc.company_type_id=2 AND t.production_year>1990;",12551075
+56,"SELECT COUNT(*) FROM title t,movie_keyword mk WHERE t.id=mk.movie_id AND t.production_year>2010 AND mk.keyword_id=8200;",11
+57,"SELECT COUNT(*) FROM title t,cast_info ci,movie_keyword mk WHERE t.id=ci.movie_id AND t.id=mk.movie_id AND mk.keyword_id=8200;",1242
+58,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND t.production_year>2010;",5927711
+59,"SELECT COUNT(*) FROM cast_info ci,movie_keyword mk,title t WHERE t.id=ci.movie_id AND t.id=mk.movie_id AND mk.keyword_id=8200 AND t.production_year>2010;",1224
+60,"SELECT COUNT(*) FROM title t,movie_keyword mk WHERE t.id=mk.movie_id AND t.production_year>2014;",1054
+61,"SELECT COUNT(*) FROM title t,cast_info ci,movie_keyword mk WHERE t.id=ci.movie_id AND t.id=mk.movie_id;",215711511
+62,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND t.production_year>2014;",3099
+63,"SELECT COUNT(*) FROM cast_info ci,movie_keyword mk,title t WHERE t.id=ci.movie_id AND t.id=mk.movie_id AND t.production_year>2014;",13221
+64,"SELECT COUNT(*) FROM title t,movie_keyword mk WHERE t.id=mk.movie_id AND t.production_year>2014 AND mk.keyword_id=8200;",2
+65,"SELECT COUNT(*) FROM title t,cast_info ci,movie_keyword mk WHERE t.id=ci.movie_id AND t.id=mk.movie_id AND mk.keyword_id=8200;",1242
+66,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND t.production_year>2014;",3099
+67,"SELECT COUNT(*) FROM cast_info ci,movie_keyword mk,title t WHERE t.id=ci.movie_id AND t.id=mk.movie_id AND mk.keyword_id=8200 AND t.production_year>2014;",33
+68,"SELECT COUNT(*) FROM title t,movie_keyword mk WHERE t.id=mk.movie_id AND t.production_year>2000 AND mk.keyword_id=8200;",11
+69,"SELECT COUNT(*) FROM title t,cast_info ci,movie_keyword mk WHERE t.id=ci.movie_id AND t.id=mk.movie_id AND mk.keyword_id=8200;",1242
+70,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND t.production_year>2000;",21304157
+71,"SELECT COUNT(*) FROM cast_info ci,movie_keyword mk,title t WHERE t.id=ci.movie_id AND t.id=mk.movie_id AND mk.keyword_id=8200 AND t.production_year>2000;",1224
+72,"SELECT COUNT(*) FROM title t,movie_keyword mk WHERE t.id=mk.movie_id AND t.production_year>2000;",1969412
+73,"SELECT COUNT(*) FROM title t,cast_info ci,movie_keyword mk WHERE t.id=ci.movie_id AND t.id=mk.movie_id;",215711511
+74,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND t.production_year>2000;",21304157
+75,"SELECT COUNT(*) FROM cast_info ci,movie_keyword mk,title t WHERE t.id=ci.movie_id AND t.id=mk.movie_id AND t.production_year>2000;",114145423
+76,"SELECT COUNT(*) FROM title t,cast_info ci WHERE t.id=ci.movie_id AND t.production_year>1980 AND t.production_year<1995;",4527984
+77,"SELECT COUNT(*) FROM title t,cast_info ci WHERE t.id=ci.movie_id AND t.production_year>1980 AND t.production_year<1984;",694743
+78,"SELECT COUNT(*) FROM title t,cast_info ci WHERE t.id=ci.movie_id AND t.production_year>1980 AND t.production_year<2010;",21424721
+79,"SELECT COUNT(*) FROM title t,cast_info ci WHERE t.id=ci.movie_id AND ci.role_id=2;",7442351
+80,"SELECT COUNT(*) FROM title t,movie_companies mc,cast_info ci WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND ci.role_id=2;",13348828
+81,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id;",2607346
+82,"SELECT COUNT(*) FROM movie_companies mc,cast_info ci,title t WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND ci.role_id=2;",13348828
+83,"SELECT COUNT(*) FROM title t,cast_info ci WHERE t.id=ci.movie_id AND ci.role_id=4;",2724931
+84,"SELECT COUNT(*) FROM title t,movie_companies mc,cast_info ci WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND ci.role_id=4;",4445869
+85,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id;",2607346
+86,"SELECT COUNT(*) FROM movie_companies mc,cast_info ci,title t WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND ci.role_id=4;",4445869
+87,"SELECT COUNT(*) FROM title t,cast_info ci WHERE t.id=ci.movie_id AND ci.role_id=7;",276052
+88,"SELECT COUNT(*) FROM title t,movie_companies mc,cast_info ci WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND ci.role_id=7;",794029
+89,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id;",2607346
+90,"SELECT COUNT(*) FROM movie_companies mc,cast_info ci,title t WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND ci.role_id=7;",794029
+91,"SELECT COUNT(*) FROM title t,cast_info ci WHERE t.id=ci.movie_id AND t.production_year>2005 AND t.production_year<2015 AND ci.role_id=2;",3207151
+92,"SELECT COUNT(*) FROM title t,movie_companies mc,cast_info ci WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND ci.role_id=2;",13348828
+93,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>2005 AND t.production_year<2015;",828179
+94,"SELECT COUNT(*) FROM movie_companies mc,cast_info ci,title t WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND ci.role_id=2 AND t.production_year>2005 AND t.production_year<2015;",4890366
+95,"SELECT COUNT(*) FROM title t,cast_info ci WHERE t.id=ci.movie_id AND t.production_year>2007 AND t.production_year<2010 AND ci.role_id=2;",881446
+96,"SELECT COUNT(*) FROM title t,movie_companies mc,cast_info ci WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND ci.role_id=2;",13348828
+97,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>2007 AND t.production_year<2010;",220921
+98,"SELECT COUNT(*) FROM movie_companies mc,cast_info ci,title t WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND ci.role_id=2 AND t.production_year>2007 AND t.production_year<2010;",1380678
+99,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND ci.role_id=1 AND t.production_year>2005;",4857394
+100,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>2005;",828980
+101,"SELECT COUNT(*) FROM title t,movie_companies mc,cast_info ci WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND ci.role_id=1;",27309890
+102,"SELECT COUNT(*) FROM movie_companies mc,title t,cast_info ci WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND t.production_year>2005 AND ci.role_id=1;",8715606
+103,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND ci.role_id=1 AND t.production_year>2010;",1756997
+104,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>2010;",294397
+105,"SELECT COUNT(*) FROM title t,movie_companies mc,cast_info ci WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND ci.role_id=1;",27309890
+106,"SELECT COUNT(*) FROM movie_companies mc,title t,cast_info ci WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND t.production_year>2010 AND ci.role_id=1;",2871880
+107,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND t.production_year>1990;",26738262
+108,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>1990;",1507023
+109,"SELECT COUNT(*) FROM title t,movie_companies mc,cast_info ci WHERE t.id=mc.movie_id AND t.id=ci.movie_id;",80225195
+110,"SELECT COUNT(*) FROM movie_companies mc,title t,cast_info ci WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND t.production_year>1990;",56928881
+111,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND mk.keyword_id=398 AND t.production_year>1950 AND t.production_year<2000;",5180
+112,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND mc.company_type_id=2 AND t.production_year>1950 AND t.production_year<2000;",511428
+113,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND mc.company_type_id=2 AND mk.keyword_id=398;",14099
+114,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND mc.company_type_id=2 AND t.production_year>1950 AND t.production_year<2000 AND mk.keyword_id=398;",7150
+115,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND mk.keyword_id=398;",10543
+116,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND mc.company_type_id=2;",1333880
+117,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND mc.company_type_id=2 AND mk.keyword_id=398;",14099
+118,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND mc.company_type_id=2 AND mk.keyword_id=398;",14099
+119,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>1950;",3960032
+120,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>1950;",2227563
+121,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id;",34859263
+122,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND t.production_year>1950;",31334793
+123,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=3 AND t.production_year>2005 AND t.production_year<2008;",107610
+124,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2005 AND t.production_year<2008;",39821
+125,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND mc.company_type_id=2 AND t.production_year>2005 AND t.production_year<2008;",97690
+126,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND mi.info_type_id=3;",546095
+127,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mc.company_type_id=2 AND mi.info_type_id=3;",1527963
+128,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND mc.company_type_id=2 AND mi_idx.info_type_id=101;",583864
+129,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2005 AND t.production_year<2008 AND mi.info_type_id=3;",45772
+130,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mc.company_type_id=2 AND t.production_year>2005 AND t.production_year<2008 AND mi.info_type_id=3;",118178
+131,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND mc.company_type_id=2 AND t.production_year>2005 AND t.production_year<2008 AND mi_idx.info_type_id=101;",52910
+132,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mc.company_type_id=2 AND mi.info_type_id=3 AND mi_idx.info_type_id=101;",815482
+133,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mc.company_type_id=2 AND t.production_year>2005 AND t.production_year<2008 AND mi.info_type_id=3 AND mi_idx.info_type_id=101;",75436
+134,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=105;",121824
+135,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=113;",10
+136,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id;",2607346
+137,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=113 AND mi.info_type_id=105;",4
+138,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=105;",360209
+139,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=113;",120
+140,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=113 AND mi.info_type_id=105;",4
+141,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=105;",360209
+142,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=113;",120
+143,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=105 AND mi_idx.info_type_id=113;",72
+144,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=105 AND mi_idx.info_type_id=113;",72
+145,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=3 AND t.production_year>2000 AND t.production_year<2010;",435574
+146,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2000 AND t.production_year<2010;",157103
+147,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND mc.company_type_id=2 AND t.production_year>2000 AND t.production_year<2010;",381057
+148,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND mi.info_type_id=3;",546095
+149,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mc.company_type_id=2 AND mi.info_type_id=3;",1527963
+150,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND mc.company_type_id=2 AND mi_idx.info_type_id=101;",583864
+151,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2000 AND t.production_year<2010 AND mi.info_type_id=3;",185473
+152,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mc.company_type_id=2 AND t.production_year>2000 AND t.production_year<2010 AND mi.info_type_id=3;",474089
+153,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND mc.company_type_id=2 AND t.production_year>2000 AND t.production_year<2010 AND mi_idx.info_type_id=101;",207436
+154,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mc.company_type_id=2 AND mi.info_type_id=3 AND mi_idx.info_type_id=101;",815482
+155,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mc.company_type_id=2 AND t.production_year>2000 AND t.production_year<2010 AND mi.info_type_id=3 AND mi_idx.info_type_id=101;",305655
+156,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=16 AND t.kind_id=1;",1083597
+157,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND mc.company_type_id=2 AND t.kind_id=1;",640620
+158,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=101 AND t.kind_id=1;",209880
+159,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mc.company_type_id=2 AND mi.info_type_id=16;",3241660
+160,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND mi.info_type_id=16;",1118379
+161,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_companies mc WHERE t.id=mi_idx.movie_id AND t.id=mc.movie_id AND mi_idx.info_type_id=101 AND mc.company_type_id=2;",583864
+162,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mc.company_type_id=2 AND t.kind_id=1 AND mi.info_type_id=16;",2250196
+163,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND t.kind_id=1 AND mi.info_type_id=16;",724731
+164,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_companies mc WHERE t.id=mi_idx.movie_id AND t.id=mc.movie_id AND mi_idx.info_type_id=101 AND t.kind_id=1 AND mc.company_type_id=2;",302610
+165,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi,movie_companies mc WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND mi_idx.info_type_id=101 AND mi.info_type_id=16 AND mc.company_type_id=2;",2504235
+166,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi,movie_companies mc WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND mi_idx.info_type_id=101 AND t.kind_id=1 AND mi.info_type_id=16 AND mc.company_type_id=2;",1919495
+167,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=8 AND t.production_year>2010 AND t.kind_id=1;",108646
+168,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2010 AND t.kind_id=1;",17526
+169,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2010 AND t.kind_id=1;",164339
+170,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND mi.info_type_id=8;",424768
+171,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=8;",5074855
+172,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=101;",3460671
+173,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2010 AND t.kind_id=1 AND mi.info_type_id=8;",20716
+174,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>2010 AND t.kind_id=1 AND mi.info_type_id=8;",209492
+175,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2010 AND t.kind_id=1 AND mi_idx.info_type_id=101;",110975
+176,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",4167739
+177,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2010 AND t.kind_id=1 AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",150780
+178,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=8 AND t.kind_id=1;",705350
+179,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=101 AND t.kind_id=1;",209880
+180,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.kind_id=1;",2886675
+181,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND mi.info_type_id=8;",424768
+182,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=8;",5074855
+183,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=101;",3460671
+184,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND t.kind_id=1 AND mi.info_type_id=8;",238948
+185,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.kind_id=1 AND mi.info_type_id=8;",3643079
+186,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.kind_id=1 AND mi_idx.info_type_id=101;",2503305
+187,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",4167739
+188,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.kind_id=1 AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",3243247
+189,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=8 AND t.production_year>2005;",454945
+190,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2005;",143429
+191,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2005;",1252383
+192,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND mi.info_type_id=8;",424768
+193,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=8;",5074855
+194,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=101;",3460671
+195,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2005 AND mi.info_type_id=8;",125453
+196,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>2005 AND mi.info_type_id=8;",1383624
+197,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2005 AND mi_idx.info_type_id=101;",850157
+198,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",4167739
+199,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2005 AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",1043368
+200,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=16 AND t.production_year>2000;",1796049
+201,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>2000;",1169320
+202,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2000;",1969412
+203,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",10901928
+204,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",36410096
+205,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id;",34859263
+206,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.production_year>2000 AND mi.info_type_id=16;",6619451
+207,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>2000 AND mi.info_type_id=16;",21792864
+208,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND t.production_year>2000;",16654860
+209,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND mi.info_type_id=16;",753806188
+210,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND t.production_year>2000 AND mi.info_type_id=16;",512565359
+211,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=16 AND t.production_year>2005 AND t.production_year<2010;",669110
+212,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>2005 AND t.production_year<2010;",420076
+213,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2005 AND t.production_year<2010;",776759
+214,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",10901928
+215,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",36410096
+216,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id;",34859263
+217,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.production_year>2005 AND t.production_year<2010 AND mi.info_type_id=16;",2557161
+218,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>2005 AND t.production_year<2010 AND mi.info_type_id=16;",8541179
+219,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND t.production_year>2005 AND t.production_year<2010;",6669232
+220,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND mi.info_type_id=16;",753806188
+221,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND t.production_year>2005 AND t.production_year<2010 AND mi.info_type_id=16;",206772699
+222,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=16 AND t.production_year>1990;",2217197
+223,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>1990;",1507023
+224,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>1990;",2741414
+225,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",10901928
+226,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",36410096
+227,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id;",34859263
+228,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.production_year>1990 AND mi.info_type_id=16;",8191413
+229,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>1990 AND mi.info_type_id=16;",27650712
+230,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND t.production_year>1990;",22576296
+231,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND mi.info_type_id=16;",753806188
+232,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND t.production_year>1990 AND mi.info_type_id=16;",625291253
+233,"SELECT COUNT(*) FROM title t,cast_info ci WHERE t.id=ci.movie_id;",36198131
+234,"SELECT COUNT(*) FROM title t,movie_keyword mk,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND mk.keyword_id=117;",1038078
+235,"SELECT COUNT(*) FROM title t,movie_companies mc,cast_info ci WHERE t.id=mc.movie_id AND t.id=ci.movie_id;",80225195
+236,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND mk.keyword_id=117;",41818
+237,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id;",2607346
+238,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND mk.keyword_id=117;",148507
+239,"SELECT COUNT(*) FROM movie_keyword mk,cast_info ci,title t WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND mk.keyword_id=117;",1038078
+240,"SELECT COUNT(*) FROM movie_companies mc,cast_info ci,title t WHERE t.id=mc.movie_id AND t.id=ci.movie_id;",80225195
+241,"SELECT COUNT(*) FROM title t,movie_companies mc,cast_info ci,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND t.id=mk.movie_id AND mk.keyword_id=117;",7796133
+242,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND mk.keyword_id=117;",148507
+243,"SELECT COUNT(*) FROM movie_companies mc,cast_info ci,title t,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=ci.movie_id AND t.id=mk.movie_id AND mk.keyword_id=117;",7796133
+244,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=105;",121824
+245,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=100;",459562
+246,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id;",36198131
+247,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=100 AND mi.info_type_id=105;",45418
+248,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND mi.info_type_id=105;",2766349
+249,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=100;",13614507
+250,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=100 AND mi.info_type_id=105;",45418
+251,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND mi.info_type_id=105;",2766349
+252,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=100;",13614507
+253,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=105 AND mi_idx.info_type_id=100;",1830786
+254,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=105 AND mi_idx.info_type_id=100;",1830786
+255,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=3 AND t.production_year>2008 AND t.production_year<2014;",456984
+256,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2008 AND t.production_year<2014;",84094
+257,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND t.production_year>2008 AND t.production_year<2014;",10370922
+258,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND mi.info_type_id=3;",546095
+259,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND mi.info_type_id=3;",26034953
+260,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=101;",13614507
+261,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2008 AND t.production_year<2014 AND mi.info_type_id=3;",96354
+262,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.production_year>2008 AND t.production_year<2014 AND mi.info_type_id=3;",7289665
+263,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2008 AND t.production_year<2014 AND mi_idx.info_type_id=101;",2837998
+264,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=3 AND mi_idx.info_type_id=101;",16460162
+265,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2008 AND t.production_year<2014 AND mi.info_type_id=3 AND mi_idx.info_type_id=101;",2935857
+266,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=3;",1533668
+267,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=100;",459562
+268,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id;",36198131
+269,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=100 AND mi.info_type_id=3;",546095
+270,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND mi.info_type_id=3;",26034953
+271,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=100;",13614507
+272,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=100 AND mi.info_type_id=3;",546095
+273,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND mi.info_type_id=3;",26034953
+274,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=100;",13614507
+275,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",16460162
+276,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",16460162
+277,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=16 AND t.production_year>2005 AND t.production_year<2009;",494730
+278,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>2005 AND t.production_year<2009;",304819
+279,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND ci.role_id=2 AND t.production_year>2005 AND t.production_year<2009;",1190249
+280,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",10901928
+281,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",14791118
+282,"SELECT COUNT(*) FROM title t,cast_info ci,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=2;",13348828
+283,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.production_year>2005 AND t.production_year<2009 AND mi.info_type_id=16;",1816266
+284,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND ci.role_id=2 AND t.production_year>2005 AND t.production_year<2009 AND mi.info_type_id=16;",2644709
+285,"SELECT COUNT(*) FROM cast_info ci,title t,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND t.production_year>2005 AND t.production_year<2009;",1836426
+286,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",132301269
+287,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND t.production_year>2005 AND t.production_year<2009 AND mi.info_type_id=16;",24671503
+288,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=16;",3033192
+289,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id;",2607346
+290,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND ci.role_id=2;",7442351
+291,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",10901928
+292,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",14791118
+293,"SELECT COUNT(*) FROM title t,cast_info ci,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=2;",13348828
+294,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",10901928
+295,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",14791118
+296,"SELECT COUNT(*) FROM cast_info ci,title t,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=2;",13348828
+297,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",132301269
+298,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",132301269
+299,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=16 AND t.production_year>2000;",1796049
+300,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>2000;",1169320
+301,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND ci.role_id=2 AND t.production_year>2000;",4395831
+302,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",10901928
+303,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",14791118
+304,"SELECT COUNT(*) FROM title t,cast_info ci,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=2;",13348828
+305,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.production_year>2000 AND mi.info_type_id=16;",6619451
+306,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND ci.role_id=2 AND t.production_year>2000 AND mi.info_type_id=16;",9265596
+307,"SELECT COUNT(*) FROM cast_info ci,title t,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND t.production_year>2000;",6987414
+308,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",132301269
+309,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND t.production_year>2000 AND mi.info_type_id=16;",90637406
+310,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND t.production_year>1950 AND t.kind_id=1;",8852160
+311,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>1950 AND t.kind_id=1;",2343162
+312,"SELECT COUNT(*) FROM title t,movie_keyword mk,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id;",215711511
+313,"SELECT COUNT(*) FROM movie_keyword mk,title t,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND t.production_year>1950 AND t.kind_id=1;",151178411
+314,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND t.production_year>2000 AND t.kind_id=1;",4911602
+315,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2000 AND t.kind_id=1;",1053171
+316,"SELECT COUNT(*) FROM title t,movie_keyword mk,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id;",215711511
+317,"SELECT COUNT(*) FROM movie_keyword mk,title t,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND t.production_year>2000 AND t.kind_id=1;",84216099
+318,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND mk.keyword_id=398 AND t.production_year>1950 AND t.production_year<2000;",5180
+319,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND mc.company_type_id=2 AND t.production_year>1950 AND t.production_year<2000;",511428
+320,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND t.production_year>1950 AND t.production_year<2000;",5438873
+321,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND mc.company_type_id=2 AND mk.keyword_id=398;",14099
+322,"SELECT COUNT(*) FROM title t,movie_info mi,movie_keyword mk WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND mk.keyword_id=398;",322881
+323,"SELECT COUNT(*) FROM title t,movie_info mi,movie_companies mc WHERE t.id=mi.movie_id AND t.id=mc.movie_id AND mc.company_type_id=2;",19178280
+324,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND mc.company_type_id=2 AND t.production_year>1950 AND t.production_year<2000 AND mk.keyword_id=398;",7150
+325,"SELECT COUNT(*) FROM movie_info mi,title t,movie_keyword mk WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND t.production_year>1950 AND t.production_year<2000 AND mk.keyword_id=398;",166764
+326,"SELECT COUNT(*) FROM movie_info mi,title t,movie_companies mc WHERE t.id=mi.movie_id AND t.id=mc.movie_id AND t.production_year>1950 AND t.production_year<2000 AND mc.company_type_id=2;",7151252
+327,"SELECT COUNT(*) FROM title t,movie_info mi,movie_keyword mk,movie_companies mc WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND t.id=mc.movie_id AND mk.keyword_id=398 AND mc.company_type_id=2;",767549
+328,"SELECT COUNT(*) FROM movie_info mi,title t,movie_keyword mk,movie_companies mc WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND t.id=mc.movie_id AND t.production_year>1950 AND t.production_year<2000 AND mk.keyword_id=398 AND mc.company_type_id=2;",328043
+329,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND mk.keyword_id=398 AND t.production_year>2000 AND t.production_year<2010;",2699
+330,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND mc.company_type_id=2 AND t.production_year>2000 AND t.production_year<2010;",381057
+331,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND t.production_year>2000 AND t.production_year<2010;",4487176
+332,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND mc.company_type_id=2 AND mk.keyword_id=398;",14099
+333,"SELECT COUNT(*) FROM title t,movie_info mi,movie_keyword mk WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND mk.keyword_id=398;",322881
+334,"SELECT COUNT(*) FROM title t,movie_info mi,movie_companies mc WHERE t.id=mi.movie_id AND t.id=mc.movie_id AND mc.company_type_id=2;",19178280
+335,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND mc.company_type_id=2 AND t.production_year>2000 AND t.production_year<2010 AND mk.keyword_id=398;",3411
+336,"SELECT COUNT(*) FROM movie_info mi,title t,movie_keyword mk WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND t.production_year>2000 AND t.production_year<2010 AND mk.keyword_id=398;",94482
+337,"SELECT COUNT(*) FROM movie_info mi,title t,movie_companies mc WHERE t.id=mi.movie_id AND t.id=mc.movie_id AND t.production_year>2000 AND t.production_year<2010 AND mc.company_type_id=2;",6774760
+338,"SELECT COUNT(*) FROM title t,movie_info mi,movie_keyword mk,movie_companies mc WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND t.id=mc.movie_id AND mk.keyword_id=398 AND mc.company_type_id=2;",767549
+339,"SELECT COUNT(*) FROM movie_info mi,title t,movie_keyword mk,movie_companies mc WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND t.id=mc.movie_id AND t.production_year>2000 AND t.production_year<2010 AND mk.keyword_id=398 AND mc.company_type_id=2;",304269
+340,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND mk.keyword_id=398 AND t.production_year>1950 AND t.production_year<2010;",8208
+341,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND mc.company_type_id=2 AND t.production_year>1950 AND t.production_year<2010;",916656
+342,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND t.production_year>1950 AND t.production_year<2010;",10217957
+343,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND mc.company_type_id=2 AND mk.keyword_id=398;",14099
+344,"SELECT COUNT(*) FROM title t,movie_info mi,movie_keyword mk WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND mk.keyword_id=398;",322881
+345,"SELECT COUNT(*) FROM title t,movie_info mi,movie_companies mc WHERE t.id=mi.movie_id AND t.id=mc.movie_id AND mc.company_type_id=2;",19178280
+346,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND mc.company_type_id=2 AND t.production_year>1950 AND t.production_year<2010 AND mk.keyword_id=398;",10933
+347,"SELECT COUNT(*) FROM movie_info mi,title t,movie_keyword mk WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND t.production_year>1950 AND t.production_year<2010 AND mk.keyword_id=398;",268774
+348,"SELECT COUNT(*) FROM movie_info mi,title t,movie_companies mc WHERE t.id=mi.movie_id AND t.id=mc.movie_id AND t.production_year>1950 AND t.production_year<2010 AND mc.company_type_id=2;",14395031
+349,"SELECT COUNT(*) FROM title t,movie_info mi,movie_keyword mk,movie_companies mc WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND t.id=mc.movie_id AND mk.keyword_id=398 AND mc.company_type_id=2;",767549
+350,"SELECT COUNT(*) FROM movie_info mi,title t,movie_keyword mk,movie_companies mc WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND t.id=mc.movie_id AND t.production_year>1950 AND t.production_year<2010 AND mk.keyword_id=398 AND mc.company_type_id=2;",649994
+351,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=8 AND t.production_year>2008;",296042
+352,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2008;",84095
+353,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2008;",683650
+354,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>2008;",524161
+355,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND mi.info_type_id=8;",424768
+356,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=8;",5074855
+357,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=8;",2564666
+358,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=101;",3460671
+359,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=101;",1354134
+360,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id;",34859263
+361,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2008 AND mi.info_type_id=8;",71247
+362,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>2008 AND mi.info_type_id=8;",731450
+363,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.production_year>2008 AND mi.info_type_id=8;",494012
+364,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2008 AND mi_idx.info_type_id=101;",447345
+365,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2008 AND mi_idx.info_type_id=101;",248443
+366,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND t.production_year>2008;",5552714
+367,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",4167739
+368,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",1581949
+369,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mk.movie_id AND mi.info_type_id=8;",50641056
+370,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND t.id=mk.movie_id AND mi_idx.info_type_id=101;",33223861
+371,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2008 AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",531875
+372,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2008 AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",288897
+373,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mk.movie_id AND t.production_year>2008 AND mi.info_type_id=8;",8558482
+374,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND t.id=mk.movie_id AND t.production_year>2008 AND mi_idx.info_type_id=101;",5264774
+375,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.id=mk.movie_id AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",49073088
+376,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.id=mk.movie_id AND t.production_year>2008 AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",8274618
+377,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=8 AND t.production_year>2009;",233477
+378,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2009;",64002
+379,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2009;",475624
+380,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>2009;",408904
+381,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND mi.info_type_id=8;",424768
+382,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=8;",5074855
+383,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=8;",2564666
+384,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=101;",3460671
+385,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=101;",1354134
+386,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id;",34859263
+387,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2009 AND mi.info_type_id=8;",52984
+388,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>2009 AND mi.info_type_id=8;",487939
+389,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.production_year>2009 AND mi.info_type_id=8;",374317
+390,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2009 AND mi_idx.info_type_id=101;",305439
+391,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2009 AND mi_idx.info_type_id=101;",183720
+392,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND t.production_year>2009;",3654658
+393,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",4167739
+394,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",1581949
+395,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mk.movie_id AND mi.info_type_id=8;",50641056
+396,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND t.id=mk.movie_id AND mi_idx.info_type_id=101;",33223861
+397,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2009 AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",346669
+398,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2009 AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",207944
+399,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mk.movie_id AND t.production_year>2009 AND mi.info_type_id=8;",5280393
+400,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND t.id=mk.movie_id AND t.production_year>2009 AND mi_idx.info_type_id=101;",3431494
+401,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.id=mk.movie_id AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",49073088
+402,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.id=mk.movie_id AND t.production_year>2009 AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",5060063
+403,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=16 AND t.production_year>2010;",435976
+404,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>2010;",294397
+405,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND ci.role_id=2 AND t.production_year>2010;",1126191
+406,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2010;",299428
+407,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",10901928
+408,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",14791118
+409,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",36410096
+410,"SELECT COUNT(*) FROM title t,cast_info ci,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=2;",13348828
+411,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id;",34859263
+412,"SELECT COUNT(*) FROM title t,movie_keyword mk,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND ci.role_id=2;",35799253
+413,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.production_year>2010 AND mi.info_type_id=16;",1257875
+414,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND ci.role_id=2 AND t.production_year>2010 AND mi.info_type_id=16;",1982743
+415,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>2010 AND mi.info_type_id=16;",2742116
+416,"SELECT COUNT(*) FROM cast_info ci,title t,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND t.production_year>2010;",1636053
+417,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND t.production_year>2010;",2116410
+418,"SELECT COUNT(*) FROM movie_keyword mk,title t,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND t.production_year>2010 AND ci.role_id=2;",2583694
+419,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",132301269
+420,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND mi.info_type_id=16;",753806188
+421,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=ci.movie_id AND mi.info_type_id=16 AND ci.role_id=2;",540408036
+422,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND ci.role_id=2;",434295845
+423,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND t.production_year>2010 AND mi.info_type_id=16;",17669815
+424,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND t.production_year>2010 AND mi.info_type_id=16;",67596967
+425,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=ci.movie_id AND t.production_year>2010 AND mi.info_type_id=16 AND ci.role_id=2;",50178676
+426,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND t.production_year>2010 AND ci.role_id=2;",32903354
+427,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND mi.info_type_id=16 AND ci.role_id=2;",12883046375
+428,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND t.production_year>2010 AND mi.info_type_id=16 AND ci.role_id=2;",1353168516
+429,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=16 AND t.production_year>2010;",435976
+430,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND mc.company_id=22956 AND t.production_year>2010;",37
+431,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND ci.role_id=2 AND t.production_year>2010;",1126191
+432,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2010;",299428
+433,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mc.company_id=22956 AND mi.info_type_id=16;",1680
+434,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",14791118
+435,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",36410096
+436,"SELECT COUNT(*) FROM title t,cast_info ci,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND mc.company_id=22956;",339
+437,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND mc.company_id=22956;",2756
+438,"SELECT COUNT(*) FROM title t,movie_keyword mk,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND ci.role_id=2;",35799253
+439,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mc.company_id=22956 AND t.production_year>2010 AND mi.info_type_id=16;",430
+440,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND ci.role_id=2 AND t.production_year>2010 AND mi.info_type_id=16;",1982743
+441,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>2010 AND mi.info_type_id=16;",2742116
+442,"SELECT COUNT(*) FROM cast_info ci,title t,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND t.production_year>2010 AND mc.company_id=22956;",86
+443,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND t.production_year>2010 AND mc.company_id=22956;",449
+444,"SELECT COUNT(*) FROM movie_keyword mk,title t,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND t.production_year>2010 AND ci.role_id=2;",2583694
+445,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND mi.info_type_id=16 AND mc.company_id=22956;",13040
+446,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND mi.info_type_id=16 AND mc.company_id=22956;",133709
+447,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=ci.movie_id AND mi.info_type_id=16 AND ci.role_id=2;",540408036
+448,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND mc.company_id=22956 AND ci.role_id=2;",20207
+449,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND t.production_year>2010 AND mi.info_type_id=16 AND mc.company_id=22956;",2967
+450,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND t.production_year>2010 AND mi.info_type_id=16 AND mc.company_id=22956;",21091
+451,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=ci.movie_id AND t.production_year>2010 AND mi.info_type_id=16 AND ci.role_id=2;",50178676
+452,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND t.production_year>2010 AND mc.company_id=22956 AND ci.role_id=2;",3340
+453,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND mi.info_type_id=16 AND mc.company_id=22956 AND ci.role_id=2;",1135407
+454,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND t.production_year>2010 AND mi.info_type_id=16 AND mc.company_id=22956 AND ci.role_id=2;",191935
+455,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=16 AND t.production_year>2000;",1796049
+456,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>2000;",1169320
+457,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND ci.role_id=2 AND t.production_year>2000;",4395831
+458,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2000;",1969412
+459,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",10901928
+460,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",14791118
+461,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",36410096
+462,"SELECT COUNT(*) FROM title t,cast_info ci,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=2;",13348828
+463,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id;",34859263
+464,"SELECT COUNT(*) FROM title t,movie_keyword mk,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND ci.role_id=2;",35799253
+465,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.production_year>2000 AND mi.info_type_id=16;",6619451
+466,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND ci.role_id=2 AND t.production_year>2000 AND mi.info_type_id=16;",9265596
+467,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>2000 AND mi.info_type_id=16;",21792864
+468,"SELECT COUNT(*) FROM cast_info ci,title t,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND t.production_year>2000;",6987414
+469,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND t.production_year>2000;",16654860
+470,"SELECT COUNT(*) FROM movie_keyword mk,title t,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND t.production_year>2000 AND ci.role_id=2;",18049664
+471,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",132301269
+472,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND mi.info_type_id=16;",753806188
+473,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=ci.movie_id AND mi.info_type_id=16 AND ci.role_id=2;",540408036
+474,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND ci.role_id=2;",434295845
+475,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND t.production_year>2000 AND mi.info_type_id=16;",90637406
+476,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND t.production_year>2000 AND mi.info_type_id=16;",512565359
+477,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=ci.movie_id AND t.production_year>2000 AND mi.info_type_id=16 AND ci.role_id=2;",365166349
+478,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND t.production_year>2000 AND ci.role_id=2;",251877937
+479,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND mi.info_type_id=16 AND ci.role_id=2;",12883046375
+480,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND t.production_year>2000 AND mi.info_type_id=16 AND ci.role_id=2;",9537609641
+481,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=3;",1533668
+482,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=100;",459562
+483,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id;",36198131
+484,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id;",4522201
+485,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=100 AND mi.info_type_id=3;",546095
+486,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND mi.info_type_id=3;",26034953
+487,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=3;",8853937
+488,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=100;",13614507
+489,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=100;",3460671
+490,"SELECT COUNT(*) FROM title t,movie_keyword mk,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id;",215711511
+491,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=100 AND mi.info_type_id=3;",546095
+492,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND mi.info_type_id=3;",26034953
+493,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=3;",8853937
+494,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=100;",13614507
+495,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=100;",3460671
+496,"SELECT COUNT(*) FROM movie_keyword mk,title t,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id;",215711511
+497,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",16460162
+498,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",7566897
+499,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=ci.movie_id AND mi.info_type_id=3;",510911332
+500,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info_idx mi_idx,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.id=ci.movie_id AND mi_idx.info_type_id=100;",200499873
+501,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",16460162
+502,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",7566897
+503,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=ci.movie_id AND mi.info_type_id=3;",510911332
+504,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info_idx mi_idx,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.id=ci.movie_id AND mi_idx.info_type_id=100;",200499873
+505,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_info_idx mi_idx,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.id=ci.movie_id AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",492932174
+506,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_info_idx mi_idx,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.id=ci.movie_id AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",492932174
+507,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=3 AND t.production_year>2010;",276591
+508,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=100 AND t.production_year>2010;",43800
+509,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND t.production_year>2010;",5927711
+510,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2010;",299428
+511,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=100 AND mi.info_type_id=3;",546095
+512,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND mi.info_type_id=3;",26034953
+513,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=3;",8853937
+514,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=100;",13614507
+515,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=100;",3460671
+516,"SELECT COUNT(*) FROM title t,movie_keyword mk,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id;",215711511
+517,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=100 AND t.production_year>2010 AND mi.info_type_id=3;",46639
+518,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.production_year>2010 AND mi.info_type_id=3;",4308398
+519,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>2010 AND mi.info_type_id=3;",463848
+520,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2010 AND mi_idx.info_type_id=100;",1489436
+521,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2010 AND mi_idx.info_type_id=100;",179546
+522,"SELECT COUNT(*) FROM movie_keyword mk,title t,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND t.production_year>2010;",17276078
+523,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",16460162
+524,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",7566897
+525,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=ci.movie_id AND mi.info_type_id=3;",510911332
+526,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info_idx mi_idx,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.id=ci.movie_id AND mi_idx.info_type_id=100;",200499873
+527,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2010 AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",1436118
+528,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2010 AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",306404
+529,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=ci.movie_id AND t.production_year>2010 AND mi.info_type_id=3;",35754660
+530,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info_idx mi_idx,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.id=ci.movie_id AND t.production_year>2010 AND mi_idx.info_type_id=100;",14790028
+531,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_info_idx mi_idx,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.id=ci.movie_id AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",492932174
+532,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_info_idx mi_idx,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.id=ci.movie_id AND t.production_year>2010 AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",32355195
+533,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND t.production_year>2000 AND t.kind_id=1;",4911602
+534,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2000 AND t.kind_id=1;",1053171
+535,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2000 AND t.kind_id=1;",86572
+536,"SELECT COUNT(*) FROM title t,movie_keyword mk,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id;",215711511
+537,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,cast_info ci WHERE t.id=mi_idx.movie_id AND t.id=ci.movie_id AND mi_idx.info_type_id=101;",13614507
+538,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mi_idx.movie_id AND t.id=mk.movie_id AND mi_idx.info_type_id=101;",3460671
+539,"SELECT COUNT(*) FROM movie_keyword mk,title t,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND t.production_year>2000 AND t.kind_id=1;",84216099
+540,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,cast_info ci WHERE t.id=mi_idx.movie_id AND t.id=ci.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2000 AND t.kind_id=1;",2693643
+541,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_keyword mk WHERE t.id=mi_idx.movie_id AND t.id=mk.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2000 AND t.kind_id=1;",897347
+542,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,cast_info ci,movie_keyword mk WHERE t.id=mi_idx.movie_id AND t.id=ci.movie_id AND t.id=mk.movie_id AND mi_idx.info_type_id=101;",200499873
+543,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,cast_info ci,movie_keyword mk WHERE t.id=mi_idx.movie_id AND t.id=ci.movie_id AND t.id=mk.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2000 AND t.kind_id=1;",81494089
+544,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND t.production_year>2005 AND t.kind_id=1;",3785488
+545,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2005 AND t.kind_id=1;",682355
+546,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2005 AND t.kind_id=1;",58024
+547,"SELECT COUNT(*) FROM title t,movie_keyword mk,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id;",215711511
+548,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,cast_info ci WHERE t.id=mi_idx.movie_id AND t.id=ci.movie_id AND mi_idx.info_type_id=101;",13614507
+549,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mi_idx.movie_id AND t.id=mk.movie_id AND mi_idx.info_type_id=101;",3460671
+550,"SELECT COUNT(*) FROM movie_keyword mk,title t,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND t.production_year>2005 AND t.kind_id=1;",53764996
+551,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,cast_info ci WHERE t.id=mi_idx.movie_id AND t.id=ci.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2005 AND t.kind_id=1;",1839551
+552,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_keyword mk WHERE t.id=mi_idx.movie_id AND t.id=mk.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2005 AND t.kind_id=1;",547364
+553,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,cast_info ci,movie_keyword mk WHERE t.id=mi_idx.movie_id AND t.id=ci.movie_id AND t.id=mk.movie_id AND mi_idx.info_type_id=101;",200499873
+554,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,cast_info ci,movie_keyword mk WHERE t.id=mi_idx.movie_id AND t.id=ci.movie_id AND t.id=mk.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2005 AND t.kind_id=1;",51282177
+555,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND mk.keyword_id=398 AND t.production_year=1998;",271
+556,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND mc.company_type_id=2 AND t.production_year=1998;",20439
+557,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND t.production_year=1998;",246860
+558,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND mc.company_type_id=2 AND mk.keyword_id=398;",14099
+559,"SELECT COUNT(*) FROM title t,movie_info mi,movie_keyword mk WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND mk.keyword_id=398;",322881
+560,"SELECT COUNT(*) FROM title t,movie_info mi,movie_companies mc WHERE t.id=mi.movie_id AND t.id=mc.movie_id AND mc.company_type_id=2;",19178280
+561,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND mc.company_type_id=2 AND t.production_year=1998 AND mk.keyword_id=398;",372
+562,"SELECT COUNT(*) FROM movie_info mi,title t,movie_keyword mk WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND t.production_year=1998 AND mk.keyword_id=398;",8444
+563,"SELECT COUNT(*) FROM movie_info mi,title t,movie_companies mc WHERE t.id=mi.movie_id AND t.id=mc.movie_id AND t.production_year=1998 AND mc.company_type_id=2;",364270
+564,"SELECT COUNT(*) FROM title t,movie_info mi,movie_keyword mk,movie_companies mc WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND t.id=mc.movie_id AND mk.keyword_id=398 AND mc.company_type_id=2;",767549
+565,"SELECT COUNT(*) FROM movie_info mi,title t,movie_keyword mk,movie_companies mc WHERE t.id=mi.movie_id AND t.id=mk.movie_id AND t.id=mc.movie_id AND t.production_year=1998 AND mk.keyword_id=398 AND mc.company_type_id=2;",18793
+566,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=8 AND t.production_year>2000;",641099
+567,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2000;",221105
+568,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2000;",1969412
+569,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>2000;",1169320
+570,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND mi.info_type_id=8;",424768
+571,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=8;",5074855
+572,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=8;",2564666
+573,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=101;",3460671
+574,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=101;",1354134
+575,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id;",34859263
+576,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2000 AND mi.info_type_id=8;",198789
+577,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>2000 AND mi.info_type_id=8;",2283023
+578,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.production_year>2000 AND mi.info_type_id=8;",1194720
+579,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2000 AND mi_idx.info_type_id=101;",1402286
+580,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2000 AND mi_idx.info_type_id=101;",645645
+581,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND t.production_year>2000;",16654860
+582,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",4167739
+583,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",1581949
+584,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mk.movie_id AND mi.info_type_id=8;",50641056
+585,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND t.id=mk.movie_id AND mi_idx.info_type_id=101;",33223861
+586,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2000 AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",1800605
+587,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2000 AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",783905
+588,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mk.movie_id AND t.production_year>2000 AND mi.info_type_id=8;",27357449
+589,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND t.id=mk.movie_id AND t.production_year>2000 AND mi_idx.info_type_id=101;",15998483
+590,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.id=mk.movie_id AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",49073088
+591,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.id=mk.movie_id AND t.production_year>2000 AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",26715485
+592,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=8 AND t.production_year>2005;",454945
+593,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2005;",143429
+594,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2005;",1252383
+595,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>2005;",828980
+596,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND mi.info_type_id=8;",424768
+597,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=8;",5074855
+598,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=8;",2564666
+599,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=101;",3460671
+600,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=101;",1354134
+601,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id;",34859263
+602,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=101 AND t.production_year>2005 AND mi.info_type_id=8;",125453
+603,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>2005 AND mi.info_type_id=8;",1383624
+604,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.production_year>2005 AND mi.info_type_id=8;",813294
+605,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2005 AND mi_idx.info_type_id=101;",850157
+606,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2005 AND mi_idx.info_type_id=101;",427402
+607,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mk.movie_id AND t.production_year>2005;",10323890
+608,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",4167739
+609,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",1581949
+610,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mk.movie_id AND mi.info_type_id=8;",50641056
+611,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND t.id=mk.movie_id AND mi_idx.info_type_id=101;",33223861
+612,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2005 AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",1043368
+613,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2005 AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",508150
+614,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mk.movie_id AND t.production_year>2005 AND mi.info_type_id=8;",16261850
+615,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi_idx.movie_id AND t.id=mk.movie_id AND t.production_year>2005 AND mi_idx.info_type_id=101;",9859330
+616,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.id=mk.movie_id AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",49073088
+617,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi,movie_info_idx mi_idx,movie_keyword mk WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.id=mk.movie_id AND t.production_year>2005 AND mi.info_type_id=8 AND mi_idx.info_type_id=101;",15811172
+618,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=16 AND t.production_year>2000 AND t.production_year<2010;",1183646
+619,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>2000 AND t.production_year<2010;",760416
+620,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND ci.role_id=2 AND t.production_year>2000 AND t.production_year<2010;",2828089
+621,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND mk.keyword_id=7084 AND t.production_year>2000 AND t.production_year<2010;",199
+622,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",10901928
+623,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",14791118
+624,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mk.keyword_id=7084 AND mi.info_type_id=16;",4801
+625,"SELECT COUNT(*) FROM title t,cast_info ci,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=2;",13348828
+626,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND mk.keyword_id=7084;",3218
+627,"SELECT COUNT(*) FROM title t,movie_keyword mk,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND mk.keyword_id=7084 AND ci.role_id=2;",1821
+628,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.production_year>2000 AND t.production_year<2010 AND mi.info_type_id=16;",4732082
+629,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND ci.role_id=2 AND t.production_year>2000 AND t.production_year<2010 AND mi.info_type_id=16;",6390179
+630,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mk.keyword_id=7084 AND t.production_year>2000 AND t.production_year<2010 AND mi.info_type_id=16;",3456
+631,"SELECT COUNT(*) FROM cast_info ci,title t,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND t.production_year>2000 AND t.production_year<2010;",4671122
+632,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND mk.keyword_id=7084 AND t.production_year>2000 AND t.production_year<2010;",2178
+633,"SELECT COUNT(*) FROM movie_keyword mk,title t,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND mk.keyword_id=7084 AND t.production_year>2000 AND t.production_year<2010 AND ci.role_id=2;",1254
+634,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",132301269
+635,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND mk.keyword_id=7084 AND mi.info_type_id=16;",114260
+636,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=ci.movie_id AND mk.keyword_id=7084 AND mi.info_type_id=16 AND ci.role_id=2;",57861
+637,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND mk.keyword_id=7084 AND ci.role_id=2;",32299
+638,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND t.production_year>2000 AND t.production_year<2010 AND mi.info_type_id=16;",64286754
+639,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND mk.keyword_id=7084 AND t.production_year>2000 AND t.production_year<2010 AND mi.info_type_id=16;",83888
+640,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=ci.movie_id AND mk.keyword_id=7084 AND t.production_year>2000 AND t.production_year<2010 AND mi.info_type_id=16 AND ci.role_id=2;",41636
+641,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND mk.keyword_id=7084 AND t.production_year>2000 AND t.production_year<2010 AND ci.role_id=2;",23853
+642,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND mk.keyword_id=7084 AND mi.info_type_id=16 AND ci.role_id=2;",1499619
+643,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND mk.keyword_id=7084 AND t.production_year>2000 AND t.production_year<2010 AND mi.info_type_id=16 AND ci.role_id=2;",1067496
+644,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=16 AND t.production_year>2000 AND t.production_year<2005;",380353
+645,"SELECT COUNT(*) FROM movie_companies mc,title t WHERE t.id=mc.movie_id AND t.production_year>2000 AND t.production_year<2005;",252907
+646,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND ci.role_id=2 AND t.production_year>2000 AND t.production_year<2005;",887119
+647,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND mk.keyword_id=7084 AND t.production_year>2000 AND t.production_year<2005;",100
+648,"SELECT COUNT(*) FROM title t,movie_companies mc,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND mi.info_type_id=16;",10901928
+649,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",14791118
+650,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mk.keyword_id=7084 AND mi.info_type_id=16;",4801
+651,"SELECT COUNT(*) FROM title t,cast_info ci,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=2;",13348828
+652,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND mk.keyword_id=7084;",3218
+653,"SELECT COUNT(*) FROM title t,movie_keyword mk,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND mk.keyword_id=7084 AND ci.role_id=2;",1821
+654,"SELECT COUNT(*) FROM movie_companies mc,title t,movie_info mi WHERE t.id=mc.movie_id AND t.id=mi.movie_id AND t.production_year>2000 AND t.production_year<2005 AND mi.info_type_id=16;",1672518
+655,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND ci.role_id=2 AND t.production_year>2000 AND t.production_year<2005 AND mi.info_type_id=16;",2053786
+656,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mk.keyword_id=7084 AND t.production_year>2000 AND t.production_year<2005 AND mi.info_type_id=16;",1084
+657,"SELECT COUNT(*) FROM cast_info ci,title t,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND t.production_year>2000 AND t.production_year<2005;",1570351
+658,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND mk.keyword_id=7084 AND t.production_year>2000 AND t.production_year<2005;",777
+659,"SELECT COUNT(*) FROM movie_keyword mk,title t,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND mk.keyword_id=7084 AND t.production_year>2000 AND t.production_year<2005 AND ci.role_id=2;",467
+660,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND mi.info_type_id=16;",132301269
+661,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND mk.keyword_id=7084 AND mi.info_type_id=16;",114260
+662,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=ci.movie_id AND mk.keyword_id=7084 AND mi.info_type_id=16 AND ci.role_id=2;",57861
+663,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND mk.keyword_id=7084 AND ci.role_id=2;",32299
+664,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi,movie_companies mc WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND ci.role_id=2 AND t.production_year>2000 AND t.production_year<2005 AND mi.info_type_id=16;",22137133
+665,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_companies mc WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND mk.keyword_id=7084 AND t.production_year>2000 AND t.production_year<2005 AND mi.info_type_id=16;",22926
+666,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=ci.movie_id AND mk.keyword_id=7084 AND t.production_year>2000 AND t.production_year<2005 AND mi.info_type_id=16 AND ci.role_id=2;",11235
+667,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND mk.keyword_id=7084 AND t.production_year>2000 AND t.production_year<2005 AND ci.role_id=2;",7143
+668,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND mk.keyword_id=7084 AND mi.info_type_id=16 AND ci.role_id=2;",1499619
+669,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_companies mc,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mc.movie_id AND t.id=ci.movie_id AND mk.keyword_id=7084 AND t.production_year>2000 AND t.production_year<2005 AND mi.info_type_id=16 AND ci.role_id=2;",268172
+670,"SELECT COUNT(*) FROM movie_info mi,title t WHERE t.id=mi.movie_id AND mi.info_type_id=3 AND t.production_year>2000;",815079
+671,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t WHERE t.id=mi_idx.movie_id AND mi_idx.info_type_id=100 AND t.production_year>2000;",221105
+672,"SELECT COUNT(*) FROM cast_info ci,title t WHERE t.id=ci.movie_id AND t.production_year>2000;",21304157
+673,"SELECT COUNT(*) FROM movie_keyword mk,title t WHERE t.id=mk.movie_id AND t.production_year>2000;",1969412
+674,"SELECT COUNT(*) FROM title t,movie_info_idx mi_idx,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=100 AND mi.info_type_id=3;",546095
+675,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND mi.info_type_id=3;",26034953
+676,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND mi.info_type_id=3;",8853937
+677,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=100;",13614507
+678,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND mi_idx.info_type_id=100;",3460671
+679,"SELECT COUNT(*) FROM title t,movie_keyword mk,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id;",215711511
+680,"SELECT COUNT(*) FROM movie_info_idx mi_idx,title t,movie_info mi WHERE t.id=mi_idx.movie_id AND t.id=mi.movie_id AND mi_idx.info_type_id=100 AND t.production_year>2000 AND mi.info_type_id=3;",257589
+681,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.production_year>2000 AND mi.info_type_id=3;",14391234
+682,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.production_year>2000 AND mi.info_type_id=3;",3564030
+683,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2000 AND mi_idx.info_type_id=100;",7090266
+684,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2000 AND mi_idx.info_type_id=100;",1402286
+685,"SELECT COUNT(*) FROM movie_keyword mk,title t,cast_info ci WHERE t.id=mk.movie_id AND t.id=ci.movie_id AND t.production_year>2000;",114145423
+686,"SELECT COUNT(*) FROM title t,cast_info ci,movie_info mi,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",16460162
+687,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",7566897
+688,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=ci.movie_id AND mi.info_type_id=3;",510911332
+689,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info_idx mi_idx,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.id=ci.movie_id AND mi_idx.info_type_id=100;",200499873
+690,"SELECT COUNT(*) FROM cast_info ci,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=ci.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2000 AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",8005030
+691,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_info_idx mi_idx WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.production_year>2000 AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",2912009
+692,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=ci.movie_id AND t.production_year>2000 AND mi.info_type_id=3;",268232828
+693,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info_idx mi_idx,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi_idx.movie_id AND t.id=ci.movie_id AND t.production_year>2000 AND mi_idx.info_type_id=100;",104953995
+694,"SELECT COUNT(*) FROM title t,movie_keyword mk,movie_info mi,movie_info_idx mi_idx,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.id=ci.movie_id AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",492932174
+695,"SELECT COUNT(*) FROM movie_keyword mk,title t,movie_info mi,movie_info_idx mi_idx,cast_info ci WHERE t.id=mk.movie_id AND t.id=mi.movie_id AND t.id=mi_idx.movie_id AND t.id=ci.movie_id AND t.production_year>2000 AND mi.info_type_id=3 AND mi_idx.info_type_id=100;",258380423

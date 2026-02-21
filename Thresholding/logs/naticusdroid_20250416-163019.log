@@ -1,0 +1,96 @@
+2025-04-16 16:30:19,871 [INFO ]  Generating HDF files for tables in /home/dafn/card/deepcard/collected_datasets/NATICUSdroid (Android Permissions) and store to path /home/dafn/card/deepcard/collected_temp_benchmarks/gen_single_light/NATICUSdroid (Android Permissions)
+2025-04-16 16:30:19,871 [INFO ]  Preparing hdf file for table naticusdroid
+2025-04-16 16:30:20,013 [INFO ]  Managing functional dependencies for table naticusdroid
+2025-04-16 16:30:20,019 [INFO ]  Preparing multipliers for table naticusdroid
+2025-04-16 16:30:20,020 [INFO ]  Preparing categorical values and null values for table naticusdroid
+2025-04-16 16:30:20,020 [DEBUG]  		Preparing numerical values for column f1
+2025-04-16 16:30:20,021 [DEBUG]  		Preparing numerical values for column f2
+2025-04-16 16:30:20,022 [DEBUG]  		Preparing numerical values for column f3
+2025-04-16 16:30:20,023 [DEBUG]  		Preparing numerical values for column f4
+2025-04-16 16:30:20,024 [DEBUG]  		Preparing numerical values for column f5
+2025-04-16 16:30:20,025 [DEBUG]  		Preparing numerical values for column f6
+2025-04-16 16:30:20,026 [DEBUG]  		Preparing numerical values for column f7
+2025-04-16 16:30:20,027 [DEBUG]  		Preparing numerical values for column f8
+2025-04-16 16:30:20,028 [DEBUG]  		Preparing numerical values for column f9
+2025-04-16 16:30:20,029 [DEBUG]  		Preparing numerical values for column f10
+2025-04-16 16:30:20,030 [DEBUG]  		Preparing numerical values for column f11
+2025-04-16 16:30:20,031 [DEBUG]  		Preparing numerical values for column f12
+2025-04-16 16:30:20,032 [DEBUG]  		Preparing numerical values for column f13
+2025-04-16 16:30:20,033 [DEBUG]  		Preparing numerical values for column f14
+2025-04-16 16:30:20,034 [DEBUG]  		Preparing numerical values for column f15
+2025-04-16 16:30:20,035 [DEBUG]  		Preparing numerical values for column f16
+2025-04-16 16:30:20,036 [DEBUG]  		Preparing numerical values for column f17
+2025-04-16 16:30:20,037 [DEBUG]  		Preparing numerical values for column f18
+2025-04-16 16:30:20,038 [DEBUG]  		Preparing numerical values for column f19
+2025-04-16 16:30:20,039 [DEBUG]  		Preparing numerical values for column f20
+2025-04-16 16:30:20,040 [DEBUG]  		Preparing numerical values for column f21
+2025-04-16 16:30:20,041 [DEBUG]  		Preparing numerical values for column f22
+2025-04-16 16:30:20,041 [DEBUG]  		Preparing numerical values for column f23
+2025-04-16 16:30:20,042 [DEBUG]  		Preparing numerical values for column f24
+2025-04-16 16:30:20,043 [DEBUG]  		Preparing numerical values for column f25
+2025-04-16 16:30:20,044 [DEBUG]  		Preparing numerical values for column f26
+2025-04-16 16:30:20,045 [DEBUG]  		Preparing numerical values for column f27
+2025-04-16 16:30:20,046 [DEBUG]  		Preparing numerical values for column f28
+2025-04-16 16:30:20,047 [DEBUG]  		Preparing numerical values for column f29
+2025-04-16 16:30:20,048 [DEBUG]  		Preparing numerical values for column f30
+2025-04-16 16:30:20,049 [DEBUG]  		Preparing numerical values for column f31
+2025-04-16 16:30:20,050 [DEBUG]  		Preparing numerical values for column f32
+2025-04-16 16:30:20,051 [DEBUG]  		Preparing numerical values for column f33
+2025-04-16 16:30:20,052 [DEBUG]  		Preparing numerical values for column f34
+2025-04-16 16:30:20,053 [DEBUG]  		Preparing numerical values for column f35
+2025-04-16 16:30:20,054 [DEBUG]  		Preparing numerical values for column f36
+2025-04-16 16:30:20,055 [DEBUG]  		Preparing numerical values for column f37
+2025-04-16 16:30:20,056 [DEBUG]  		Preparing numerical values for column f38
+2025-04-16 16:30:20,057 [DEBUG]  		Preparing numerical values for column f39
+2025-04-16 16:30:20,058 [DEBUG]  		Preparing numerical values for column f40
+2025-04-16 16:30:20,059 [DEBUG]  		Preparing numerical values for column f41
+2025-04-16 16:30:20,060 [DEBUG]  		Preparing numerical values for column f42
+2025-04-16 16:30:20,061 [DEBUG]  		Preparing numerical values for column f43
+2025-04-16 16:30:20,062 [DEBUG]  		Preparing numerical values for column f44
+2025-04-16 16:30:20,062 [DEBUG]  		Preparing numerical values for column f45
+2025-04-16 16:30:20,063 [DEBUG]  		Preparing numerical values for column f46
+2025-04-16 16:30:20,064 [DEBUG]  		Preparing numerical values for column f47
+2025-04-16 16:30:20,065 [DEBUG]  		Preparing numerical values for column f48
+2025-04-16 16:30:20,066 [DEBUG]  		Preparing numerical values for column f49
+2025-04-16 16:30:20,067 [DEBUG]  		Preparing numerical values for column f50
+2025-04-16 16:30:20,068 [DEBUG]  		Preparing numerical values for column f51
+2025-04-16 16:30:20,069 [DEBUG]  		Preparing numerical values for column f52
+2025-04-16 16:30:20,070 [DEBUG]  		Preparing numerical values for column f53
+2025-04-16 16:30:20,071 [DEBUG]  		Preparing numerical values for column f54
+2025-04-16 16:30:20,072 [DEBUG]  		Preparing numerical values for column f55
+2025-04-16 16:30:20,073 [DEBUG]  		Preparing numerical values for column f56
+2025-04-16 16:30:20,074 [DEBUG]  		Preparing numerical values for column f57
+2025-04-16 16:30:20,075 [DEBUG]  		Preparing numerical values for column f58
+2025-04-16 16:30:20,076 [DEBUG]  		Preparing numerical values for column f59
+2025-04-16 16:30:20,077 [DEBUG]  		Preparing numerical values for column f60
+2025-04-16 16:30:20,078 [DEBUG]  		Preparing numerical values for column f61
+2025-04-16 16:30:20,079 [DEBUG]  		Preparing numerical values for column f62
+2025-04-16 16:30:20,080 [DEBUG]  		Preparing numerical values for column f63
+2025-04-16 16:30:20,081 [DEBUG]  		Preparing numerical values for column f64
+2025-04-16 16:30:20,082 [DEBUG]  		Preparing numerical values for column f65
+2025-04-16 16:30:20,083 [DEBUG]  		Preparing numerical values for column f66
+2025-04-16 16:30:20,084 [DEBUG]  		Preparing numerical values for column f67
+2025-04-16 16:30:20,085 [DEBUG]  		Preparing numerical values for column f68
+2025-04-16 16:30:20,085 [DEBUG]  		Preparing numerical values for column f69
+2025-04-16 16:30:20,086 [DEBUG]  		Preparing numerical values for column f70
+2025-04-16 16:30:20,087 [DEBUG]  		Preparing numerical values for column f71
+2025-04-16 16:30:20,088 [DEBUG]  		Preparing numerical values for column f72
+2025-04-16 16:30:20,089 [DEBUG]  		Preparing numerical values for column f73
+2025-04-16 16:30:20,090 [DEBUG]  		Preparing numerical values for column f74
+2025-04-16 16:30:20,091 [DEBUG]  		Preparing numerical values for column f75
+2025-04-16 16:30:20,092 [DEBUG]  		Preparing numerical values for column f76
+2025-04-16 16:30:20,093 [DEBUG]  		Preparing numerical values for column f77
+2025-04-16 16:30:20,094 [DEBUG]  		Preparing numerical values for column f78
+2025-04-16 16:30:20,095 [DEBUG]  		Preparing numerical values for column f79
+2025-04-16 16:30:20,096 [DEBUG]  		Preparing numerical values for column f80
+2025-04-16 16:30:20,097 [DEBUG]  		Preparing numerical values for column f81
+2025-04-16 16:30:20,098 [DEBUG]  		Preparing numerical values for column f82
+2025-04-16 16:30:20,099 [DEBUG]  		Preparing numerical values for column f83
+2025-04-16 16:30:20,100 [DEBUG]  		Preparing numerical values for column f84
+2025-04-16 16:30:20,101 [DEBUG]  		Preparing numerical values for column f85
+2025-04-16 16:30:20,102 [DEBUG]  		Preparing numerical values for column f86
+2025-04-16 16:30:20,103 [DEBUG]  		Preparing numerical values for column f87
+2025-04-16 16:30:20,103 [INFO ]  Relevant attributes for table naticusdroid are ['f1', 'f2', 'f3', 'f4', 'f5', 'f6', 'f7', 'f8', 'f9', 'f10', 'f11', 'f12', 'f13', 'f14', 'f15', 'f16', 'f17', 'f18', 'f19', 'f20', 'f21', 'f22', 'f23', 'f24', 'f25', 'f26', 'f27', 'f28', 'f29', 'f30', 'f31', 'f32', 'f33', 'f34', 'f35', 'f36', 'f37', 'f38', 'f39', 'f40', 'f41', 'f42', 'f43', 'f44', 'f45', 'f46', 'f47', 'f48', 'f49', 'f50', 'f51', 'f52', 'f53', 'f54', 'f55', 'f56', 'f57', 'f58', 'f59', 'f60', 'f61', 'f62', 'f63', 'f64', 'f65', 'f66', 'f67', 'f68', 'f69', 'f70', 'f71', 'f72', 'f73', 'f74', 'f75', 'f76', 'f77', 'f78', 'f79', 'f80', 'f81', 'f82', 'f83', 'f84', 'f85', 'f86', 'f87']
+2025-04-16 16:30:20,104 [INFO ]  NULL values for table naticusdroid are [0.22613300150006818, 0.03436292104186554, 0.045988449474976136, 0.01370289104050184, 0.005861625528433111, 0.17178962225555705, 0.0601709123141961, 0.014214277921723714, 0.11090049093140597, 0.043840624573844265, 0.011145956634392471, 0.23363334242465567, 0.6693008727669439, 0.058807213964271104, 0.023044224737488066, 0.01772580117278058, 0.03852220100913678, 0.2142688258557207, 0.0037138006273012406, 0.07585344333833356, 0.0648074867039411, 0.5874789717714441, 0.004225187508523115, 0.03136278467203055, 0.040840488204009276, 0.9754170598663575, 0.05918223101050048, 0.03245374335197055, 0.0104981999181781, 0.041385967543979274, 0.5251579571798718, 0.03954497477158053, 0.017316691667803082, 0.026419378153552435, 0.020725937542615574, 0.004770666848493113, 0.009202686485749352, 0.032862852856948045, 0.005316146188463112, 0.21253011045956632, 0.03323786990317742, 0.022907854902495566, 0.034328828583117414, 0.014077908086731214, 0.06883039683621983, 0.023112409654984317, 0.00787308059457248, 0.007566248465839357, 0.04864766125732988, 0.017487153961543708, 0.047897627164871136, 0.014077908086731214, 0.012236915314332469, 0.4639960861857357, 0.05710259102686486, 0.005657070775944361, 0.004020632756034366, 0.18706304377471702, 0.02652165552979681, 0.00961179599072685, 0.014077908086731214, 0.08693349243147416, 0.12712850129551342, 0.1327196645302059, 0.014146093004227464, 0.4549615846174826, 0.48097413064230193, 0.4456202509204964, 0.04165870721396427, 0.14898176735306148, 0.027203504704759306, 0.00398654029728624, 0.031635524342015546, 0.3491385926633029, 0.006509382244647484, 0.01370289104050184, 0.004532019637256239, 0.029760439110868675, 0.00398654029728624, 0.033544702031910546, 0.034397013500613666, 0.9491317741715533, 0.02382835128869494, 0.02348742670121369, 0.051818259920905496, 0.0037478930860493655, 0.5012591435974363]
+2025-04-16 16:30:20,173 [INFO ]  Adding table parts without join partners for table naticusdroid
+2025-04-16 16:30:20,173 [INFO ]  Files successfully created
