@@ -7,16 +7,15 @@ This is the soure code for AdapCard.
 Tested with python3.7
 
 ```
-git clone https://github.com/DaFnnn/deepcard-public.git
-cd deepcard-public
+git clone https://github.com/DaFnnn/AdapCard.git
+cd AdapCard
 sudo apt install -y libpq-dev gcc python3-dev
-conda create -n deepcard python=3.7 -y
-conda activate deepcard
-pip3 install -r requirements.txt
+conda env create -f environment.yml
+conda activate adapcard
 ```
 
 # Reproduce Experiments
-The single table dataset is included in ./imdb-benchmark/xxx. For imdb dataset, please download the [JOB dataset](http://homepages.cwi.nl/~boncz/job/imdb.tgz). Unzip csv files to ./imdb-benchmark.
+The single table dataset is included in ./imdb-benchmark/xxx. For imdb dataset, please download the IMDB dataset. Unzip csv files to ./imdb-benchmark.
 
 The code supports AdapCard-RSPN and AdapCard-TC-SPN with or without MetaATPM. For convenience, we introduce the experiments of AdapCard-TC-SPN with MetaATPM on four datasets.
 
@@ -183,7 +182,7 @@ python3 maqp.py --evaluate_cardinalities
 
 ## Reproduce Results on IMDB Dataset
 
-Download the [JOB dataset](http://homepages.cwi.nl/~boncz/job/imdb.tgz). Unzip csv files to ./imdb-benchmark.
+Download the IMDB dataset. Unzip csv files to ./imdb-benchmark.
 
 Generate hdf files from csvs.
 
