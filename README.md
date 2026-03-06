@@ -1,4 +1,4 @@
-# DeepCard: A Data-Driven Cardinality Estimation Method based on Adaptive Sum-Product Network
+# AdapCard: Adaptive Cardinality Estimation via Meta-Learning and Tri-Correlation Sum-Product Networks
 
 This is the soure code for AdapCard.
 
