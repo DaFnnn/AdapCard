@@ -23,6 +23,8 @@ The code supports AdapCard-RSPN and AdapCard-TC-SPN with or without MetaATPM. Fo
 ## Learning MetaATPM
 Firstly, we need to train MetaATPM, then we can learn TC-SPN with MetaATPM on any dataset without retraining.
 
+Before training MetaATPM, we need to download the collected training data from UCI Machine Learning Repository at [zenodo](https://zenodo.org/records/19384686?token=eyJhbGciOiJIUzUxMiJ9.eyJpZCI6IjgyMTg0ODViLWRmZjQtNGMxYS1hNTc3LWY0NzgzODEzNDhhYSIsImRhdGEiOnt9LCJyYW5kb20iOiIyYzM5YWRkMWU4Y2Y1M2VjOGI2YjBlMmVhYTBmNWI2MCJ9.8BrZVRaTkljc-U37633pYBaisTfAQ_ndGUXnhOOO02zrXZRtQZXiTveQ0PaPowZHHFqgjgo8jOif4BTYvCjv7w).  Then unzip the downloaded files to AdapCard/
+
 ```
 
 python gnn_regression_double_threshold.py
