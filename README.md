@@ -39,6 +39,10 @@ python gnn_regression_double_threshold.py
 Generate hdf files from csvs.
 
 ```
+cd ..
+```
+
+```
 python3 maqp.py --generate_hdf
     --dataset power
     --csv_seperator ,
