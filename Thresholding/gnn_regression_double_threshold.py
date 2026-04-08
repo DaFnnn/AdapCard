@@ -5,6 +5,10 @@ from torch_geometric.data import Data, Dataset
 from torch_geometric.loader import DataLoader
 import higher
 from typing import List, Optional, Union 
+import sys
+
+sys.path.append(..)
+
 
 @dataclass
 class Config:
