@@ -7,7 +7,7 @@ import higher
 from typing import List, Optional, Union 
 import sys
 
-sys.path.append(..)
+sys.path.append("..")
 
 
 @dataclass
