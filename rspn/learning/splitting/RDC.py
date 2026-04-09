@@ -501,9 +501,9 @@ def getIndependentRDCGroups_py(
     #
     # predicted_threshold = predict_threshold(model, config, rdc_adjacency_matrix)
     # threshold = round(predicted_threshold, 4)
-    # print(f"预测阈值为: {predicted_threshold:.4f}")
+    # print(f"predicted threshold: {predicted_threshold:.4f}")
     # # 打印rdc_adjacency_matrix的形状
-    # print(f"rdc_adjacency_matrix的形状为: {rdc_adjacency_matrix.shape}")
+    # print(f"shape of rdc_adjacency_matrix: {rdc_adjacency_matrix.shape}")
 
 
     ######    threshold predictor without meta learning and gat, purely mlp
@@ -731,8 +731,8 @@ def getIndependentRDCGroups_py(
 
     predicted_threshold = predict_threshold(model, config, rdc_adjacency_matrix)
     threshold = round(predicted_threshold, 4)
-    print(f"预测阈值为: {predicted_threshold:.4f}")
-    print(f"rdc_adjacency_matrix的形状为: {rdc_adjacency_matrix.shape}")
+    print(f"predicted threshold: {predicted_threshold:.4f}")
+    print(f"shape of rdc_adjacency_matrix: {rdc_adjacency_matrix.shape}")
 
 
     #
@@ -963,9 +963,9 @@ def getIndependentRDCGroups_py_test(
     predicted_threshold = predict_threshold(model, config, rdc_adjacency_matrix)
     rdc_threshold_low = round(predicted_threshold[0][0], 4)
     rdc_threshold_high = round(predicted_threshold[0][1], 4)
-    print(f"预测阈值为: {rdc_threshold_low:.4f}, {rdc_threshold_high:.4f}")
+    print(f"predicted thresholds: {rdc_threshold_low:.4f}, {rdc_threshold_high:.4f}")
     # 打印rdc_adjacency_matrix的形状
-    print(f"rdc_adjacency_matrix的形状为: {rdc_adjacency_matrix.shape}")
+    print(f"shape of rdc_adjacency_matrix: {rdc_adjacency_matrix.shape}")
 
 
     ####
