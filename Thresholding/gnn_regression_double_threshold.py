@@ -390,11 +390,11 @@ def main() -> None:
 
 
     print("load training data")
-    train_matrices, train_labels = load_matrices_and_generate_labels_double_threshold('/home/dafn/card/deepcard/collected_datasets')
+    train_matrices, train_labels = load_matrices_and_generate_labels_double_threshold('../collected_datasets')
     train_matrices = [torch.tensor(mat) for mat in train_matrices]
 
     print("load test data")
-    test_matrices, _ = load_matrices_and_generate_labels_double_threshold('/home/dafn/card/deepcard/imdb-benchmark/forest')
+    test_matrices, _ = load_matrices_and_generate_labels_double_threshold('../imdb-benchmark/forest')
     test_labels = [(0.25, 0.4), (0.25, 0.3)]
     test_matrices = [torch.tensor(mat) for mat in test_matrices]
 
