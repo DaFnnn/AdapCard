@@ -3,7 +3,7 @@ import multiprocessing
 import os
 from collections import deque
 from enum import Enum
-
+ 
 import numpy as np
 from spn.algorithms.StructureLearning import default_slicer
 from spn.structure.Base import assign_ids, Product
