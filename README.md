@@ -243,23 +243,5 @@ python3 maqp.py --evaluate_cardinalities
     --ground_truth_file_location ./benchmarks/job-light/sql/job_light_true_cardinalities.csv
 ```
 
-## Updates
 
-Conditional incremental learning (i.e., initial learning of all films before 2011, newer films learn incremental)
-
-```
-python3 maqp.py  --generate_ensemble
-    --dataset imdb-light
-    --samples_per_spn 10000000 10000000 1000000 1000000 1000000
-    --ensemble_strategy rdc_based
-    --hdf_path ./imdb-benchmark/gen_single_light/job-light
-    --max_rows_per_hdf_file 100000000
-    --samples_rdc_ensemble_tests 100000
-    --ensemble_path ./imdb-benchmark/spn_ensembles/job-light
-    --post_sampling_factor 10 10 5 1 1
-    --ensemble_budget_factor 0
-    --ensemble_max_no_joins 3
-    --pairwise_rdc_path ./imdb-benchmark/spn_ensembles/job-light/pairwise_rdc.pkl
-    --incremental_condition "title.production_year<2011"
-```
 
