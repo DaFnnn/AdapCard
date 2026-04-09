@@ -51,6 +51,9 @@ def load_matrices_and_generate_labels_double_threshold(main_folder):
                     # print(f"processing file {matrix_file} failed: {str(e)}")
 
     print(f"loaded matrix count: {len(data)}, label count: {len(labels)}")
+    if len(data) == 0:
+        raise ValueError("no data loaded, please check file path")
+    
     # 打印第一个标签及其类型，验证是否转换成功
     if labels:
         print(f"value of first label: {labels[0]}, type: {type(labels[0])}")
