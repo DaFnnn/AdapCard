@@ -36,5 +36,5 @@ def load_matrices_and_generate_labels(main_folder):
     return data, labels
 
 if __name__ == "__main__":
-    main_folder = "/home/dafn/card/deepcard/collected_datasets"
+    main_folder = "../collected_datasets"
     data, labels = load_matrices_and_generate_labels(main_folder)
