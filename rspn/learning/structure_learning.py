@@ -17,7 +17,7 @@ from rspn.structure.base import Sum, Sample
 logger = logging.getLogger(__name__)
 
 try:
-    from time import perf_counter
+    from time import perf_counter 
 except:
     from time import time
 
