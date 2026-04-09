@@ -26,9 +26,11 @@ def load_matrices_and_generate_labels(main_folder):
                         label = df.loc[table_name, 'Best RDC Threshold']
                         labels.append(label)
                     else:
-                        raise KeyError(f"未找到表格名 '{table_name}' 对应的阈值")
+                        pass
+                        # raise KeyError(f"未找到表格名 '{table_name}' 对应的阈值")
                 except Exception as e:
-                    print(f"处理文件 {matrix_file} 时出错: {str(e)}")
+                    pass
+                    # print(f"处理文件 {matrix_file} 时出错: {str(e)}")
 
     print(f"加载的矩阵数量: {len(data)}, 标签数量: {len(labels)}")
     return data, labels
