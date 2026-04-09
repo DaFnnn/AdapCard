@@ -44,9 +44,11 @@ def load_matrices_and_generate_labels_double_threshold(main_folder):
                         label = df.loc[table_name, 'Best RDC Threshold']
                         labels.append(label)
                     else:
-                        raise KeyError(f"cant find table name '{table_name}' 对应的阈值")
+                        pass
+                        # raise KeyError(f"cant find table name '{table_name}' 对应的阈值")
                 except Exception as e:
-                    print(f"processing file {matrix_file} failed: {str(e)}")
+                    pass
+                    # print(f"processing file {matrix_file} failed: {str(e)}")
 
     print(f"loaded matrix count: {len(data)}, label count: {len(labels)}")
     # 打印第一个标签及其类型，验证是否转换成功
