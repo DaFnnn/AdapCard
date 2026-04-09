@@ -32,6 +32,7 @@ cd Thresholding
 python gnn_regression_double_threshold.py
 
 ```
+If the MetaATPM could not be trained due to datasets downloading issues or cuda environment issues or anything else, we provide a pre-trained MetaATPM in ./Thresholding so that we can train SPN directly.
 
 ## Reproduce Results on Power Dataset
 
@@ -40,9 +41,7 @@ Generate hdf files from csvs.
 
 ```
 cd ..
-```
 
-```
 python3 maqp.py --generate_hdf
     --dataset power
     --csv_seperator ,
