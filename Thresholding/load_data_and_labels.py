@@ -32,7 +32,10 @@ def load_matrices_and_generate_labels(main_folder):
                     pass
                     # print(f"处理文件 {matrix_file} 时出错: {str(e)}")
 
-    print(f"加载的矩阵数量: {len(data)}, 标签数量: {len(labels)}")
+    print(f"loaded matrix count: {len(data)}, label count: {len(labels)}")
+    if len(data) == 0:
+        raise ValueError("no data loaded, please check file path")
+    
     return data, labels
 
 if __name__ == "__main__":
